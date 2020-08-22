@@ -20,6 +20,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | Country | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
 | --- | --- | --- | --- | --- | --- | 
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
+| France | FR  | Länder (3) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Ireland | IE  |  | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
 
@@ -29,8 +30,9 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 
 | Country | Code  | Data source | Data access | Date range  | 
 | --- |  --- |  --- |  --- |  --- | 
-| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Web scraping  | 22 Mar - *t*  | 
+| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Website  | 22 Mar - *t*  | 
+| France | FR | [Santé publique France](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  | Website  |  13 May - *(t-1)*  |
 | Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [mathsnuig](https://github.com/mathsnuig/coronaviz)  |  16 Mar - *(t-8)*  | 
 
-Notes: In the dates column *t* stands for today. Some repositories are updated at a slower pace and data is released with some time gaps after checking for consistencies.
+Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) stands for past day for which the observations are available. This is because some countries released data after some time gap.
