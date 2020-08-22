@@ -17,18 +17,17 @@ This respository takes a stock of existing datasets at the regional level for Eu
 
 
 
-| Country | Code | NUTS 1                        | NUTS 2           | NUTS 3                        | LAU  | Other levels | Notes |
-| Austria | AT           | Gruppen von Bundesländern (3) | Bundesländer (9) | Gruppen von Gemeniden (35)    | Gemeniden (2096) | Bezirke  | Data is released at the District (Bezirk) level which is between LAU and NUTS 3 regions. | 
+| Country | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | Other levels | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | Gruppen von Gemeniden (35) | Gemeniden (2096) | Bezirke  | Bezirke or Districts are between LAU and NUTS 3 regions | 
+| Germany | DE  | Länder (3) | Regierungsbezirke (38) | Kreise (401) | Gemeniden (11087) |   |  | 
+
+Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures)
+
+# Country level datasets
+
+| Country | Code  | Data source | Repository access | Level of data | Date range  | Notes |
+| --- |  --- |  --- |  --- |  --- |  --- |  --- | 
+| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Web scraping  | Bezirke  | XXX - XXX  |   | 
 
 
-# Country levle datasets
-
-|Country | Code | Data source | Repository access | Level of data | Date range | Notes |
-| ----- | 
-
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
