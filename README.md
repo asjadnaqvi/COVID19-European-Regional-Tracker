@@ -22,7 +22,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | Gruppen von Gemeniden (35) | Gemeniden (2096) | Bezirke  | Bezirke or Districts are between LAU and NUTS 3 regions | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | Kreise (401) | Gemeniden (11087) |   |  | 
 
-Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures)
+Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets.
 
 # Country level datasets
 
