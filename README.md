@@ -17,17 +17,18 @@ This respository takes a stock of existing datasets at the regional level for Eu
 
 
 
-| Country | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | Other levels | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | 
-| Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | Gruppen von Gemeniden (35) | Gemeniden (2096) | Bezirke  | Bezirke or Districts are between LAU and NUTS 3 regions | 
-| Germany | DE  | Länder (3) | Regierungsbezirke (38) | Kreise (401) | Gemeniden (11087) |   |  | 
+| Country | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
+| --- | --- | --- | --- | --- | --- | 
+| Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
+| Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 
-Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets.
+Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. Regions at which the data is available are highlighted in bold.
 
 # Country level datasets
 
 | Country | Code  | Data source | Repository access | Level of data | Date range  | Notes |
 | --- |  --- |  --- |  --- |  --- |  --- |  --- | 
-| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Web scraping  | Bezirke  | XXX - XXX  |   | 
+| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Web scraping  | Bezirke  | 22 Mar - today  |   | 
+| Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  | Kreise  | 02 Mar - today  |   | 
 
 
