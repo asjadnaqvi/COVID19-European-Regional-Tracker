@@ -21,14 +21,16 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | --- | --- | --- | --- | --- | --- | 
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
+| Ireland | IE  |  | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. Regions at which the data is available are highlighted in bold.
 
 # Country level datasets
 
-| Country | Code  | Data source | Repository access | Level of data | Date range  | Notes |
-| --- |  --- |  --- |  --- |  --- |  --- |  --- | 
-| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Web scraping  | Bezirke  | 22 Mar - today  |   | 
-| Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  | Kreise  | 02 Mar - today  |   | 
+| Country | Code  | Data source | Data access | Date range  | 
+| --- |  --- |  --- |  --- |  --- | 
+| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Web scraping  | 22 Mar - *t*  | 
+| Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
+| Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [mathsnuig](https://github.com/mathsnuig/coronaviz)  |  16 Mar - *(t-8)*  | 
 
-
+Notes: In the dates column *t* stands for today. Some repositories are updated at a slower pace and data is released with some time gaps after checking for consistencies.
