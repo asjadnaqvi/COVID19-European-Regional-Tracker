@@ -12,11 +12,19 @@ This respository takes a stock of existing datasets at the regional level for Eu
 ## Combining data across countries
 
 * Countries in European define regions differently. Making this information homogeneous is also a challenging task. For consistency, the European Commission/Eurostat, have homogenous units called NOMENCLATURE OF TERRITORIAL UNITS FOR STATISTICS or [NUTS](https://ec.europa.eu/eurostat/web/nuts/background). NUTS0 are countries, NUTS1 are typically provinces, NUTS2 are typically districts, and NUTS3 are typically sub-districts. Most countries release information at units lower than NUTS3. These are referred to as Local Administrative Units [LAU](https://ec.europa.eu/eurostat/web/nuts/local-administrative-units), where LAU1 (districts) and LAU2 (municipalities) are formerly NUTS4 and NUTS5 regions respectively.
-  * TODO: Add a table on region definitions across countries. 
 * The NUTS regions are redefined every afew years (2016, 2021). Currently the 2016 definitions are used but the list of 2021 NUTS regions has already been released. This has its own set of challenges. While some countries just rename regions, others actually change, merge, and shift boundaries. Data released at LAU1 or LAU2 level can be aggregated to typically any NUTS3 definition. For the sake of consistency, we use the 2016 definition. Which might pose a serious challenge is changes in boundaries of LAUs which happens farily frequently in some countries and around around elections. If COVID19 persists in 2021 (which is most likely to happen), then switch to 2021 definitions and changes in LAU might get problematic but such errors are expected in fine grained datasets.
 * Not all European countries are in the [European Union](https://europa.eu/european-union/about-eu/countries_en), and hence are not subject to Eurostat reporting/data sharing requirements. While all countries have correspondence tables between their own region definitions and NUTS, providing NUTS level information is not mandatory for non-EU countries. This list includes, the UK (post Brexit), Norway, Switzerland, and accession countries in the east of Europe. While some countries have data in a very neat format (Norway for example), they don't have the latest LAU-NUTS correspondence avaiable. They way around this problem is to overlay LAU and NUTS boundaries in some GIS software and map them based on spatial overlaps. While this should in theory perfectly overlap, small errors might persist based on boundary shifts, differences in resolution of GIS files, and simple due to some LAUs cutting across NUTS boundaries. These will be highlighted as required.
 
 
+
+| Country | Code | NUTS 1                        | NUTS 2           | NUTS 3                        | LAU  | Other levels | Notes |
+| Austria | AT           | Gruppen von Bundesländern (3) | Bundesländer (9) | Gruppen von Gemeniden (35)    | Gemeniden (2096) | Bezirke  | Data is released at the District (Bezirk) level which is between LAU and NUTS 3 regions. | 
+
+
 # Country levle datasets
-* Add table of source of information, details, and links to repositories.
+
+|Country | Code | Data source | Repository access | Level of data | Date range | Notes |
+| ----- | 
+
+
 
