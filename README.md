@@ -28,7 +28,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Ireland | IE  | Country (1) | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
 | Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
-| Slovenia | SI  | Country (1) | Kohezijske regije (2) | **Statistične regije (12)** | Občine (212) | 
+| Slovenia | SI  | Country (1) | Kohezijske regije (2) | Statistične regije (12) | **Občine (212)** | 
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. Regions at which the data is available are highlighted in bold.
 
