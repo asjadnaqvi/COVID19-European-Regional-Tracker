@@ -65,4 +65,15 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 
 Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where *x* are the number of days. For example, *t-2*, means that today, data from two days ago is released. Some countries released data after some time gap for various reasons.
 
+# :triangular_flag_on_post: Sample maps
 
+## European level map:
+The map below shows the combined dataset of all the countries that have been processed:
+<img src="./maps/EU_covid19_map2_delta2.png" width="800" title="COVID-19 at the NUTS3 level in Europe">
+
+## Individual country maps:
+<img src="./maps/austria_covid19_map2_delta2.png" width="500" title="Austria">
+<img src="./maps/Germany_covid19_map2_delta2.png" width="500" title="Germany">
+<img src="./maps/portugal_covid19_map2_delta2.png" width="500" title="Portugal">
+<img src="./maps/IT_covid19_map2_delta2.png" width="500"    title="Italy">
+<img src="./maps/france_covid19_map2.png" width="500"    title="France">
