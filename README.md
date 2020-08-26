@@ -24,21 +24,21 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | --- | --- | --- | --- | --- | --- | 
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
 | Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten / Communes (581)** | 
-| Czechia | CZ  |  |  |  |  | 
-| Denmark | DK  |  |  |  |  | 
+| Czechia | CZ  | Území(1) | Regiony soudržnosti (8) | **Kraje (14)** | Obce (6258) | 
+| *Denmark* | DK  | Country (1) | Regioner (5) | Landsdele (11) | Kommuner (99) | 
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
-| Greece | EL  |  |  |  |  | 
+| *Greece* | EL  | Geografikes Perioches (4) | Periferies (13) | Periferiakon Enotiton (52) | Topikes Koinotites (6134) | 
 | Ireland | IE  | Country (1) | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
 | Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
-| Norway* | NO  | Country (1) | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
-| Poland | PL  |  |  |  |  | 
-| Portugal | PT  |  |  |  |  | 
+| Norway * | NO  | Country (1) | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
+| Poland | PL  | Makroregiony (7) | **Regiony (17)** | Podregiony (73) | Gminy (2478) | 
+| Portugal | PT  | Continente + Regiões Autónomas (3) | Grupos de Entidades Intermunicipais + Regiões Autónomas (7) | Entidades Intermunicipais + Regiões Autónomas (25) | Freguesias (3098) | 
 | Slovenia | SI  | Country (1) | Kohezijske regije (2) | Statistične regije (12) | **Občine (212)** | 
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
-| United Kingdom | UK  |  |  |  |  | 
+| *United Kingdom* * | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | Lower tier authorities (400) | 
 
-Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS0 and NUTS1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels.
+Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS0 and NUTS1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed. 
 
 # Sources of country level datasets
 
