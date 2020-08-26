@@ -1,4 +1,4 @@
-# Overview
+# :bell: Overview
 This respository takes a stock of existing datasets at the regional level for European countries. [ECDC](https://www.ecdc.europa.eu/) is releasing information at the country level but there is no centralized database that collates this information at the regional level. There is also no indication that this information will be collected, even though most countries are providing or showcasing this information on this official websites. 
 
 ## Challenges with data access
@@ -18,7 +18,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 * Not all European countries are in the [European Union](https://europa.eu/european-union/about-eu/countries_en), and hence are not subject to Eurostat reporting/data sharing requirements. While all countries have correspondence tables between their own region definitions and NUTS, providing NUTS level information is not mandatory for non-EU countries. This list includes, the UK (post Brexit), Norway, Switzerland, and accession countries in the east of Europe. While some countries have data in a very neat format (Norway for example), they don't have the latest LAU-NUTS correspondence avaiable. They way around this problem is to spatially overlay LAU and NUTS boundaries and spatially join them based on boundary overlaps. While in theory the overlaps should be perfect, in practice, small errors might persist based on slight differences in boundaries, differences in resolution of spatial files, and simply some LAUs might cut across NUTS boundaries. These will be highlighted as required.
 
 
-# European regions and availability of COVID-19 data
+# :page_with_curl: European regions and availability of COVID-19 data
 
 | Country (NUTS 0) | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
 | --- | --- | --- | --- | --- | --- | 
@@ -41,7 +41,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed.
 
-# Sources of country level datasets
+# :calendar: Sources of country level datasets
 
 
 | Country | Code  | Official institute providing data | Data source | Date range  | 
@@ -64,3 +64,5 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 | United Kingdom | UK  | []() | []()   |   | 
 
 Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where *x* are the number of days. For example, *t-2*, means that today, data from two days ago is released. Some countries released data after some time gap for various reasons.
+
+
