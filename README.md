@@ -18,7 +18,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 * Not all European countries are in the [European Union](https://europa.eu/european-union/about-eu/countries_en), and hence are not subject to Eurostat reporting/data sharing requirements. While all countries have correspondence tables between their own region definitions and NUTS, providing NUTS level information is not mandatory for non-EU countries. This list includes, the UK (post Brexit), Norway, Switzerland, and accession countries in the east of Europe. While some countries have data in a very neat format (Norway for example), they don't have the latest LAU-NUTS correspondence avaiable. They way around this problem is to spatially overlay LAU and NUTS boundaries and spatially join them based on boundary overlaps. While in theory the overlaps should be perfect, in practice, small errors might persist based on slight differences in boundaries, differences in resolution of spatial files, and simply some LAUs might cut across NUTS boundaries. These will be highlighted as required.
 
 
-# :page_with_curl: European regions and availability of COVID-19 data
+# :floppy_disk: European regions and availability of COVID-19 data
 
 | Country (NUTS 0) | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
 | --- | --- | --- | --- | --- | --- | 
@@ -41,7 +41,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed.
 
-# :calendar: Sources of country level datasets
+# :file_folder: Sources of country level datasets
 
 
 | Country | Code  | Official institute providing data | Data source | Date range  | 
@@ -72,8 +72,12 @@ The map below shows the combined dataset of all the countries that have been pro
 <img src="./maps/EU_covid19_map2_delta2.png" width="800" title="COVID-19 at the NUTS3 level in Europe">
 
 ## Individual country maps:
-<img src="./maps/austria_covid19_map2_delta2.png" width="500" title="Austria">
-<img src="./maps/Germany_covid19_map2_delta2.png" width="500" title="Germany">
-<img src="./maps/portugal_covid19_map2_delta2.png" width="500" title="Portugal">
-<img src="./maps/IT_covid19_map2_delta2.png" width="500"    title="Italy">
-<img src="./maps/france_covid19_map2.png" width="500"    title="France">
+<img src="./maps/covid19_austria.png" width="500" title="Austria">
+<img src="./maps/covid19_belgium.png" width="500" title="Belgium">
+<img src="./maps/covid19_czechia.png" width="500" title="Czechia">
+<img src="./maps/covid19_germany.png" width="500" title="Germany">
+<img src="./maps/covid19_hungary.png" width="500"    title="Hungary">
+<img src="./maps/covid19_italy.png" width="500"    title="Italy">
+<img src="./maps/covid19_netherlands.png" width="500" title="Netherlands">
+<img src="./maps/covid19_norway.png" width="500" title="Norway">
+
