@@ -33,7 +33,7 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 
 | Country | Code  | Official website | Data source | Date range  | 
 | --- |  --- |  --- |  --- |  --- | 
-| Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Website  | 22 Mar - *t*  | 
+| Austria | AT  | [BMSGPK](https://info.gesundheitsministerium.at/)  | Website  | 22 Mar - *t*  | 
 | France | FR | [Santé publique France](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  | Website  |  13 May - *(t-1)*  |
 | Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [mathsnuig](https://github.com/mathsnuig/coronaviz)  |  16 Mar - *(t-8)*  | 
