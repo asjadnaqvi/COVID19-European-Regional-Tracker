@@ -33,6 +33,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
 | Norway* | NO  | Country (1) | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
 | Poland | PL  |  |  |  |  | 
+| Portugal | PT  |  |  |  |  | 
 | Slovenia | SI  | Country (1) | Kohezijske regije (2) | Statistične regije (12) | **Občine (212)** | 
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
 | United Kingdom | UK  |  |  |  |  | 
@@ -55,6 +56,7 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 | Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [ArcGIS datahub](https://nlcovid-19-esrinl-content.hub.arcgis.com/)   |  15 Apr - *t*  | 
 | Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Github: thohan88](https://github.com/thohan88/covid19-nor-data)   |  26 Mar - *t*  | 
 | Poland | PL | []() | []()   |   | 
+| Portugal | PT | []() | []()   |   | 
 | Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Github: sledilnik](https://github.com/sledilnik/data)  |  03 Apr - *(t-1)*  |
 | Spain | ES | [National Center for Epidemiology](https://cnecovid.isciii.es/)  | [Website](https://cnecovid.isciii.es/covid19/)  |  31 Jan - *(t-10)*  |
 | United Kingdom | UK  | []() | []()   |   | 
