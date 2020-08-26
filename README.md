@@ -23,16 +23,21 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Ireland | IE  | Country (1) | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
+| Netherlands | NL  | Landsdelen (4) | Provincies (12) | **NUTS3 (40)** | Gemeenten (355) | 
+| Slovenia | SI  | Country (1) | Kohezijske regije (2) | **Statistične regije (12)** | Občine (212) | 
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. Regions at which the data is available are highlighted in bold.
 
-# Country level datasets
+# Sources of country level datasets
 
-| Country | Code  | Data source | Data access | Date range  | 
+
+| Country | Code  | Official website | Data source | Date range  | 
 | --- |  --- |  --- |  --- |  --- | 
 | Austria | AT  | [Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz](https://info.gesundheitsministerium.at/)  | Website  | 22 Mar - *t*  | 
 | France | FR | [Santé publique France](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  | Website  |  13 May - *(t-1)*  |
 | Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [mathsnuig](https://github.com/mathsnuig/coronaviz)  |  16 Mar - *(t-8)*  | 
+| Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [ArcGIS datahub](https://nlcovid-19-esrinl-content.hub.arcgis.com/)   |  15 Apr - *t*  | 
+| Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [sledilnik.org/sl/datasources](https://covid-19.sledilnik.org/sl/datasources)  |  03 Apr - *(t-1)*  | 
 
-Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) stands for past day for which the observations are available. This is because some countries released data after some time gap.
+Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where *x* are the number of days. For example, *t-2*, means that today, data from two days ago is released. Some countries released data after some time gap for various reasons.
