@@ -20,10 +20,11 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | Country | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
 | --- | --- | --- | --- | --- | --- | 
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
+| Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten / Communes (581)** | 
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Ireland | IE  | Country (1) | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
-| Netherlands | NL  | Landsdelen (4) | Provincies (12) | **NUTS3 (40)** | Gemeenten (355) | 
+| Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
 | Slovenia | SI  | Country (1) | Kohezijske regije (2) | **Statistične regije (12)** | Občine (212) | 
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. Regions at which the data is available are highlighted in bold.
@@ -31,10 +32,11 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 # Sources of country level datasets
 
 
-| Country | Code  | Official website | Data source | Date range  | 
+| Country | Code  | Official institute providing data | Data source | Date range  | 
 | --- |  --- |  --- |  --- |  --- | 
-| Austria | AT  | [BMSGPK](https://info.gesundheitsministerium.at/)  | Website  | 22 Mar - *t*  | 
-| France | FR | [Santé publique France](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  | Website  |  13 May - *(t-1)*  |
+| Austria | AT  | [BMSGPK](https://www.sozialministerium.at/)  | [Website](https://info.gesundheitsministerium.at/)  | 22 Mar - *t*  | 
+| Belgium | BE  | [Sciensano](https://epistat.wiv-isp.be/covid/)  | [Website](https://epistat.sciensano.be/data)  | 31 Mar - *t*  | 
+| France | FR | [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)  | [Website](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  |  13 May - *(t-1)*  |
 | Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [mathsnuig](https://github.com/mathsnuig/coronaviz)  |  16 Mar - *(t-8)*  | 
 | Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [ArcGIS datahub](https://nlcovid-19-esrinl-content.hub.arcgis.com/)   |  15 Apr - *t*  | 
