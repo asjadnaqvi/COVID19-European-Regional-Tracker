@@ -69,7 +69,7 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 ## European level map:
 The map below shows the combined dataset of all the countries that have been processed:
-<img src="./maps/EU_covid19_map2_delta2.png" width="800" title="COVID-19 at the NUTS3 level in Europe">
+<img src="./maps/covid19_europe.png" width="800" title="COVID-19 at the NUTS3 level in Europe">
 
 ## Individual country maps:
 <img src="./maps/covid19_austria.png" width="500" title="Austria">
