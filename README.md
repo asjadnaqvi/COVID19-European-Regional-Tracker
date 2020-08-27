@@ -84,8 +84,8 @@ The map below shows the combined dataset of all the countries that have been pro
 # Logs
 
 * 27 Aug, 2020: 
-   ** Portugal: taken out for now for data checking since there are issues with the series continuity.
-   ** France: Historical data before 13th May added. There is a huge jump in the number of tests and reported cases for the few observations that overlap. This is because before 13th May, data was only being collected from 3 labs before proper testing protocols were introduced. There is no way of back correcting this information but maybe some form of data interpolation might help.
+    * Portugal: taken out for now for data checking since there are issues with the series continuity.
+    * France: Historical data before 13th May added. There is a huge jump in the number of tests and reported cases for the few observations that overlap. This is because before 13th May, data was only being collected from 3 labs before proper testing protocols were introduced. There is no way of back correcting this information but maybe some form of data interpolation might help.
 * 26 Aug, 2020: Github repository created with documentation of regions in European countries.
 
 # To Dos
