@@ -81,3 +81,17 @@ The map below shows the combined dataset of all the countries that have been pro
 <img src="./maps/covid19_netherlands.png" width="500" title="Netherlands">
 <img src="./maps/covid19_norway.png" width="500" title="Norway">
 
+# Logs
+
+* 26 Aug, 2020: Github repository created with documentation of regions in European countries.
+
+# To Dos
+<details>
+  <summary>Stuff in the pipeline</summary>
+    
+  * Add remaining countries to the documentation
+  * Add documentation on country specific issues
+  * Add data structures
+  * Integrate Github with Stata for direct uploading
+  
+</details>
