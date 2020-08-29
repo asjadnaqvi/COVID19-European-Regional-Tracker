@@ -76,13 +76,16 @@ The map below shows the combined dataset of all the countries that have been pro
 <img src="./maps/covid19_belgium.png" width="500" title="Belgium">
 <img src="./maps/covid19_czechia.png" width="500" title="Czechia">
 <img src="./maps/covid19_germany.png" width="500" title="Germany">
+<img src="./maps/covid19_greece.png" width="500" title="Greece">
 <img src="./maps/covid19_hungary.png" width="500"    title="Hungary">
 <img src="./maps/covid19_italy.png" width="500"    title="Italy">
 <img src="./maps/covid19_netherlands.png" width="500" title="Netherlands">
 <img src="./maps/covid19_norway.png" width="500" title="Norway">
+<img src="./maps/covid19_switzerland.png" width="500" title="Switzerland">
 
 # Logs
 
+* 29 Aug, 2020: Switzerland and Greece added to the database. Greece is data is only available at the NUTS 2 level.
 * 27 Aug, 2020: 
     * Portugal: taken out for now for data checking since there are issues with the series continuity.
     * France: Historical data before 13th May added. There is a huge jump in the number of tests and reported cases for the few observations that overlap. This is because before 13th May, data was only being collected from 3 labs before proper testing protocols were introduced. There is no way of back correcting this information but maybe some form of data interpolation might help.
