@@ -26,10 +26,12 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten / Communes (581)** | 
 | Czechia | CZ  | Území(1) | Regiony soudržnosti (8) | **Kraje (14)** | Obce (6258) | 
 | *Denmark* | DK  | Country (1) | Regioner (5) | Landsdele (11) | Kommuner (99) | 
+| *Estonia* | EE  |  |  |  |  | 
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Greece | EL  | Geografikes Perioches (4) | **Periferies (13)** | Periferiakon Enotiton (52) | Topikes Koinotites (6134) | 
 | Ireland | IE  | Country (1) | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
+| *Latvia* | LV  |  |  |  |  | 
 | Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
 | Norway * | NO  | Country (1) | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
 | Poland | PL  | Makroregiony (7) | **Regiony (17)** | Podregiony (73) | Gminy (2478) | 
@@ -50,10 +52,12 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 | Belgium | BE  | [Sciensano](https://epistat.wiv-isp.be/covid/)  | [Website](https://epistat.sciensano.be/data)  | 31 Mar - *t*  | 
 | Czechia | CZ  | [MZCR](https://onemocneni-aktualne.mzcr.cz/covid-19)  | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)  | 01 Mar - *t*  | 
 | Denmark | DK | []() | []()   |   | 
+| Estonia | EE | []() | []()   |   | 
 | France | FR | [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)  | [Website](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  |  10 Mar - *(t-5)*  |
 | Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
 | Greece | EL | [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/) | [Github: sandbird](https://github.com/Sandbird/covid19-Greece)   | 26 Feb - *(t-1)* | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [Github: mathsnuig](https://github.com/mathsnuig/coronaviz)  |  16 Mar - *(t-8)*  | 
+| Latvia | LV | []() | []()   |   | 
 | Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [ArcGIS datahub](https://nlcovid-19-esrinl-content.hub.arcgis.com/)   |  15 Apr - *t*  | 
 | Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Github: thohan88](https://github.com/thohan88/covid19-nor-data)   |  26 Mar - *t*  | 
 | Poland | PL | [Government of Poland](https://www.gov.pl/web/koronawirus/) | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)   | 18 Mar - *t*  | 
