@@ -32,7 +32,7 @@ This respository takes a stock of existing datasets at the regional level for Eu
 | Greece | EL  | Geografikes Perioches (4) | **Periferies (13)** | Periferiakon Enotiton (52) | Topikes Koinotites (6134) | 
 | Hungary | HU  | Statisztikai nagyrégiók (3) | Tervezési-statisztikai régiók (8) | **Megyék + Budapest (20)** | Települések (3155) | 
 | Ireland | IE  | - | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
-| *Latvia* | LV  | - | - | Statistiskie reģioni (6) | **Republikas pilsētas, novadi (119)** | 
+| Latvia | LV  | - | - | Statistiskie reģioni (6) | **Republikas pilsētas, novadi (119)** | 
 | Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
 | Norway * | NO  | - | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
 | Poland | PL  | Makroregiony (7) | **Regiony (17)** | Podregiony (73) | Gminy (2478) | 
