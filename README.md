@@ -111,8 +111,9 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 
-# Logs
+# Change Logs
 
+* 07 Sep, 2020: Improved documentation of the maps. All maps are now displayed above. Youtube video of changes in NUTS-3 level cases added. Map of cases and cases per pop added.
 * 31 Aug, 2020: Estonia, Latvia, Slovakia added to the database.
      * Estonia only provides case ranges in bands of 10 (0-10, 11-20, etc). NUTS 3 level data is approximated by taking mid-points of each range for each date/region combination and then aggregating to the NUTS 3.
 * 29 Aug, 2020: Switzerland and Greece added to the database. Greece is data is only available at the NUTS 2 level.
