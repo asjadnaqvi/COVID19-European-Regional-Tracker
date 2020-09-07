@@ -84,11 +84,13 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 ## European level map:
 The map below shows the combined dataset of all the countries that have been processed:
-<img src="./maps/covid19_europe.png" width="500" title="COVID-19 at the NUTS3 level in Europe">
-<img src="./maps/covid19_europe_casespop.png" width="500" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
+
+<img src="./maps/covid19_europe.png" width="450" title="COVID-19 at the NUTS3 level in Europe">
+<img src="./maps/covid19_europe_casespop.png" width="450" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
 ## Examples of individual country maps:
 See the map directory for the complete list of maps that are periodically updated.
+
 <img src="./maps/covid19_austria.png" width="300" title="Austria">
 <img src="./maps/covid19_belgium.png" width="300" title="Belgium">
 <img src="./maps/covid19_czechia.png" width="300" title="Czechia">
