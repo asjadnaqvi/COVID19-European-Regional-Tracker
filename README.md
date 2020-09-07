@@ -87,7 +87,7 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 ## European level map:
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./maps/covid19_europe.png" width="450" title="COVID-19 at the NUTS3 level in Europe"><img src="./maps/covid19_europe_casespop.png" width="450" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
+<img src="./maps/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./maps/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
 For the maps above, the last available date is used. The video below shows the evolution of cases over time using actual dates:
 https://youtu.be/IKXUMz-3x_k
