@@ -94,14 +94,14 @@ See the map directory for the complete list of maps that are periodically update
 
 <img src="./maps/covid19_austria.png" width="300" title="Austria"><img src="./maps/covid19_belgium.png" width="300" title="Belgium">
 <img src="./maps/covid19_czechia.png" width="300" title="Czechia"><img src="./maps/covid19_estonia.png" width="300"  title="Estonia">
-<img src="./maps/covid19_finland.png" width="300" title="Finland"><img src="./maps/covid19_france.png" width="300" title="France">
+<img src="./maps/covid19_finland.png" width="200" title="Finland"><img src="./maps/covid19_france.png" width="300" title="France">
 <img src="./maps/covid19_germany.png" width="300" title="Germany"><img src="./maps/covid19_greece.png" width="300"  title="Greece">
 <img src="./maps/covid19_hungary.png" width="300" title="Hungary"><img src="./maps/covid19_ireland.png" width="300" title="Ireland">
 <img src="./maps/covid19_italy.png" width="300"   title="Italy"><img src="./maps/covid19_latvia.png" width="300" title="Latvia">
 <img src="./maps/covid19_netherlands.png" width="300" title="Netherlands"><img src="./maps/covid19_norway.png" width="300"  title="Norway">
 <img src="./maps/covid19_poland.png" width="300" title="Poland"><img src="./maps/covid19_slovakia.png" width="300" title="Slovakia">
 <img src="./maps/covid19_slovenia.png" width="300" title="Slovenia"><img src="./maps/covid19_spain.png" width="300" title="Spain">
-<img src="./maps/covid19_sweden.png" width="300" title="Sweden"><img src="./maps/covid19_switzerland.png" width="300" title="Switzerland">
+<img src="./maps/covid19_sweden.png" width="200" title="Sweden"><img src="./maps/covid19_switzerland.png" width="300" title="Switzerland">
 
 
 
