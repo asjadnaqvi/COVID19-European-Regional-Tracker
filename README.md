@@ -1,6 +1,8 @@
 # :bell: Overview
 This respository takes a stock of existing datasets at the regional level for European countries. [ECDC](https://www.ecdc.europa.eu/) is releasing information at the country level but there is no centralized database that collates this information at the regional level. There is also no indication that this information will be collected, even though most countries are providing or showcasing this information on this official websites. 
 
+This repository is updated once a week.
+
 ## Challenges with data access
 
 
@@ -82,19 +84,21 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 ## European level map:
 The map below shows the combined dataset of all the countries that have been processed:
-<img src="./maps/covid19_europe.png" width="800" title="COVID-19 at the NUTS3 level in Europe">
+<img src="./maps/covid19_europe.png" width="500" title="COVID-19 at the NUTS3 level in Europe">
+<img src="./maps/covid19_europe_casespop.png" width="500" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
-## Individual country maps:
-<img src="./maps/covid19_austria.png" width="500" title="Austria">
-<img src="./maps/covid19_belgium.png" width="500" title="Belgium">
-<img src="./maps/covid19_czechia.png" width="500" title="Czechia">
-<img src="./maps/covid19_germany.png" width="500" title="Germany">
-<img src="./maps/covid19_greece.png" width="500" title="Greece">
-<img src="./maps/covid19_hungary.png" width="500"    title="Hungary">
-<img src="./maps/covid19_italy.png" width="500"    title="Italy">
-<img src="./maps/covid19_netherlands.png" width="500" title="Netherlands">
-<img src="./maps/covid19_norway.png" width="500" title="Norway">
-<img src="./maps/covid19_switzerland.png" width="500" title="Switzerland">
+## Examples of individual country maps:
+See the map directory for the complete list of maps that are periodically updated.
+<img src="./maps/covid19_austria.png" width="300" title="Austria">
+<img src="./maps/covid19_belgium.png" width="300" title="Belgium">
+<img src="./maps/covid19_czechia.png" width="300" title="Czechia">
+<img src="./maps/covid19_germany.png" width="300" title="Germany">
+<img src="./maps/covid19_greece.png" width="300"  title="Greece">
+<img src="./maps/covid19_hungary.png" width="300" title="Hungary">
+<img src="./maps/covid19_italy.png" width="300"   title="Italy">
+<img src="./maps/covid19_netherlands.png" width="300" title="Netherlands">
+<img src="./maps/covid19_norway.png" width="300"      title="Norway">
+<img src="./maps/covid19_switzerland.png" width="300" title="Switzerland">
 
 # Logs
 
