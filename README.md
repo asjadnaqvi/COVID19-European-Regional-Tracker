@@ -90,10 +90,10 @@ The map below shows the combined dataset of all the countries that have been pro
 <img src="./maps/covid19_europe.png" width="450" title="COVID-19 at the NUTS3 level in Europe"><img src="./maps/covid19_europe_casespop.png" width="450" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
 For the maps above, the last available date is used. The video below shows the evolution of cases over time using actual dates:
+https://youtu.be/IKXUMz-3x_k
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IKXUMz-3x_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Countries with data only at the NUTS-2 level have not been added to the video above. For individual country see below.
+Countries with data only at the NUTS-2 level have not been added to the video above. See maps below for individual countries. The data and the maps is updated once a week.
 
 
 ## Individual country maps:
