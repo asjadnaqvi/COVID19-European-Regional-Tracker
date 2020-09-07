@@ -93,11 +93,10 @@ For the maps above, the last available date is used. The video below shows the e
 https://youtu.be/IKXUMz-3x_k
 
 
-Countries with data only at the NUTS-2 level have not been added to the video above. See maps below for individual countries. The data and the maps is updated once a week.
+Countries with data only at the NUTS-2 level have not been added to the video above. See below for individual countries maps which are updated weekly.
 
 
 ## Individual country maps:
-See the map directory for the complete list of maps that are periodically updated.
 
 <img src="./maps/covid19_austria.png" width="300" title="Austria"><img src="./maps/covid19_belgium.png" width="300" title="Belgium">
 <img src="./maps/covid19_czechia.png" width="300" title="Czechia"><img src="./maps/covid19_estonia.png" width="300"  title="Estonia">
