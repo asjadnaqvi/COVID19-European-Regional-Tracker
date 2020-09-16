@@ -87,7 +87,9 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 ## European level map:
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./maps/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./maps/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
+<img src="./maps/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe">
+
+<!--- <img src="./maps/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe"> -->
 
 For the maps above, the last available date is used. The video below shows the evolution of cases over time using actual dates:
 https://youtu.be/IKXUMz-3x_k
@@ -113,6 +115,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 # Change Logs
 
+* 16 Sep, 2020: Poland and Greece NUTS2 data has been merged with the main file and added to the map. Data for Croatia and Denmark will be integrated next. Next task is to find Lithuania and Ukraine data sets.
 * 07 Sep, 2020: Improved documentation of the maps. All maps are now displayed above. Youtube video of changes in NUTS-3 level cases added. Map of cases and cases per pop added.
 * 31 Aug, 2020: Estonia, Latvia, Slovakia added to the database.
      * Estonia only provides case ranges in bands of 10 (0-10, 11-20, etc). NUTS 3 level data is approximated by taking mid-points of each range for each date/region combination and then aggregating to the NUTS 3.
