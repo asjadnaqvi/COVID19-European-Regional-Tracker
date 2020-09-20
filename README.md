@@ -109,8 +109,8 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 <img src="./maps/covid19_netherlands.png" width="300" title="Netherlands"><img src="./maps/covid19_norway.png" width="300"  title="Norway">
 <img src="./maps/covid19_poland.png" width="300" title="Poland"><img src="./maps/covid19_slovakia.png" width="300" title="Slovakia">
 <img src="./maps/covid19_slovenia.png" width="300" title="Slovenia"><img src="./maps/covid19_spain.png" width="300" title="Spain">
-<img src="./maps/covid19_sweden.png" width="200" title="Sweden"><img src="./maps/covid19_switzerland.png" width="300" title="Switzerland">
-<img src="./maps/covid19_croatia.png" width="200" title="Sweden"><img src="./maps/covid19_denmark.png" width="300" title="Switzerland">
+<img src="./maps/covid19_sweden.png" width="300" title="Sweden"><img src="./maps/covid19_switzerland.png" width="300" title="Switzerland">
+<img src="./maps/covid19_croatia.png" width="300" title="Croatia"><img src="./maps/covid19_denmark.png" width="300" title="Denmark">
 
 
 
