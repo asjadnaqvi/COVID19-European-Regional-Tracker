@@ -29,7 +29,7 @@ For questions regarding data and collaborations, please email directly at asjadn
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
 | Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten / Communes (581)** | 
 | Czechia | CZ  | Území(1) | Regiony soudržnosti (8) | **Kraje (14)** | Obce (6258) | 
-| *Denmark* | DK  | - | Regioner (5) | Landsdele (11) | Kommuner (99) | 
+| Denmark | DK  | - | Regioner (5) | Landsdele (11) | Kommuner (99) | 
 | *Estonia* | EE  |  |  | Maakondade grupid (5) | **Linn, vald (79)** | 
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
@@ -42,7 +42,7 @@ For questions regarding data and collaborations, please email directly at asjadn
 | Poland | PL  | Makroregiony (7) | **Regiony (17)** | Podregiony (73) | Gminy (2478) | 
 | *Portugal* | PT  | Continente + Regiões Autónomas (3) | Grupos de Entidades Intermunicipais + Regiões Autónomas (7) | **Entidades Intermunicipais + Regiões Autónomas (25)** | Freguesias (3098) | 
 | Slovenia | SI  | - | Kohezijske regije (2) | Statistične regije (12) | **Občine (212)** | 
-| *Slovakia* | SK  |  | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
+| Slovakia | SK  |  | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
 | Switzerland* | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
 | *United Kingdom* * | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | Lower tier authorities (400) | 
@@ -60,7 +60,7 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 | Austria | AT  | [BMSGPK](https://www.sozialministerium.at/)  | [Website](https://info.gesundheitsministerium.at/)  | 22 Mar - *t*  | 
 | Belgium | BE  | [Sciensano](https://epistat.wiv-isp.be/covid/)  | [Website](https://epistat.sciensano.be/data)  | 31 Mar - *t*  | 
 | Czechia | CZ  | [MZCR](https://onemocneni-aktualne.mzcr.cz/covid-19)  | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)  | 01 Mar - *t*  | 
-| Denmark | DK | [SSI](https://en.ssi.dk/) | []()   |   | 
+| Denmark | DK | [SSI](https://en.ssi.dk/) | [Website](https://en.ssi.dk/)   | 26 Feb - *t-4*  | 
 | Estonia | EE | [Health Board](https://www.terviseamet.ee/et/koroonaviirus/avaandmed) | [Website](https://www.terviseamet.ee/et/koroonaviirus/avaandmed)   | 05 Feb - *(t - 1)*  | 
 | France | FR | [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)  | [Website](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  |  10 Mar - *(t-5)*  |
 | Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
@@ -87,9 +87,9 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 ## European level map:
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./maps/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe">
+<img src="./maps/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./maps/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
-<!--- <img src="./maps/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe"> -->
+<!--- use this to mark out codes  -->
 
 For the maps above, the last available date is used. The video below shows the evolution of cases over time using actual dates:
 https://youtu.be/IKXUMz-3x_k
@@ -110,11 +110,13 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 <img src="./maps/covid19_poland.png" width="300" title="Poland"><img src="./maps/covid19_slovakia.png" width="300" title="Slovakia">
 <img src="./maps/covid19_slovenia.png" width="300" title="Slovenia"><img src="./maps/covid19_spain.png" width="300" title="Spain">
 <img src="./maps/covid19_sweden.png" width="200" title="Sweden"><img src="./maps/covid19_switzerland.png" width="300" title="Switzerland">
+<img src="./maps/covid19_croatia.png" width="200" title="Sweden"><img src="./maps/covid19_denmark.png" width="300" title="Switzerland">
 
 
 
 # Change Logs
 
+* 21 Sep, 2020: Croatia and Denmark added to the maps. Ireland data is no longer updating since the Github repository is now dormant. NUTS2 population needs to be added to cases per population map.
 * 16 Sep, 2020: Poland and Greece NUTS2 data has been merged with the main file and added to the map. Data for Croatia and Denmark will be integrated next. Next task is to find Lithuania and Ukraine data sets.
 * 07 Sep, 2020: Improved documentation of the maps. All maps are now displayed above. Youtube video of changes in NUTS-3 level cases added. Map of cases and cases per pop added.
 * 31 Aug, 2020: Estonia, Latvia, Slovakia added to the database.
