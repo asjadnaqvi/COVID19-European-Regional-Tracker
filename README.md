@@ -90,6 +90,7 @@ The map below shows the combined dataset of all the countries that have been pro
 <!--- use this to mark out codes  -->
 
 For the maps above, the last available date is used. The video below shows the evolution of cases over time using actual dates:
+
 [![](http://img.youtube.com/vi/QTbUUhLiKrQ/0.jpg)](http://www.youtube.com/watch?v=QTbUUhLiKrQ "12th October Update")
 
 
