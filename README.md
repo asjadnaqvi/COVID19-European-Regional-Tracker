@@ -80,9 +80,13 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 </details>
 
-# :triangular_flag_on_post: Sample maps
+# :triangular_flag_on_post: Maps
 
 ## European level map:
+The date range for all the countries is:
+
+<img src="./date_range.png" width="800" title="">
+
 The map below shows the combined dataset of all the countries that have been processed:
 
 <img src="./maps/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./maps/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
