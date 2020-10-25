@@ -6,9 +6,9 @@ For queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
 ## Challenges with data access
 
 
-* If data exists, it is not clear where or how to access it. Some countries keep it on the websites of official government websites, national statistical agencies, health departments, and some just export it to third-party repositories (e.g. ArcGIS datahub, Github etc). Thus each country has to be dealt with on a case-by-case basis. Due to the rise in popularity in data visualizations, a of people are scripting and collecting this information and can also be found in GitHub repositories. These will be referenced as necessary.
+* Almost all countries in Europe showcase COVID-19 data in the form of choropleth maps and trend graphs. The access to data behind the visualizations varies from country to country. It can be stored anywhere from official government websites, national statistical agencies, and national level health departments. Some countries also just export it to third-party repositories (e.g. ArcGIS Hub, Github, etc). Therefore, each country has to be dealt with individually. While most countries allow some form of access to regional data, others are not releasing this information publicly. Given the rise in popularity in data visualizations, several coders script and collect this information and make it publicly available, for example, on GitHub. Data scraped from official websites and dumped on private repositories is referenced below where necessary.
 * Information provided by countries is not consistent. Not all countries release data on deaths, tests performed, hospitalization rates, gender and age breakdowns etc. So the lowest common homogenous unit is usually cases.
-* The information on official website is not always accessible in machine-readible formats (.csv, .xls, .txt etc.). It can also exist as pdfs, entries on websites, twitter feeds etc. Hence a lot of effort has been put in put independent coders to scrap this information, or at least, archieve it for access later. These will be referenced as necessary.
+
 
 
 ## Combining data across countries
