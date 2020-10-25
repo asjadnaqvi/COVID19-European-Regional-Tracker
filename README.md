@@ -132,14 +132,3 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
     * Portugal: taken out for now for data checking since there are issues with the series continuity.
     * France: Historical data before 13th May added. There is a huge jump in the number of tests and reported cases for the few observations that overlap. This is because before 13th May, data was only being collected from 3 labs before proper testing protocols were introduced. There is no way of back correcting this information but maybe some form of data interpolation might help.
 * 26 Aug, 2020: Github repository created with documentation of regions in European countries.
-
-# To Dos
-<details>
-  <summary>Stuff in the pipeline</summary>
-    
-  * Add remaining countries to the documentation
-  * Add documentation on country specific issues
-  * Add data structures
-  * Integrate Github with Stata for direct uploading
-  
-</details>
