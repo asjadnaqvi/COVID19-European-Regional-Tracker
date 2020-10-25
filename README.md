@@ -48,6 +48,9 @@ For queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed.
 
 # :file_folder: Sources of country level datasets
+The date range for countries:
+<img src="./date_range.png" width="800" title="">
+
 <details>
   <summary>Data sources here </summary>
 
@@ -82,10 +85,6 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 # :triangular_flag_on_post: Maps
 
-## European level map:
-The date range for all the countries is:
-
-<img src="./date_range.png" width="800" title="">
 
 The map below shows the combined dataset of all the countries that have been processed:
 
