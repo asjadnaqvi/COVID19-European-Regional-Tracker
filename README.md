@@ -53,28 +53,28 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 
 
 
-| Country | Code  | Official data source | Data source | Date range  | 
-| --- |  --- |  --- |  --- |  --- | 
-| Austria | AT  | [BMSGPK](https://www.sozialministerium.at/)  | [Website](https://info.gesundheitsministerium.at/)  | 22 Mar - *t*  | 
-| Belgium | BE  | [Sciensano](https://epistat.wiv-isp.be/covid/)  | [Website](https://epistat.sciensano.be/data)  | 31 Mar - *t*  | 
-| Czechia | CZ  | [MZCR](https://onemocneni-aktualne.mzcr.cz/covid-19)  | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)  | 01 Mar - *t*  | 
-| Denmark | DK | [SSI](https://en.ssi.dk/) | [Website](https://en.ssi.dk/)   | 26 Feb - *t-4*  | 
-| Estonia | EE | [Health Board](https://www.terviseamet.ee/et/koroonaviirus/avaandmed) | [Website](https://www.terviseamet.ee/et/koroonaviirus/avaandmed)   | 05 Feb - *(t - 1)*  | 
-| France | FR | [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)  | [Website](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  |  10 Mar - *(t-5)*  |
-| Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  02 Mar - *(t-2)*  | 
-| Greece | EL | [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/) | [Github: sandbird](https://github.com/Sandbird/covid19-Greece)   | 26 Feb - *(t-1)* | 
-| Hungary | HU | [Government of Hungary](https://koronavirus.gov.hu/) | [Github: nickgon](https://github.com/nickgon/Hungary-COVID19-Data)   | 01 Apr - *t*  | 
-| Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [Github: mathsnuig](https://github.com/mathsnuig/coronaviz)  |  16 Mar - *(t-8)*  | 
-| Latvia | LV | [Government of Latvia](https://covid19.gov.lv/) | [Website](https://data.gov.lv/lv)   | 19 March - *t*  | 
-| Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [ArcGIS datahub](https://nlcovid-19-esrinl-content.hub.arcgis.com/)   |  15 Apr - *t*  | 
-| Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Github: thohan88](https://github.com/thohan88/covid19-nor-data)   |  26 Mar - *t*  | 
-| Poland | PL | [Government of Poland](https://www.gov.pl/web/koronawirus/) | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)   | 18 Mar - *t*  | 
-| Portugal | PT | [DSG](https://www.dgs.pt/) | [Github: dssg-pt](https://github.com/dssg-pt/covid19pt-data)   | 23 Apr - *t*  | 
-| Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Github: sledilnik](https://github.com/sledilnik/data)  |  03 Apr - *(t-1)*  |
-| Slovakia | SK | []() | []()   |   | 
-| Spain | ES | [National Center for Epidemiology](https://cnecovid.isciii.es/)  | [Website](https://cnecovid.isciii.es/covid19/)  |  31 Jan - *(t-10)*  |
-| Switzerland | CH  | [Bundesamt für Gesundheit](https://www.bag.admin.ch/bag/de/home.html) | [Github: daenuprobst](https://github.com/daenuprobst/covid19-cases-switzerland)   | 24 Jan - *t*  | 
-| United Kingdom | UK  | []() | []()   |   | 
+| Country | Code  | Official data source | Data source |
+| --- |  --- |  --- |  --- | 
+| Austria | AT  | [BMSGPK](https://www.sozialministerium.at/)  | [AGES](https://covid19-dashboard.ages.at/)  | 
+| Belgium | BE  | [Sciensano](https://epistat.wiv-isp.be/covid/)  | [Website](https://epistat.sciensano.be/data)  | 
+| Czechia | CZ  | [MZCR](https://onemocneni-aktualne.mzcr.cz/covid-19)  | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)  | 
+| Denmark | DK | [SSI](https://en.ssi.dk/) | [Website](https://en.ssi.dk/)   | 
+| Estonia | EE | [Health Board](https://www.terviseamet.ee/et/koroonaviirus/avaandmed) | [Website](https://www.terviseamet.ee/et/koroonaviirus/avaandmed)   | 
+| France | FR | [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)  | [Website](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  | 
+| Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  
+| Greece | EL | [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/) | [Github: sandbird](https://github.com/Sandbird/covid19-Greece)  | 
+| Hungary | HU | [Government of Hungary](https://koronavirus.gov.hu/) | [Github: nickgon](https://github.com/nickgon/Hungary-COVID19-Data)   | 
+| Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [Github: mathsnuig](https://github.com/mathsnuig/coronaviz)  | 
+| Latvia | LV | [Government of Latvia](https://covid19.gov.lv/) | [Website](https://data.gov.lv/lv)  |
+| Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [ArcGIS datahub](https://nlcovid-19-esrinl-content.hub.arcgis.com/)  | 
+| Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Github: thohan88](https://github.com/thohan88/covid19-nor-data) |  
+| Poland | PL | [Government of Poland](https://www.gov.pl/web/koronawirus/) | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)  |
+| Portugal | PT | [DSG](https://www.dgs.pt/) | [Github: dssg-pt](https://github.com/dssg-pt/covid19pt-data)  | 
+| Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Github: sledilnik](https://github.com/sledilnik/data)  |  
+| Slovakia | SK | [NHIC](http://www.nczisk.sk/en/Pages/default.aspx) |  [Github: radoondas](https://github.com/radoondas/covid-19-slovakia/)   | 
+| Spain | ES | [National Center for Epidemiology](https://cnecovid.isciii.es/)  | [Website](https://cnecovid.isciii.es/covid19/)  | 
+| Switzerland | CH  | [Bundesamt für Gesundheit](https://www.bag.admin.ch/bag/de/home.html) | [Github: daenuprobst](https://github.com/daenuprobst/covid19-cases-switzerland)  | 
+| United Kingdom | UK  | []() |    |   | 
 
 Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where *x* are the number of days. For example, *t-2*, means that today, data from two days ago is released. Some countries released data after some time gap for various reasons.
 
@@ -93,7 +93,7 @@ The map below shows the combined dataset of all the countries that have been pro
 
 <!--- use this to mark out codes  -->
 
-For the maps above, the last available date is used. The video below shows the evolution of cases over time using actual dates:
+For the maps above, the last available date is used. The video below shows the evolution of cases over time for data available till 12th October 2020:
 
 [![](http://img.youtube.com/vi/QTbUUhLiKrQ/0.jpg)](http://www.youtube.com/watch?v=QTbUUhLiKrQ "12th October Update")
 
@@ -119,6 +119,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 # Change Logs
 
+* 25 Oct, 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
 * 17 Oct, 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.
 * 04 Oct, 2020: Countries with JSON datasets have been now been automated. Ireland dataset is no longer being updated on Github but the official website now provides more accurate information. This will be added soon. Still looking for UK minus England data. Potentially also looking for Lithania, Bulgaria, Romania and other counties between Croatia and Greece.
 * 21 Sep, 2020: Croatia and Denmark added to the maps. Ireland data is no longer updating since the Github repository is now dormant. NUTS2 population needs to be added to cases per population map.
