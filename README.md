@@ -1,5 +1,5 @@
 # :bell: Overview
-This respository takes a stock of existing datasets at the regional level for European countries. This repository is updated once a week.
+This respository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. This repository is updated once a week.
 
 For queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
 
