@@ -40,6 +40,7 @@ For queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
 | Norway * | NO  | - | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
 | Poland | PL  | Makroregiony (7) | **Regiony (17)** | Podregiony (73) | Gminy (2478) | 
 | Portugal | PT  | Continente + Regiões Autónomas (3) | Grupos de Entidades Intermunicipais + Regiões Autónomas (7) | **Entidades Intermunicipais + Regiões Autónomas (25)** | Freguesias (3098) | 
+| Romania | RO | | | | |
 | Slovenia | SI  | - | Kohezijske regije (2) | Statistične regije (12) | **Občine (212)** | 
 | Slovakia | SK  |  | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
@@ -51,7 +52,7 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 # :file_folder: Sources of country level datasets
 The date range for countries:
 
-<img src="./date_range.png" width="800" title="">
+<img src="./maps/date_range.png" width="800" title="">
 
 <details>
   <summary>Data sources here </summary>
@@ -73,6 +74,7 @@ The date range for countries:
 | Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Github: thohan88](https://github.com/thohan88/covid19-nor-data) |  
 | Poland | PL | [Government of Poland](https://www.gov.pl/web/koronawirus/) | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)  |
 | Portugal | PT | [DSG](https://www.dgs.pt/) | [Github: dssg-pt](https://github.com/dssg-pt/covid19pt-data)  | 
+| Romania  | RO  |            |     |
 | Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Github: sledilnik](https://github.com/sledilnik/data)  |  
 | Slovakia | SK | [NHIC](http://www.nczisk.sk/en/Pages/default.aspx) |  [Github: radoondas](https://github.com/radoondas/covid-19-slovakia/)   | 
 | Spain | ES | [National Center for Epidemiology](https://cnecovid.isciii.es/)  | [Website](https://cnecovid.isciii.es/covid19/)  | 
@@ -118,6 +120,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 # Change Logs
 
+* 01 Nov, 2020: Scotland and Romania added. All data files were rechecked and changes in original files were adapted. The data range of countries was fixed. Some countries only release data periodically at regional levels.
 * 25 Oct, 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
 * 17 Oct, 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.
 * 04 Oct, 2020: Countries with JSON datasets have been now been automated. Ireland dataset is no longer being updated on Github but the official website now provides more accurate information. This will be added soon. Still looking for UK minus England data. Potentially also looking for Lithania, Bulgaria, Romania and other counties between Croatia and Greece.
