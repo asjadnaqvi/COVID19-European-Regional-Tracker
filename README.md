@@ -120,7 +120,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 # Change Logs
 
-* 01 Nov, 2020: Scotland and Romania added. All data files were rechecked and changes in original files were adapted. The data range of countries was fixed. Some countries only release data periodically at regional levels.
+* 01 Nov, 2020: Scotland and Romania added. All data files and scripts were rechecked. The maps were homogenized across countries. The data range of countries was fixed. Some countries only release data periodically at regional levels.
 * 25 Oct, 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
 * 17 Oct, 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.
 * 04 Oct, 2020: Countries with JSON datasets have been now been automated. Ireland dataset is no longer being updated on Github but the official website now provides more accurate information. This will be added soon. Still looking for UK minus England data. Potentially also looking for Lithania, Bulgaria, Romania and other counties between Croatia and Greece.
