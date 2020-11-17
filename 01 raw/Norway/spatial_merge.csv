@@ -1,0 +1,360 @@
+kommune_no,kommune_name,fylke_no,fylke_name,LEVL_CODE,NUTS_ID,CNTR_CODE,NUTS_NAME,MOUNT_TYPE,URBN_TYPE,COAST_TYPE,FID
+"0301",Oslo,"03",Oslo,"3",NO011,NO,Oslo,"2","1","1",NO011
+"1101",Eigersund,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1103",Stavanger,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1106",Haugesund,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1108",Sandnes,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1111",Sokndal,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1112",Lund,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1114",Bjerkreim,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1119",Hå,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1120",Klepp,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1121",Time,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1122",Gjesdal,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1124",Sola,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1127",Randaberg,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1130",Strand,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1133",Hjelmeland,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1134",Suldal,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1135",Sauda,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1144",Kvitsøy,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1145",Bokn,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1146",Tysvær,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1149",Karmøy,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1151",Utsira,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1160",Vindafjord,"11",Rogaland,"3",NO043,NO,Rogaland,"2","2","1",NO043
+"1505",Kristiansund,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1506",Molde,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1507",Ålesund,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1511",Vanylven,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1514",Sande,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1515",Herøy (Møre og Romsdal),"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1516",Ulstein,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1517",Hareid,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1520",Ørsta,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1525",Stranda,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1528",Sykkylven,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1531",Sula,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1532",Giske,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1535",Vestnes,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1539",Rauma,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1547",Aukra,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1554",Averøy,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1557",Gjemnes,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1560",Tingvoll,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1563",Sunndal,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1566",Surnadal,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1573",Smøla,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1576",Aure,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1577",Volda,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1578",Fjord,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1579",Hustadvika,"15",Møre og Romsdal,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"1804",Bodø,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1806",Narvik,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1811",Bindal,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1812",Sømna,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1813",Brønnøy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1815",Vega,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1816",Vevelstad,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1818",Herøy (Nordland),"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1820",Alstahaug,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1822",Leirfjord,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1824",Vefsn,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1825",Grane,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1826",Hattfjelldal,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1827",Dønna,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1828",Nesna,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1832",Hemnes,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1833",Rana,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1834",Lurøy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1835",Træna,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1836",Rødøy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1837",Meløy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1838",Gildeskål,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1839",Beiarn,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1840",Saltdal,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1841",Fauske,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1845",Sørfold,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1848",Steigen,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1851",Lødingen,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1853",Evenes,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1856",Røst,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1857",Værøy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1859",Flakstad,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1860",Vestvågøy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1865",Vågan,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1866",Hadsel,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1867",Bø,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1868",Øksnes,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1870",Sortland,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1871",Andøy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1874",Moskenes,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"1875",Hamarøy,"18",Nordland,"3",NO071,NO,Nordland,"3","3","1",NO071
+"3001",Halden,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3002",Moss,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3003",Sarpsborg,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3004",Fredrikstad,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3005",Drammen,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3006",Kongsberg,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3007",Ringerike,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3011",Hvaler,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3012",Aremark,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3013",Marker,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3014",Indre Østfold,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3015",Skiptvet,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3016",Rakkestad,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3017",Råde,"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3018",Våler (Viken),"30",Viken,"3",NO031,NO,Østfold,"4","2","1",NO031
+"3019",Vestby,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3020",Nordre Follo,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3021",Ås,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3022",Frogn,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3023",Nesodden,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3024",Bærum,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3025",Asker,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3026",Aurskog-Høland,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3027",Rælingen,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3028",Enebakk,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3029",Lørenskog,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3030",Lillestrøm,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3031",Nittedal,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3032",Gjerdrum,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3033",Ullensaker,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3034",Nes,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3035",Eidsvoll,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3036",Nannestad,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3037",Hurdal,"30",Viken,"3",NO012,NO,Akershus,"4","1","1",NO012
+"3038",Hole,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3039",Flå,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3040",Nesbyen,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3041",Gol,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3042",Hemsedal,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3043",Ål,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3044",Hol,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3045",Sigdal,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3046",Krødsherad,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3047",Modum,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3048",Øvre Eiker,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3049",Lier,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3050",Flesberg,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3051",Rollag,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3052",Nore og Uvdal,"30",Viken,"3",NO032,NO,Buskerud,"3","2","1",NO032
+"3053",Jevnaker,"30",Viken,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3054",Lunner,"30",Viken,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3401",Kongsvinger,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3403",Hamar,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3405",Lillehammer,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3407",Gjøvik,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3411",Ringsaker,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3412",Løten,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3413",Stange,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3414",Nord-Odal,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3415",Sør-Odal,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3416",Eidskog,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3417",Grue,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3418",Åsnes,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3419",Våler (Innlandet),"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3420",Elverum,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3421",Trysil,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3422",Åmot,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3423",Stor-Elvdal,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3424",Rendalen,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3425",Engerdal,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3426",Tolga,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3427",Tynset,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3428",Alvdal,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3429",Folldal,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3430",Os,"34",Innlandet,"3",NO021,NO,Hedmark,"2","3","3",NO021
+"3431",Dovre,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3432",Lesja,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3433",Skjåk,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3434",Lom,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3435",Vågå,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3436",Nord-Fron,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3437",Sel,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3438",Sør-Fron,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3439",Ringebu,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3440",Øyer,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3441",Gausdal,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3442",Østre Toten,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3443",Vestre Toten,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3446",Gran,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3447",Søndre Land,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3448",Nordre Land,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3449",Sør-Aurdal,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3450",Etnedal,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3451",Nord-Aurdal,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3452",Vestre Slidre,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3453",Øystre Slidre,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3454",Vang,"34",Innlandet,"3",NO022,NO,Oppland,"3","3","3",NO022
+"3801",Horten,"38",Vestfold og Telemark,"3",NO033,NO,Vestfold,"4","2","1",NO033
+"3802",Holmestrand,"38",Vestfold og Telemark,"3",NO033,NO,Vestfold,"4","2","1",NO033
+"3803",Tønsberg,"38",Vestfold og Telemark,"3",NO033,NO,Vestfold,"4","2","1",NO033
+"3804",Sandefjord,"38",Vestfold og Telemark,"3",NO033,NO,Vestfold,"4","2","1",NO033
+"3805",Larvik,"38",Vestfold og Telemark,"3",NO033,NO,Vestfold,"4","2","1",NO033
+"3806",Porsgrunn,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3807",Skien,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3808",Notodden,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3811",Færder,"38",Vestfold og Telemark,"3",NO033,NO,Vestfold,"4","2","1",NO033
+"3812",Siljan,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3813",Bamble,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3814",Kragerø,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3815",Drangedal,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3816",Nome,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3817",Midt-Telemark,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3818",Tinn,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3819",Hjartdal,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3820",Seljord,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3821",Kviteseid,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3822",Nissedal,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3823",Fyresdal,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3824",Tokke,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"3825",Vinje,"38",Vestfold og Telemark,"3",NO034,NO,Telemark,"2","2","1",NO034
+"4201",Risør,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4202",Grimstad,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4203",Arendal,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4204",Kristiansand,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4205",Lindesnes,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4206",Farsund,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4207",Flekkefjord,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4211",Gjerstad,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4212",Vegårshei,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4213",Tvedestrand,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4214",Froland,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4215",Lillesand,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4216",Birkenes,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4217",Åmli,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4218",Iveland,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4219",Evje og Hornnes,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4220",Bygland,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4221",Valle,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4222",Bykle,"42",Agder,"3",NO041,NO,Aust-Agder,"2","3","1",NO041
+"4223",Vennesla,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4224",Åseral,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4225",Lyngdal,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4226",Hægebostad,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4227",Kvinesdal,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4228",Sirdal,"42",Agder,"3",NO042,NO,Vest-Agder,"2","2","1",NO042
+"4601",Bergen,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4602",Kinn,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4611",Etne,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4612",Sveio,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4613",Bømlo,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4614",Stord,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4615",Fitjar,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4616",Tysnes,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4617",Kvinnherad,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4618",Ullensvang,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4619",Eidfjord,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4620",Ulvik,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4621",Voss,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4622",Kvam,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4623",Samnanger,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4624",Bjørnafjorden,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4625",Austevoll,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4626",Øygarden,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4627",Askøy,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4628",Vaksdal,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4629",Modalen,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4630",Osterøy,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4631",Alver,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4632",Austrheim,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4633",Fedje,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4634",Masfjorden,"46",Vestland,"3",NO051,NO,Hordaland,"3","2","1",NO051
+"4635",Gulen,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4636",Solund,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4637",Hyllestad,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4638",Høyanger,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4639",Vik,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4640",Sogndal,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4641",Aurland,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4642",Lærdal,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4643",Årdal,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4644",Luster,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4645",Askvoll,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4646",Fjaler,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4647",Sunnfjord,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4648",Bremanger,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4649",Stad,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4650",Gloppen,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"4651",Stryn,"46",Vestland,"3",NO052,NO,Sogn og Fjordane,"3","3","1",NO052
+"5001",Trondheim,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5001",Trondheim,"50",Trøndelag Trööndelage,,,,,,,,
+"5006",Steinkjer,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5007",Namsos,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5014",Frøya,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5020",Osen,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5021",Oppdal,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5022",Rennebu,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5025",Røros,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5026",Holtålen,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5027",Midtre Gauldal,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5028",Melhus,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5029",Skaun,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5031",Malvik,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5032",Selbu,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5033",Tydal,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5034",Meråker,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5035",Stjørdal,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5036",Frosta,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5037",Levanger,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5038",Verdal,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5041",Snåsa,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5042",Lierne,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5043",Røyrvik,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5044",Namsskogan,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5045",Grong,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5046",Høylandet,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5047",Overhalla,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5049",Flatanger,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5052",Leka,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5053",Inderøy,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5054",Indre Fosen,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5055",Heim,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5056",Hitra,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5057",Ørland,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5058",Åfjord,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5059",Orkland,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5060",Nærøysund,"50",Trøndelag,"3",NO060,NO,Trøndelag,"2","2","1",NO060
+"5061",Rindal,"50",Trøndelag,"3",NO053,NO,Møre og Romsdal,"3","3","1",NO053
+"5401",Tromsø,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5402",Harstad,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5403",Alta,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5404",Vardø,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5405",Vadsø,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5406",Hammerfest,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5411",Kvæfjord,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5412",Tjeldsund,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5413",Ibestad,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5414",Gratangen,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5415",Lavangen,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5416",Bardu,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5417",Salangen,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5418",Målselv,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5419",Sørreisa,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5420",Dyrøy,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5421",Senja,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5422",Balsfjord,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5423",Karlsøy,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5424",Lyngen,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5425",Storfjord,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5426",Kåfjord,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5427",Skjervøy,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5428",Nordreisa,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5429",Kvænangen,"54",Troms og Finnmark,"3",NO072,NO,Troms,"3","3","1",NO072
+"5430",Kautokeino,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5432",Loppa,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5433",Hasvik,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5434",Måsøy,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5435",Nordkapp,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5436",Porsanger,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5437",Kárájohka - Karasjok,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5438",Lebesby,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5439",Gamvik,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5440",Berlevåg,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5441",Tana,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5442",Nesseby,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5443",Båtsfjord,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"5444",Sør-Varanger,"54",Troms og Finnmark,"3",NO073,NO,Finnmark,"4","3","1",NO073
+"9999",Ukjent Kommune,"99",Ukjent Fylke,,,,,,,,
+"9998",Svalbard,"99",Svalbard,,,,,,,,

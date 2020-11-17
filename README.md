@@ -34,21 +34,25 @@ For queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
 | Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten / Communes (581)** | 
 | Czechia | CZ  | Území(1) | Regiony soudržnosti (8) | **Kraje (14)** | Obce (6258) | 
 | Denmark | DK  | - | Regioner (5) | Landsdele (11) | **Kommuner (99)** | 
-| *Estonia* | EE  |  |  | Maakondade grupid (5) | **Linn, vald (79)** | 
+| Estonia | EE  | - | - | Maakondade grupid (5) | **Linn, vald (79)** | 
+| Finland* | FI  | Manner-Suomi, Ahvenananmaa / Fasta Finland, Åland (2) | Suuralueet / Storområden (5)  |  
+| **Maakunnat / Landskap (19)** | Kunnat / Kommuner (311) |
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Greece | EL  | Geografikes Perioches (4) | **Periferies (13)** | Periferiakon Enotiton (52) | Topikes Koinotites (6134) | 
 | Hungary | HU  | Statisztikai nagyrégiók (3) | Tervezési-statisztikai régiók (8) | **Megyék + Budapest (20)** | Települések (3155) | 
 | Ireland | IE  | - | Regions (3) | **Regional Authority Regions (8)** | Local Election Areas (166) | 
+| Italy | IT  | Gruppi di regioni (5) | Regioni (21) | **Provincie (107)** | Comuni (7926) | 
 | Latvia | LV  | - | - | Statistiskie reģioni (6) | **Republikas pilsētas, novadi (119)** | 
 | Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
-| Norway * | NO  | - | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
+| Norway* | NO  | - | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
 | Poland | PL  | Makroregiony (7) | **Regiony (17)** | Podregiony (73) | Gminy (2478) | 
 | Portugal | PT  | Continente + Regiões Autónomas (3) | Grupos de Entidades Intermunicipais + Regiões Autónomas (7) | **Entidades Intermunicipais + Regiões Autónomas (25)** | Freguesias (3098) | 
-| Romania | RO | | | | |
+| Romania | RO | Macroregiuni (4) | Regiuni (8) | **Judet + Bucuresti (42)** | Comuni + Municipiu + Orase (3181) |
 | Slovenia | SI  | - | Kohezijske regije (2) | Statistične regije (12) | **Občine (212)** | 
-| Slovakia | SK  |  | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
+| Slovakia | SK  | - | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
+| Sweden | SE | Grupper av riksområden (3) | Riksområden (8) | **Län (21)** | Kommuner (290) |
 | Switzerland* | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
 | *United Kingdom* * | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | *Lower tier authorities (400)* | 
 
@@ -69,11 +73,13 @@ The date range for countries:
 | Czechia | CZ  | [MZCR](https://onemocneni-aktualne.mzcr.cz/covid-19)  | [Github: google](https://github.com/GoogleCloudPlatform/covid-19-open-data#sources-of-data)  | 
 | Denmark | DK | [SSI](https://en.ssi.dk/) | [Website](https://en.ssi.dk/)   | 
 | Estonia | EE | [Health Board](https://www.terviseamet.ee/et/koroonaviirus/avaandmed) | [Website](https://www.terviseamet.ee/et/koroonaviirus/avaandmed)   | 
+| Finland | FI |   |   | 
 | France | FR | [Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/)  | [Website](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  | 
 | Germany | DE | [Robert Koch Institute](https://www.rki.de/EN/Home/homepage.html)  | [jgehrcke](https://github.com/jgehrcke/covid-19-germany-gae)  |  
 | Greece | EL | [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/) | [Github: sandbird](https://github.com/Sandbird/covid19-Greece)  | 
 | Hungary | HU | [Government of Hungary](https://koronavirus.gov.hu/) | [Github: nickgon](https://github.com/nickgon/Hungary-COVID19-Data)   | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [Github: mathsnuig](https://github.com/mathsnuig/coronaviz)  | 
+| Italy | IT |   |   | 
 | Latvia | LV | [Government of Latvia](https://covid19.gov.lv/) | [Website](https://data.gov.lv/lv)  |
 | Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [ArcGIS datahub](https://nlcovid-19-esrinl-content.hub.arcgis.com/)  | 
 | Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Github: thohan88](https://github.com/thohan88/covid19-nor-data) |  
@@ -83,6 +89,7 @@ The date range for countries:
 | Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Github: sledilnik](https://github.com/sledilnik/data)  |  
 | Slovakia | SK | [NHIC](http://www.nczisk.sk/en/Pages/default.aspx) |  [Github: radoondas](https://github.com/radoondas/covid-19-slovakia/)   | 
 | Spain | ES | [National Center for Epidemiology](https://cnecovid.isciii.es/)  | [Website](https://cnecovid.isciii.es/covid19/)  | 
+| Sweden | SE |   |   | 
 | Switzerland | CH  | [Bundesamt für Gesundheit](https://www.bag.admin.ch/bag/de/home.html) | [Github: daenuprobst](https://github.com/daenuprobst/covid19-cases-switzerland)  | 
 | United Kingdom | UK  | []() |    |   | 
 
@@ -95,7 +102,7 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./maps/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./maps/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
+<img src="./05 figures/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./05 figures/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
 <!--- use this to mark out codes  -->
 
@@ -109,22 +116,23 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ## Individual country maps:
 
-<img src="./maps/covid19_austria.png" width="300" title="Austria"><img src="./maps/covid19_belgium.png" width="300" title="Belgium">
-<img src="./maps/covid19_czechia.png" width="300" title="Czechia"><img src="./maps/covid19_estonia.png" width="300"  title="Estonia">
-<img src="./maps/covid19_finland.png" width="200" title="Finland"><img src="./maps/covid19_france.png" width="300" title="France">
-<img src="./maps/covid19_germany.png" width="300" title="Germany"><img src="./maps/covid19_greece.png" width="300"  title="Greece">
-<img src="./maps/covid19_hungary.png" width="300" title="Hungary"><img src="./maps/covid19_ireland.png" width="300" title="Ireland">
-<img src="./maps/covid19_italy.png" width="300"   title="Italy"><img src="./maps/covid19_latvia.png" width="300" title="Latvia">
-<img src="./maps/covid19_netherlands.png" width="300" title="Netherlands"><img src="./maps/covid19_norway.png" width="300"  title="Norway">
-<img src="./maps/covid19_poland.png" width="300" title="Poland"><img src="./maps/covid19_slovakia.png" width="300" title="Slovakia">
-<img src="./maps/covid19_slovenia.png" width="300" title="Slovenia"><img src="./maps/covid19_spain.png" width="300" title="Spain">
-<img src="./maps/covid19_sweden.png" width="100" title="Sweden"><img src="./maps/covid19_switzerland.png" width="300" title="Switzerland">
-<img src="./maps/covid19_croatia.png" width="300" title="Croatia"><img src="./maps/covid19_denmark.png" width="300" title="Denmark">
+<img src="./05 figures/covid19_austria.png" width="300" title="Austria"><img src="./05 figures/covid19_belgium.png" width="300" title="Belgium">
+<img src="./05 figures/covid19_czechia.png" width="300" title="Czechia"><img src="./05 figures/covid19_estonia.png" width="300"  title="Estonia">
+<img src="./05 figures/covid19_finland.png" width="200" title="Finland"><img src="./05 figures/covid19_france.png" width="300" title="France">
+<img src="./05 figures/covid19_germany.png" width="300" title="Germany"><img src="./05 figures/covid19_greece.png" width="300"  title="Greece">
+<img src="./05 figures/covid19_hungary.png" width="300" title="Hungary"><img src="./05 figures/covid19_ireland.png" width="300" title="Ireland">
+<img src="./05 figures/covid19_italy.png" width="300"   title="Italy"><img src="./05 figures/covid19_latvia.png" width="300" title="Latvia">
+<img src="./05 figures/covid19_netherlands.png" width="300" title="Netherlands"><img src="./05 figures/covid19_norway.png" width="300"  title="Norway">
+<img src="./05 figures/covid19_poland.png" width="300" title="Poland"><img src="./05 figures/covid19_slovakia.png" width="300" title="Slovakia">
+<img src="./05 figures/covid19_slovenia.png" width="300" title="Slovenia"><img src="./05 figures/covid19_spain.png" width="300" title="Spain">
+<img src="./05 figures/covid19_sweden.png" width="100" title="Sweden"><img src="./05 figures/covid19_switzerland.png" width="300" title="Switzerland">
+<img src="./05 figures/covid19_croatia.png" width="300" title="Croatia"><img src="./05 figures/covid19_denmark.png" width="300" title="Denmark">
 
 
 
 # Change Logs
 
+* 17 Nov, 2020: All files added to the directory for public release. Zenodo badge created. Table have beeb corrected. All dofiles were checked and reworked for updates, new datasets, paths etc. Dofiles for country level maps will be added soon. 
 * 01 Nov, 2020: Scotland and Romania added. All data files and scripts were rechecked. The maps were homogenized across countries. The data range of countries was fixed. Some countries only release data periodically at regional levels.
 * 25 Oct, 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
 * 17 Oct, 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.

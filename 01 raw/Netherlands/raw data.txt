@@ -1,0 +1,4 @@
+https://nlcovid-19-esrinl-content.hub.arcgis.com/pages/kaarten
+https://nlcovid-19-esrinl-content.hub.arcgis.com/datasets/covid-19-historische-gegevens-rivm-vlakken
+
+look for data table with historical figures on deaths and cases. All historical files are the same.
