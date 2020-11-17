@@ -60,7 +60,7 @@ Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts
 # :file_folder: Sources of country level datasets
 The date range for countries:
 
-<img src="./maps/date_range.png" width="800" title="">
+<img src="./maps/range_date.png" width="800" title="">
 
 <details>
   <summary>Data sources here </summary>
