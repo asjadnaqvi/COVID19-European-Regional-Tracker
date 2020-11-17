@@ -35,8 +35,7 @@ For queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
 | Czechia | CZ  | Území(1) | Regiony soudržnosti (8) | **Kraje (14)** | Obce (6258) | 
 | Denmark | DK  | - | Regioner (5) | Landsdele (11) | **Kommuner (99)** | 
 | Estonia | EE  | - | - | Maakondade grupid (5) | **Linn, vald (79)** | 
-| Finland* | FI  | Manner-Suomi, Ahvenananmaa / Fasta Finland, Åland (2) | Suuralueet / Storområden (5)  |  
-| **Maakunnat / Landskap (19)** | Kunnat / Kommuner (311) |
+| Finland* | FI  | Manner-Suomi, Ahvenananmaa / Fasta Finland, Åland (2) | Suuralueet / Storområden (5)  |  **Maakunnat / Landskap (19)** | Kunnat / Kommuner (311) |
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Greece | EL  | Geografikes Perioches (4) | **Periferies (13)** | Periferiakon Enotiton (52) | Topikes Koinotites (6134) | 
