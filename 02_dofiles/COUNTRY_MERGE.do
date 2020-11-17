@@ -8,7 +8,7 @@ cd "$coviddir"
 
 **** get the population file in order. File from Eurostat
 
-use "./01 raw/Eurostat/demo_r_pjangrp3", clear   
+use "./01_raw/Eurostat/demo_r_pjangrp3", clear   
 *export delimited using "./01 raw/Eurostat/demo_r_pjangrp3.csv", clear delim(;)
 
 	keep if year==2019
@@ -22,8 +22,8 @@ use "./01 raw/Eurostat/demo_r_pjangrp3", clear
 	ren geo nuts_id
 	ren y population
 	compress
-save "./04 master/NUTS_POPULATION.dta", replace
-export delimited using "./04 master/csv/NUTS_POPULATION.csv", replace delim(;)
+save "./04_master/NUTS_POPULATION.dta", replace
+export delimited using "./04_master/csv/NUTS_POPULATION.csv", replace delim(;)
 
 
 
@@ -31,7 +31,7 @@ export delimited using "./04 master/csv/NUTS_POPULATION.csv", replace delim(;)
 ***** merge all the files together
 
 
-cd "./04 master/"
+cd "./04_master/"
 
 
 *** NUTS 3
@@ -110,7 +110,7 @@ drop if date < 21929
 
 compress
 save "EUROPE_COVID19_master.dta", replace
-export delimited using "$coviddir/04 master/csv/EUROPE_COVID19_master.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv/EUROPE_COVID19_master.csv", replace delim(;)
 
 
 
@@ -150,7 +150,7 @@ twoway ///
 			xtitle("") ///
 			xlabel(#20, labsize(vsmall) angle(vertical)) ///
 			title("{fontface Arial Bold: European COVID-19 regional tracker - Date Range for Countries}")
-	graph export "../05 figures/range_date.png", replace wid(3000)
+	graph export "../05_figures/range_date.png", replace wid(3000)
 
 
 
@@ -158,7 +158,7 @@ twoway ///
 	(scatter cases_daily_pop date, mcolor(black%80) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)), ///
 		xtitle("") ///
 		title("{fontface Arial Bold: Regional distribution of daily cases}")
-	graph export "../05 figures/range_newcasepop.png", replace wid(3000)
+	graph export "../05_figures/range_newcasepop.png", replace wid(3000)
 
 /*
 twoway ///

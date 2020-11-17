@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Romania"
+cd "$coviddir/01_raw/Romania"
 
 ***** county_codes
 import excel using romania_county_codes.xlsx, clear first
@@ -62,8 +62,8 @@ bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
 order  nuts3_id date
 sort  nuts3_id date 
 compress
-save "$coviddir/04 master/romania_data.dta", replace
-export delimited using "$coviddir/04 master/csv/romania_data.csv", replace delim(;)
+save "$coviddir/04_master/romania_data.dta", replace
+export delimited using "$coviddir/04_master/csv/romania_data.csv", replace delim(;)
 
 
 cd "$coviddir"

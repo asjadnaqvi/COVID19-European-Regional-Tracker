@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Finland"
+cd "$coviddir/01_raw/Finland"
 
 *https://github.com/HS-Datadesk/koronavirus-avoindata
 *** date source: https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/processedThlData
@@ -116,8 +116,8 @@ ren cases cases_daily
 order  nuts3_id date
 sort  nuts3_id date 
 compress
-save "$coviddir/04 master/finland_data.dta", replace
-export delimited using "$coviddir/04 master/csv/finland_data.csv", replace delim(;)
+save "$coviddir/04_master/finland_data.dta", replace
+export delimited using "$coviddir/04_master/csv/finland_data.csv", replace delim(;)
 
 
 cd "$coviddir"

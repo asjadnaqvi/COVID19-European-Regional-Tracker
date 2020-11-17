@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Belgium"
+cd "$coviddir/01_raw/Belgium"
 
 
 ***** LAU 1
@@ -94,8 +94,8 @@ summ date
 drop if date==`r(max)'
 
 compress
-save "$coviddir/04 master/belgium_data.dta", replace
-export delimited using "$coviddir/04 master/csv/belgium_data.csv", replace delim(;)
+save "$coviddir/04_master/belgium_data.dta", replace
+export delimited using "$coviddir/04_master/csv/belgium_data.csv", replace delim(;)
 
 
 cd "$coviddir"

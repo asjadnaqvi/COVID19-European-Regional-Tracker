@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Hungary"
+cd "$coviddir/01_raw/Hungary"
 
 
 
@@ -95,8 +95,8 @@ bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
 
 
 compress
-save "$coviddir/04 master/hungary_data.dta", replace
-export delimited using "$coviddir/04 master/csv/hungary_data.csv", replace delim(;)
+save "$coviddir/04_master/hungary_data.dta", replace
+export delimited using "$coviddir/04_master/csv/hungary_data.csv", replace delim(;)
 
 
 

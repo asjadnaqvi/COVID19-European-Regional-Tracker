@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Switzerland"
+cd "$coviddir/01_raw/Switzerland"
 
 
 ********** at the NUTS3 level
@@ -113,7 +113,7 @@ summ date
 drop if date >= `r(max)' - 4   
 
 compress
-save "$coviddir/04 master/switzerland_data.dta", replace		
-export delimited using "$coviddir/04 master/csv/switzerland_data.csv", replace	delim(;)
+save "$coviddir/04_master/switzerland_data.dta", replace		
+export delimited using "$coviddir/04_master/csv/switzerland_data.csv", replace	delim(;)
 
 cd "$coviddir" // reset the directory for batch processing

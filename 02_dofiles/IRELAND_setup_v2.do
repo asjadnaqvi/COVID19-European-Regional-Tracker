@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Ireland"
+cd "$coviddir/01_raw/Ireland"
 
 
 
@@ -58,32 +58,23 @@ replace nuts3_id="IE041" if county=="Sligo"
 replace nuts3_id="IE041" if county=="Leitrim"
 replace nuts3_id="IE041" if county=="Cavan"
 replace nuts3_id="IE041" if county=="Monaghan"
-
-
 replace nuts3_id="IE042" if county=="Galway"
 replace nuts3_id="IE042" if county=="Mayo"
 replace nuts3_id="IE042" if county=="Roscommon"
-
 replace nuts3_id="IE051" if county=="Clare"
 replace nuts3_id="IE051" if county=="Tipperary"
 replace nuts3_id="IE051" if county=="Limerick"
-
 replace nuts3_id="IE052" if county=="Waterford"
 replace nuts3_id="IE052" if county=="Kilkenny"
 replace nuts3_id="IE052" if county=="Carlow"
 replace nuts3_id="IE052" if county=="Wexford"
-
-
 replace nuts3_id="IE053" if county=="Cork"
 replace nuts3_id="IE053" if county=="Kerry"
-
 replace nuts3_id="IE061" if county=="Dublin"
-
 replace nuts3_id="IE062" if county=="Wicklow"
 replace nuts3_id="IE062" if county=="Kildare"
 replace nuts3_id="IE062" if county=="Meath"
 replace nuts3_id="IE062" if county=="Louth"
-
 replace nuts3_id="IE063" if county=="Longford"
 replace nuts3_id="IE063" if county=="Westmeath"
 replace nuts3_id="IE063" if county=="Offaly"
@@ -96,8 +87,8 @@ collapse (sum) cases cases_daily, by(nuts3_id date)
 
 
 compress
-save "$coviddir/04 master/ireland_data.dta", replace
-export delimited using "$coviddir/04 master/csv/ireland_data.csv", replace delim(;)
+save "$coviddir/04_master/ireland_data.dta", replace
+export delimited using "$coviddir/04_master/csv/ireland_data.csv", replace delim(;)
 
 
 cd "$coviddir"

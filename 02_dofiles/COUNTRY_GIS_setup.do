@@ -2,7 +2,7 @@ clear
 global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/03 GIS"
+cd "$coviddir/03_GIS"
 
 
 

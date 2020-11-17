@@ -116,23 +116,23 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ## Individual country maps:
 
-<img src="./05_figures/covid19_austria.png" width="300" title="Austria"><img src="./05_figures/covid19_belgium.png" width="300" title="Belgium">
-<img src="./05_figures/covid19_czechia.png" width="300" title="Czechia"><img src="./05_figures/covid19_estonia.png" width="300"  title="Estonia">
-<img src="./05_figures/covid19_finland.png" width="200" title="Finland"><img src="./05_figures/covid19_france.png" width="300" title="France">
-<img src="./05_figures/covid19_germany.png" width="300" title="Germany"><img src="./05_figures/covid19_greece.png" width="300"  title="Greece">
-<img src="./05_figures/covid19_hungary.png" width="300" title="Hungary"><img src="./05_figures/covid19_ireland.png" width="300" title="Ireland">
-<img src="./05_figures/covid19_italy.png" width="300"   title="Italy"><img src="./05_figures/covid19_latvia.png" width="300" title="Latvia">
-<img src="./05_figures/covid19_netherlands.png" width="300" title="Netherlands"><img src="./05_figures/covid19_norway.png" width="300"  title="Norway">
-<img src="./05_figures/covid19_poland.png" width="300" title="Poland"><img src="./05_figures/covid19_slovakia.png" width="300" title="Slovakia">
-<img src="./05_figures/covid19_slovenia.png" width="300" title="Slovenia"><img src="./05_figures/covid19_spain.png" width="300" title="Spain">
-<img src="./05_figures/covid19_sweden.png" width="100" title="Sweden"><img src="./05_figures/covid19_switzerland.png" width="300" title="Switzerland">
-<img src="./05_figures/covid19_croatia.png" width="300" title="Croatia"><img src="./05_figures/covid19_denmark.png" width="300" title="Denmark">
+<img src="./05_figures/covid19_AT.png" width="300" title="Austria"><img src="./05_figures/covid19_BE.png" width="300" title="Belgium">
+<img src="./05_figures/covid19_CZ.png" width="300" title="Czechia"><img src="./05_figures/covid19_EE.png" width="300"  title="Estonia">
+<img src="./05_figures/covid19_FI.png" width="200" title="Finland"><img src="./05_figures/covid19_FR.png" width="300" title="France">
+<img src="./05_figures/covid19_DE.png" width="300" title="Germany"><img src="./05_figures/covid19_EL.png" width="300"  title="Greece">
+<img src="./05_figures/covid19_HU.png" width="300" title="Hungary"><img src="./05_figures/covid19_IE.png" width="300" title="Ireland">
+<img src="./05_figures/covid19_IT.png" width="300" title="Italy"><img src="./05_figures/covid19_LV.png" width="300" title="Latvia">
+<img src="./05_figures/covid19_NL.png" width="300" title="Netherlands"><img src="./05_figures/covid19_NO.png" width="300"  title="Norway">
+<img src="./05_figures/covid19_PL.png" width="300" title="Poland"><img src="./05_figures/covid19_SK.png" width="300" title="Slovakia">
+<img src="./05_figures/covid19_SI.png" width="300" title="Slovenia"><img src="./05_figures/covid19_ES.png" width="300" title="Spain">
+<img src="./05_figures/covid19_SE.png" width="100" title="Sweden"><img src="./05_figures/covid19_CH.png" width="300" title="Switzerland">
+<img src="./05_figures/covid19_HR.png" width="300" title="Croatia"><img src="./05_figures/covid19_DK.png" width="300" title="Denmark">
 
 
 
 # Change Logs
 
-* 17 Nov, 2020: All files added to the directory for public release. Zenodo badge created. Table have beeb corrected. All dofiles were checked and reworked for updates, new datasets, paths etc. Dofiles for country level maps will be added soon. 
+* 17 Nov, 2020: All files added to the directory for public release. Zenodo badge created. Tables have been updated. All dofiles were checked and reworked for updates, new datasets, paths. Dofiles for country level maps will be added soon. 
 * 01 Nov, 2020: Scotland and Romania added. All data files and scripts were rechecked. The maps were homogenized across countries. The data range of countries was fixed. Some countries only release data periodically at regional levels.
 * 25 Oct, 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
 * 17 Oct, 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.

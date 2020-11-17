@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Austria"
+cd "$coviddir/01_raw/Austria"
 
 
 
@@ -66,8 +66,8 @@ sort  nuts3_id date
 
 
 compress
-save "$coviddir/04 master/austria_data.dta", replace
-export delimited using "$coviddir/04 master/csv/austria_data.csv", replace delim(;)
+save "$coviddir/04_master/austria_data.dta", replace
+export delimited using "$coviddir/04_master/csv/austria_data.csv", replace delim(;)
 
 
 cd "$coviddir"

@@ -3,7 +3,7 @@ clear
 
 
 
-cd "$coviddir/01 raw/Czechia"
+cd "$coviddir/01_raw/Czechia"
 
 
 *** https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19
@@ -42,8 +42,8 @@ bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
 
 
 compress
-save "$coviddir/04 master/czechia_data.dta", replace		
-export delimited using "$coviddir/04 master/csv/czechia_data.csv", replace delim(;)
+save "$coviddir/04_master/czechia_data.dta", replace		
+export delimited using "$coviddir/04_master/csv/czechia_data.csv", replace delim(;)
 
 
 cd "$coviddir"

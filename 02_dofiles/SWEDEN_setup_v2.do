@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/Sweden"
+cd "$coviddir/01_raw/Sweden"
 
 
 *** data is hidden here in the second tab on the map
@@ -81,8 +81,8 @@ display "`x'"
 
 
 compress
-save "$coviddir/04 master/sweden_data.dta", replace
-export delimited using "$coviddir/04 master/csv/sweden_data.csv", replace	delim(;)
+save "$coviddir/04_master/sweden_data.dta", replace
+export delimited using "$coviddir/04_master/csv/sweden_data.csv", replace	delim(;)
 
 cd "$coviddir"
 

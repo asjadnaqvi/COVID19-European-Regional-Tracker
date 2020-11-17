@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/01 raw/France"
+cd "$coviddir/01_raw/France"
 
 
 **** sorting out the mapping of regions
@@ -109,8 +109,8 @@ drop Name HASC Reg FIPS NUTS capital area_km2
 compress
 sort nuts3_id date 
 compress
-save "$coviddir/04 master/france_data.dta", replace
-export delimited using "$coviddir/04 master/csv/france_data.csv", replace delim(;)
+save "$coviddir/04_master/france_data.dta", replace
+export delimited using "$coviddir/04_master/csv/france_data.csv", replace delim(;)
 
 
 

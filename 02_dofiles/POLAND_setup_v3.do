@@ -3,7 +3,7 @@ clear
 
 
 
-cd "$coviddir/01 raw/Poland"
+cd "$coviddir/01_raw/Poland"
 
 
 ***https://github.com/covid19-eu-zh/covid19-eu-data
@@ -69,8 +69,8 @@ sort nuts2_id date
 bysort nuts2_id: gen deaths_daily = deaths - deaths[_n-1]
 
 compress
-save "$coviddir/04 master/poland_data.dta", replace				
-export delimited using "$coviddir/04 master/csv/poland_data.csv", replace delim(;)
+save "$coviddir/04_master/poland_data.dta", replace				
+export delimited using "$coviddir/04_master/csv/poland_data.csv", replace delim(;)
 
 
 cd "$coviddir"

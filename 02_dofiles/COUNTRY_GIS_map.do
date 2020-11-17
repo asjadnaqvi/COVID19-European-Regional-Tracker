@@ -2,7 +2,7 @@ clear
 global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir/03 GIS"
+cd "$coviddir/03_GIS"
 
 
 
@@ -10,7 +10,7 @@ use nuts3_mix, clear
 
 		
 *** merge with the datafile
-	merge 1:m nuts_id using "$coviddir/04 master/EUROPE_COVID19_master.dta"
+	merge 1:m nuts_id using "$coviddir/04_master/EUROPE_COVID19_master.dta"
 
 	egen tag = tag(nuts_id)
 
@@ -89,7 +89,7 @@ id(_ID) cln(10)  fcolor("`colors'")  ///
 		title("{fontface Arial Bold: COVID-19 daily regional cases in Europe (`ldate')}", size(*0.7)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data source: Misc. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 		
-		graph export "../05 figures/COVID19_EUROPE_cases.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_cases.png", replace wid(2000)
 
 
 		
@@ -110,7 +110,7 @@ id(_ID) cln(10)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(*0.7)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
-		graph export "../05 figures/COVID19_EUROPE_casespop.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_casespop.png", replace wid(2000)
 		
 		
 	
@@ -146,7 +146,7 @@ display "`x'"
 					title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop - `x' (`ldate2')}", size(*0.7)) ///
 					note("Map layer: Eurostat GISCO 2016 NUTS layers.", size(tiny))
 
-			graph export "../05 figures/covid19_`x'.png", replace wid(2000)
+			graph export "../05_figures/covid19_`x'.png", replace wid(2000)
 
 	restore	
 	

@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-cd "$coviddir./01 raw/Estonia"
+cd "$coviddir./01_raw/Estonia"
 
 *** lau codes
 
@@ -61,8 +61,8 @@ sort date nuts3_id
 compress
 
 compress
-save "$coviddir/04 master/estonia_data.dta", replace		
-export delimited using "$coviddir/04 master/csv/estonia_data.csv", replace delim(;)
+save "$coviddir/04_master/estonia_data.dta", replace		
+export delimited using "$coviddir/04_master/csv/estonia_data.csv", replace delim(;)
 
 
 

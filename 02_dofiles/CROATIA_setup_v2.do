@@ -7,7 +7,7 @@ cd "$coviddir"
 
 *** raw data
 
-cd "./01 raw/Croatia"
+cd "./01_raw/Croatia"
 
 
 ***https://www.koronavirus.hr/podaci/otvoreni-strojno-citljivi-podaci/526
@@ -142,8 +142,8 @@ bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1]
 
 
 compress
-save "$coviddir/04 master/croatia_data.dta", replace
-export delimited using "$coviddir/04 master/csv/croatia_data.csv", replace delim(;)
+save "$coviddir/04_master/croatia_data.dta", replace
+export delimited using "$coviddir/04_master/csv/croatia_data.csv", replace delim(;)
 
 
 cd "$coviddir"
