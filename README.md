@@ -101,7 +101,7 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./05_figures/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./05_figures/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
+<img src="./05_figures/COVID19_EUROPE_cases.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./05_figures/COVID19_EUROPE_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
 <!--- use this to mark out codes  -->
 
