@@ -116,7 +116,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ## Individual country maps:
 
-<img src="./05_figures/covid19_austria.png" width="300" title="Austria"><img src="./05_figures/covid19_belgium.png" width="300" title="Belgium">
+<img src="./05_figures/covid19_AT.png" width="300" title="Austria"><img src="./05_figures/covid19_BE.png" width="300" title="Belgium">
 <img src="./05_figures/covid19_czechia.png" width="300" title="Czechia"><img src="./05_figures/covid19_estonia.png" width="300"  title="Estonia">
 <img src="./05_figures/covid19_finland.png" width="200" title="Finland"><img src="./05_figures/covid19_france.png" width="300" title="France">
 <img src="./05_figures/covid19_germany.png" width="300" title="Germany"><img src="./05_figures/covid19_greece.png" width="300"  title="Greece">
