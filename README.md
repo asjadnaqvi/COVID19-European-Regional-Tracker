@@ -102,7 +102,7 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./05 figures/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./05 figures/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
+<img src="./05_figures/covid19_europe.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./05_figures/covid19_europe_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
 
 <!--- use this to mark out codes  -->
 
@@ -116,17 +116,17 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ## Individual country maps:
 
-<img src="./05 figures/covid19_austria.png" width="300" title="Austria"><img src="./05 figures/covid19_belgium.png" width="300" title="Belgium">
-<img src="./05 figures/covid19_czechia.png" width="300" title="Czechia"><img src="./05 figures/covid19_estonia.png" width="300"  title="Estonia">
-<img src="./05 figures/covid19_finland.png" width="200" title="Finland"><img src="./05 figures/covid19_france.png" width="300" title="France">
-<img src="./05 figures/covid19_germany.png" width="300" title="Germany"><img src="./05 figures/covid19_greece.png" width="300"  title="Greece">
-<img src="./05 figures/covid19_hungary.png" width="300" title="Hungary"><img src="./05 figures/covid19_ireland.png" width="300" title="Ireland">
-<img src="./05 figures/covid19_italy.png" width="300"   title="Italy"><img src="./05 figures/covid19_latvia.png" width="300" title="Latvia">
-<img src="./05 figures/covid19_netherlands.png" width="300" title="Netherlands"><img src="./05 figures/covid19_norway.png" width="300"  title="Norway">
-<img src="./05 figures/covid19_poland.png" width="300" title="Poland"><img src="./05 figures/covid19_slovakia.png" width="300" title="Slovakia">
-<img src="./05 figures/covid19_slovenia.png" width="300" title="Slovenia"><img src="./05 figures/covid19_spain.png" width="300" title="Spain">
-<img src="./05 figures/covid19_sweden.png" width="100" title="Sweden"><img src="./05 figures/covid19_switzerland.png" width="300" title="Switzerland">
-<img src="./05 figures/covid19_croatia.png" width="300" title="Croatia"><img src="./05 figures/covid19_denmark.png" width="300" title="Denmark">
+<img src="./05_figures/covid19_austria.png" width="300" title="Austria"><img src="./05_figures/covid19_belgium.png" width="300" title="Belgium">
+<img src="./05_figures/covid19_czechia.png" width="300" title="Czechia"><img src="./05_figures/covid19_estonia.png" width="300"  title="Estonia">
+<img src="./05_figures/covid19_finland.png" width="200" title="Finland"><img src="./05_figures/covid19_france.png" width="300" title="France">
+<img src="./05_figures/covid19_germany.png" width="300" title="Germany"><img src="./05_figures/covid19_greece.png" width="300"  title="Greece">
+<img src="./05_figures/covid19_hungary.png" width="300" title="Hungary"><img src="./05_figures/covid19_ireland.png" width="300" title="Ireland">
+<img src="./05_figures/covid19_italy.png" width="300"   title="Italy"><img src="./05_figures/covid19_latvia.png" width="300" title="Latvia">
+<img src="./05_figures/covid19_netherlands.png" width="300" title="Netherlands"><img src="./05_figures/covid19_norway.png" width="300"  title="Norway">
+<img src="./05_figures/covid19_poland.png" width="300" title="Poland"><img src="./05_figures/covid19_slovakia.png" width="300" title="Slovakia">
+<img src="./05_figures/covid19_slovenia.png" width="300" title="Slovenia"><img src="./05_figures/covid19_spain.png" width="300" title="Spain">
+<img src="./05_figures/covid19_sweden.png" width="100" title="Sweden"><img src="./05_figures/covid19_switzerland.png" width="300" title="Switzerland">
+<img src="./05_figures/covid19_croatia.png" width="300" title="Croatia"><img src="./05_figures/covid19_denmark.png" width="300" title="Denmark">
 
 
 
