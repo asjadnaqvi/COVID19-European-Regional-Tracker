@@ -69,7 +69,7 @@ The date range for countries:
 | --- |  --- |  --- |  --- | 
 | Austria | AT  | [AGES](https://covid19-dashboard.ages.at/)  | [Link](https://covid19-dashboard.ages.at/)  | 
 | Belgium | BE  | [Sciensano](https://epistat.wiv-isp.be/covid/covid-19.html)  | [Link](https://epistat.wiv-isp.be/covid/)  | 
-| Croatia | HR | [Ministry of Health]{https://zdravlje.gov.hr/} | [Link](https://www.koronavirus.hr/podaci/otvoreni-strojno-citljivi-podaci/526)   |
+| Croatia | HR | [Ministry of Health](https://zdravlje.gov.hr/) | [Link](https://www.koronavirus.hr/podaci/otvoreni-strojno-citljivi-podaci/526)   |
 | Czechia | CZ  | [MZCR](https://onemocneni-aktualne.mzcr.cz/covid-19)  | [Link](https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19)  | 
 | Denmark | DK | [SSI](https://en.ssi.dk/) | [Link](https://covid19.ssi.dk/overvagningsdata/ugentlige-opgorelser-med-overvaagningsdata)   | 
 | Estonia | EE | [Health Board](https://www.terviseamet.ee/et/koroonaviirus/avaandmed) | [Link](https://www.terviseamet.ee/et/koroonaviirus/avaandmed)   | 
