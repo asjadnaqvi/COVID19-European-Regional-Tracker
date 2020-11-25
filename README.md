@@ -3,7 +3,7 @@ This respository takes a stock of COVID-19 datasets for European countries at th
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4277353.svg)](https://doi.org/10.5281/zenodo.4277353)
 
-For queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
+For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at
 
 
 
