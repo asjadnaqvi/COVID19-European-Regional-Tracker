@@ -16,15 +16,17 @@ save county_code.dta, replace
 *** data file: https://datelazi.ro/
 
 
-**** here we use a file cleaned from a json reader
+**** here we use a file cleaned from a json reader: https://json-csv.com/
 
-insheet using romania_cleaned.csv, clear
+insheet using romania_cleaned_20201124.csv, clear
 save romania_raw.dta, replace
 
 
 
 
-drop county_
+cap drop county_
+
+
 
 gen year  = substr(date, 7, 2)
 gen month = substr(date, 4, 2)
@@ -32,7 +34,7 @@ gen day   = substr(date, 1, 2)
 
 destring year month day, replace
 replace year = year + 2000
-drop date
+ren date date2
 gen date = mdy(month,day, year)
 drop year month day
 format date %tdDD-Mon-yyyy
@@ -40,6 +42,9 @@ order date
 sort date
 
 
+duplicates tag date, gen(dups)
+tab dups
+drop dups
 
 reshape long county_, i(date) j(cnty) string
 

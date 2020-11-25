@@ -37,10 +37,7 @@ recode cases_daily 		(0=.)
 recode cases_daily_pop 	(0=.)  
 
 
-*** if all entries of a country on a given day are zero, then drop that date
-bysort nuts0_id date: egen total = sum(cases_daily)
-drop if total == 0
-drop total
+
 
 
 

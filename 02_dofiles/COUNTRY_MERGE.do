@@ -108,6 +108,17 @@ lab var cases_daily_pop "Daily cases per 10,000 population"
 
 drop if date < 21929
 
+
+
+
+*** if the sum of all entries of a country on a given day are zero, then drop that date (e.g. portugal)
+bysort nuts0_id date: egen total = sum(cases_daily)
+drop if total == 0
+drop total
+
+
+
+
 compress
 save "EUROPE_COVID19_master.dta", replace
 export delimited using "$coviddir/04_master/csv/EUROPE_COVID19_master.csv", replace delim(;)
@@ -155,7 +166,7 @@ twoway ///
 
 
 twoway ///
-	(scatter cases_daily_pop date, mcolor(black%80) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)), ///
+	(scatter cases_daily_pop date, mcolor(black%60) msize(*0.5) msymbol(smcircle) mlwidth(vvthin)), ///
 		xtitle("") ///
 		title("{fontface Arial Bold: Regional distribution of daily cases}")
 	graph export "../05_figures/range_newcasepop.png", replace wid(3000)

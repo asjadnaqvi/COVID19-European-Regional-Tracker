@@ -20,8 +20,13 @@ save PT_regions.dta, replace
 *save PT_Data1.dta, replace
 
 
+*** raw dashboard is provided by ESRI portugal:
+*https://coronavirus-portugal-esriportugal.hub.arcgis.com/datasets/covid19-concelhosdiarios/data?geometry=-58.161%2C31.123%2C20.589%2C43.321&showData=true
+
 *for latest data:
-**https://github.com/dssg-pt/covid19pt-data/blob/master/data_concelhos.csv
+**
+
+insheet using "https://github.com/dssg-pt/covid19pt-data/blob/master/data_concelhos.csv", clear
 
 import excel using "https://github.com/bruno-leal/covid19-portugal-data/blob/master/time_series_covid19_portugal_confirmados_concelhos.xlsx?raw=true", clear first
 save portugal_raw.dta, replace

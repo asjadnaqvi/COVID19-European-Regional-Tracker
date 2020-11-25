@@ -10,8 +10,13 @@ global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 * net install palettes, replace from("https://raw.githubusercontent.com/benjann/palettes/master/")
 * net install colrspace, replace from("https://raw.githubusercontent.com/benjann/colrspace/master/")
 
+// for GIS stuff
+*ssc install spmap
+*ssc install geo2xy
+
+
 // set the color scheme for the figures
-set scheme cleanplots, perm
+*set scheme cleanplots, perm
 
 
 cd "$coviddir"
