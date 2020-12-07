@@ -77,7 +77,7 @@ summ date
 colorpalette viridis, n(13) reverse nograph
 local colors `r(p)'
 
-spmap cases_daily using "nuts3_mix_shp.dta" if last==1 & (nuts0_id!="PT" | nuts0_id!="EL"), ///
+spmap cases_daily using "nuts3_mix_shp.dta" if last==1 & (nuts0_id!="PT" & nuts0_id!="EL"), ///
 id(_ID) cln(11)  fcolor("`colors'")  /// 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases on the last reported date") ///
@@ -86,7 +86,7 @@ id(_ID) cln(11)  fcolor("`colors'")  ///
 		title("{fontface Arial Bold: COVID-19 daily regional cases in Europe (`ldate')}", size(*0.7)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data source: Misc. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 		
-		graph export "../05_figures/COVID19_EUROPE_cases.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_cases.png", replace wid(3000)
 
 
 		
@@ -98,7 +98,7 @@ id(_ID) cln(11)  fcolor("`colors'")  ///
 colorpalette viridis, n(13) reverse nograph
 local colors `r(p)'
 
-spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1 & (nuts0_id!="PT" | nuts0_id!="EL"), ///
+spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1 & (nuts0_id!="PT" & nuts0_id!="EL"), ///
 id(_ID) cln(11)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
@@ -107,7 +107,7 @@ id(_ID) cln(11)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(*0.7)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
-		graph export "../05_figures/COVID19_EUROPE_casespop.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_casespop.png", replace wid(3000)
 		
 		
 	
@@ -129,7 +129,7 @@ display "`x'"
 			local ldate1 = `r(max)'
 			local ldate2 : di %tdd_m_yy `ldate1'
 
-		colorpalette viridis, n(8) reverse nograph
+		colorpalette viridis, n(7) reverse nograph
 		local colors `r(p)'
 
 			spmap cases_daily using "nuts3_shp_`x'.dta" if date==`ldate1', ///
@@ -165,7 +165,7 @@ display "`x'"
 			local ldate1 = `r(max)'
 			local ldate2 : di %tdd_m_yy `ldate1'
 
-		colorpalette viridis, n(8) reverse nograph
+		colorpalette viridis, n(7) reverse nograph
 		local colors `r(p)'
 
 			spmap cases_daily_pop using "nuts3_shp_`x'.dta" if date==`ldate1', ///
@@ -185,33 +185,5 @@ display "`x'"
 	}
 
 
-/***** test stuff below
-
-
-
-		keep if nuts0_id=="EL"
-		sort _ID
-
-		summ date
-			local ldate1 = `r(max)'
-			local ldate2 : di %tdd_m_yy `ldate1'
-
-		colorpalette viridis, n(7) reverse nograph
-		local colors `r(p)'
-		
-		
-		summ date
-		
-			spmap cases_daily_pop using "nuts3_shp_EL.dta" if date==`r(max)', ///
-			id(_ID) cln(6)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
-				ocolor(gs6 ..) osize(vthin ..) ///
-				ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
-					legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///
-					polygon(data("nuts1_shp_EL") ocolor(black) osize(vthin) legenda(on) legl("Regions")) 		///
-					label(data("nuts_label_EL") x(_CX) y(_CY) label(nuts_name) size(*0.5 ..) length(30)) 
-					
-					
-					///
-					title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop - `x' (`ldate2')}", size(*0.7)) ///
-					note("Map layer: Eurostat GISCO 2016 NUTS layers.", size(tiny))
+	********* END OF FILE ******
 	
