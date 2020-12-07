@@ -7,7 +7,7 @@ cd "$coviddir/03_GIS"
 
 
 use nuts3_mix, clear
-
+*drop if CNTR_CODE=="PT"
 		
 *** merge with the datafile
 	merge 1:m nuts_id using "$coviddir/04_master/EUROPE_COVID19_master.dta"
@@ -43,11 +43,11 @@ recode cases_daily_pop 	(0=.)
 
 *** generate a variable for the last observation for each country
 gen last = .
-levelsof nuts0_id, local(lvls)
+levelsof nuts_id, local(lvls)
 foreach x of local lvls {
 display "`x'"
-	qui summ date if nuts0_id=="`x'"
-	qui replace last  = 1 if date==`r(max)' &   nuts0_id=="`x'"
+	qui summ date if nuts_id=="`x'"
+	qui replace last  = 1 if date==`r(max)' &   nuts_id=="`x'"
 }
 
 
@@ -74,11 +74,11 @@ summ date
 
 ***** graph of last reported daily cases
 
-colorpalette viridis, n(10) reverse nograph
+colorpalette viridis, n(13) reverse nograph
 local colors `r(p)'
 
-spmap cases_daily using "nuts3_mix_shp.dta" if last==1, ///
-id(_ID) cln(10)  fcolor("`colors'")  /// 
+spmap cases_daily using "nuts3_mix_shp.dta" if last==1 & (nuts0_id!="PT" | nuts0_id!="EL"), ///
+id(_ID) cln(11)  fcolor("`colors'")  /// 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases on the last reported date") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
@@ -95,13 +95,13 @@ id(_ID) cln(10)  fcolor("`colors'")  ///
 ***** graph of last reported daily cases per 10k population
 
 
-colorpalette viridis, n(10) reverse nograph
+colorpalette viridis, n(13) reverse nograph
 local colors `r(p)'
 
-spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1, ///
-id(_ID) cln(10)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
+spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1 & (nuts0_id!="PT" | nuts0_id!="EL"), ///
+id(_ID) cln(11)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 	ocolor(gs6 ..) osize(vvthin ..) ///
-	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases on the last reported date") ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
 		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(*0.7)) ///
@@ -112,6 +112,41 @@ id(_ID) cln(10)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 		
 	
 ***** country specific graphs below
+
+
+levelsof nuts0_id, local(cntry)
+
+foreach x of local cntry {
+
+display "`x'"
+
+	preserve
+	
+		keep if nuts0_id=="`x'"
+		sort _ID
+
+		summ date
+			local ldate1 = `r(max)'
+			local ldate2 : di %tdd_m_yy `ldate1'
+
+		colorpalette viridis, n(8) reverse nograph
+		local colors `r(p)'
+
+			spmap cases_daily using "nuts3_shp_`x'.dta" if date==`ldate1', ///
+			id(_ID) cln(6)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
+				ocolor(gs6 ..) osize(vthin ..) ///
+				ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
+					legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
+					polygon(data("nuts1_shp_`x'") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
+					label(data("nuts_label_`x'") x(_CX) y(_CY) label(nuts_name) size(*0.5 ..) length(30)) ///
+					title("{fontface Arial Bold: COVID-19 new cases - `x' (`ldate2')}", size(*0.7)) ///
+					note("Map layer: Eurostat GISCO 2016 NUTS layers.", size(tiny))
+
+			graph export "../05_figures/covid19_`x'.png", replace wid(2000)
+
+	restore	
+	
+	}
 
 
 
@@ -130,7 +165,7 @@ display "`x'"
 			local ldate1 = `r(max)'
 			local ldate2 : di %tdd_m_yy `ldate1'
 
-		colorpalette viridis, n(7) reverse nograph
+		colorpalette viridis, n(8) reverse nograph
 		local colors `r(p)'
 
 			spmap cases_daily_pop using "nuts3_shp_`x'.dta" if date==`ldate1', ///
@@ -143,7 +178,7 @@ display "`x'"
 					title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop - `x' (`ldate2')}", size(*0.7)) ///
 					note("Map layer: Eurostat GISCO 2016 NUTS layers.", size(tiny))
 
-			graph export "../05_figures/covid19_`x'.png", replace wid(2000)
+			graph export "../05_figures/covid19_`x'_pop.png", replace wid(2000)
 
 	restore	
 	

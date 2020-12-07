@@ -26,7 +26,8 @@ save PT_regions.dta, replace
 *for latest data:
 **
 
-insheet using "https://github.com/dssg-pt/covid19pt-data/blob/master/data_concelhos.csv", clear
+*insheet using "https://github.com/dssg-pt/covid19pt-data/blob/master/data_concelhos.csv", clear
+insheet using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos_new.csv", clear
 
 import excel using "https://github.com/bruno-leal/covid19-portugal-data/blob/master/time_series_covid19_portugal_confirmados_concelhos.xlsx?raw=true", clear first
 save portugal_raw.dta, replace

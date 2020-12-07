@@ -68,6 +68,9 @@ bysort nuts2_id: gen cases_daily = cases - cases[_n-1]
 sort nuts2_id date
 bysort nuts2_id: gen deaths_daily = deaths - deaths[_n-1]
 
+sum date
+drop if date>=r(max) - 3  // lags in data. not all regional are updated
+
 compress
 save "$coviddir/04_master/poland_data.dta", replace				
 export delimited using "$coviddir/04_master/csv/poland_data.csv", replace delim(;)

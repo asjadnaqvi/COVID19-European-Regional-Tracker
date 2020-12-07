@@ -72,6 +72,9 @@ sort nuts3_id date
 bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
 
 
+sum date
+*drop if date>=r(max)-2
+
 compress
 save "$coviddir/04_master/england_data.dta", replace	
 export delimited using "$coviddir/04_master/csv/england_data.csv", replace delim(;)
