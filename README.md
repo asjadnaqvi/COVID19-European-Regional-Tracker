@@ -2,6 +2,7 @@
 This respository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. This repository is updated once every 10-14 days.
 
 The data is also periodically released on Zenodo:
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
 
