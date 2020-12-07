@@ -1,7 +1,8 @@
 # :bell: Overview
 This respository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. This repository is updated once a week.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4277353.svg)](https://doi.org/10.5281/zenodo.4277353)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
+
 
 For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at
 
