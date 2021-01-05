@@ -82,7 +82,7 @@ replace nuts3_id="CH051" if nuts3_name=="Glarus"
 replace nuts3_id="CH056" if nuts3_name=="Grisons"
 replace nuts3_id="CH025" if nuts3_name=="Jura"
 replace nuts3_id="CH061" if nuts3_name=="Lucerne"
-replace nuts3_id="CH024" if nuts3_name=="Neuchâtel"
+replace nuts3_id="CH024" if nuts3_name=="NeuchÃ¢tel"  // neuaechtel
 replace nuts3_id="CH065" if nuts3_name=="Nidwalden"
 replace nuts3_id="CH064" if nuts3_name=="Obwalden"
 replace nuts3_id="CH052" if nuts3_name=="Schaffhausen"
@@ -95,7 +95,7 @@ replace nuts3_id="CH062" if nuts3_name=="Uri"
 replace nuts3_id="CH012" if nuts3_name=="Valais"
 replace nuts3_id="CH011" if nuts3_name=="Vaud"
 replace nuts3_id="CH066" if nuts3_name=="Zug"
-replace nuts3_id="CH040" if nuts3_name=="Zürich"
+replace nuts3_id="CH040" if nuts3_name=="ZÃ¼rich"  // zurich
 
 
 
@@ -110,7 +110,7 @@ bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
 
 // since there are delays in data updates, drop the last four observations
 summ date
-drop if date >= `r(max)' - 4   
+drop if date >= `r(max)' - 3
 
 compress
 save "$coviddir/04_master/switzerland_data.dta", replace		

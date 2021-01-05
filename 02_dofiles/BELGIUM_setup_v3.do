@@ -82,6 +82,9 @@ drop if _m!=3
 drop _m
 
 
+gen cases = .
+
+
 
 
 collapse (sum) cases_daily population, by(date nuts3)
@@ -99,4 +102,5 @@ export delimited using "$coviddir/04_master/csv/belgium_data.csv", replace delim
 
 
 cd "$coviddir"
+
 

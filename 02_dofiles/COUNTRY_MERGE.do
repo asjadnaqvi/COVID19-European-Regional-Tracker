@@ -109,6 +109,20 @@ lab var cases_daily_pop "Daily cases per 10,000 population"
 drop if date < 21929
 
 
+**** generate back cumulative cases
+gen temp = 1 if cases==.
+gen cases2 = .
+
+levelsof date, local(dts)
+foreach x of local dts {
+	bysort nuts_id: egen temp2= sum(cases_daily) if date <= `x' & temp==1
+	cap replace cases2 = temp2	if date == `x' & temp==1
+	drop temp2
+}
+
+replace cases = cases2 if cases==. & cases2!=.
+drop cases2 temp
+
 
 
 *** if the sum of all entries of a country on a given day are zero, then drop that date (e.g. portugal)
@@ -122,6 +136,8 @@ drop total
 compress
 save "EUROPE_COVID19_master.dta", replace
 export delimited using "$coviddir/04_master/csv/EUROPE_COVID19_master.csv", replace delim(;)
+
+
 
 
 

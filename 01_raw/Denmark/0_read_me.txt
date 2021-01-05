@@ -106,18 +106,10 @@ uncertainty_upper: Den estimerede øvre grænse, når der tages højde for usikk
 
 ------------------------------------------------------
 
-Fil 10: Rt_indlagte_YYYY_MM_DD: 
-Denne fil indeholder den estimerede tidsserie af kontakttalsværdier beregnet på baggrund af antallet af indlagte personer smittet med COVID-19.
-
-date_sample: Datoen, hvor kontakttallet estimeres.
-Estimate: Den estimerede værdi af kontakttallet på den angivne dag.
-uncertainty_lower: Den estimerede nedre grænse, når der tages højde for usikkerhed på den angivne dag.
-uncertainty_upper: Den estimerede øvre grænse, når der tages højde for usikkerhed på den angivne dag.
-
-------------------------------------------------------
-
-Fil 11: Test_pos_over_time: 
+Fil 10: Test_pos_over_time: 
 Denne tabel fokuserer på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag.
+
+Dette er modsat dashboardet (www.ssi.dk/covid19data), hvor positiveprocenten beregnes over en uge, med antal personer som er testet positive seneste ni dage over antallet af personer testet seneste ni dage, hvor ni dage er anvendt på grund af manglende observationer de seneste tre dage.
 
 Date: Datoer i formatet YYYY-MM-DD som der stratificeres efter.
 NewPositive: Antallet af personer, som for første gang er testet positive for COVID-19, på en given dag.
@@ -131,7 +123,7 @@ Noter: I den sidste række er den totale opgørelse opgjort således, at en pers
 
 ------------------------------------------------------
 
-Fil 12: Test_regioner:
+Fil 11: Test_regioner:
 
 Ugenr: Tidsperioderne der stratificeres efter. Dette er dage for indeværende uge og ugenumre for forrige uger.
 Region Hovedstaden: Antal tests gennemført i Region Hovedstaden den givne dag eller uge.
