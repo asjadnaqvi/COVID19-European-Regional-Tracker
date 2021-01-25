@@ -62,7 +62,7 @@ save "slovenia_id.dta", replace
 * https://covid-19.sledilnik.org/sl/datasources
 
 
-insheet using "https://raw.githubusercontent.com/sledilnik/data/master/csv/regions.csv", clear non
+insheet using "https://raw.githubusercontent.com/sledilnik/data/master/csv/municipality-confirmed.csv", clear non
 save slovenia_raw.dta, replace
 export delimited using slovenia_raw.csv, replace delim(;)
 
@@ -81,6 +81,8 @@ foreach x of varlist v* {
 	cap ren `x' y_`header'
 	}
 
+*cap drop *_active
+*cap drop *_deceased*
 
 
 		 

@@ -2,7 +2,7 @@ clear
 *global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
-*cd "$coviddir/01_raw/Hungary"
+cd "$coviddir/01_raw/Hungary"
 
 
 
@@ -79,6 +79,7 @@ format date %tdDD-Mon-yyyy
 sort region date 
 
 
+
 compress
 
 gen nuts3_id = ""
@@ -107,8 +108,12 @@ replace nuts3_id="HU333" if region==7
 order nuts3_id
 drop date2
 
+replace date = 22305   if date==58829
+
 sort nuts3_id date
 bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+
+
 
 
 compress

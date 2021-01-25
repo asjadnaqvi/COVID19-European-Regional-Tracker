@@ -64,7 +64,7 @@ save "france_data_old.dta", replace
 *** raw data from here
 *https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/
 
-insheet using "sp-pos-quot-dep-2020-12-28-19h20.csv", clear delim(;)
+insheet using "sp-pos-quot-dep-2021-01-24-19h20.csv", clear delim(;)
 save france_raw.dta, replace
 export delimited using france_raw.csv, replace delim(;)
 

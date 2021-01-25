@@ -93,5 +93,7 @@ bysort nuts2_id: gen cases_daily = cases - cases[_n-1]
 
 sort date nuts2_id 
 compress
-save ./GIS/greece_data.dta, replace
+save "$coviddir/04_master/greece_data.dta", replace
+export delimited using "$coviddir/04_master/csv/greece_data.csv", replace delim(;)
 
+cd "$coviddir"

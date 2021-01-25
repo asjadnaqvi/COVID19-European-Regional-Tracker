@@ -22,7 +22,7 @@ save iso.dta, replace
 ***** fixing raw cases
 
 
-insheet using "https://cnecovid.isciii.es/covid19/resources/datos_provincias.csv", clear
+insheet using "https://cnecovid.isciii.es/covid19/resources/casos_diagnostico_provincia.csv", clear
 save spain_raw.dta, replace
 export delimited using spain_raw.csv, replace delim(;)
 
@@ -34,7 +34,7 @@ ren provincia_iso 				iso3_code
 ren num_casos 					cases_daily
 ren num_casos_prueba_pcr 		test_pcr
 ren num_casos_prueba_test_ac 	test_ac
-ren num_casos_prueba_otras 		test_other
+*ren num_casos_prueba_otras 		test_other
 ren num_casos_prueba_desconocida 	test_unknown
 
 order date iso3_code

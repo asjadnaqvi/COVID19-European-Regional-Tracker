@@ -68,9 +68,9 @@ format cases_daily_pop 	%9.2f
 
 summ date
 	local ldate = `r(max)'
-	local ldate : di %tdd_m_yy `ldate'
+	local ldate : di %tdd_m_y `ldate'
 
-
+display "`ldate'"
 
 ***** graph of last reported daily cases
 
@@ -135,7 +135,7 @@ id(_ID) cln(15)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbr
 	
 		
 		
-/***** country specific graphs below
+***** country specific graphs below
 
 
 levelsof nuts0_id, local(cntry)
@@ -151,7 +151,7 @@ display "`x'"
 
 		summ date
 			local ldate1 = `r(max)'
-			local ldate2 : di %tdd_m_yy `ldate1'
+			local ldate2 : di %tdd_m_y `ldate1'
 
 		colorpalette viridis, n(7) reverse nograph
 		local colors `r(p)'
