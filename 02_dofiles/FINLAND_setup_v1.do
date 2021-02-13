@@ -48,6 +48,12 @@ order date
 
 destring _all, replace
 
+
+save "$coviddir/04_master/finland_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/finland_data_original.csv", replace delim(;)
+
+
+
 /*
 
                    region |      Freq.     Percent        Cum.
@@ -117,7 +123,7 @@ order  nuts3_id date
 sort  nuts3_id date 
 compress
 save "$coviddir/04_master/finland_data.dta", replace
-export delimited using "$coviddir/04_master/csv/finland_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/finland_data.csv", replace delim(;)
 
 
 cd "$coviddir"

@@ -23,8 +23,8 @@ save iso.dta, replace
 
 
 insheet using "https://cnecovid.isciii.es/covid19/resources/casos_diagnostico_provincia.csv", clear
-save spain_raw.dta, replace
-export delimited using spain_raw.csv, replace delim(;)
+save "$coviddir/04_master/spain_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/spain_data_original.csv", replace delim(;)
 
 
 
@@ -87,6 +87,6 @@ sort nuts3_id date
 
 compress
 save "$coviddir/04_master/spain_data.dta", replace
-export delimited using "$coviddir/04_master/csv/spain_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/spain_data.csv", replace delim(;)
 
 cd "$coviddir"

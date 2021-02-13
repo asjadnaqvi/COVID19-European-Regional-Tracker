@@ -56,7 +56,7 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
 | Sweden | SE | Grupper av riksområden (3) | Riksområden (8) | **Län (21)** | Kommuner (290) |
 | Switzerland* | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
-| *United Kingdom* * | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | *Lower tier authorities (400)* | 
+| *United Kingdom* * | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | *Lower Authority Districts (317)* | 
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed.
 
@@ -87,7 +87,7 @@ The date range for countries:
 | Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [Link](https://nlcovid-19-esrinl-content.hub.arcgis.com/)  | 
 | Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Link](https://github.com/thohan88/covid19-nor-data) |  
 | Poland | PL | [Government of Poland](https://www.gov.pl/web/koronawirus/) | [Link](https://github.com/covid19-eu-zh/covid19-eu-data)  |
-| Portugal | PT | [DSG](https://www.dgs.pt/) | [Link](https://github.com/dssg-pt/covid19pt-data)  | 
+| Portugal | PT | [DSG](https://www.dgs.pt/) | [Link](https://github.com/bruno-leal/covid19-portugal-data)  | 
 | Romania  | RO  | [The National Institute of Public Health (CNSCBT)](https://www.cnscbt.ro/)  | [Link](https://datelazi.ro/)    |
 | Slovak Republic | SK | [NHIC](http://www.nczisk.sk/en/Pages/default.aspx) |  [Link](https://github.com/radoondas/covid-19-slovakia/)   | 
 | Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Link](https://github.com/sledilnik/data)  |  
@@ -100,7 +100,7 @@ The date range for countries:
 | Scotland |   | [The Scottish Government](https://www.gov.scot/coronavirus-covid-19/)  | [Link](https://public.tableau.com/profile/phs.covid.19#!/vizhome/COVID-19DailyDashboard_15960160643010/Overview)   |   
 | Wales |   |  [The Welsh Government](https://www.gov.scot/coronavirus-covid-19/)  |    |   
 
-Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where *x* are the number of days. For example, *t-2*, means that today, data from two days ago is released. Some countries released data after some time gap for various reasons.
+Note: The links are subject to change. If you find an error or a better data source, then please email.
 
 </details>
 
@@ -109,7 +109,7 @@ Notes: In the dates column *t* stands for today, and *t-x* (where *x > 0*) where
 
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./05_figures/COVID19_EUROPE_cases.png" width="400" title="COVID-19 at the NUTS3 level in Europe"><img src="./05_figures/COVID19_EUROPE_casespop.png" width="400" title="COVID-19 per 10,000 population at the NUTS3 level in Europe">
+<img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="Cumulative COVID-19 per 10,000 population">
 
 <!--- use this to mark out codes  -->
 
@@ -139,8 +139,9 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 # Change Logs
-* 25 Jan 2021: All files updated. Minor fixes to code. Some file paths changed. Country level graphs now show the last data point for a region. This is just for presentation. Please see the data files for actual information.
-* 5 Jan, 2021: All files updated. Data for Poland, Greece, Switzerland fixed. Portugal is releasing data at weekly intervals only and therefore daily cases per capita need to be imputed correctly. The scripts have been updated to Stata 16. There should not be compatibility issues with earlier versions but please report if the files don't compile. New maps added for cumulative cases and cumulative cases per capita for 2020.
+* 13 Feb 2021: All files checked and updated. Major fixes to the code. Raw data is now in the 04_master folder in .csv and .dta format. Daily cases fixed for several countries. Previously they were calculated as the difference between the observations and not the dates. Thus if a country had skipped several days, the daily cases would show a huge jump. These observations are now set to missing. As aa result there are more gaps now. If a country has 0 cases for a given date, that date is now dropped from the homogenized dataset. For example, Portugal which changed the reported to weekly and bi-weekly frequeny now has large gaps. The original data still contains all the dates and the values. Estonia's data fixed and it now reflects the correct values. A validation file added which aggregates country level data for each date and compares it with Our World in Data (OWID) values. This update is released as v1.3 on Zenodo.
+* 25 Jan 2021: All files checked and updated. Minor fixes to code. Some file paths changed. Country level graphs now show the last data point for a region. This is just for presentation. Please see the data files for actual information.
+* 5 Jan, 2021: All files checked and updated. Data for Poland, Greece, Switzerland fixed. Portugal is releasing data at weekly intervals only and therefore daily cases per capita need to be imputed correctly. The scripts have been updated to Stata 16. There should not be compatibility issues with earlier versions but please report if the files don't compile. New maps added for cumulative cases and cumulative cases per capita for 2020.
 * 7 Dec, 2020: All files updated. Romania JSON has been scripted in Stata. Portugal status remains the same. Last regional updated was 26 Oct 2020. Portugal and Greece have been removed from the Europe map but individual files remain in the database.
 * 25 Nov, 2020: All files updated. Portugal has not updated the official dataset since 26 Oct, 2020. Greece data is also patchy. Maps are now organized in alphabetical order of the 2-letter country code rather than when they were added to this repository.
 * 17 Nov, 2020: All files added to the directory for public release. Zenodo badge created. Tables have been updated. All dofiles were checked and reworked for updates, new datasets, paths. Dofiles for country level maps will be added soon. 

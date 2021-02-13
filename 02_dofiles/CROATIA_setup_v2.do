@@ -84,6 +84,12 @@ destring _all, replace
 
 
 
+save "$coviddir/04_master/croatia_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/croatia_data_original.csv", replace delim(;)
+
+
+
+
 **** clean it up
 
 gen year  = substr(date, 2, 4)
@@ -136,14 +142,25 @@ replace nuts3_id="HR034" if nuts3_name=="Šibensko-kninska"
 sort  nuts3_id date
 order nuts3_id nuts3_name date
 
-sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
-bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1]
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
 
+sort nuts3_id date
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+
+
+****
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1] if check==1
+
+drop check
 
 compress
 save "$coviddir/04_master/croatia_data.dta", replace
-export delimited using "$coviddir/04_master/csv/croatia_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/croatia_data.csv", replace delim(;)
 
 
 cd "$coviddir"

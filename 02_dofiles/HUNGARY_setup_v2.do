@@ -9,8 +9,8 @@ cd "$coviddir/01_raw/Hungary"
 ********** at the NUTS3 level
 
 insheet using "https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv", nonames clear
-save hungary_raw, replace
-export delimited using hungary_raw.csv, replace delim(;)
+save "$coviddir/04_master/hungary_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/hungary_data_original.csv", replace delim(;)
 
 
 foreach x of varlist v* {
@@ -110,15 +110,24 @@ drop date2
 
 replace date = 22305   if date==58829
 
+
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
 sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
 
 
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+
+drop check
 
 
 compress
 save "$coviddir/04_master/hungary_data.dta", replace
-export delimited using "$coviddir/04_master/csv/hungary_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/hungary_data.csv", replace delim(;)
 
 
 

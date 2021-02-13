@@ -13,6 +13,8 @@ cd "$coviddir/01_raw/Poland"
 
 insheet using "20210101054526_rap_gov_pow_eksport.csv", clear delim(;)
 
+import delim using "20210101054526_rap_gov_pow_eksport.csv", clear varn(1)
+
 ren wojewodztwo 					nuts2_name
 ren powiat_miasto  					nuts3_name
 ren liczba_przypadkow 					cases
@@ -29,18 +31,30 @@ drop in 1
 ***https://github.com/covid19-eu-zh/covid19-eu-data
 
 insheet using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-pl.csv", clear
-save poland_raw.dta, replace
-export delimited using poland_raw.csv, replace delim(;)
+save "$coviddir/04_master/poland_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/poland_data_original.csv", replace delim(;)
 
 
 ren datetime date
 
 
 gen year  = substr(date, 1, 4)
-gen month = substr(date, 6, 2)
+gen month = substr(date, 6, 2)   // here is an error in the dates from Feb 3 2021 onward. day and month are switched
 gen day   = substr(date, 9, 2)
 
 destring year month day, replace
+
+
+
+gen month1 = day   if year==2021 & day==2 & month > 2
+gen   day1 = month if year==2021 & day==2 & month > 2
+
+replace month = month1 if month1 !=.
+replace day   = day1 if month1 !=.
+
+drop month1 day1
+
+
 drop date
 gen date = mdy(month,day, year)
 drop year month day
@@ -110,13 +124,25 @@ replace cases =   614 if nuts2_id=="PL61" & date==22079
 replace cases =  4286 if nuts2_id=="PL92" & date==22079
 
 
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
 sort nuts2_id date
-bysort nuts2_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts2_id: gen check = date - date[_n-1]
+
+tab check
+
+
+
 sort nuts2_id date
-bysort nuts2_id: gen deaths_daily = deaths - deaths[_n-1]
+bysort nuts2_id: gen cases_daily = cases - cases[_n-1] if check==1
+sort nuts2_id date
+bysort nuts2_id: gen deaths_daily = deaths - deaths[_n-1]  if check==1
 
 replace cases_daily = cases_daily2 if cases_daily==. & cases_daily2!=.
 replace deaths_daily = deaths_daily2 if deaths_daily==. & deaths_daily2!=.
+
+drop cases_daily2
+drop deaths_daily2
 
 
 gen date2 = date
@@ -126,7 +152,7 @@ drop if date>=r(max) - 3  // lags in data. not all regional are updated
 
 compress
 save "$coviddir/04_master/poland_data.dta", replace				
-export delimited using "$coviddir/04_master/csv/poland_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/poland_data.csv", replace delim(;)
 
 
 cd "$coviddir"

@@ -45,16 +45,19 @@ recode cases_daily_pop 	(0=.)
 gen last = .
 levelsof nuts_id, local(lvls)
 foreach x of local lvls {
-display "`x'"
+
+	display "`x'"
+	
 	qui summ date if nuts_id=="`x'" & cases_daily!=.
 	qui replace last  = 1 if date==`r(max)' &   nuts_id=="`x'"
-}
+	
+	}
 
 
 
 **** graphs below
 
-local date: display %tdd_m_yy date(c(current_date), "DMY")
+local date: display %tdd_m_y date(c(current_date), "DMY")
 display "`date'"
 
 local date2 = subinstr(trim("`date'"), " ", "_", .)
@@ -156,7 +159,7 @@ display "`x'"
 		colorpalette viridis, n(7) reverse nograph
 		local colors `r(p)'
 
-			spmap cases_daily using "nuts3_shp_`x'.dta" if date==`ldate1', ///
+			spmap cases_daily using "nuts3_shp_`x'.dta" if last==1, ///
 			id(_ID) cln(6)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 				ocolor(gs6 ..) osize(vthin ..) ///
 				ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
@@ -187,12 +190,12 @@ display "`x'"
 
 		summ date
 			local ldate1 = `r(max)'
-			local ldate2 : di %tdd_m_yy `ldate1'
+			local ldate2 : di %tdd_m_y `ldate1'
 
 		colorpalette viridis, n(7) reverse nograph
 		local colors `r(p)'
 
-			spmap cases_daily_pop using "nuts3_shp_`x'.dta" if date==`ldate1', ///
+			spmap cases_daily_pop using "nuts3_shp_`x'.dta" if last==1, ///
 			id(_ID) cln(6)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 				ocolor(gs6 ..) osize(vthin ..) ///
 				ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
@@ -206,8 +209,15 @@ display "`x'"
 
 	restore	
 	
-	}
+}
 
 
-	********* END OF FILE ******
+****** END OF FILE ******
 	
+	
+	
+	
+
+	
+	
+		

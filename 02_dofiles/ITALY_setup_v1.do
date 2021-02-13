@@ -17,8 +17,8 @@ save italy_nuts.dta, replace
 
 ********** at the NUTS3 level
 insheet using "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-province/dpc-covid19-ita-province.csv", nonames clear
-save italy_raw, replace
-export delimited using italy_raw.csv, replace delim(;)
+save "$coviddir/04_master/italy_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/italy_data_original.csv", replace delim(;)
 
 
 ren v1 date
@@ -89,13 +89,21 @@ replace nuts3_id = "" if nuts3_id==""
 
 collapse (sum) cases, by(nuts3_id date)
 
-sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
 
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
+sort nuts3_id date
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+drop check
 
 compress
 save "$coviddir/04_master/italy_data.dta", replace
-export delimited using "$coviddir/04_master/csv/italy_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/italy_data.csv", replace delim(;)
 
 
 cd "$coviddir"

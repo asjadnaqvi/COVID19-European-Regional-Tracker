@@ -19,8 +19,8 @@ save lau_norway.dta, replace
 
 ********** at the NUTS3 level
 insheet using "https://raw.githubusercontent.com/thohan88/covid19-nor-data/master/data/01_infected/msis/municipality.csv", clear 
-save norway_raw.dta, replace
-export delimited using norway_raw.csv, replace delim(;)
+save "$coviddir/04_master/norway_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/norway_data_original.csv", replace delim(;)
 
 
 
@@ -65,20 +65,34 @@ sort kommune_no
 list kommune_no kommune_name if tag==1 & _m==1
 list kommune_no kommune_name if tag==1 & _m==2  // these are islands that are merged together
 
-drop if _m!=3
+replace nuts3_id ="NO042" if kommune_name=="Svalbard"
+
+drop if nuts3_id==""
+
+*drop if _m!=3
 drop _m
 drop tag
 
 collapse (sum) cases, by(nuts3_id date)
 
+
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
 sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+
+drop check
 
 
 order date nuts3_id
 compress
 save "$coviddir/04_master/norway_data.dta", replace
-export delimited using "$coviddir/04_master/csv/norway_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/norway_data.csv", replace delim(;)
 
 
 cd "$coviddir"

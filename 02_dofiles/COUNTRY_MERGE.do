@@ -23,7 +23,7 @@ use "./01_raw/Eurostat/demo_r_pjangrp3", clear
 	ren y population
 	compress
 save "./04_master/NUTS_POPULATION.dta", replace
-export delimited using "./04_master/csv/NUTS_POPULATION.csv", replace delim(;)
+*export delimited using "./04_master/csv_/NUTS_POPULATION.csv", replace delim(;)
 
 
 
@@ -56,7 +56,7 @@ append using norway_data, 		keep(date cases cases_daily nuts3_id)
 append using portugal_data, 	keep(date cases cases_daily nuts3_id)
 append using romania_data, 		keep(date cases cases_daily nuts3_id)
 append using scotland_data, 	keep(date cases cases_daily nuts3_id)
-append using slovakia_data, 	keep(date cases cases_daily nuts3_id)
+append using slovakrep_data, 	keep(date cases cases_daily nuts3_id)
 append using slovenia_data, 	keep(date cases cases_daily nuts3_id)
 append using spain_data, 		keep(date cases cases_daily nuts3_id)
 append using sweden_data, 		keep(date cases cases_daily nuts3_id)
@@ -74,7 +74,11 @@ replace nuts_id = nuts2_id if nuts3_id==""
 drop if nuts_id==""
 
 gen nuts0_id = substr(nuts_id, 1,2)
-order nuts0_id nuts2_id nuts3_id nuts_id
+
+
+
+
+order  nuts0_id nuts2_id nuts3_id nuts_id
 
 
 
@@ -86,7 +90,12 @@ drop _m
 
 
 drop if date==.
-drop if date<21915
+drop if date<21915  // 1st Jan 2020
+
+
+
+
+*****
 
 replace cases_daily = 0 if cases_daily < 0  		// afew outliers that we make zero
 gen cases_daily_pop = (cases_daily / pop) * 10000  	// new cases / 10k population
@@ -125,17 +134,46 @@ drop cases2 temp
 
 
 
+
+
+
 *** if the sum of all entries of a country on a given day are zero, then drop that date (e.g. portugal)
 bysort nuts0_id date: egen total = sum(cases_daily)
 drop if total == 0
 drop total
 
 
+gen country = ""
+	replace country = "Austria" 			if nuts0_id=="AT"
+	replace country = "Belgium" 			if nuts0_id=="BE"
+	replace country = "Croatia" 			if nuts0_id=="HR"
+	replace country = "Czechia" 			if nuts0_id=="CZ"
+	replace country = "Denmark" 			if nuts0_id=="DK"
+	replace country = "Estonia" 			if nuts0_id=="EE"
+	replace country = "Finland" 			if nuts0_id=="FI"
+	replace country = "France" 				if nuts0_id=="FR"
+	replace country = "Germany" 			if nuts0_id=="DE"
+	replace country = "Greece" 				if nuts0_id=="EL"
+	replace country = "Hungary" 			if nuts0_id=="HU"
+	replace country = "Ireland" 			if nuts0_id=="IE"
+	replace country = "Italy" 				if nuts0_id=="IT"
+	replace country = "Latvia" 				if nuts0_id=="LV"
+	replace country = "Netherlands" 		if nuts0_id=="NL"
+	replace country = "Norway" 				if nuts0_id=="NO"
+	replace country = "Poland" 				if nuts0_id=="PL"
+	replace country = "Portugal" 			if nuts0_id=="PT"
+	replace country = "Romania" 			if nuts0_id=="RO"
+	replace country = "Slovak Republic" 	if nuts0_id=="SK"
+	replace country = "Slovenia" 			if nuts0_id=="SI"
+	replace country = "Spain" 				if nuts0_id=="ES"
+	replace country = "Sweden" 				if nuts0_id=="SE"
+	replace country = "Switzerland" 		if nuts0_id=="CH"
 
+order  nuts0_id nuts2_id nuts3_id nuts_id
 
 compress
 save "EUROPE_COVID19_master.dta", replace
-export delimited using "$coviddir/04_master/csv/EUROPE_COVID19_master.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv", replace delim(;)
 
 
 

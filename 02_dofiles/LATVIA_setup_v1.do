@@ -18,8 +18,8 @@ save lau_latvia.dta, replace
 
 **https://data.gov.lv/dati/lv/dataset/covid-19-pa-adm-terit/resource/492931dd-0012-46d7-b415-76fe0ec7c216
 insheet using "https://data.gov.lv/dati/dataset/e150cc9a-27c1-4920-a6c2-d20d10469873/resource/492931dd-0012-46d7-b415-76fe0ec7c216/download/covid_19_pa_adm_terit.csv", clear delim(;)
-save latvia_raw.dta, replace
-export delimited using latvia_raw.csv, replace delim(;)
+save "$coviddir/04_master/latvia_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/latvia_data_original.csv", replace delim(;)
 
 
 cap drop v6 v7 v8
@@ -60,14 +60,24 @@ order date
 
 collapse (sum) cases , by(date nuts3_id) cw
 
+
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
 sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+
+drop check
 
 
 order date nuts3_id
 compress
 save "$coviddir/04_master/latvia_data.dta", replace
-export delimited using "$coviddir/04_master/csv/latvia_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/latvia_data.csv", replace delim(;)
 
 
 cd "$coviddir"

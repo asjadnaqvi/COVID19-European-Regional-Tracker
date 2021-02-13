@@ -18,8 +18,8 @@ save PT_regions.dta, replace
 **** for old data to fill the gaps:
 insheet using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos.csv", clear non
 
-save portugal_raw_old.dta, replace
-export delimited using portugal_raw_old.csv, replace delim(;)
+save "$coviddir/04_master/portugal_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/portugal_data_original.csv", replace delim(;)
 
 foreach x of varlist _all {
 	local header = `x'[1]
@@ -54,8 +54,15 @@ drop if cases==.
 
 *replace concelho = lower(concelho)
 
+
+
 sort concelho date
-bysort concelho: gen cases_daily_old = cases - cases[_n-1] // there are some negative values in cases
+bysort concelho: gen check = date - date[_n-1]
+
+tab check
+
+sort concelho date
+bysort concelho: gen cases_daily_old = cases - cases[_n-1] if check==1 // there are some negative values in cases
 replace cases_daily_old = 0 if cases_daily_old < 0
 
 
@@ -129,7 +136,7 @@ order  nuts3_id date
 sort  nuts3_id date 
 compress
 save "$coviddir/04_master/portugal_data.dta", replace
-export delimited using "$coviddir/04_master/csv/portugal_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/portugal_data.csv", replace delim(;)
 
 
 

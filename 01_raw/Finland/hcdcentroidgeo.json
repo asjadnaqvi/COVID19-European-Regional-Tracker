@@ -1,0 +1,231 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Ahvenanmaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.884567260742188, 60.23435742267943]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Etelä-Karjala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.241993473313073, 61.13014816409765]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Sairaanhoitopiiri ei tiedossa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.359359, 61.695082]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Etelä-Pohjanmaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.948686973044452, 62.77367785364817]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Etelä-Savo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.309012264989633, 61.741453963187496]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "HUS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.825867871371656, 60.330845511911036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Itä-Savo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.88062890625224, 61.90404325428753]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Kainuu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.594984375002014, 64.4692404141741]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Kanta-Häme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.292931683316596, 60.930916438531426]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Keski-Pohjanmaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.025347592200887, 63.61348397898735]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Keski-Suomi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.496839843752696, 62.599658955802056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Kymenlaakso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.96557292839043, 60.74691312031578]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Lappi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.555554257192625, 67.49446764196347]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Länsi-Pohja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.692750471925137, 66.04399514482932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Pirkanmaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.726836483725673, 61.645380048130654]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Pohjois-Karjala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.957289062502582, 62.74088894010805]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Pohjois-Pohjanmaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.97579821845443, 64.74339369443575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Pohjois-Savo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.3887936625772, 63.15466688565007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Päijät-Häme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.792334348656905, 61.13450523466442]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Satakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.00318750000247, 61.50828342016368]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Vaasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.90109142780011, 63.05951391343504]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "healthCareDistrict": "Varsinais-Suomi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.442640625012473, 60.593708228149126]
+      }
+    }
+  ]
+}

@@ -63,8 +63,8 @@ save "slovenia_id.dta", replace
 
 
 insheet using "https://raw.githubusercontent.com/sledilnik/data/master/csv/municipality-confirmed.csv", clear non
-save slovenia_raw.dta, replace
-export delimited using slovenia_raw.csv, replace delim(;)
+save "$coviddir/04_master/slovenia_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/slovenia_data_original.csv", replace delim(;)
 
 
 
@@ -132,14 +132,23 @@ drop region
 
 collapse (sum) cases, by(nuts3_id date)
 
+
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
 sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+drop check
 
 
 
 compress
 save "$coviddir/04_master/slovenia_data.dta", replace
-export delimited using "$coviddir/04_master/csv/slovenia_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/slovenia_data.csv", replace delim(;)
 
 
 cd "$coviddir"

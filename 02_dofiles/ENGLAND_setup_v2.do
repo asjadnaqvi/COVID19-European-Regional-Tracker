@@ -28,8 +28,9 @@ save UK_regions.dta, replace
 
 insheet using "https://raw.githubusercontent.com/odileeds/covid-19-uk-datasets/master/data/england-cases.csv", clear n
 
-save england_raw.dta, replace
-export delimited using england_raw.csv, replace delim(;)
+save "$coviddir/04_master/england_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/england_data_original.csv", replace delim(;)
+
 
 
 gen year  = substr(date, 1, 4)
@@ -63,21 +64,26 @@ drop if _m!=3
 drop _m
 
 
-
-
-
 collapse (sum) cases, by(nuts3_id date)
 
-sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
 
+sort nuts3_id date
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+drop check
 
 sum date
 *drop if date>=r(max)-2
 
 compress
 save "$coviddir/04_master/england_data.dta", replace	
-export delimited using "$coviddir/04_master/csv/england_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/england_data.csv", replace delim(;)
 
 
 cd "$coviddir"

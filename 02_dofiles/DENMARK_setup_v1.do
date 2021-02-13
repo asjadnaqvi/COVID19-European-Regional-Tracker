@@ -20,7 +20,8 @@ save LAU_Denmark.dta, replace
 
 
 insheet using "Municipality_cases_time_series.csv", clear delim(";") nonames
-save denmark_raw.dta, replace
+save "$coviddir/04_master/denmark_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/denmark_data_original.csv", replace delim(;)
 
 
 
@@ -67,8 +68,10 @@ merge m:1 lau using LAU_Denmark
 list lau if _m==1
 list lau if _m==2  // one observation does not match
 
-drop if _m!=3
+drop if _m==1
 drop _m
+
+replace nuts3_id="DK014" if lau=="Christiansø"
 
 
 sort  nuts3_id date
@@ -82,7 +85,7 @@ order nuts3_id date
 
 compress
 save "$coviddir/04_master/denmark_data.dta", replace		
-export delimited using "$coviddir/04_master/csv/denmark_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/denmark_data.csv", replace delim(;)
 
 
 

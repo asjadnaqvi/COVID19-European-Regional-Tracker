@@ -9,8 +9,9 @@ cd "$coviddir/01_raw/Czechia"
 *** https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19
 
 insheet using "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/kraj-okres-nakazeni-vyleceni-umrti.csv", clear
-save czechia_raw.dta, replace
-export delimited using czechia_raw.csv, replace delim(;)
+save "$coviddir/04_master/czechia_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/czechia_data_original.csv", replace delim(;)
+
 
 
 ren datum date
@@ -37,13 +38,22 @@ collapse (sum) cases recovered dead, by(nuts3_id date)
 order nuts3_id  date 
 sort nuts3_id date 
 
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
+sort nuts3_id date
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
 
 
 
 compress
 save "$coviddir/04_master/czechia_data.dta", replace		
-export delimited using "$coviddir/04_master/csv/czechia_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/czechia_data.csv", replace delim(;)
 
 
 cd "$coviddir"

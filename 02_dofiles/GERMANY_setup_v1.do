@@ -32,8 +32,7 @@ save lau_germany.dta, replace
 ********** Deaths
 
 insheet using "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/deaths-rki-by-ags.csv", clear
-save germany_deaths_raw.dta, replace
-export delimited using germany_deaths_raw.csv, replace delim(;)
+
 
 foreach x of varlist v* {
      local t : var label `x'
@@ -72,8 +71,7 @@ save germany_deaths, replace
 
 
 insheet using "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/cases-rki-by-ags.csv", clear
-save germany_cases_raw.dta, replace
-export delimited using germany_cases_raw.csv, replace delim(;)
+
 
 
 
@@ -111,18 +109,33 @@ merge 1:1 date region using germany_deaths
 drop _m
 
 
+save "$coviddir/04_master/germany_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/germany_data_original.csv", replace delim(;)
+
+
+
 merge m:1 region using lau_germany.dta
 drop if _m!=3  // Berlin is split into finer units
 drop _m
 
 
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
 
 sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
 
 
 sort nuts3_id date
-bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1]
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+
+
+sort nuts3_id date
+bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1] if check==1
+
+drop check
 
 
 compress
@@ -130,7 +143,7 @@ order nuts3_id date
 sort nuts3_id date 
 compress
 save "$coviddir/04_master/germany_data.dta", replace
-export delimited using "$coviddir/04_master/csv/germany_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/germany_data.csv", replace delim(;)
 
 
 cd "$coviddir"

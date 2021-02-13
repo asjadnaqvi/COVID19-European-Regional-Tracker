@@ -18,7 +18,7 @@ save county_code.dta, replace
 
 **** here we use a file cleaned from a json reader: https://json-csv.com/
 
-insheet using date_24_ianuarie_la_13_00.csv, clear non
+insheet using date_09_februarie_la_13_00.csv, clear non
 
 
 foreach x of varlist v* {
@@ -134,7 +134,8 @@ destring _all, replace
 
 drop if date==""
 
-save romania_raw.dta, replace
+save "$coviddir/04_master/romania_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/romania_data_original.csv", replace delim(;)
 
 
 ren date date2
@@ -164,16 +165,24 @@ drop _m
 order nuts3_id date
 sort nuts3_id date
 
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
 
 sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+
+drop check
 
 
 order  nuts3_id date
 sort  nuts3_id date 
 compress
 save "$coviddir/04_master/romania_data.dta", replace
-export delimited using "$coviddir/04_master/csv/romania_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/romania_data.csv", replace delim(;)
 
 
 cd "$coviddir"

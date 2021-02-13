@@ -9,8 +9,8 @@ cd "$coviddir/01_raw/Switzerland"
 
 
 import delimited using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-ch.csv", clear
-save switzerland_raw.dta, replace
-export delimited using switzerland_raw.csv, replace delim(;)
+save "$coviddir/04_master/switzerland_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/switzerland_data_original.csv", replace delim(;)
 
 
 ren datetime date
@@ -103,9 +103,16 @@ replace nuts3_id="CH040" if nuts3_name=="ZÃ¼rich"  // zurich
 drop if nuts3_id==""
 order nuts3_id
 
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
 
 sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+drop check
 
 
 // since there are delays in data updates, drop the last four observations
@@ -114,6 +121,6 @@ drop if date >= `r(max)' - 3
 
 compress
 save "$coviddir/04_master/switzerland_data.dta", replace		
-export delimited using "$coviddir/04_master/csv/switzerland_data.csv", replace	delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/switzerland_data.csv", replace	delim(;)
 
 cd "$coviddir" // reset the directory for batch processing

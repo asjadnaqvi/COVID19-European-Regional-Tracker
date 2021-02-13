@@ -32,7 +32,8 @@ copy "https://www.opendata.nhs.scot/dataset/b318bddf-a4dc-4262-971f-0ba329e09b87
 	
 	
 insheet using scotland_raw.csv, clear
-save scotland_raw.dta, replace
+save "$coviddir/04_master/scotland_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/scotland_data_original.csv", replace delim(;)
 
 
 
@@ -60,6 +61,8 @@ keep lad_id date caname cases_daily cases
 merge m:1 lad_id using Scotland_regions
 drop _m
 
+
+
 collapse (sum) cases_daily cases, by(date nuts3_id)
 
 order nuts3_id date
@@ -68,6 +71,6 @@ sort nuts3_id date
 
 compress
 save "$coviddir/04_master/scotland_data.dta", replace
-export delimited using "$coviddir/04_master/csv/scotland_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/scotland_data.csv", replace delim(;)
 
 cd "$coviddir"

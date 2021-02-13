@@ -17,7 +17,8 @@ unzipfile "data.zip", replace
 *** clean the main file
 
 insheet using CovidFaelle_Timeline_GKZ.csv, clear delim(;)
-save austria_raw.dta, replace
+save "$coviddir/04_master/austria_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/austria_data_original.csv", replace delim(;)
 
 
 
@@ -65,9 +66,17 @@ order nuts3_id date
 sort  nuts3_id date
 
 
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
+sort nuts3_id date
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+drop check
+
 compress
 save "$coviddir/04_master/austria_data.dta", replace
-export delimited using "$coviddir/04_master/csv/austria_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/austria_data.csv", replace delim(;)
 
 
 cd "$coviddir"

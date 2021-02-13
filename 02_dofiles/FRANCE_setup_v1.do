@@ -1,5 +1,4 @@
 clear
-*global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
 cd "$coviddir/01_raw/France"
@@ -64,9 +63,10 @@ save "france_data_old.dta", replace
 *** raw data from here
 *https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/
 
-insheet using "sp-pos-quot-dep-2021-01-24-19h20.csv", clear delim(;)
-save france_raw.dta, replace
-export delimited using france_raw.csv, replace delim(;)
+insheet using "sp-pos-quot-dep-2021-02-09-19h20.csv", clear delim(;)
+save "$coviddir/04_master/france_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/france_data_original.csv", replace delim(;)
+
 
 
 
@@ -111,7 +111,7 @@ compress
 sort nuts3_id date 
 compress
 save "$coviddir/04_master/france_data.dta", replace
-export delimited using "$coviddir/04_master/csv/france_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/france_data.csv", replace delim(;)
 
 
 

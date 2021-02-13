@@ -20,8 +20,8 @@ save lau_netherlands.dta, replace
 
 **** get the data
 insheet using "https://opendata.arcgis.com/datasets/1365a2d9cb344b67999dd825c99cb1a5_0.csv", clear
-save netherlands_raw.dta, replace
-export delimited using netherlands_raw.csv, replace delim(;)
+save "$coviddir/04_master/netherlands_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/netherlands_data_original.csv", replace delim(;)
 
 
 
@@ -60,16 +60,26 @@ order lau date nuts3_id cases hospitalized deaths population
 
 collapse (sum) cases hospitalized deaths population, by(date nuts3_id) cw
 
-sort nuts3_id date
-bysort nuts3_id: gen cases_daily = cases - cases[_n-1]
-sort nuts3_id date
-bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1]
 
+**** check gaps in data. if dates are skipped then there will be errors in daily cases
+
+sort nuts3_id date
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+sort nuts3_id date
+bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1] if check==1
+
+drop check
 
 order date nuts3_id
 compress
 save "$coviddir/04_master/netherlands_data.dta", replace
-export delimited using "$coviddir/04_master/csv/netherlands_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/netherlands_data.csv", replace delim(;)
 
 
 

@@ -10,8 +10,8 @@ cd "$coviddir/01_raw/Ireland"
 *** manually download here: https://opendata-geohive.hub.arcgis.com/datasets/d9be85b30d7748b5b7c09450b8aede63_0
 
 insheet using "Covid19CountyStatisticsHPSCIreland.csv", clear non
-save ireland_raw, replace
-export delimited using ireland_raw.csv, replace delim(;)
+save "$coviddir/04_master/ireland_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/ireland_data_original.csv", replace delim(;)
 
 
 
@@ -83,12 +83,15 @@ replace nuts3_id="IE063" if county=="Laois"
 
 order date county nuts3_id 
 
+
+
+
 collapse (sum) cases cases_daily, by(nuts3_id date)
 
 
 compress
 save "$coviddir/04_master/ireland_data.dta", replace
-export delimited using "$coviddir/04_master/csv/ireland_data.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/ireland_data.csv", replace delim(;)
 
 
 cd "$coviddir"
