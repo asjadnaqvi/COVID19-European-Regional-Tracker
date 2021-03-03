@@ -62,7 +62,8 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed.
 
 The following workflow is used to compile the data:
-<img src="./05_figures/workflow.png" width="400" title="Workflow">
+
+<img src="./05_figures/workflow.png" width="800" title="Workflow">
 
 
 
