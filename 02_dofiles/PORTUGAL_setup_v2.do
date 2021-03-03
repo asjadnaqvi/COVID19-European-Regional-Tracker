@@ -15,11 +15,10 @@ save PT_regions.dta, replace
 
 
 
+
 **** for old data to fill the gaps:
 insheet using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos.csv", clear non
 
-save "$coviddir/04_master/portugal_data_original.dta", replace
-export delimited using "$coviddir/04_master/csv_original/portugal_data_original.csv", replace delim(;)
 
 foreach x of varlist _all {
 	local header = `x'[1]
@@ -74,8 +73,7 @@ save portugal_old.dta, replace
 **** new data
 insheet using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos_new.csv", clear
 
-save portugal_raw.dta, replace
-export delimited using portugal_raw.csv, replace delim(;)
+
 
 
 drop incidencia*
@@ -101,28 +99,40 @@ merge 1:1 concelho date using portugal_old
 sort concelho _merge
 
 bysort concelho: carryforward dicofre, replace
+bysort concelho: carryforward ars, replace
+bysort concelho: carryforward distrito, replace
 drop _merge
+
+save "$coviddir/04_master/portugal_data_original.dta", replace
+export delimited using "$coviddir/04_master/csv_original/portugal_data_original.csv", replace delim(;)
 
 
 ren dicofre code_lau
 destring _all, replace
 
+
+sort code_lau date
+
+
 merge m:1 code_lau using PT_regions
 
 
-order code_nuts3
+order code_nuts3 date
 *ren code_nuts3 nuts3_id
 drop code_district_island- _merge
 compress
 
+ren code_nuts3  nuts3_id 
 
+sort nuts3_id date
+*bysort nuts3_id: gen temp = date - date[_n-1]
 
 
 
 
 
 ren confirmados_1 cases_daily
-ren code_nuts3  nuts3_id 
+
 
 replace cases_daily = cases_daily_old if cases_daily==. & cases_daily_old!=.
 

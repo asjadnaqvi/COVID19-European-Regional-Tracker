@@ -22,7 +22,13 @@ save iso.dta, replace
 ***** fixing raw cases
 
 
-insheet using "https://cnecovid.isciii.es/covid19/resources/casos_diagnostico_provincia.csv", clear
+*insheet using "https://cnecovid.isciii.es/covid19/resources/casos_diagnostico_provincia.csv", clear
+
+
+*** link updated
+
+insheet using "https://cnecovid.isciii.es/covid19/resources/casos_tecnica_provincia.csv", clear
+
 save "$coviddir/04_master/spain_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/spain_data_original.csv", replace delim(;)
 

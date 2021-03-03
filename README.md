@@ -29,6 +29,7 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 * Not all countries in Europe are in the [European Union](https://europa.eu/european-union/about-eu/countries_en), and hence are not subject to Eurostat reporting/data sharing requirements. While all countries have correspondence tables between their own region definitions and NUTS, providing NUTS level information is not mandatory for non-EU countries. This list includes, the UK (post Brexit), Norway, Switzerland, and some countries in the East. While some countries provide detailed information on COVID-19 (for example, Norway), they don't have the latest LAU-NUTS correspondence tables available. They way around this problem is to spatially overlay LAU and NUTS boundaries and extract the information based on boundary overlaps. While in theory the overlaps should be perfect, in practice, small errors might persist based on slight differences in boundaries, differences in resolution of spatial files, and simply some LAUs might cut across NUTS boundaries (UK is a good example of this problem).
 
 
+
 # :floppy_disk: European regions and availability of COVID-19 data
 
 | Country (NUTS 0) | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
@@ -59,6 +60,11 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 | *United Kingdom* * | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | *Lower Authority Districts (317)* | 
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed.
+
+The following workflow is used to compile the data:
+<img src="./05_figures/workflow.png" width="400" title="Workflow">
+
+
 
 # :file_folder: Sources of country level datasets
 The date range for countries:
@@ -109,7 +115,9 @@ Note: The links are subject to change. If you find an error or a better data sou
 
 The map below shows the combined dataset of all the countries that have been processed:
 
-<img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="Cumulative COVID-19 per 10,000 population">
+<img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="400" title="Cumulative COVID-19 per 10,000 population">
+
+<img src="./05_figures/COVID19_EUROPE_cases_today.png" width="400" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="COVID-19 per 10,000 population (last observation)">
 
 <!--- use this to mark out codes  -->
 
@@ -139,23 +147,24 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 # Change Logs
+* 04 Mar 2021: All files checked and updated. Minor fixes to the code. Path to access raw data for Spain fixed. Folders cleaned up further.
 * 13 Feb 2021: All files checked and updated. Major fixes to the code. Raw data is now in the 04_master folder in .csv and .dta format. Daily cases fixed for several countries. Previously they were calculated as the difference between the observations and not the dates. Thus if a country had skipped several days, the daily cases would show a huge jump. These observations are now set to missing. As aa result there are more gaps now. If a country has 0 cases for a given date, that date is now dropped from the homogenized dataset. For example, Portugal which changed the reported to weekly and bi-weekly frequeny now has large gaps. The original data still contains all the dates and the values. Estonia's data fixed and it now reflects the correct values. A validation file added which aggregates country level data for each date and compares it with Our World in Data (OWID) values. This update is released as v1.3 on Zenodo.
 * 25 Jan 2021: All files checked and updated. Minor fixes to code. Some file paths changed. Country level graphs now show the last data point for a region. This is just for presentation. Please see the data files for actual information.
-* 5 Jan, 2021: All files checked and updated. Data for Poland, Greece, Switzerland fixed. Portugal is releasing data at weekly intervals only and therefore daily cases per capita need to be imputed correctly. The scripts have been updated to Stata 16. There should not be compatibility issues with earlier versions but please report if the files don't compile. New maps added for cumulative cases and cumulative cases per capita for 2020.
-* 7 Dec, 2020: All files updated. Romania JSON has been scripted in Stata. Portugal status remains the same. Last regional updated was 26 Oct 2020. Portugal and Greece have been removed from the Europe map but individual files remain in the database.
-* 25 Nov, 2020: All files updated. Portugal has not updated the official dataset since 26 Oct, 2020. Greece data is also patchy. Maps are now organized in alphabetical order of the 2-letter country code rather than when they were added to this repository.
-* 17 Nov, 2020: All files added to the directory for public release. Zenodo badge created. Tables have been updated. All dofiles were checked and reworked for updates, new datasets, paths. Dofiles for country level maps will be added soon. 
-* 01 Nov, 2020: Scotland and Romania added. All data files and scripts were rechecked. The maps were homogenized across countries. The data range of countries was fixed. Some countries only release data periodically at regional levels.
-* 25 Oct, 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
-* 17 Oct, 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.
-* 04 Oct, 2020: Countries with JSON datasets have been now been automated. Ireland dataset is no longer being updated on Github but the official website now provides more accurate information. This will be added soon. Still looking for UK minus England data. Potentially also looking for Lithania, Bulgaria, Romania and other counties between Croatia and Greece.
-* 21 Sep, 2020: Croatia and Denmark added to the maps. Ireland data is no longer updating since the Github repository is now dormant. NUTS2 population needs to be added to cases per population map.
-* 16 Sep, 2020: Poland and Greece NUTS2 data has been merged with the main file and added to the map. Data for Croatia and Denmark will be integrated next. Next task is to find Lithuania and Ukraine data sets.
-* 07 Sep, 2020: Improved documentation of the maps. All maps are now displayed above. Youtube video of changes in NUTS-3 level cases added. Map of cases and cases per pop added.
-* 31 Aug, 2020: Estonia, Latvia, Slovakia added to the database.
+* 05 Jan 2021: All files checked and updated. Data for Poland, Greece, Switzerland fixed. Portugal is releasing data at weekly intervals only and therefore daily cases per capita need to be imputed correctly. The scripts have been updated to Stata 16. There should not be compatibility issues with earlier versions but please report if the files don't compile. New maps added for cumulative cases and cumulative cases per capita for 2020.
+* 07 Dec 2020: All files updated. Romania JSON has been scripted in Stata. Portugal status remains the same. Last regional updated was 26 Oct 2020. Portugal and Greece have been removed from the Europe map but individual files remain in the database.
+* 25 Nov 2020: All files updated. Portugal has not updated the official dataset since 26 Oct, 2020. Greece data is also patchy. Maps are now organized in alphabetical order of the 2-letter country code rather than when they were added to this repository.
+* 17 Nov 2020: All files added to the directory for public release. Zenodo badge created. Tables have been updated. All dofiles were checked and reworked for updates, new datasets, paths. Dofiles for country level maps will be added soon. 
+* 01 Nov 2020: Scotland and Romania added. All data files and scripts were rechecked. The maps were homogenized across countries. The data range of countries was fixed. Some countries only release data periodically at regional levels.
+* 25 Oct 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
+* 17 Oct 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.
+* 04 Oct 2020: Countries with JSON datasets have been now been automated. Ireland dataset is no longer being updated on Github but the official website now provides more accurate information. This will be added soon. Still looking for UK minus England data. Potentially also looking for Lithania, Bulgaria, Romania and other counties between Croatia and Greece.
+* 21 Sep 2020: Croatia and Denmark added to the maps. Ireland data is no longer updating since the Github repository is now dormant. NUTS2 population needs to be added to cases per population map.
+* 16 Sep 2020: Poland and Greece NUTS2 data has been merged with the main file and added to the map. Data for Croatia and Denmark will be integrated next. Next task is to find Lithuania and Ukraine data sets.
+* 07 Sep 2020: Improved documentation of the maps. All maps are now displayed above. Youtube video of changes in NUTS-3 level cases added. Map of cases and cases per pop added.
+* 31 Aug 2020: Estonia, Latvia, Slovakia added to the database.
      * Estonia only provides case ranges in bands of 10 (0-10, 11-20, etc). NUTS 3 level data is approximated by taking mid-points of each range for each date/region combination and then aggregating to the NUTS 3.
-* 29 Aug, 2020: Switzerland and Greece added to the database. Greece is data is only available at the NUTS 2 level.
-* 27 Aug, 2020: 
+* 29 Aug 2020: Switzerland and Greece added to the database. Greece is data is only available at the NUTS 2 level.
+* 27 Aug 2020: 
     * Portugal: taken out for now for data checking since there are issues with the series continuity.
     * France: Historical data before 13th May added. There is a huge jump in the number of tests and reported cases for the few observations that overlap. This is because before 13th May, data was only being collected from 3 labs before proper testing protocols were introduced. There is no way of back correcting this information but maybe some form of data interpolation might help.
-* 26 Aug, 2020: Github repository created with documentation of regions in European countries.
+* 26 Aug 2020: Github repository created with documentation of regions in European countries.

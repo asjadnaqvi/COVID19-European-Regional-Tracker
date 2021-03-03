@@ -1,6 +1,353 @@
 nuts3_id;nuts3_name;date;cases;deaths;active;cases_daily;deaths_daily
+;Krapinsko-zagorska;21-Mar-2020;14;0;0;;
 ;Zagrebačka 
 ;21-Mar-2020;2;0;0;;
+;Krapinsko-zagorska;22-Mar-2020;18;0;0;16;0
+;Krapinsko-zagorska;23-Mar-2020;18;0;0;0;0
+;Krapinsko-zagorska;24-Mar-2020;28;0;0;10;0
+;Krapinsko-zagorska;25-Mar-2020;33;0;0;5;0
+;Krapinsko-zagorska;26-Mar-2020;36;0;0;3;0
+;Krapinsko-zagorska;27-Mar-2020;39;0;0;3;0
+;Krapinsko-zagorska;28-Mar-2020;39;0;0;0;0
+;Krapinsko-zagorska;29-Mar-2020;49;0;0;10;0
+;Krapinsko-zagorska;30-Mar-2020;54;0;0;5;0
+;Krapinsko-zagorska;31-Mar-2020;59;0;0;5;0
+;Krapinsko-zagorska;01-Apr-2020;65;0;0;6;0
+;Krapinsko-zagorska;02-Apr-2020;65;0;0;0;0
+;Krapinsko-zagorska;03-Apr-2020;69;0;0;4;0
+;Krapinsko-zagorska;04-Apr-2020;76;0;0;7;0
+;Krapinsko-zagorska;05-Apr-2020;80;0;0;4;0
+;Krapinsko-zagorska;06-Apr-2020;80;0;0;0;0
+;Krapinsko-zagorska;07-Apr-2020;83;1;0;3;1
+;Krapinsko-zagorska;08-Apr-2020;86;0;0;3;-1
+;Krapinsko-zagorska;09-Apr-2020;92;1;0;6;1
+;Krapinsko-zagorska;10-Apr-2020;94;1;0;2;0
+;Krapinsko-zagorska;11-Apr-2020;96;0;0;2;-1
+;Krapinsko-zagorska;12-Apr-2020;99;0;0;3;0
+;Krapinsko-zagorska;13-Apr-2020;100;1;0;1;1
+;Krapinsko-zagorska;14-Apr-2020;108;1;0;8;0
+;Krapinsko-zagorska;15-Apr-2020;112;1;0;4;0
+;Krapinsko-zagorska;16-Apr-2020;115;1;0;3;0
+;Krapinsko-zagorska;17-Apr-2020;115;1;0;0;0
+;Krapinsko-zagorska;18-Apr-2020;118;1;0;3;0
+;Krapinsko-zagorska;19-Apr-2020;120;1;0;2;0
+;Krapinsko-zagorska;20-Apr-2020;124;1;0;4;0
+;Krapinsko-zagorska;21-Apr-2020;126;1;0;2;0
+;Krapinsko-zagorska;22-Apr-2020;127;1;0;1;0
+;Krapinsko-zagorska;23-Apr-2020;128;1;0;1;0
+;Krapinsko-zagorska;24-Apr-2020;130;1;0;2;0
+;Krapinsko-zagorska;25-Apr-2020;132;1;0;2;0
+;Krapinsko-zagorska;26-Apr-2020;133;1;0;1;0
+;Krapinsko-zagorska;27-Apr-2020;133;1;0;0;0
+;Krapinsko-zagorska;28-Apr-2020;133;1;0;0;0
+;Krapinsko-zagorska;29-Apr-2020;134;1;0;1;0
+;Krapinsko-zagorska;30-Apr-2020;134;1;0;0;0
+;Krapinsko-zagorska;01-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;02-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;03-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;04-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;05-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;06-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;07-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;08-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;09-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;10-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;11-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;12-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;13-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;14-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;15-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;16-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;17-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;18-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;19-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;20-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;21-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;22-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;23-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;24-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;25-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;26-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;27-May-2020;134;1;0;0;0
+;Krapinsko-zagorska;28-May-2020;134;2;0;0;1
+;Krapinsko-zagorska;29-May-2020;134;2;0;0;0
+;Krapinsko-zagorska;30-May-2020;134;2;0;0;0
+;Krapinsko-zagorska;31-May-2020;134;2;0;0;0
+;Krapinsko-zagorska;01-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;02-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;03-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;04-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;05-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;06-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;07-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;08-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;09-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;10-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;11-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;12-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;13-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;14-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;15-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;16-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;17-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;18-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;19-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;20-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;21-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;22-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;23-Jun-2020;134;2;0;0;0
+;Krapinsko-zagorska;24-Jun-2020;135;2;0;1;0
+;Krapinsko-zagorska;25-Jun-2020;135;2;0;0;0
+;Krapinsko-zagorska;26-Jun-2020;135;2;0;0;0
+;Krapinsko-zagorska;27-Jun-2020;135;2;0;0;0
+;Krapinsko-zagorska;28-Jun-2020;135;2;0;0;0
+;Krapinsko-zagorska;29-Jun-2020;135;2;1;0;0
+;Krapinsko-zagorska;30-Jun-2020;136;2;2;1;0
+;Krapinsko-zagorska;01-Jul-2020;136;2;2;0;0
+;Krapinsko-zagorska;02-Jul-2020;136;2;2;0;0
+;Krapinsko-zagorska;03-Jul-2020;136;2;2;0;0
+;Krapinsko-zagorska;04-Jul-2020;137;2;3;1;0
+;Krapinsko-zagorska;05-Jul-2020;137;2;3;0;0
+;Krapinsko-zagorska;06-Jul-2020;137;2;3;0;0
+;Krapinsko-zagorska;07-Jul-2020;138;2;3;1;0
+;Krapinsko-zagorska;08-Jul-2020;139;2;4;1;0
+;Krapinsko-zagorska;09-Jul-2020;139;2;4;0;0
+;Krapinsko-zagorska;10-Jul-2020;139;2;4;0;0
+;Krapinsko-zagorska;11-Jul-2020;140;2;5;1;0
+;Krapinsko-zagorska;12-Jul-2020;141;2;6;1;0
+;Krapinsko-zagorska;13-Jul-2020;142;2;7;1;0
+;Krapinsko-zagorska;14-Jul-2020;143;2;7;1;0
+;Krapinsko-zagorska;15-Jul-2020;145;2;10;2;0
+;Krapinsko-zagorska;16-Jul-2020;145;2;9;0;0
+;Krapinsko-zagorska;17-Jul-2020;145;2;8;0;0
+;Krapinsko-zagorska;18-Jul-2020;146;2;7;1;0
+;Krapinsko-zagorska;19-Jul-2020;146;2;7;0;0
+;Krapinsko-zagorska;20-Jul-2020;146;2;7;0;0
+;Krapinsko-zagorska;21-Jul-2020;146;2;7;0;0
+;Krapinsko-zagorska;22-Jul-2020;147;2;7;1;0
+;Krapinsko-zagorska;23-Jul-2020;149;2;5;2;0
+;Krapinsko-zagorska;24-Jul-2020;149;2;5;0;0
+;Krapinsko-zagorska;25-Jul-2020;152;2;8;3;0
+;Krapinsko-zagorska;26-Jul-2020;152;2;7;0;0
+;Krapinsko-zagorska;27-Jul-2020;152;2;7;0;0
+;Krapinsko-zagorska;28-Jul-2020;152;2;6;0;0
+;Krapinsko-zagorska;29-Jul-2020;153;2;6;1;0
+;Krapinsko-zagorska;30-Jul-2020;154;2;7;1;0
+;Krapinsko-zagorska;31-Jul-2020;154;2;7;0;0
+;Krapinsko-zagorska;01-Aug-2020;154;2;5;0;0
+;Krapinsko-zagorska;02-Aug-2020;154;2;5;0;0
+;Krapinsko-zagorska;03-Aug-2020;154;2;5;0;0
+;Krapinsko-zagorska;04-Aug-2020;154;2;4;0;0
+;Krapinsko-zagorska;05-Aug-2020;154;2;3;0;0
+;Krapinsko-zagorska;06-Aug-2020;154;2;3;0;0
+;Krapinsko-zagorska;07-Aug-2020;154;2;1;0;0
+;Krapinsko-zagorska;08-Aug-2020;155;2;2;1;0
+;Krapinsko-zagorska;09-Aug-2020;155;2;2;0;0
+;Krapinsko-zagorska;10-Aug-2020;155;2;2;0;0
+;Krapinsko-zagorska;11-Aug-2020;156;2;2;1;0
+;Krapinsko-zagorska;12-Aug-2020;157;2;3;1;0
+;Krapinsko-zagorska;13-Aug-2020;158;2;4;1;0
+;Krapinsko-zagorska;14-Aug-2020;160;2;6;2;0
+;Krapinsko-zagorska;15-Aug-2020;162;2;8;2;0
+;Krapinsko-zagorska;16-Aug-2020;163;2;9;1;0
+;Krapinsko-zagorska;17-Aug-2020;164;2;10;1;0
+;Krapinsko-zagorska;18-Aug-2020;166;2;11;2;0
+;Krapinsko-zagorska;19-Aug-2020;169;2;13;3;0
+;Krapinsko-zagorska;20-Aug-2020;169;2;13;0;0
+;Krapinsko-zagorska;21-Aug-2020;170;2;14;1;0
+;Krapinsko-zagorska;22-Aug-2020;174;2;17;4;0
+;Krapinsko-zagorska;23-Aug-2020;175;2;18;1;0
+;Krapinsko-zagorska;24-Aug-2020;176;2;17;1;0
+;Krapinsko-zagorska;25-Aug-2020;177;2;18;1;0
+;Krapinsko-zagorska;26-Aug-2020;180;2;21;3;0
+;Krapinsko-zagorska;27-Aug-2020;186;2;23;6;0
+;Krapinsko-zagorska;28-Aug-2020;186;2;21;0;0
+;Krapinsko-zagorska;29-Aug-2020;193;2;27;7;0
+;Krapinsko-zagorska;30-Aug-2020;201;2;33;8;0
+;Krapinsko-zagorska;31-Aug-2020;204;2;34;3;0
+;Krapinsko-zagorska;01-Sep-2020;206;2;33;2;0
+;Krapinsko-zagorska;02-Sep-2020;207;2;29;1;0
+;Krapinsko-zagorska;03-Sep-2020;215;2;37;8;0
+;Krapinsko-zagorska;04-Sep-2020;217;2;39;2;0
+;Krapinsko-zagorska;05-Sep-2020;224;2;44;7;0
+;Krapinsko-zagorska;06-Sep-2020;226;2;42;2;0
+;Krapinsko-zagorska;07-Sep-2020;230;2;44;4;0
+;Krapinsko-zagorska;08-Sep-2020;235;2;45;5;0
+;Krapinsko-zagorska;09-Sep-2020;236;2;45;1;0
+;Krapinsko-zagorska;10-Sep-2020;241;2;45;5;0
+;Krapinsko-zagorska;11-Sep-2020;244;2;44;3;0
+;Krapinsko-zagorska;12-Sep-2020;249;2;42;5;0
+;Krapinsko-zagorska;13-Sep-2020;254;2;43;5;0
+;Krapinsko-zagorska;14-Sep-2020;256;2;42;2;0
+;Krapinsko-zagorska;15-Sep-2020;257;2;39;1;0
+;Krapinsko-zagorska;16-Sep-2020;268;2;48;11;0
+;Krapinsko-zagorska;17-Sep-2020;273;2;48;5;0
+;Krapinsko-zagorska;18-Sep-2020;283;2;50;10;0
+;Krapinsko-zagorska;19-Sep-2020;289;2;51;6;0
+;Krapinsko-zagorska;20-Sep-2020;297;2;56;8;0
+;Krapinsko-zagorska;21-Sep-2020;305;2;60;8;0
+;Krapinsko-zagorska;22-Sep-2020;310;2;62;5;0
+;Krapinsko-zagorska;23-Sep-2020;325;2;58;15;0
+;Krapinsko-zagorska;24-Sep-2020;327;2;54;2;0
+;Krapinsko-zagorska;25-Sep-2020;342;2;57;15;0
+;Krapinsko-zagorska;26-Sep-2020;349;2;62;7;0
+;Krapinsko-zagorska;27-Sep-2020;360;2;64;11;0
+;Krapinsko-zagorska;28-Sep-2020;361;2;56;1;0
+;Krapinsko-zagorska;29-Sep-2020;366;2;47;5;0
+;Krapinsko-zagorska;30-Sep-2020;382;2;56;16;0
+;Krapinsko-zagorska;01-Oct-2020;392;2;58;10;0
+;Krapinsko-zagorska;02-Oct-2020;422;2;83;30;0
+;Krapinsko-zagorska;03-Oct-2020;432;2;84;10;0
+;Krapinsko-zagorska;04-Oct-2020;434;2;78;2;0
+;Krapinsko-zagorska;05-Oct-2020;456;2;94;22;0
+;Krapinsko-zagorska;06-Oct-2020;471;2;98;15;0
+;Krapinsko-zagorska;07-Oct-2020;494;2;112;23;0
+;Krapinsko-zagorska;08-Oct-2020;526;2;136;32;0
+;Krapinsko-zagorska;09-Oct-2020;556;2;149;30;0
+;Krapinsko-zagorska;10-Oct-2020;565;2;147;9;0
+;Krapinsko-zagorska;11-Oct-2020;610;2;175;45;0
+;Krapinsko-zagorska;12-Oct-2020;626;2;173;16;0
+;Krapinsko-zagorska;13-Oct-2020;634;2;165;8;0
+;Krapinsko-zagorska;14-Oct-2020;678;2;176;44;0
+;Krapinsko-zagorska;15-Oct-2020;753;2;227;75;0
+;Krapinsko-zagorska;16-Oct-2020;819;2;271;66;0
+;Krapinsko-zagorska;17-Oct-2020;932;2;351;113;0
+;Krapinsko-zagorska;18-Oct-2020;1014;2;398;82;0
+;Krapinsko-zagorska;19-Oct-2020;1033;2;384;19;0
+;Krapinsko-zagorska;20-Oct-2020;1067;2;386;34;0
+;Krapinsko-zagorska;21-Oct-2020;1080;2;364;13;0
+;Krapinsko-zagorska;22-Oct-2020;1212;2;445;132;0
+;Krapinsko-zagorska;23-Oct-2020;1267;2;439;55;0
+;Krapinsko-zagorska;24-Oct-2020;1372;2;487;105;0
+;Krapinsko-zagorska;25-Oct-2020;1543;2;574;171;0
+;Krapinsko-zagorska;26-Oct-2020;1615;2;572;72;0
+;Krapinsko-zagorska;27-Oct-2020;1691;2;575;76;0
+;Krapinsko-zagorska;28-Oct-2020;1748;5;570;57;3
+;Krapinsko-zagorska;29-Oct-2020;1869;7;620;121;2
+;Krapinsko-zagorska;30-Oct-2020;2022;9;698;153;2
+;Krapinsko-zagorska;31-Oct-2020;2173;9;740;151;0
+;Krapinsko-zagorska;01-Nov-2020;2280;10;754;107;1
+;Krapinsko-zagorska;02-Nov-2020;2326;12;690;46;2
+;Krapinsko-zagorska;03-Nov-2020;2351;15;615;25;3
+;Krapinsko-zagorska;04-Nov-2020;2456;15;630;105;0
+;Krapinsko-zagorska;05-Nov-2020;2592;16;680;136;1
+;Krapinsko-zagorska;06-Nov-2020;2760;17;749;168;1
+;Krapinsko-zagorska;07-Nov-2020;2789;22;660;29;5
+;Krapinsko-zagorska;08-Nov-2020;2914;28;676;125;6
+;Krapinsko-zagorska;09-Nov-2020;2966;28;613;52;0
+;Krapinsko-zagorska;10-Nov-2020;3016;30;595;50;2
+;Krapinsko-zagorska;11-Nov-2020;3114;31;608;98;1
+;Krapinsko-zagorska;12-Nov-2020;3250;33;635;136;2
+;Krapinsko-zagorska;13-Nov-2020;3321;34;597;71;1
+;Krapinsko-zagorska;14-Nov-2020;3387;38;560;66;4
+;Krapinsko-zagorska;15-Nov-2020;3552;42;635;165;4
+;Krapinsko-zagorska;16-Nov-2020;3572;42;562;20;0
+;Krapinsko-zagorska;17-Nov-2020;3611;43;541;39;1
+;Krapinsko-zagorska;18-Nov-2020;3731;45;618;120;2
+;Krapinsko-zagorska;19-Nov-2020;3951;46;744;220;1
+;Krapinsko-zagorska;20-Nov-2020;4040;49;746;89;3
+;Krapinsko-zagorska;21-Nov-2020;4154;53;761;114;4
+;Krapinsko-zagorska;22-Nov-2020;4314;59;846;160;6
+;Krapinsko-zagorska;23-Nov-2020;4440;66;848;126;7
+;Krapinsko-zagorska;24-Nov-2020;4476;69;806;36;3
+;Krapinsko-zagorska;25-Nov-2020;4643;77;896;167;8
+;Krapinsko-zagorska;26-Nov-2020;4878;82;980;235;5
+;Krapinsko-zagorska;27-Nov-2020;5044;84;969;166;2
+;Krapinsko-zagorska;28-Nov-2020;5158;92;995;114;8
+;Krapinsko-zagorska;29-Nov-2020;5241;95;950;83;3
+;Krapinsko-zagorska;30-Nov-2020;5410;99;1024;169;4
+;Krapinsko-zagorska;01-Dec-2020;5506;102;928;96;3
+;Krapinsko-zagorska;02-Dec-2020;5646;104;995;140;2
+;Krapinsko-zagorska;03-Dec-2020;5918;110;1101;272;6
+;Krapinsko-zagorska;05-Dec-2020;6302;122;1143;;
+;Krapinsko-zagorska;06-Dec-2020;6457;128;1113;155;6
+;Krapinsko-zagorska;07-Dec-2020;6530;132;1082;73;4
+;Krapinsko-zagorska;08-Dec-2020;6563;132;932;33;0
+;Krapinsko-zagorska;09-Dec-2020;6741;135;1009;178;3
+;Krapinsko-zagorska;10-Dec-2020;7018;135;1155;277;0
+;Krapinsko-zagorska;11-Dec-2020;7179;137;1103;161;2
+;Krapinsko-zagorska;12-Dec-2020;7331;139;1062;152;2
+;Krapinsko-zagorska;13-Dec-2020;7488;143;1055;157;4
+;Krapinsko-zagorska;14-Dec-2020;7532;147;958;44;4
+;Krapinsko-zagorska;15-Dec-2020;7553;149;859;21;2
+;Krapinsko-zagorska;16-Dec-2020;7633;152;844;80;3
+;Krapinsko-zagorska;17-Dec-2020;7768;159;811;135;7
+;Krapinsko-zagorska;18-Dec-2020;7845;163;658;77;4
+;Krapinsko-zagorska;19-Dec-2020;7934;166;628;89;3
+;Krapinsko-zagorska;20-Dec-2020;8041;170;586;107;4
+;Krapinsko-zagorska;21-Dec-2020;8062;175;507;21;5
+;Krapinsko-zagorska;22-Dec-2020;8074;178;438;12;3
+;Krapinsko-zagorska;23-Dec-2020;8165;183;458;91;5
+;Krapinsko-zagorska;24-Dec-2020;8176;188;372;11;5
+;Krapinsko-zagorska;25-Dec-2020;8268;190;375;92;2
+;Krapinsko-zagorska;26-Dec-2020;8301;196;340;33;6
+;Krapinsko-zagorska;27-Dec-2020;8302;200;264;1;4
+;Krapinsko-zagorska;28-Dec-2020;8332;206;217;30;6
+;Krapinsko-zagorska;29-Dec-2020;8371;213;209;39;7
+;Krapinsko-zagorska;30-Dec-2020;8379;217;176;8;4
+;Krapinsko-zagorska;31-Dec-2020;8451;221;198;72;4
+;Krapinsko-zagorska;01-Jan-2121;8483;221;183;32;0
+;Krapinsko-zagorska;02-Jan-2121;8505;224;148;22;3
+;Krapinsko-zagorska;03-Jan-2121;8520;226;126;15;2
+;Krapinsko-zagorska;04-Jan-2121;8525;227;110;5;1
+;Krapinsko-zagorska;05-Jan-2121;8550;227;102;25;0
+;Krapinsko-zagorska;06-Jan-2121;8596;231;116;46;4
+;Krapinsko-zagorska;07-Jan-2121;8609;234;104;13;3
+;Krapinsko-zagorska;08-Jan-2121;8636;236;102;27;2
+;Krapinsko-zagorska;09-Jan-2121;8662;238;88;26;2
+;Krapinsko-zagorska;10-Jan-2121;8672;238;76;10;0
+;Krapinsko-zagorska;11-Jan-2121;8682;238;68;10;0
+;Krapinsko-zagorska;12-Jan-2121;8711;240;82;29;2
+;Krapinsko-zagorska;13-Jan-2121;8733;241;88;22;1
+;Krapinsko-zagorska;14-Jan-2121;8748;245;75;15;4
+;Krapinsko-zagorska;15-Jan-2121;8759;247;54;11;2
+;Krapinsko-zagorska;16-Jan-2121;8780;247;59;21;0
+;Krapinsko-zagorska;17-Jan-2121;8789;249;47;9;2
+;Krapinsko-zagorska;18-Jan-2121;8793;251;27;4;2
+;Krapinsko-zagorska;19-Jan-2121;8807;251;25;14;0
+;Krapinsko-zagorska;20-Jan-2121;8828;252;29;21;1
+;Krapinsko-zagorska;21-Jan-2121;8836;252;17;8;0
+;Krapinsko-zagorska;22-Jan-2121;8840;253;17;4;1
+;Krapinsko-zagorska;23-Jan-2121;8846;254;19;6;1
+;Krapinsko-zagorska;24-Jan-2121;8849;257;10;3;3
+;Krapinsko-zagorska;25-Jan-2121;8855;258;16;6;1
+;Krapinsko-zagorska;26-Jan-2121;8871;258;21;16;0
+;Krapinsko-zagorska;27-Jan-2121;8882;261;32;11;3
+;Krapinsko-zagorska;28-Jan-2121;8889;262;39;7;1
+;Krapinsko-zagorska;29-Jan-2121;8910;263;58;21;1
+;Krapinsko-zagorska;30-Jan-2121;8918;263;63;8;0
+;Krapinsko-zagorska;31-Jan-2121;8924;263;66;6;0
+;Krapinsko-zagorska;01-Feb-2121;8926;265;60;2;2
+;Krapinsko-zagorska;02-Feb-2121;8934;266;59;8;1
+;Krapinsko-zagorska;03-Feb-2121;8953;268;73;19;2
+;Krapinsko-zagorska;04-Feb-2121;8961;268;75;8;0
+;Krapinsko-zagorska;05-Feb-2121;8969;270;70;8;2
+;Krapinsko-zagorska;06-Feb-2121;8980;270;71;11;0
+;Krapinsko-zagorska;07-Feb-2121;8987;276;59;7;6
+;Krapinsko-zagorska;08-Feb-2121;8989;277;51;2;1
+;Krapinsko-zagorska;09-Feb-2121;8996;277;53;7;0
+;Krapinsko-zagorska;10-Feb-2121;9003;277;56;7;0
+;Krapinsko-zagorska;11-Feb-2121;9006;278;52;3;1
+;Krapinsko-zagorska;12-Feb-2121;9009;279;42;3;1
+;Krapinsko-zagorska;13-Feb-2121;9015;280;43;6;1
+;Krapinsko-zagorska;14-Feb-2121;9017;280;36;2;0
+;Krapinsko-zagorska;15-Feb-2121;9021;280;34;4;0
+;Krapinsko-zagorska;16-Feb-2121;9028;281;38;7;1
+;Krapinsko-zagorska;17-Feb-2121;9038;286;44;10;5
+;Krapinsko-zagorska;18-Feb-2121;9043;287;37;5;1
+;Krapinsko-zagorska;19-Feb-2121;9052;287;42;9;0
+;Krapinsko-zagorska;20-Feb-2121;9060;288;46;8;1
+;Krapinsko-zagorska;21-Feb-2121;9060;288;43;0;0
+;Krapinsko-zagorska;22-Feb-2121;9064;290;43;4;2
+;Krapinsko-zagorska;23-Feb-2121;9069;290;39;5;0
+;Krapinsko-zagorska;24-Feb-2121;9081;290;50;12;0
+;Krapinsko-zagorska;25-Feb-2121;9086;290;50;5;0
+;Krapinsko-zagorska;26-Feb-2121;9096;290;50;10;0
+;Krapinsko-zagorska;27-Feb-2121;9100;290;46;4;0
+;Krapinsko-zagorska;28-Feb-2121;9106;291;44;6;1
+;Krapinsko-zagorska;01-Mar-2121;9108;291;46;2;0
+;Krapinsko-zagorska;02-Mar-2121;9115;292;45;7;1
+;Krapinsko-zagorska;03-Mar-2121;9121;292;48;6;0
 HR031;Primorsko-goranska;21-Mar-2020;18;0;0;;
 HR031;Primorsko-goranska;22-Mar-2020;21;0;0;3;0
 HR031;Primorsko-goranska;23-Mar-2020;21;0;0;0;0
@@ -326,6 +673,28 @@ HR031;Primorsko-goranska;06-Feb-2121;17213;232;236;24;1
 HR031;Primorsko-goranska;07-Feb-2121;17255;232;245;42;0
 HR031;Primorsko-goranska;08-Feb-2121;17261;233;209;6;1
 HR031;Primorsko-goranska;09-Feb-2121;17280;235;202;19;2
+HR031;Primorsko-goranska;10-Feb-2121;17335;235;241;55;0
+HR031;Primorsko-goranska;11-Feb-2121;17368;236;232;33;1
+HR031;Primorsko-goranska;12-Feb-2121;17406;236;232;38;0
+HR031;Primorsko-goranska;13-Feb-2121;17436;236;225;30;0
+HR031;Primorsko-goranska;14-Feb-2121;17462;238;224;26;2
+HR031;Primorsko-goranska;15-Feb-2121;17466;238;201;4;0
+HR031;Primorsko-goranska;16-Feb-2121;17496;240;196;30;2
+HR031;Primorsko-goranska;17-Feb-2121;17528;240;211;32;0
+HR031;Primorsko-goranska;18-Feb-2121;17556;240;206;28;0
+HR031;Primorsko-goranska;19-Feb-2121;17580;240;198;24;0
+HR031;Primorsko-goranska;20-Feb-2121;17613;240;206;33;0
+HR031;Primorsko-goranska;21-Feb-2121;17633;240;192;20;0
+HR031;Primorsko-goranska;22-Feb-2121;17635;242;156;2;2
+HR031;Primorsko-goranska;23-Feb-2121;17667;242;176;32;0
+HR031;Primorsko-goranska;24-Feb-2121;17724;242;220;57;0
+HR031;Primorsko-goranska;25-Feb-2121;17770;243;240;46;1
+HR031;Primorsko-goranska;26-Feb-2121;17825;245;272;55;2
+HR031;Primorsko-goranska;27-Feb-2121;17882;246;299;57;1
+HR031;Primorsko-goranska;28-Feb-2121;17912;247;309;30;1
+HR031;Primorsko-goranska;01-Mar-2121;17912;247;269;0;0
+HR031;Primorsko-goranska;02-Mar-2121;17964;247;303;52;0
+HR031;Primorsko-goranska;03-Mar-2121;18033;247;357;69;0
 HR032;Ličko-senjska;21-Mar-2020;1;0;0;;
 HR032;Ličko-senjska;22-Mar-2020;1;0;0;0;0
 HR032;Ličko-senjska;23-Mar-2020;1;0;0;0;0
@@ -651,6 +1020,28 @@ HR032;Ličko-senjska;06-Feb-2121;2696;92;40;4;1
 HR032;Ličko-senjska;07-Feb-2121;2702;92;43;6;0
 HR032;Ličko-senjska;08-Feb-2121;2702;92;37;0;0
 HR032;Ličko-senjska;09-Feb-2121;2705;92;33;3;0
+HR032;Ličko-senjska;10-Feb-2121;2714;92;39;9;0
+HR032;Ličko-senjska;11-Feb-2121;2721;92;42;7;0
+HR032;Ličko-senjska;12-Feb-2121;2731;92;44;10;0
+HR032;Ličko-senjska;13-Feb-2121;2738;93;46;7;1
+HR032;Ličko-senjska;14-Feb-2121;2742;93;46;4;0
+HR032;Ličko-senjska;15-Feb-2121;2742;94;40;0;1
+HR032;Ličko-senjska;16-Feb-2121;2746;94;37;4;0
+HR032;Ličko-senjska;17-Feb-2121;2751;94;38;5;0
+HR032;Ličko-senjska;18-Feb-2121;2761;94;42;10;0
+HR032;Ličko-senjska;19-Feb-2121;2763;94;40;2;0
+HR032;Ličko-senjska;20-Feb-2121;2766;94;36;3;0
+HR032;Ličko-senjska;21-Feb-2121;2771;94;34;5;0
+HR032;Ličko-senjska;22-Feb-2121;2771;94;29;0;0
+HR032;Ličko-senjska;23-Feb-2121;2775;94;28;4;0
+HR032;Ličko-senjska;24-Feb-2121;2787;94;37;12;0
+HR032;Ličko-senjska;25-Feb-2121;2791;94;39;4;0
+HR032;Ličko-senjska;26-Feb-2121;2797;94;39;6;0
+HR032;Ličko-senjska;27-Feb-2121;2810;94;47;13;0
+HR032;Ličko-senjska;28-Feb-2121;2818;94;48;8;0
+HR032;Ličko-senjska;01-Mar-2121;2818;94;44;0;0
+HR032;Ličko-senjska;02-Mar-2121;2821;95;39;3;1
+HR032;Ličko-senjska;03-Mar-2121;2839;95;51;18;0
 HR033;Zadarska;21-Mar-2020;2;0;0;;
 HR033;Zadarska;22-Mar-2020;2;0;0;0;0
 HR033;Zadarska;23-Mar-2020;2;0;0;0;0
@@ -976,6 +1367,28 @@ HR033;Zadarska;06-Feb-2121;7762;124;142;19;2
 HR033;Zadarska;07-Feb-2121;7773;124;128;11;0
 HR033;Zadarska;08-Feb-2121;7779;124;111;6;0
 HR033;Zadarska;09-Feb-2121;7792;124;99;13;0
+HR033;Zadarska;10-Feb-2121;7812;124;102;20;0
+HR033;Zadarska;11-Feb-2121;7833;124;105;21;0
+HR033;Zadarska;12-Feb-2121;7844;124;87;11;0
+HR033;Zadarska;13-Feb-2121;7862;124;86;18;0
+HR033;Zadarska;14-Feb-2121;7872;125;82;10;1
+HR033;Zadarska;15-Feb-2121;7879;125;79;7;0
+HR033;Zadarska;16-Feb-2121;7885;126;66;6;1
+HR033;Zadarska;17-Feb-2121;7900;126;67;15;0
+HR033;Zadarska;18-Feb-2121;7916;126;70;16;0
+HR033;Zadarska;19-Feb-2121;7935;126;75;19;0
+HR033;Zadarska;20-Feb-2121;7945;128;75;10;2
+HR033;Zadarska;21-Feb-2121;7953;128;71;8;0
+HR033;Zadarska;22-Feb-2121;7957;128;69;4;0
+HR033;Zadarska;23-Feb-2121;7970;128;74;13;0
+HR033;Zadarska;24-Feb-2121;7996;129;97;26;1
+HR033;Zadarska;25-Feb-2121;8029;131;118;33;2
+HR033;Zadarska;26-Feb-2121;8060;131;131;31;0
+HR033;Zadarska;27-Feb-2121;8107;132;162;47;1
+HR033;Zadarska;28-Feb-2121;8112;132;157;5;0
+HR033;Zadarska;01-Mar-2121;8121;133;149;9;1
+HR033;Zadarska;02-Mar-2121;8147;133;154;26;0
+HR033;Zadarska;03-Mar-2121;8182;133;169;35;0
 HR034;Šibensko-kninska;21-Mar-2020;4;0;0;;
 HR034;Šibensko-kninska;22-Mar-2020;6;0;0;2;0
 HR034;Šibensko-kninska;23-Mar-2020;6;0;0;0;0
@@ -1301,6 +1714,28 @@ HR034;Šibensko-kninska;06-Feb-2121;5639;88;78;14;0
 HR034;Šibensko-kninska;07-Feb-2121;5642;88;67;3;0
 HR034;Šibensko-kninska;08-Feb-2121;5643;89;55;1;1
 HR034;Šibensko-kninska;09-Feb-2121;5659;89;63;16;0
+HR034;Šibensko-kninska;10-Feb-2121;5674;91;65;15;2
+HR034;Šibensko-kninska;11-Feb-2121;5686;91;59;12;0
+HR034;Šibensko-kninska;12-Feb-2121;5700;92;65;14;1
+HR034;Šibensko-kninska;13-Feb-2121;5719;92;75;19;0
+HR034;Šibensko-kninska;14-Feb-2121;5720;92;70;1;0
+HR034;Šibensko-kninska;15-Feb-2121;5721;92;61;1;0
+HR034;Šibensko-kninska;16-Feb-2121;5731;93;63;10;1
+HR034;Šibensko-kninska;17-Feb-2121;5748;93;73;17;0
+HR034;Šibensko-kninska;18-Feb-2121;5756;94;65;8;1
+HR034;Šibensko-kninska;19-Feb-2121;5763;94;64;7;0
+HR034;Šibensko-kninska;20-Feb-2121;5778;94;66;15;0
+HR034;Šibensko-kninska;21-Feb-2121;5780;94;61;2;0
+HR034;Šibensko-kninska;22-Feb-2121;5780;96;50;0;2
+HR034;Šibensko-kninska;23-Feb-2121;5793;96;57;13;0
+HR034;Šibensko-kninska;24-Feb-2121;5809;96;69;16;0
+HR034;Šibensko-kninska;25-Feb-2121;5825;96;72;16;0
+HR034;Šibensko-kninska;26-Feb-2121;5842;96;79;17;0
+HR034;Šibensko-kninska;27-Feb-2121;5864;96;92;22;0
+HR034;Šibensko-kninska;28-Feb-2121;5888;96;109;24;0
+HR034;Šibensko-kninska;01-Mar-2121;5890;96;99;2;0
+HR034;Šibensko-kninska;02-Mar-2121;5897;96;95;7;0
+HR034;Šibensko-kninska;03-Mar-2121;5920;96;113;23;0
 HR035;Splitsko-dalmatinska;21-Mar-2020;7;0;0;;
 HR035;Splitsko-dalmatinska;22-Mar-2020;7;0;0;0;0
 HR035;Splitsko-dalmatinska;23-Mar-2020;7;0;0;0;0
@@ -1626,6 +2061,28 @@ HR035;Splitsko-dalmatinska;06-Feb-2121;29301;404;577;84;3
 HR035;Splitsko-dalmatinska;07-Feb-2121;29371;406;586;70;2
 HR035;Splitsko-dalmatinska;08-Feb-2121;29381;407;528;10;1
 HR035;Splitsko-dalmatinska;09-Feb-2121;29419;410;505;38;3
+HR035;Splitsko-dalmatinska;10-Feb-2121;29537;411;559;118;1
+HR035;Splitsko-dalmatinska;11-Feb-2121;29594;413;544;57;2
+HR035;Splitsko-dalmatinska;12-Feb-2121;29666;414;490;72;1
+HR035;Splitsko-dalmatinska;13-Feb-2121;29735;415;489;69;1
+HR035;Splitsko-dalmatinska;14-Feb-2121;29787;419;471;52;4
+HR035;Splitsko-dalmatinska;15-Feb-2121;29789;423;390;2;4
+HR035;Splitsko-dalmatinska;16-Feb-2121;29828;424;354;39;1
+HR035;Splitsko-dalmatinska;17-Feb-2121;29913;426;394;85;2
+HR035;Splitsko-dalmatinska;18-Feb-2121;29962;430;402;49;4
+HR035;Splitsko-dalmatinska;19-Feb-2121;30030;432;389;68;2
+HR035;Splitsko-dalmatinska;20-Feb-2121;30100;434;405;70;2
+HR035;Splitsko-dalmatinska;21-Feb-2121;30162;435;408;62;1
+HR035;Splitsko-dalmatinska;22-Feb-2121;30169;437;343;7;2
+HR035;Splitsko-dalmatinska;23-Feb-2121;30225;438;356;56;1
+HR035;Splitsko-dalmatinska;24-Feb-2121;30379;438;481;154;0
+HR035;Splitsko-dalmatinska;25-Feb-2121;30482;439;542;103;1
+HR035;Splitsko-dalmatinska;26-Feb-2121;30544;440;557;62;1
+HR035;Splitsko-dalmatinska;27-Feb-2121;30618;442;582;74;2
+HR035;Splitsko-dalmatinska;28-Feb-2121;30694;444;578;76;2
+HR035;Splitsko-dalmatinska;01-Mar-2121;30704;444;502;10;0
+HR035;Splitsko-dalmatinska;02-Mar-2121;30762;445;489;58;1
+HR035;Splitsko-dalmatinska;03-Mar-2121;30927;445;609;165;0
 HR036;Istarska;21-Mar-2020;25;0;0;;
 HR036;Istarska;22-Mar-2020;26;0;0;1;0
 HR036;Istarska;23-Mar-2020;26;0;0;0;0
@@ -1951,6 +2408,28 @@ HR036;Istarska;06-Feb-2121;6097;70;32;9;1
 HR036;Istarska;07-Feb-2121;6099;70;31;2;0
 HR036;Istarska;08-Feb-2121;6100;71;28;1;1
 HR036;Istarska;09-Feb-2121;6107;72;28;7;1
+HR036;Istarska;10-Feb-2121;6119;72;34;12;0
+HR036;Istarska;11-Feb-2121;6121;72;31;2;0
+HR036;Istarska;12-Feb-2121;6127;72;34;6;0
+HR036;Istarska;13-Feb-2121;6127;72;30;0;0
+HR036;Istarska;14-Feb-2121;6128;72;27;1;0
+HR036;Istarska;15-Feb-2121;6129;74;23;1;2
+HR036;Istarska;16-Feb-2121;6133;74;23;4;0
+HR036;Istarska;17-Feb-2121;6136;75;24;3;1
+HR036;Istarska;18-Feb-2121;6139;76;25;3;1
+HR036;Istarska;19-Feb-2121;6146;76;23;7;0
+HR036;Istarska;20-Feb-2121;6155;76;30;9;0
+HR036;Istarska;21-Feb-2121;6160;76;32;5;0
+HR036;Istarska;22-Feb-2121;6163;76;32;3;0
+HR036;Istarska;23-Feb-2121;6167;76;33;4;0
+HR036;Istarska;24-Feb-2121;6174;77;37;7;1
+HR036;Istarska;25-Feb-2121;6179;78;37;5;1
+HR036;Istarska;26-Feb-2121;6185;79;39;6;1
+HR036;Istarska;27-Feb-2121;6189;79;40;4;0
+HR036;Istarska;28-Feb-2121;6191;81;37;2;2
+HR036;Istarska;01-Mar-2121;6193;81;31;2;0
+HR036;Istarska;02-Mar-2121;6202;82;33;9;1
+HR036;Istarska;03-Mar-2121;6206;82;34;4;0
 HR037;Dubrovačko-neretvanska;21-Mar-2020;14;0;0;;
 HR037;Dubrovačko-neretvanska;22-Mar-2020;14;0;0;0;0
 HR037;Dubrovačko-neretvanska;23-Mar-2020;14;0;0;0;0
@@ -2276,6 +2755,28 @@ HR037;Dubrovačko-neretvanska;06-Feb-2121;4675;73;98;23;0
 HR037;Dubrovačko-neretvanska;07-Feb-2121;4684;73;96;9;0
 HR037;Dubrovačko-neretvanska;08-Feb-2121;4685;74;88;1;1
 HR037;Dubrovačko-neretvanska;09-Feb-2121;4696;74;88;11;0
+HR037;Dubrovačko-neretvanska;10-Feb-2121;4708;74;83;12;0
+HR037;Dubrovačko-neretvanska;11-Feb-2121;4726;74;92;18;0
+HR037;Dubrovačko-neretvanska;12-Feb-2121;4747;74;101;21;0
+HR037;Dubrovačko-neretvanska;13-Feb-2121;4764;74;95;17;0
+HR037;Dubrovačko-neretvanska;14-Feb-2121;4775;74;97;11;0
+HR037;Dubrovačko-neretvanska;15-Feb-2121;4777;74;80;2;0
+HR037;Dubrovačko-neretvanska;16-Feb-2121;4806;74;97;29;0
+HR037;Dubrovačko-neretvanska;17-Feb-2121;4831;74;115;25;0
+HR037;Dubrovačko-neretvanska;18-Feb-2121;4847;74;124;16;0
+HR037;Dubrovačko-neretvanska;19-Feb-2121;4867;74;128;20;0
+HR037;Dubrovačko-neretvanska;20-Feb-2121;4907;74;145;40;0
+HR037;Dubrovačko-neretvanska;21-Feb-2121;4947;74;165;40;0
+HR037;Dubrovačko-neretvanska;22-Feb-2121;4951;74;152;4;0
+HR037;Dubrovačko-neretvanska;23-Feb-2121;4991;74;172;40;0
+HR037;Dubrovačko-neretvanska;24-Feb-2121;5048;75;213;57;1
+HR037;Dubrovačko-neretvanska;25-Feb-2121;5095;75;245;47;0
+HR037;Dubrovačko-neretvanska;26-Feb-2121;5152;76;281;57;1
+HR037;Dubrovačko-neretvanska;27-Feb-2121;5200;76;308;48;0
+HR037;Dubrovačko-neretvanska;28-Feb-2121;5250;76;332;50;0
+HR037;Dubrovačko-neretvanska;01-Mar-2121;5256;76;300;6;0
+HR037;Dubrovačko-neretvanska;02-Mar-2121;5305;76;304;49;0
+HR037;Dubrovačko-neretvanska;03-Mar-2121;5363;77;328;58;1
 HR041;Grad Zagreb;21-Mar-2020;85;0;0;;
 HR041;Grad Zagreb;22-Mar-2020;121;0;0;36;0
 HR041;Grad Zagreb;23-Mar-2020;121;0;0;0;0
@@ -2601,6 +3102,28 @@ HR041;Grad Zagreb;06-Feb-2121;44773;1584;407;53;6
 HR041;Grad Zagreb;07-Feb-2121;44807;1592;382;34;8
 HR041;Grad Zagreb;08-Feb-2121;44818;1600;319;11;8
 HR041;Grad Zagreb;09-Feb-2121;44861;1615;307;43;15
+HR041;Grad Zagreb;10-Feb-2121;44949;1620;346;88;5
+HR041;Grad Zagreb;11-Feb-2121;44995;1629;333;46;9
+HR041;Grad Zagreb;12-Feb-2121;45053;1633;345;58;4
+HR041;Grad Zagreb;13-Feb-2121;45105;1640;342;52;7
+HR041;Grad Zagreb;14-Feb-2121;45129;1646;318;24;6
+HR041;Grad Zagreb;15-Feb-2121;45141;1655;280;12;9
+HR041;Grad Zagreb;16-Feb-2121;45190;1661;291;49;6
+HR041;Grad Zagreb;17-Feb-2121;45264;1667;326;74;6
+HR041;Grad Zagreb;18-Feb-2121;45316;1676;319;52;9
+HR041;Grad Zagreb;19-Feb-2121;45390;1679;350;74;3
+HR041;Grad Zagreb;20-Feb-2121;45468;1686;383;78;7
+HR041;Grad Zagreb;21-Feb-2121;45508;1688;383;40;2
+HR041;Grad Zagreb;22-Feb-2121;45521;1692;354;13;4
+HR041;Grad Zagreb;23-Feb-2121;45580;1698;370;59;6
+HR041;Grad Zagreb;24-Feb-2121;45695;1703;441;115;5
+HR041;Grad Zagreb;25-Feb-2121;45773;1705;475;78;2
+HR041;Grad Zagreb;26-Feb-2121;45841;1710;484;68;5
+HR041;Grad Zagreb;27-Feb-2121;45919;1713;503;78;3
+HR041;Grad Zagreb;28-Feb-2121;45944;1716;466;25;3
+HR041;Grad Zagreb;01-Mar-2121;45961;1723;413;17;7
+HR041;Grad Zagreb;02-Mar-2121;46007;1725;391;46;2
+HR041;Grad Zagreb;03-Mar-2121;46101;1726;428;94;1
 HR042;Zagrebačka;22-Mar-2020;2;0;0;;
 HR042;Zagrebačka;23-Mar-2020;2;0;0;0;0
 HR042;Zagrebačka;24-Mar-2020;3;0;0;1;0
@@ -2925,331 +3448,28 @@ HR042;Zagrebačka;06-Feb-2121;18744;10;310;39;0
 HR042;Zagrebačka;07-Feb-2121;18748;10;258;4;0
 HR042;Zagrebačka;08-Feb-2121;18752;10;222;4;0
 HR042;Zagrebačka;09-Feb-2121;18788;10;231;36;0
-HR043;Krapinsko-zagorska županija;21-Mar-2020;14;0;0;;
-HR043;Krapinsko-zagorska županija;22-Mar-2020;18;0;0;4;0
-HR043;Krapinsko-zagorska županija;23-Mar-2020;18;0;0;0;0
-HR043;Krapinsko-zagorska županija;24-Mar-2020;28;0;0;10;0
-HR043;Krapinsko-zagorska županija;25-Mar-2020;33;0;0;5;0
-HR043;Krapinsko-zagorska županija;26-Mar-2020;36;0;0;3;0
-HR043;Krapinsko-zagorska županija;27-Mar-2020;39;0;0;3;0
-HR043;Krapinsko-zagorska županija;28-Mar-2020;39;0;0;0;0
-HR043;Krapinsko-zagorska županija;29-Mar-2020;49;0;0;10;0
-HR043;Krapinsko-zagorska županija;30-Mar-2020;54;0;0;5;0
-HR043;Krapinsko-zagorska županija;31-Mar-2020;59;0;0;5;0
-HR043;Krapinsko-zagorska županija;01-Apr-2020;65;0;0;6;0
-HR043;Krapinsko-zagorska županija;02-Apr-2020;65;0;0;0;0
-HR043;Krapinsko-zagorska županija;03-Apr-2020;69;0;0;4;0
-HR043;Krapinsko-zagorska županija;04-Apr-2020;76;0;0;7;0
-HR043;Krapinsko-zagorska županija;05-Apr-2020;80;0;0;4;0
-HR043;Krapinsko-zagorska županija;06-Apr-2020;80;0;0;0;0
-HR043;Krapinsko-zagorska županija;07-Apr-2020;83;1;0;3;1
-HR043;Krapinsko-zagorska županija;08-Apr-2020;86;0;0;3;-1
-HR043;Krapinsko-zagorska županija;09-Apr-2020;92;1;0;6;1
-HR043;Krapinsko-zagorska županija;10-Apr-2020;94;1;0;2;0
-HR043;Krapinsko-zagorska županija;11-Apr-2020;96;0;0;2;-1
-HR043;Krapinsko-zagorska županija;12-Apr-2020;99;0;0;3;0
-HR043;Krapinsko-zagorska županija;13-Apr-2020;100;1;0;1;1
-HR043;Krapinsko-zagorska županija;14-Apr-2020;108;1;0;8;0
-HR043;Krapinsko-zagorska županija;15-Apr-2020;112;1;0;4;0
-HR043;Krapinsko-zagorska županija;16-Apr-2020;115;1;0;3;0
-HR043;Krapinsko-zagorska županija;17-Apr-2020;115;1;0;0;0
-HR043;Krapinsko-zagorska županija;18-Apr-2020;118;1;0;3;0
-HR043;Krapinsko-zagorska županija;19-Apr-2020;120;1;0;2;0
-HR043;Krapinsko-zagorska županija;20-Apr-2020;124;1;0;4;0
-HR043;Krapinsko-zagorska županija;21-Apr-2020;126;1;0;2;0
-HR043;Krapinsko-zagorska županija;22-Apr-2020;127;1;0;1;0
-HR043;Krapinsko-zagorska županija;23-Apr-2020;128;1;0;1;0
-HR043;Krapinsko-zagorska županija;24-Apr-2020;130;1;0;2;0
-HR043;Krapinsko-zagorska županija;25-Apr-2020;132;1;0;2;0
-HR043;Krapinsko-zagorska županija;26-Apr-2020;133;1;0;1;0
-HR043;Krapinsko-zagorska županija;27-Apr-2020;133;1;0;0;0
-HR043;Krapinsko-zagorska županija;28-Apr-2020;133;1;0;0;0
-HR043;Krapinsko-zagorska županija;29-Apr-2020;134;1;0;1;0
-HR043;Krapinsko-zagorska županija;30-Apr-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;01-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;02-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;03-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;04-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;05-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;06-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;07-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;08-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;09-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;10-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;11-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;12-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;13-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;14-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;15-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;16-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;17-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;18-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;19-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;20-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;21-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;22-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;23-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;24-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;25-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;26-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;27-May-2020;134;1;0;0;0
-HR043;Krapinsko-zagorska županija;28-May-2020;134;2;0;0;1
-HR043;Krapinsko-zagorska županija;29-May-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;30-May-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;31-May-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;01-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;02-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;03-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;04-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;05-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;06-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;07-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;08-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;09-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;10-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;11-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;12-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;13-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;14-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;15-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;16-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;17-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;18-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;19-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;20-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;21-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;22-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;23-Jun-2020;134;2;0;0;0
-HR043;Krapinsko-zagorska županija;24-Jun-2020;135;2;0;1;0
-HR043;Krapinsko-zagorska županija;25-Jun-2020;135;2;0;0;0
-HR043;Krapinsko-zagorska županija;26-Jun-2020;135;2;0;0;0
-HR043;Krapinsko-zagorska županija;27-Jun-2020;135;2;0;0;0
-HR043;Krapinsko-zagorska županija;28-Jun-2020;135;2;0;0;0
-HR043;Krapinsko-zagorska županija;29-Jun-2020;135;2;1;0;0
-HR043;Krapinsko-zagorska županija;30-Jun-2020;136;2;2;1;0
-HR043;Krapinsko-zagorska županija;01-Jul-2020;136;2;2;0;0
-HR043;Krapinsko-zagorska županija;02-Jul-2020;136;2;2;0;0
-HR043;Krapinsko-zagorska županija;03-Jul-2020;136;2;2;0;0
-HR043;Krapinsko-zagorska županija;04-Jul-2020;137;2;3;1;0
-HR043;Krapinsko-zagorska županija;05-Jul-2020;137;2;3;0;0
-HR043;Krapinsko-zagorska županija;06-Jul-2020;137;2;3;0;0
-HR043;Krapinsko-zagorska županija;07-Jul-2020;138;2;3;1;0
-HR043;Krapinsko-zagorska županija;08-Jul-2020;139;2;4;1;0
-HR043;Krapinsko-zagorska županija;09-Jul-2020;139;2;4;0;0
-HR043;Krapinsko-zagorska županija;10-Jul-2020;139;2;4;0;0
-HR043;Krapinsko-zagorska županija;11-Jul-2020;140;2;5;1;0
-HR043;Krapinsko-zagorska županija;12-Jul-2020;141;2;6;1;0
-HR043;Krapinsko-zagorska županija;13-Jul-2020;142;2;7;1;0
-HR043;Krapinsko-zagorska županija;14-Jul-2020;143;2;7;1;0
-HR043;Krapinsko-zagorska županija;15-Jul-2020;145;2;10;2;0
-HR043;Krapinsko-zagorska županija;16-Jul-2020;145;2;9;0;0
-HR043;Krapinsko-zagorska županija;17-Jul-2020;145;2;8;0;0
-HR043;Krapinsko-zagorska županija;18-Jul-2020;146;2;7;1;0
-HR043;Krapinsko-zagorska županija;19-Jul-2020;146;2;7;0;0
-HR043;Krapinsko-zagorska županija;20-Jul-2020;146;2;7;0;0
-HR043;Krapinsko-zagorska županija;21-Jul-2020;146;2;7;0;0
-HR043;Krapinsko-zagorska županija;22-Jul-2020;147;2;7;1;0
-HR043;Krapinsko-zagorska županija;23-Jul-2020;149;2;5;2;0
-HR043;Krapinsko-zagorska županija;24-Jul-2020;149;2;5;0;0
-HR043;Krapinsko-zagorska županija;25-Jul-2020;152;2;8;3;0
-HR043;Krapinsko-zagorska županija;26-Jul-2020;152;2;7;0;0
-HR043;Krapinsko-zagorska županija;27-Jul-2020;152;2;7;0;0
-HR043;Krapinsko-zagorska županija;28-Jul-2020;152;2;6;0;0
-HR043;Krapinsko-zagorska županija;29-Jul-2020;153;2;6;1;0
-HR043;Krapinsko-zagorska županija;30-Jul-2020;154;2;7;1;0
-HR043;Krapinsko-zagorska županija;31-Jul-2020;154;2;7;0;0
-HR043;Krapinsko-zagorska županija;01-Aug-2020;154;2;5;0;0
-HR043;Krapinsko-zagorska županija;02-Aug-2020;154;2;5;0;0
-HR043;Krapinsko-zagorska županija;03-Aug-2020;154;2;5;0;0
-HR043;Krapinsko-zagorska županija;04-Aug-2020;154;2;4;0;0
-HR043;Krapinsko-zagorska županija;05-Aug-2020;154;2;3;0;0
-HR043;Krapinsko-zagorska županija;06-Aug-2020;154;2;3;0;0
-HR043;Krapinsko-zagorska županija;07-Aug-2020;154;2;1;0;0
-HR043;Krapinsko-zagorska županija;08-Aug-2020;155;2;2;1;0
-HR043;Krapinsko-zagorska županija;09-Aug-2020;155;2;2;0;0
-HR043;Krapinsko-zagorska županija;10-Aug-2020;155;2;2;0;0
-HR043;Krapinsko-zagorska županija;11-Aug-2020;156;2;2;1;0
-HR043;Krapinsko-zagorska županija;12-Aug-2020;157;2;3;1;0
-HR043;Krapinsko-zagorska županija;13-Aug-2020;158;2;4;1;0
-HR043;Krapinsko-zagorska županija;14-Aug-2020;160;2;6;2;0
-HR043;Krapinsko-zagorska županija;15-Aug-2020;162;2;8;2;0
-HR043;Krapinsko-zagorska županija;16-Aug-2020;163;2;9;1;0
-HR043;Krapinsko-zagorska županija;17-Aug-2020;164;2;10;1;0
-HR043;Krapinsko-zagorska županija;18-Aug-2020;166;2;11;2;0
-HR043;Krapinsko-zagorska županija;19-Aug-2020;169;2;13;3;0
-HR043;Krapinsko-zagorska županija;20-Aug-2020;169;2;13;0;0
-HR043;Krapinsko-zagorska županija;21-Aug-2020;170;2;14;1;0
-HR043;Krapinsko-zagorska županija;22-Aug-2020;174;2;17;4;0
-HR043;Krapinsko-zagorska županija;23-Aug-2020;175;2;18;1;0
-HR043;Krapinsko-zagorska županija;24-Aug-2020;176;2;17;1;0
-HR043;Krapinsko-zagorska županija;25-Aug-2020;177;2;18;1;0
-HR043;Krapinsko-zagorska županija;26-Aug-2020;180;2;21;3;0
-HR043;Krapinsko-zagorska županija;27-Aug-2020;186;2;23;6;0
-HR043;Krapinsko-zagorska županija;28-Aug-2020;186;2;21;0;0
-HR043;Krapinsko-zagorska županija;29-Aug-2020;193;2;27;7;0
-HR043;Krapinsko-zagorska županija;30-Aug-2020;201;2;33;8;0
-HR043;Krapinsko-zagorska županija;31-Aug-2020;204;2;34;3;0
-HR043;Krapinsko-zagorska županija;01-Sep-2020;206;2;33;2;0
-HR043;Krapinsko-zagorska županija;02-Sep-2020;207;2;29;1;0
-HR043;Krapinsko-zagorska županija;03-Sep-2020;215;2;37;8;0
-HR043;Krapinsko-zagorska županija;04-Sep-2020;217;2;39;2;0
-HR043;Krapinsko-zagorska županija;05-Sep-2020;224;2;44;7;0
-HR043;Krapinsko-zagorska županija;06-Sep-2020;226;2;42;2;0
-HR043;Krapinsko-zagorska županija;07-Sep-2020;230;2;44;4;0
-HR043;Krapinsko-zagorska županija;08-Sep-2020;235;2;45;5;0
-HR043;Krapinsko-zagorska županija;09-Sep-2020;236;2;45;1;0
-HR043;Krapinsko-zagorska županija;10-Sep-2020;241;2;45;5;0
-HR043;Krapinsko-zagorska županija;11-Sep-2020;244;2;44;3;0
-HR043;Krapinsko-zagorska županija;12-Sep-2020;249;2;42;5;0
-HR043;Krapinsko-zagorska županija;13-Sep-2020;254;2;43;5;0
-HR043;Krapinsko-zagorska županija;14-Sep-2020;256;2;42;2;0
-HR043;Krapinsko-zagorska županija;15-Sep-2020;257;2;39;1;0
-HR043;Krapinsko-zagorska županija;16-Sep-2020;268;2;48;11;0
-HR043;Krapinsko-zagorska županija;17-Sep-2020;273;2;48;5;0
-HR043;Krapinsko-zagorska županija;18-Sep-2020;283;2;50;10;0
-HR043;Krapinsko-zagorska županija;19-Sep-2020;289;2;51;6;0
-HR043;Krapinsko-zagorska županija;20-Sep-2020;297;2;56;8;0
-HR043;Krapinsko-zagorska županija;21-Sep-2020;305;2;60;8;0
-HR043;Krapinsko-zagorska županija;22-Sep-2020;310;2;62;5;0
-HR043;Krapinsko-zagorska županija;23-Sep-2020;325;2;58;15;0
-HR043;Krapinsko-zagorska županija;24-Sep-2020;327;2;54;2;0
-HR043;Krapinsko-zagorska županija;25-Sep-2020;342;2;57;15;0
-HR043;Krapinsko-zagorska županija;26-Sep-2020;349;2;62;7;0
-HR043;Krapinsko-zagorska županija;27-Sep-2020;360;2;64;11;0
-HR043;Krapinsko-zagorska županija;28-Sep-2020;361;2;56;1;0
-HR043;Krapinsko-zagorska županija;29-Sep-2020;366;2;47;5;0
-HR043;Krapinsko-zagorska županija;30-Sep-2020;382;2;56;16;0
-HR043;Krapinsko-zagorska županija;01-Oct-2020;392;2;58;10;0
-HR043;Krapinsko-zagorska županija;02-Oct-2020;422;2;83;30;0
-HR043;Krapinsko-zagorska županija;03-Oct-2020;432;2;84;10;0
-HR043;Krapinsko-zagorska županija;04-Oct-2020;434;2;78;2;0
-HR043;Krapinsko-zagorska županija;05-Oct-2020;456;2;94;22;0
-HR043;Krapinsko-zagorska županija;06-Oct-2020;471;2;98;15;0
-HR043;Krapinsko-zagorska županija;07-Oct-2020;494;2;112;23;0
-HR043;Krapinsko-zagorska županija;08-Oct-2020;526;2;136;32;0
-HR043;Krapinsko-zagorska županija;09-Oct-2020;556;2;149;30;0
-HR043;Krapinsko-zagorska županija;10-Oct-2020;565;2;147;9;0
-HR043;Krapinsko-zagorska županija;11-Oct-2020;610;2;175;45;0
-HR043;Krapinsko-zagorska županija;12-Oct-2020;626;2;173;16;0
-HR043;Krapinsko-zagorska županija;13-Oct-2020;634;2;165;8;0
-HR043;Krapinsko-zagorska županija;14-Oct-2020;678;2;176;44;0
-HR043;Krapinsko-zagorska županija;15-Oct-2020;753;2;227;75;0
-HR043;Krapinsko-zagorska županija;16-Oct-2020;819;2;271;66;0
-HR043;Krapinsko-zagorska županija;17-Oct-2020;932;2;351;113;0
-HR043;Krapinsko-zagorska županija;18-Oct-2020;1014;2;398;82;0
-HR043;Krapinsko-zagorska županija;19-Oct-2020;1033;2;384;19;0
-HR043;Krapinsko-zagorska županija;20-Oct-2020;1067;2;386;34;0
-HR043;Krapinsko-zagorska županija;21-Oct-2020;1080;2;364;13;0
-HR043;Krapinsko-zagorska županija;22-Oct-2020;1212;2;445;132;0
-HR043;Krapinsko-zagorska županija;23-Oct-2020;1267;2;439;55;0
-HR043;Krapinsko-zagorska županija;24-Oct-2020;1372;2;487;105;0
-HR043;Krapinsko-zagorska županija;25-Oct-2020;1543;2;574;171;0
-HR043;Krapinsko-zagorska županija;26-Oct-2020;1615;2;572;72;0
-HR043;Krapinsko-zagorska županija;27-Oct-2020;1691;2;575;76;0
-HR043;Krapinsko-zagorska županija;28-Oct-2020;1748;5;570;57;3
-HR043;Krapinsko-zagorska županija;29-Oct-2020;1869;7;620;121;2
-HR043;Krapinsko-zagorska županija;30-Oct-2020;2022;9;698;153;2
-HR043;Krapinsko-zagorska županija;31-Oct-2020;2173;9;740;151;0
-HR043;Krapinsko-zagorska županija;01-Nov-2020;2280;10;754;107;1
-HR043;Krapinsko-zagorska županija;02-Nov-2020;2326;12;690;46;2
-HR043;Krapinsko-zagorska županija;03-Nov-2020;2351;15;615;25;3
-HR043;Krapinsko-zagorska županija;04-Nov-2020;2456;15;630;105;0
-HR043;Krapinsko-zagorska županija;05-Nov-2020;2592;16;680;136;1
-HR043;Krapinsko-zagorska županija;06-Nov-2020;2760;17;749;168;1
-HR043;Krapinsko-zagorska županija;07-Nov-2020;2789;22;660;29;5
-HR043;Krapinsko-zagorska županija;08-Nov-2020;2914;28;676;125;6
-HR043;Krapinsko-zagorska županija;09-Nov-2020;2966;28;613;52;0
-HR043;Krapinsko-zagorska županija;10-Nov-2020;3016;30;595;50;2
-HR043;Krapinsko-zagorska županija;11-Nov-2020;3114;31;608;98;1
-HR043;Krapinsko-zagorska županija;12-Nov-2020;3250;33;635;136;2
-HR043;Krapinsko-zagorska županija;13-Nov-2020;3321;34;597;71;1
-HR043;Krapinsko-zagorska županija;14-Nov-2020;3387;38;560;66;4
-HR043;Krapinsko-zagorska županija;15-Nov-2020;3552;42;635;165;4
-HR043;Krapinsko-zagorska županija;16-Nov-2020;3572;42;562;20;0
-HR043;Krapinsko-zagorska županija;17-Nov-2020;3611;43;541;39;1
-HR043;Krapinsko-zagorska županija;18-Nov-2020;3731;45;618;120;2
-HR043;Krapinsko-zagorska županija;19-Nov-2020;3951;46;744;220;1
-HR043;Krapinsko-zagorska županija;20-Nov-2020;4040;49;746;89;3
-HR043;Krapinsko-zagorska županija;21-Nov-2020;4154;53;761;114;4
-HR043;Krapinsko-zagorska županija;22-Nov-2020;4314;59;846;160;6
-HR043;Krapinsko-zagorska županija;23-Nov-2020;4440;66;848;126;7
-HR043;Krapinsko-zagorska županija;24-Nov-2020;4476;69;806;36;3
-HR043;Krapinsko-zagorska županija;25-Nov-2020;4643;77;896;167;8
-HR043;Krapinsko-zagorska županija;26-Nov-2020;4878;82;980;235;5
-HR043;Krapinsko-zagorska županija;27-Nov-2020;5044;84;969;166;2
-HR043;Krapinsko-zagorska županija;28-Nov-2020;5158;92;995;114;8
-HR043;Krapinsko-zagorska županija;29-Nov-2020;5241;95;950;83;3
-HR043;Krapinsko-zagorska županija;30-Nov-2020;5410;99;1024;169;4
-HR043;Krapinsko-zagorska županija;01-Dec-2020;5506;102;928;96;3
-HR043;Krapinsko-zagorska županija;02-Dec-2020;5646;104;995;140;2
-HR043;Krapinsko-zagorska županija;03-Dec-2020;5918;110;1101;272;6
-HR043;Krapinsko-zagorska županija;05-Dec-2020;6302;122;1143;;
-HR043;Krapinsko-zagorska županija;06-Dec-2020;6457;128;1113;155;6
-HR043;Krapinsko-zagorska županija;07-Dec-2020;6530;132;1082;73;4
-HR043;Krapinsko-zagorska županija;08-Dec-2020;6563;132;932;33;0
-HR043;Krapinsko-zagorska županija;09-Dec-2020;6741;135;1009;178;3
-HR043;Krapinsko-zagorska županija;10-Dec-2020;7018;135;1155;277;0
-HR043;Krapinsko-zagorska županija;11-Dec-2020;7179;137;1103;161;2
-HR043;Krapinsko-zagorska županija;12-Dec-2020;7331;139;1062;152;2
-HR043;Krapinsko-zagorska županija;13-Dec-2020;7488;143;1055;157;4
-HR043;Krapinsko-zagorska županija;14-Dec-2020;7532;147;958;44;4
-HR043;Krapinsko-zagorska županija;15-Dec-2020;7553;149;859;21;2
-HR043;Krapinsko-zagorska županija;16-Dec-2020;7633;152;844;80;3
-HR043;Krapinsko-zagorska županija;17-Dec-2020;7768;159;811;135;7
-HR043;Krapinsko-zagorska županija;18-Dec-2020;7845;163;658;77;4
-HR043;Krapinsko-zagorska županija;19-Dec-2020;7934;166;628;89;3
-HR043;Krapinsko-zagorska županija;20-Dec-2020;8041;170;586;107;4
-HR043;Krapinsko-zagorska županija;21-Dec-2020;8062;175;507;21;5
-HR043;Krapinsko-zagorska županija;22-Dec-2020;8074;178;438;12;3
-HR043;Krapinsko-zagorska županija;23-Dec-2020;8165;183;458;91;5
-HR043;Krapinsko-zagorska županija;24-Dec-2020;8176;188;372;11;5
-HR043;Krapinsko-zagorska županija;25-Dec-2020;8268;190;375;92;2
-HR043;Krapinsko-zagorska županija;26-Dec-2020;8301;196;340;33;6
-HR043;Krapinsko-zagorska županija;27-Dec-2020;8302;200;264;1;4
-HR043;Krapinsko-zagorska županija;28-Dec-2020;8332;206;217;30;6
-HR043;Krapinsko-zagorska županija;29-Dec-2020;8371;213;209;39;7
-HR043;Krapinsko-zagorska županija;30-Dec-2020;8379;217;176;8;4
-HR043;Krapinsko-zagorska županija;31-Dec-2020;8451;221;198;72;4
-HR043;Krapinsko-zagorska županija;01-Jan-2121;8483;221;183;32;0
-HR043;Krapinsko-zagorska županija;02-Jan-2121;8505;224;148;22;3
-HR043;Krapinsko-zagorska županija;03-Jan-2121;8520;226;126;15;2
-HR043;Krapinsko-zagorska županija;04-Jan-2121;8525;227;110;5;1
-HR043;Krapinsko-zagorska županija;05-Jan-2121;8550;227;102;25;0
-HR043;Krapinsko-zagorska županija;06-Jan-2121;8596;231;116;46;4
-HR043;Krapinsko-zagorska županija;07-Jan-2121;8609;234;104;13;3
-HR043;Krapinsko-zagorska županija;08-Jan-2121;8636;236;102;27;2
-HR043;Krapinsko-zagorska županija;09-Jan-2121;8662;238;88;26;2
-HR043;Krapinsko-zagorska županija;10-Jan-2121;8672;238;76;10;0
-HR043;Krapinsko-zagorska županija;11-Jan-2121;8682;238;68;10;0
-HR043;Krapinsko-zagorska županija;12-Jan-2121;8711;240;82;29;2
-HR043;Krapinsko-zagorska županija;13-Jan-2121;8733;241;88;22;1
-HR043;Krapinsko-zagorska županija;14-Jan-2121;8748;245;75;15;4
-HR043;Krapinsko-zagorska županija;15-Jan-2121;8759;247;54;11;2
-HR043;Krapinsko-zagorska županija;16-Jan-2121;8780;247;59;21;0
-HR043;Krapinsko-zagorska županija;17-Jan-2121;8789;249;47;9;2
-HR043;Krapinsko-zagorska županija;18-Jan-2121;8793;251;27;4;2
-HR043;Krapinsko-zagorska županija;19-Jan-2121;8807;251;25;14;0
-HR043;Krapinsko-zagorska županija;20-Jan-2121;8828;252;29;21;1
-HR043;Krapinsko-zagorska županija;21-Jan-2121;8836;252;17;8;0
-HR043;Krapinsko-zagorska županija;22-Jan-2121;8840;253;17;4;1
-HR043;Krapinsko-zagorska županija;23-Jan-2121;8846;254;19;6;1
-HR043;Krapinsko-zagorska županija;24-Jan-2121;8849;257;10;3;3
-HR043;Krapinsko-zagorska županija;25-Jan-2121;8855;258;16;6;1
-HR043;Krapinsko-zagorska županija;26-Jan-2121;8871;258;21;16;0
-HR043;Krapinsko-zagorska županija;27-Jan-2121;8882;261;32;11;3
-HR043;Krapinsko-zagorska županija;28-Jan-2121;8889;262;39;7;1
-HR043;Krapinsko-zagorska županija;29-Jan-2121;8910;263;58;21;1
-HR043;Krapinsko-zagorska županija;30-Jan-2121;8918;263;63;8;0
-HR043;Krapinsko-zagorska županija;31-Jan-2121;8924;263;66;6;0
-HR043;Krapinsko-zagorska županija;01-Feb-2121;8926;265;60;2;2
-HR043;Krapinsko-zagorska županija;02-Feb-2121;8934;266;59;8;1
-HR043;Krapinsko-zagorska županija;03-Feb-2121;8953;268;73;19;2
-HR043;Krapinsko-zagorska županija;04-Feb-2121;8961;268;75;8;0
-HR043;Krapinsko-zagorska županija;05-Feb-2121;8969;270;70;8;2
-HR043;Krapinsko-zagorska županija;06-Feb-2121;8980;270;71;11;0
-HR043;Krapinsko-zagorska županija;07-Feb-2121;8987;276;59;7;6
-HR043;Krapinsko-zagorska županija;08-Feb-2121;8989;277;51;2;1
-HR043;Krapinsko-zagorska županija;09-Feb-2121;8996;277;53;7;0
+HR042;Zagrebačka;10-Feb-2121;18840;10;248;52;0
+HR042;Zagrebačka;11-Feb-2121;18874;10;231;34;0
+HR042;Zagrebačka;12-Feb-2121;18895;10;213;21;0
+HR042;Zagrebačka;13-Feb-2121;18931;10;223;36;0
+HR042;Zagrebačka;14-Feb-2121;18935;10;182;4;0
+HR042;Zagrebačka;15-Feb-2121;18940;10;156;5;0
+HR042;Zagrebačka;16-Feb-2121;18955;10;153;15;0
+HR042;Zagrebačka;17-Feb-2121;19010;10;191;55;0
+HR042;Zagrebačka;18-Feb-2121;19042;10;198;32;0
+HR042;Zagrebačka;19-Feb-2121;19071;10;202;29;0
+HR042;Zagrebačka;20-Feb-2121;19101;10;196;30;0
+HR042;Zagrebačka;21-Feb-2121;19109;10;182;8;0
+HR042;Zagrebačka;22-Feb-2121;19112;10;160;3;0
+HR042;Zagrebačka;23-Feb-2121;19138;10;166;26;0
+HR042;Zagrebačka;24-Feb-2121;19200;10;201;62;0
+HR042;Zagrebačka;25-Feb-2121;19226;10;210;26;0
+HR042;Zagrebačka;26-Feb-2121;19259;10;202;33;0
+HR042;Zagrebačka;27-Feb-2121;19304;10;217;45;0
+HR042;Zagrebačka;28-Feb-2121;19314;10;205;10;0
+HR042;Zagrebačka;01-Mar-2121;19317;10;186;3;0
+HR042;Zagrebačka;02-Mar-2121;19347;10;196;30;0
+HR042;Zagrebačka;03-Mar-2121;19412;10;234;65;0
 HR044;Varaždinska;21-Mar-2020;10;0;0;;
 HR044;Varaždinska;22-Mar-2020;11;0;0;1;0
 HR044;Varaždinska;23-Mar-2020;11;0;0;0;0
@@ -3575,6 +3795,28 @@ HR044;Varaždinska;06-Feb-2121;14635;356;110;18;0
 HR044;Varaždinska;07-Feb-2121;14651;358;103;16;2
 HR044;Varaždinska;08-Feb-2121;14655;360;93;4;2
 HR044;Varaždinska;09-Feb-2121;14667;361;80;12;1
+HR044;Varaždinska;10-Feb-2121;14694;361;90;27;0
+HR044;Varaždinska;11-Feb-2121;14716;363;96;22;2
+HR044;Varaždinska;12-Feb-2121;14737;366;105;21;3
+HR044;Varaždinska;13-Feb-2121;14756;368;113;19;2
+HR044;Varaždinska;14-Feb-2121;14768;370;108;12;2
+HR044;Varaždinska;15-Feb-2121;14773;371;96;5;1
+HR044;Varaždinska;16-Feb-2121;14783;373;97;10;2
+HR044;Varaždinska;17-Feb-2121;14799;374;97;16;1
+HR044;Varaždinska;18-Feb-2121;14814;375;100;15;1
+HR044;Varaždinska;19-Feb-2121;14826;376;97;12;1
+HR044;Varaždinska;20-Feb-2121;14842;377;89;16;1
+HR044;Varaždinska;21-Feb-2121;14853;378;86;11;1
+HR044;Varaždinska;22-Feb-2121;14855;380;77;2;2
+HR044;Varaždinska;23-Feb-2121;14865;381;83;10;1
+HR044;Varaždinska;24-Feb-2121;14873;384;83;8;3
+HR044;Varaždinska;25-Feb-2121;14893;384;92;20;0
+HR044;Varaždinska;26-Feb-2121;14901;384;85;8;0
+HR044;Varaždinska;27-Feb-2121;14914;384;82;13;0
+HR044;Varaždinska;28-Feb-2121;14939;384;97;25;0
+HR044;Varaždinska;01-Mar-2121;14946;384;86;7;0
+HR044;Varaždinska;02-Mar-2121;14957;384;89;11;0
+HR044;Varaždinska;03-Mar-2121;14976;385;96;19;1
 HR045;Koprivničko-križevačka;21-Mar-2020;1;0;0;;
 HR045;Koprivničko-križevačka;22-Mar-2020;1;0;0;0;0
 HR045;Koprivničko-križevačka;23-Mar-2020;1;0;0;0;0
@@ -3900,6 +4142,28 @@ HR045;Koprivničko-križevačka;06-Feb-2121;5983;164;87;18;1
 HR045;Koprivničko-križevačka;07-Feb-2121;5987;165;77;4;1
 HR045;Koprivničko-križevačka;08-Feb-2121;5987;168;71;0;3
 HR045;Koprivničko-križevačka;09-Feb-2121;5990;169;60;3;1
+HR045;Koprivničko-križevačka;10-Feb-2121;6008;170;74;18;1
+HR045;Koprivničko-križevačka;11-Feb-2121;6013;173;67;5;3
+HR045;Koprivničko-križevačka;12-Feb-2121;6017;174;53;4;1
+HR045;Koprivničko-križevačka;13-Feb-2121;6031;175;50;14;1
+HR045;Koprivničko-križevačka;14-Feb-2121;6033;176;47;2;1
+HR045;Koprivničko-križevačka;15-Feb-2121;6034;176;39;1;0
+HR045;Koprivničko-križevačka;16-Feb-2121;6038;177;37;4;1
+HR045;Koprivničko-križevačka;17-Feb-2121;6052;179;46;14;2
+HR045;Koprivničko-križevačka;18-Feb-2121;6068;180;58;16;1
+HR045;Koprivničko-križevačka;19-Feb-2121;6071;180;56;3;0
+HR045;Koprivničko-križevačka;20-Feb-2121;6081;180;60;10;0
+HR045;Koprivničko-križevačka;21-Feb-2121;6084;182;53;3;2
+HR045;Koprivničko-križevačka;22-Feb-2121;6085;182;47;1;0
+HR045;Koprivničko-križevačka;23-Feb-2121;6093;182;48;8;0
+HR045;Koprivničko-križevačka;24-Feb-2121;6106;182;56;13;0
+HR045;Koprivničko-križevačka;25-Feb-2121;6119;182;60;13;0
+HR045;Koprivničko-križevačka;26-Feb-2121;6130;183;65;11;1
+HR045;Koprivničko-križevačka;27-Feb-2121;6143;183;62;13;0
+HR045;Koprivničko-križevačka;28-Feb-2121;6147;184;61;4;1
+HR045;Koprivničko-križevačka;01-Mar-2121;6147;184;55;0;0
+HR045;Koprivničko-križevačka;02-Mar-2121;6151;186;54;4;2
+HR045;Koprivničko-križevačka;03-Mar-2121;6157;186;50;6;0
 HR046;Međimurska;21-Mar-2020;0;0;0;;
 HR046;Međimurska;22-Mar-2020;0;0;0;0;0
 HR046;Međimurska;23-Mar-2020;0;0;0;0;0
@@ -4225,6 +4489,28 @@ HR046;Međimurska;06-Feb-2121;10350;151;123;14;1
 HR046;Međimurska;07-Feb-2121;10365;151;119;15;0
 HR046;Međimurska;08-Feb-2121;10367;153;109;2;2
 HR046;Međimurska;09-Feb-2121;10379;153;108;12;0
+HR046;Međimurska;10-Feb-2121;10413;153;140;34;0
+HR046;Međimurska;11-Feb-2121;10426;153;131;13;0
+HR046;Međimurska;12-Feb-2121;10435;153;128;9;0
+HR046;Međimurska;13-Feb-2121;10449;154;104;14;1
+HR046;Međimurska;14-Feb-2121;10458;154;98;9;0
+HR046;Međimurska;15-Feb-2121;10458;155;77;0;1
+HR046;Međimurska;16-Feb-2121;10462;155;66;4;0
+HR046;Međimurska;17-Feb-2121;10483;155;77;21;0
+HR046;Međimurska;18-Feb-2121;10492;155;74;9;0
+HR046;Međimurska;19-Feb-2121;10509;155;77;17;0
+HR046;Međimurska;20-Feb-2121;10512;155;70;3;0
+HR046;Međimurska;21-Feb-2121;10524;156;77;12;1
+HR046;Međimurska;22-Feb-2121;10526;156;64;2;0
+HR046;Međimurska;23-Feb-2121;10530;156;59;4;0
+HR046;Međimurska;24-Feb-2121;10556;156;82;26;0
+HR046;Međimurska;25-Feb-2121;10568;156;89;12;0
+HR046;Međimurska;26-Feb-2121;10581;157;84;13;1
+HR046;Međimurska;27-Feb-2121;10590;157;84;9;0
+HR046;Međimurska;28-Feb-2121;10609;157;93;19;0
+HR046;Međimurska;01-Mar-2121;10609;159;86;0;2
+HR046;Međimurska;02-Mar-2121;10618;159;83;9;0
+HR046;Međimurska;03-Mar-2121;10635;159;96;17;0
 HR047;Bjelovarsko-bilogorska;21-Mar-2020;0;0;0;;
 HR047;Bjelovarsko-bilogorska;22-Mar-2020;0;0;0;0;0
 HR047;Bjelovarsko-bilogorska;23-Mar-2020;1;0;0;1;0
@@ -4550,6 +4836,28 @@ HR047;Bjelovarsko-bilogorska;06-Feb-2121;5557;120;60;12;1
 HR047;Bjelovarsko-bilogorska;07-Feb-2121;5563;122;56;6;2
 HR047;Bjelovarsko-bilogorska;08-Feb-2121;5565;123;43;2;1
 HR047;Bjelovarsko-bilogorska;09-Feb-2121;5567;123;34;2;0
+HR047;Bjelovarsko-bilogorska;10-Feb-2121;5578;125;39;11;2
+HR047;Bjelovarsko-bilogorska;11-Feb-2121;5584;126;32;6;1
+HR047;Bjelovarsko-bilogorska;12-Feb-2121;5589;127;33;5;1
+HR047;Bjelovarsko-bilogorska;13-Feb-2121;5591;127;31;2;0
+HR047;Bjelovarsko-bilogorska;14-Feb-2121;5597;128;27;6;1
+HR047;Bjelovarsko-bilogorska;15-Feb-2121;5600;128;23;3;0
+HR047;Bjelovarsko-bilogorska;16-Feb-2121;5600;129;18;0;1
+HR047;Bjelovarsko-bilogorska;17-Feb-2121;5610;129;24;10;0
+HR047;Bjelovarsko-bilogorska;18-Feb-2121;5614;131;26;4;2
+HR047;Bjelovarsko-bilogorska;19-Feb-2121;5621;131;31;7;0
+HR047;Bjelovarsko-bilogorska;20-Feb-2121;5627;131;36;6;0
+HR047;Bjelovarsko-bilogorska;21-Feb-2121;5628;131;31;1;0
+HR047;Bjelovarsko-bilogorska;22-Feb-2121;5629;131;29;1;0
+HR047;Bjelovarsko-bilogorska;23-Feb-2121;5629;132;20;0;1
+HR047;Bjelovarsko-bilogorska;24-Feb-2121;5634;132;24;5;0
+HR047;Bjelovarsko-bilogorska;25-Feb-2121;5638;132;25;4;0
+HR047;Bjelovarsko-bilogorska;26-Feb-2121;5642;132;21;4;0
+HR047;Bjelovarsko-bilogorska;27-Feb-2121;5644;132;20;2;0
+HR047;Bjelovarsko-bilogorska;28-Feb-2121;5644;132;17;0;0
+HR047;Bjelovarsko-bilogorska;01-Mar-2121;5646;133;18;2;1
+HR047;Bjelovarsko-bilogorska;02-Mar-2121;5649;133;21;3;0
+HR047;Bjelovarsko-bilogorska;03-Mar-2121;5661;133;32;12;0
 HR048;Virovitičko-podravska;21-Mar-2020;0;0;0;;
 HR048;Virovitičko-podravska;22-Mar-2020;0;0;0;0;0
 HR048;Virovitičko-podravska;23-Mar-2020;0;0;0;0;0
@@ -4875,6 +5183,28 @@ HR048;Virovitičko-podravska;06-Feb-2121;3671;73;16;3;2
 HR048;Virovitičko-podravska;07-Feb-2121;3681;73;22;10;0
 HR048;Virovitičko-podravska;08-Feb-2121;3684;73;20;3;0
 HR048;Virovitičko-podravska;09-Feb-2121;3685;73;20;1;0
+HR048;Virovitičko-podravska;10-Feb-2121;3688;74;19;3;1
+HR048;Virovitičko-podravska;11-Feb-2121;3696;74;26;8;0
+HR048;Virovitičko-podravska;12-Feb-2121;3698;74;27;2;0
+HR048;Virovitičko-podravska;13-Feb-2121;3700;74;26;2;0
+HR048;Virovitičko-podravska;14-Feb-2121;3703;74;25;3;0
+HR048;Virovitičko-podravska;15-Feb-2121;3704;74;22;1;0
+HR048;Virovitičko-podravska;16-Feb-2121;3707;74;22;3;0
+HR048;Virovitičko-podravska;17-Feb-2121;3707;74;18;0;0
+HR048;Virovitičko-podravska;18-Feb-2121;3720;74;27;13;0
+HR048;Virovitičko-podravska;19-Feb-2121;3720;74;20;0;0
+HR048;Virovitičko-podravska;20-Feb-2121;3727;74;24;7;0
+HR048;Virovitičko-podravska;21-Feb-2121;3733;74;27;6;0
+HR048;Virovitičko-podravska;22-Feb-2121;3737;75;29;4;1
+HR048;Virovitičko-podravska;23-Feb-2121;3739;75;27;2;0
+HR048;Virovitičko-podravska;24-Feb-2121;3745;75;30;6;0
+HR048;Virovitičko-podravska;25-Feb-2121;3745;75;28;0;0
+HR048;Virovitičko-podravska;26-Feb-2121;3759;75;36;14;0
+HR048;Virovitičko-podravska;27-Feb-2121;3762;75;35;3;0
+HR048;Virovitičko-podravska;28-Feb-2121;3768;75;36;6;0
+HR048;Virovitičko-podravska;01-Mar-2121;3771;75;33;3;0
+HR048;Virovitičko-podravska;02-Mar-2121;3772;76;26;1;1
+HR048;Virovitičko-podravska;03-Mar-2121;3781;76;32;9;0
 HR049;Požeško-slavonska;21-Mar-2020;0;0;0;;
 HR049;Požeško-slavonska;22-Mar-2020;0;0;0;0;0
 HR049;Požeško-slavonska;23-Mar-2020;0;0;0;0;0
@@ -5200,6 +5530,28 @@ HR049;Požeško-slavonska;06-Feb-2121;2756;80;23;2;1
 HR049;Požeško-slavonska;07-Feb-2121;2757;80;21;1;0
 HR049;Požeško-slavonska;08-Feb-2121;2757;80;18;0;0
 HR049;Požeško-slavonska;09-Feb-2121;2758;80;17;1;0
+HR049;Požeško-slavonska;10-Feb-2121;2761;80;20;3;0
+HR049;Požeško-slavonska;11-Feb-2121;2761;80;13;0;0
+HR049;Požeško-slavonska;12-Feb-2121;2764;81;12;3;1
+HR049;Požeško-slavonska;13-Feb-2121;2766;82;13;2;1
+HR049;Požeško-slavonska;14-Feb-2121;2766;82;11;0;0
+HR049;Požeško-slavonska;15-Feb-2121;2766;82;10;0;0
+HR049;Požeško-slavonska;16-Feb-2121;2766;82;9;0;0
+HR049;Požeško-slavonska;17-Feb-2121;2768;82;10;2;0
+HR049;Požeško-slavonska;18-Feb-2121;2771;82;11;3;0
+HR049;Požeško-slavonska;19-Feb-2121;2773;82;11;2;0
+HR049;Požeško-slavonska;20-Feb-2121;2783;82;21;10;0
+HR049;Požeško-slavonska;21-Feb-2121;2787;82;23;4;0
+HR049;Požeško-slavonska;22-Feb-2121;2788;83;21;1;1
+HR049;Požeško-slavonska;23-Feb-2121;2788;83;19;0;0
+HR049;Požeško-slavonska;24-Feb-2121;2794;83;24;6;0
+HR049;Požeško-slavonska;25-Feb-2121;2796;84;25;2;1
+HR049;Požeško-slavonska;26-Feb-2121;2800;85;25;4;1
+HR049;Požeško-slavonska;27-Feb-2121;2803;85;23;3;0
+HR049;Požeško-slavonska;28-Feb-2121;2809;85;27;6;0
+HR049;Požeško-slavonska;01-Mar-2121;2809;85;20;0;0
+HR049;Požeško-slavonska;02-Mar-2121;2814;85;21;5;0
+HR049;Požeško-slavonska;03-Mar-2121;2822;85;27;8;0
 HR04A;Brodsko-posavska;21-Mar-2020;1;0;0;;
 HR04A;Brodsko-posavska;22-Mar-2020;1;0;0;0;0
 HR04A;Brodsko-posavska;23-Mar-2020;1;0;0;0;0
@@ -5525,6 +5877,28 @@ HR04A;Brodsko-posavska;06-Feb-2121;8021;113;97;15;0
 HR04A;Brodsko-posavska;07-Feb-2121;8038;113;99;17;0
 HR04A;Brodsko-posavska;08-Feb-2121;8039;116;86;1;3
 HR04A;Brodsko-posavska;09-Feb-2121;8046;116;80;7;0
+HR04A;Brodsko-posavska;10-Feb-2121;8062;116;85;16;0
+HR04A;Brodsko-posavska;11-Feb-2121;8071;116;85;9;0
+HR04A;Brodsko-posavska;12-Feb-2121;8089;117;92;18;1
+HR04A;Brodsko-posavska;13-Feb-2121;8104;118;93;15;1
+HR04A;Brodsko-posavska;14-Feb-2121;8122;118;96;18;0
+HR04A;Brodsko-posavska;15-Feb-2121;8124;119;90;2;1
+HR04A;Brodsko-posavska;16-Feb-2121;8129;120;77;5;1
+HR04A;Brodsko-posavska;17-Feb-2121;8163;120;102;34;0
+HR04A;Brodsko-posavska;18-Feb-2121;8189;120;117;26;0
+HR04A;Brodsko-posavska;19-Feb-2121;8218;120;134;29;0
+HR04A;Brodsko-posavska;20-Feb-2121;8243;120;151;25;0
+HR04A;Brodsko-posavska;21-Feb-2121;8255;120;142;12;0
+HR04A;Brodsko-posavska;22-Feb-2121;8258;121;129;3;1
+HR04A;Brodsko-posavska;23-Feb-2121;8274;122;131;16;1
+HR04A;Brodsko-posavska;24-Feb-2121;8310;123;157;36;1
+HR04A;Brodsko-posavska;25-Feb-2121;8331;123;160;21;0
+HR04A;Brodsko-posavska;26-Feb-2121;8358;123;165;27;0
+HR04A;Brodsko-posavska;27-Feb-2121;8382;123;169;24;0
+HR04A;Brodsko-posavska;28-Feb-2121;8410;123;167;28;0
+HR04A;Brodsko-posavska;01-Mar-2121;8414;123;148;4;0
+HR04A;Brodsko-posavska;02-Mar-2121;8420;123;133;6;0
+HR04A;Brodsko-posavska;03-Mar-2121;8440;125;132;20;2
 HR04B;Osječko-baranjska;21-Mar-2020;7;0;0;;
 HR04B;Osječko-baranjska;22-Mar-2020;7;0;0;0;0
 HR04B;Osječko-baranjska;23-Mar-2020;7;0;0;0;0
@@ -5850,6 +6224,28 @@ HR04B;Osječko-baranjska;06-Feb-2121;15560;636;108;13;1
 HR04B;Osječko-baranjska;07-Feb-2121;15570;638;105;10;2
 HR04B;Osječko-baranjska;08-Feb-2121;15578;641;95;8;3
 HR04B;Osječko-baranjska;09-Feb-2121;15595;642;94;17;1
+HR04B;Osječko-baranjska;10-Feb-2121;15627;644;113;32;2
+HR04B;Osječko-baranjska;11-Feb-2121;15647;649;115;20;5
+HR04B;Osječko-baranjska;12-Feb-2121;15666;651;116;19;2
+HR04B;Osječko-baranjska;13-Feb-2121;15681;652;118;15;1
+HR04B;Osječko-baranjska;14-Feb-2121;15686;654;113;5;2
+HR04B;Osječko-baranjska;15-Feb-2121;15693;655;102;7;1
+HR04B;Osječko-baranjska;16-Feb-2121;15700;656;95;7;1
+HR04B;Osječko-baranjska;17-Feb-2121;15722;657;108;22;1
+HR04B;Osječko-baranjska;18-Feb-2121;15749;660;122;27;3
+HR04B;Osječko-baranjska;19-Feb-2121;15762;662;112;13;2
+HR04B;Osječko-baranjska;20-Feb-2121;15772;662;113;10;0
+HR04B;Osječko-baranjska;21-Feb-2121;15785;663;110;13;1
+HR04B;Osječko-baranjska;22-Feb-2121;15798;666;107;13;3
+HR04B;Osječko-baranjska;23-Feb-2121;15815;666;114;17;0
+HR04B;Osječko-baranjska;24-Feb-2121;15832;669;124;17;3
+HR04B;Osječko-baranjska;25-Feb-2121;15861;671;143;29;2
+HR04B;Osječko-baranjska;26-Feb-2121;15890;671;147;29;0
+HR04B;Osječko-baranjska;27-Feb-2121;15912;672;152;22;1
+HR04B;Osječko-baranjska;28-Feb-2121;15929;676;152;17;4
+HR04B;Osječko-baranjska;01-Mar-2121;15942;676;153;13;0
+HR04B;Osječko-baranjska;02-Mar-2121;15954;676;138;12;0
+HR04B;Osječko-baranjska;03-Mar-2121;15988;676;162;34;0
 HR04C;Vukovarsko-srijemska;21-Mar-2020;0;0;0;;
 HR04C;Vukovarsko-srijemska;22-Mar-2020;0;0;0;0;0
 HR04C;Vukovarsko-srijemska;23-Mar-2020;0;0;0;0;0
@@ -6175,6 +6571,28 @@ HR04C;Vukovarsko-srijemska;06-Feb-2121;7374;148;73;16;0
 HR04C;Vukovarsko-srijemska;07-Feb-2121;7378;148;68;4;0
 HR04C;Vukovarsko-srijemska;08-Feb-2121;7383;148;66;5;0
 HR04C;Vukovarsko-srijemska;09-Feb-2121;7393;150;64;10;2
+HR04C;Vukovarsko-srijemska;10-Feb-2121;7399;150;62;6;0
+HR04C;Vukovarsko-srijemska;11-Feb-2121;7431;150;84;32;0
+HR04C;Vukovarsko-srijemska;12-Feb-2121;7438;151;76;7;1
+HR04C;Vukovarsko-srijemska;13-Feb-2121;7448;151;72;10;0
+HR04C;Vukovarsko-srijemska;14-Feb-2121;7453;151;64;5;0
+HR04C;Vukovarsko-srijemska;15-Feb-2121;7461;151;61;8;0
+HR04C;Vukovarsko-srijemska;16-Feb-2121;7475;151;65;14;0
+HR04C;Vukovarsko-srijemska;17-Feb-2121;7498;151;80;23;0
+HR04C;Vukovarsko-srijemska;18-Feb-2121;7505;151;82;7;0
+HR04C;Vukovarsko-srijemska;19-Feb-2121;7525;151;89;20;0
+HR04C;Vukovarsko-srijemska;20-Feb-2121;7540;151;89;15;0
+HR04C;Vukovarsko-srijemska;21-Feb-2121;7545;152;88;5;1
+HR04C;Vukovarsko-srijemska;22-Feb-2121;7550;152;82;5;0
+HR04C;Vukovarsko-srijemska;23-Feb-2121;7557;154;76;7;2
+HR04C;Vukovarsko-srijemska;24-Feb-2121;7565;154;78;8;0
+HR04C;Vukovarsko-srijemska;25-Feb-2121;7596;156;89;31;2
+HR04C;Vukovarsko-srijemska;26-Feb-2121;7606;157;78;10;1
+HR04C;Vukovarsko-srijemska;27-Feb-2121;7618;157;78;12;0
+HR04C;Vukovarsko-srijemska;28-Feb-2121;7624;158;77;6;1
+HR04C;Vukovarsko-srijemska;01-Mar-2121;7635;158;76;11;0
+HR04C;Vukovarsko-srijemska;02-Mar-2121;7646;158;80;11;0
+HR04C;Vukovarsko-srijemska;03-Mar-2121;7670;159;93;24;1
 HR04D;Karlovačka;21-Mar-2020;12;0;0;;
 HR04D;Karlovačka;22-Mar-2020;12;0;0;0;0
 HR04D;Karlovačka;23-Mar-2020;12;0;0;0;0
@@ -6500,6 +6918,28 @@ HR04D;Karlovačka;06-Feb-2121;6439;244;81;15;1
 HR04D;Karlovačka;07-Feb-2121;6439;246;70;0;2
 HR04D;Karlovačka;08-Feb-2121;6439;247;63;0;1
 HR04D;Karlovačka;09-Feb-2121;6453;247;69;14;0
+HR04D;Karlovačka;10-Feb-2121;6479;247;86;26;0
+HR04D;Karlovačka;11-Feb-2121;6489;248;84;10;1
+HR04D;Karlovačka;12-Feb-2121;6503;249;79;14;1
+HR04D;Karlovačka;13-Feb-2121;6525;249;90;22;0
+HR04D;Karlovačka;14-Feb-2121;6527;249;84;2;0
+HR04D;Karlovačka;15-Feb-2121;6527;250;74;0;1
+HR04D;Karlovačka;16-Feb-2121;6546;250;84;19;0
+HR04D;Karlovačka;17-Feb-2121;6568;250;95;22;0
+HR04D;Karlovačka;18-Feb-2121;6583;251;101;15;1
+HR04D;Karlovačka;19-Feb-2121;6600;251;93;17;0
+HR04D;Karlovačka;20-Feb-2121;6613;251;97;13;0
+HR04D;Karlovačka;21-Feb-2121;6615;251;88;2;0
+HR04D;Karlovačka;22-Feb-2121;6615;251;75;0;0
+HR04D;Karlovačka;23-Feb-2121;6626;252;78;11;1
+HR04D;Karlovačka;24-Feb-2121;6655;252;95;29;0
+HR04D;Karlovačka;25-Feb-2121;6679;252;103;24;0
+HR04D;Karlovačka;26-Feb-2121;6705;252;110;26;0
+HR04D;Karlovačka;27-Feb-2121;6721;252;115;16;0
+HR04D;Karlovačka;28-Feb-2121;6726;252;108;5;0
+HR04D;Karlovačka;01-Mar-2121;6726;252;101;0;0
+HR04D;Karlovačka;02-Mar-2121;6754;254;116;28;2
+HR04D;Karlovačka;03-Mar-2121;6797;255;140;43;1
 HR04E;Sisačko-moslavačka;21-Mar-2020;3;0;0;;
 HR04E;Sisačko-moslavačka;22-Mar-2020;4;0;0;1;0
 HR04E;Sisačko-moslavačka;23-Mar-2020;4;0;0;0;0
@@ -6825,3 +7265,25 @@ HR04E;Sisačko-moslavačka;06-Feb-2121;8900;112;135;18;0
 HR04E;Sisačko-moslavačka;07-Feb-2121;8905;112;113;5;0
 HR04E;Sisačko-moslavačka;08-Feb-2121;8909;112;95;4;0
 HR04E;Sisačko-moslavačka;09-Feb-2121;8920;112;94;11;0
+HR04E;Sisačko-moslavačka;10-Feb-2121;8933;112;95;13;0
+HR04E;Sisačko-moslavačka;11-Feb-2121;8951;112;96;18;0
+HR04E;Sisačko-moslavačka;12-Feb-2121;8966;113;97;15;1
+HR04E;Sisačko-moslavačka;13-Feb-2121;8976;113;87;10;0
+HR04E;Sisačko-moslavačka;14-Feb-2121;8977;113;72;1;0
+HR04E;Sisačko-moslavačka;15-Feb-2121;8980;113;64;3;0
+HR04E;Sisačko-moslavačka;16-Feb-2121;8995;113;71;15;0
+HR04E;Sisačko-moslavačka;17-Feb-2121;9012;113;79;17;0
+HR04E;Sisačko-moslavačka;18-Feb-2121;9023;113;85;11;0
+HR04E;Sisačko-moslavačka;19-Feb-2121;9032;113;82;9;0
+HR04E;Sisačko-moslavačka;20-Feb-2121;9052;113;83;20;0
+HR04E;Sisačko-moslavačka;21-Feb-2121;9053;113;75;1;0
+HR04E;Sisačko-moslavačka;22-Feb-2121;9053;113;63;0;0
+HR04E;Sisačko-moslavačka;23-Feb-2121;9069;113;75;16;0
+HR04E;Sisačko-moslavačka;24-Feb-2121;9085;113;80;16;0
+HR04E;Sisačko-moslavačka;25-Feb-2121;9110;113;91;25;0
+HR04E;Sisačko-moslavačka;26-Feb-2121;9124;113;96;14;0
+HR04E;Sisačko-moslavačka;27-Feb-2121;9135;113;100;11;0
+HR04E;Sisačko-moslavačka;28-Feb-2121;9139;113;93;4;0
+HR04E;Sisačko-moslavačka;01-Mar-2121;9139;113;77;0;0
+HR04E;Sisačko-moslavačka;02-Mar-2121;9156;113;83;17;0
+HR04E;Sisačko-moslavačka;03-Mar-2121;9174;113;91;18;0

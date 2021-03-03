@@ -182,6 +182,9 @@ export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv",
 
 **** data summary graphs below. Can mark this out
 
+
+graph set window fontface "Arial Narrow"
+
 use "EUROPE_COVID19_master.dta", clear
 
 
@@ -213,18 +216,23 @@ twoway ///
 		ytitle("") yscale(noline) ///
 		ylabel(1(1)25, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
-			xlabel(#20, labsize(vsmall) angle(vertical)) ///
-			title("{fontface Arial Bold: European COVID-19 regional tracker - Date Range for Countries}")
+			xlabel(#20, labsize(vsmall) angle(vertical))
+			
+			*title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")
 	graph export "../05_figures/range_date.png", replace wid(3000)
-
+*	graph export "../05_figures/range_date.pdf", replace
 
 
 twoway ///
-	(scatter cases_daily_pop date, mcolor(black%60) msize(*0.5) msymbol(smcircle) mlwidth(vvthin)), ///
-		xtitle("") ///
-		title("{fontface Arial Bold: Regional distribution of daily cases}")
+	(scatter cases_daily_pop date if cases_daily_pop < 30, mcolor(black%60) msize(*0.5) msymbol(smcircle) mlwidth(vvthin)), ///
+		xtitle("") 
+		*title("{fontface Arial Bold: Regional distribution of daily cases}")
+		
 	graph export "../05_figures/range_newcasepop.png", replace wid(3000)
+*	graph export "../05_figures/range_newcasepop.pdf", replace
 
+	
+	
 /*
 twoway ///
 	(scatter cases_daily_pop date, mcolor(black%80) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)) ///

@@ -95,11 +95,11 @@ twoway ///
 		
 twoway ///
 	(scatter diff date, mcolor(%30) msize(vsmall) msymbol(circle) mlwidth(vvthin)), ///
-		ytitle("Our World in Data (OWID)") ///
-		xtitle("Regional Tracker") ///
+		ytitle("Difference in the Tracker and OWID daily cases", size(small)) ///
+		xtitle("") ///
 			yline(0) ///
 			xline(22189 22250) ///
 			xlabel(, angle(vertical) format(%tdD-m-Y)) ///
-			by(, note("Data trends start deviating around 1st October 2020. OWID formally announces switch from ECDC to JHU dataset starting 1st Dec 2020 (https://ourworldindata.org/covid-data-switch-jhu).", size(*0.6))) by(country, yrescale)		
+			by(, note("Data trends start deviating after 1st October 2020. OWID formally announces switch from ECDC to JHU dataset starting 1st Nov 2020 (https://ourworldindata.org/covid-data-switch-jhu).", size(*0.6))) by(country, yrescale)		
 	graph export "../05_figures/validation.png", replace wid(3000)		
-		
+	graph export "../05_figures/validation.pdf", replace

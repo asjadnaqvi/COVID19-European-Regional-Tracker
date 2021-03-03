@@ -54,6 +54,9 @@ foreach x of local lvls {
 	}
 
 
+gen cases_pop = (cases / pop) * 10000 
+replace cases_pop=. if cases_pop==0	
+	
 
 **** graphs below
 
@@ -77,19 +80,20 @@ display "`ldate'"
 
 ***** graph of last reported daily cases
 
-colorpalette viridis, n(13) reverse nograph
+colorpalette viridis, n(16) reverse nograph
 local colors `r(p)'
 
 spmap cases_daily using "nuts3_mix_shp.dta" if last==1 , ///  // & (nuts0_id!="PT" & nuts0_id!="EL")
-id(_ID) cln(11)  fcolor("`colors'")  /// 
+id(_ID) cln(15)  fcolor("`colors'")  /// 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases on the last reported date") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
-		title("{fontface Arial Bold: COVID-19 daily regional cases in Europe (`ldate')}", size(*0.7)) ///
+		title("{fontface Arial Bold: COVID-19 new cases (`ldate')}", size(3)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data source: Misc. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 		
-		graph export "../05_figures/COVID19_EUROPE_cases.png", replace wid(3000)
+		graph export "../05_figures/COVID19_EUROPE_cases_today.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_cases_today.pdf", replace
 
 
 		
@@ -98,30 +102,46 @@ id(_ID) cln(11)  fcolor("`colors'")  ///
 ***** graph of last reported daily cases per 10k population
 
 
-colorpalette viridis, n(13) reverse nograph
+colorpalette viridis, n(16) reverse nograph
 local colors `r(p)'
 
 spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
-id(_ID) cln(11)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
+id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
-		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(*0.7)) ///
+		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(3)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
-		graph export "../05_figures/COVID19_EUROPE_casestotalpop.png", replace wid(3000)
-		
+		graph export "../05_figures/COVID19_EUROPE_casespop_today.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_casespop_today.pdf", replace		
+
+**** graph of cumulative cases 
+
+
+colorpalette viridis, n(16) reverse nograph
+local colors `r(p)'
+
+spmap cases using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+id(_ID) cln(15)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
+	ocolor(gs6 ..) osize(vvthin ..) ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
+		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
+		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
+		title("{fontface Arial Bold: COVID-19 cumulative cases (15 Jan 20 - `ldate')}", size(3)) ///
+		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
+			
+		graph export "../05_figures/COVID19_EUROPE_cases_total.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_cases_total.pdf", replace	
 
 **** graph of cumulative cases per population
 
-gen cases_pop = (cases / pop) * 10000 
-replace cases_pop=. if cases_pop==0
 
 format cases_pop 	%9.0f		
 		
 
-colorpalette viridis, n(15) reverse nograph
+colorpalette viridis, n(16) reverse nograph
 local colors `r(p)'
 
 spmap cases_pop using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
@@ -130,11 +150,11 @@ id(_ID) cln(15)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbr
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
-		title("{fontface Arial Bold: COVID-19 cumulative cases per 10,000 pop (`ldate')}", size(*0.7)) ///
+		title("{fontface Arial Bold: COVID-19 cumulative cases per 10,000 pop (15 Jan 20 - `ldate')}", size(3)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
-		graph export "../05_figures/COVID19_EUROPE_casespop.png", replace wid(3000)
-		
+		graph export "../05_figures/COVID19_EUROPE_casespop_total.png", replace wid(2000)
+		graph export "../05_figures/COVID19_EUROPE_casespop_total.pdf", replace 		
 	
 		
 		

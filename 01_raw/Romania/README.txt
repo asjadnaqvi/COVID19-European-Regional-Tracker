@@ -1,0 +1,1 @@
+**** here we use a file cleaned from a json reader: https://json-csv.com/

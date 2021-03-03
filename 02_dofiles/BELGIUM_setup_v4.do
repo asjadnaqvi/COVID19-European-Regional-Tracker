@@ -34,8 +34,8 @@ ren `x' `header'
 
 drop in 1
 
-save belgium_raw.dta, replace
-export delimited using belgium_raw.csv, replace delim(;)
+*save belgium_raw.dta, replace
+*export delimited using belgium_raw.csv, replace delim(;)
 
 
 
