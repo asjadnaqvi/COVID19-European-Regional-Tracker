@@ -5,8 +5,10 @@ The data is also periodically released on Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
+A pre-print of the tracker is available here:
+https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v2.full
 
-For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at
+Please cite the Zenodo DOI and the above document if you are using the dataset for analysis. For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at
 
 
 
@@ -149,7 +151,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 # Change Logs
-* 22 Mar 2021: Scotland data was not loading properly. The code including the paths to the correct files has been fixed. Other minor fixes to the code. I am taking out Portugal from the displayed maps. The data is bi-weekly and it is not possible to elicit daily information. The data files are still in the database. Names from country maps have been removed. A new map has been added which days percentage change in cases from the last 14 days. Note that for EU-level maps, the last entry of each NUTS region is used. This is to ensure that maps are as complete as possible since some data points for the more current date are usually missing.
+* 22 Mar 2021: Scotland data was not loading properly. The code including the paths to the correct files has been fixed. Other minor fixes to the code. I am taking out Portugal from the displayed maps above. Portugal's data is bi-weekly and it is not possible to elicit daily information. The data files are still in the database. Names from country maps have been removed. A new map has been added which days percentage change in cases from the last 14 days. Note that for EU-level maps, the last entry of each NUTS region is used. This is to ensure that maps are as complete as possible since some data points for the more current date are usually missing.
 * 04 Mar 2021: All files checked and updated. Minor fixes to the code. Path to access raw data for Spain fixed. Folders cleaned up further.
 * 13 Feb 2021: All files checked and updated. Major fixes to the code. Raw data is now in the 04_master folder in .csv and .dta format. Daily cases fixed for several countries. Previously they were calculated as the difference between the observations and not the dates. Thus if a country had skipped several days, the daily cases would show a huge jump. These observations are now set to missing. As aa result there are more gaps now. If a country has 0 cases for a given date, that date is now dropped from the homogenized dataset. For example, Portugal which changed the reported to weekly and bi-weekly frequeny now has large gaps. The original data still contains all the dates and the values. Estonia's data fixed and it now reflects the correct values. A validation file added which aggregates country level data for each date and compares it with Our World in Data (OWID) values. This update is released as v1.3 on Zenodo.
 * 25 Jan 2021: All files checked and updated. Minor fixes to code. Some file paths changed. Country level graphs now show the last data point for a region. This is just for presentation. Please see the data files for actual information.
