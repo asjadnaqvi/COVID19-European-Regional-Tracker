@@ -1,4 +1,1174 @@
 v1;v2;v3;v4;v5;v6;v7;v8;v9;v10;v11
+19.03.2021;Neuvedené;0;X;;;0;84;Neuvedené;;Neuvedené
+19.03.2021;Neuvedené;85;X;;;0;0;Žilinský;;Martin
+19.03.2021;Neuvedené;83;X;;;0;0;Prešovský;;Prešov
+19.03.2021;Neuvedené;82;X;;;0;0;Žilinský;;Žilina
+19.03.2021;Neuvedené;81;X;;;0;0;Bratislavský;;Bratislava I
+19.03.2021;Neuvedené;78;X;;;0;0;Prešovský;;Vranov nad Topľou
+19.03.2021;Neuvedené;64;X;;;0;0;Banskobystrický;;Banská Bystrica
+19.03.2021;Neuvedené;60;X;;;0;0;Košický;;Košice I
+19.03.2021;Neuvedené;51;X;;;0;0;Košický;;Michalovce
+19.03.2021;Neuvedené;49;X;;;0;0;Prešovský;;Poprad
+19.03.2021;Neuvedené;48;X;;;0;0;Trnavský;;Galanta
+19.03.2021;Neuvedené;48;X;;;0;0;Trenčiansky;;Prievidza
+19.03.2021;Neuvedené;42;X;;;0;0;Žilinský;;Ružomberok
+19.03.2021;Neuvedené;40;X;;;0;0;Trenčiansky;;Trenčín
+19.03.2021;Neuvedené;39;X;;;0;0;Banskobystrický;;Brezno
+19.03.2021;Neuvedené;39;X;;;0;0;Trnavský;;Dunajská Streda
+19.03.2021;Neuvedené;39;X;;;0;0;Trenčiansky;;Myjava
+19.03.2021;Neuvedené;39;X;;;0;0;Prešovský;;Stará Ľubovňa
+19.03.2021;Neuvedené;38;X;;;0;0;Žilinský;;Liptovský Mikuláš
+19.03.2021;Neuvedené;33;X;;;0;0;Trnavský;;Trnava
+19.03.2021;Neuvedené;31;X;;;0;0;Trenčiansky;;Považská Bystrica
+19.03.2021;Neuvedené;31;X;;;0;0;Banskobystrický;;Veľký Krtíš
+19.03.2021;Neuvedené;30;X;;;0;0;Banskobystrický;;Lučenec
+19.03.2021;Neuvedené;28;X;;;0;0;Trnavský;;Senica
+19.03.2021;Neuvedené;27;X;;;0;0;Košický;;Trebišov
+19.03.2021;Neuvedené;26;X;;;0;0;Prešovský;;Bardejov
+19.03.2021;Neuvedené;26;X;;;0;0;Trenčiansky;;Ilava
+19.03.2021;Neuvedené;25;X;;;0;0;Prešovský;;Levoča
+19.03.2021;Neuvedené;25;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+19.03.2021;Neuvedené;25;X;;;0;0;Košický;;Spišská Nová Ves
+19.03.2021;Neuvedené;24;X;;;0;0;Žilinský;;Námestovo
+19.03.2021;Neuvedené;21;X;;;0;0;Žilinský;;Čadca
+19.03.2021;Neuvedené;21;X;;;0;0;Bratislavský;;Malacky
+19.03.2021;Neuvedené;21;X;;;0;0;Bratislavský;;Senec
+19.03.2021;Neuvedené;20;X;;;0;0;Prešovský;;Kežmarok
+19.03.2021;Neuvedené;20;X;;;0;0;Košický;;Košice - okolie
+19.03.2021;Neuvedené;20;X;;;0;0;Banskobystrický;;Rimavská Sobota
+19.03.2021;Neuvedené;18;X;;;0;0;Žilinský;;Bytča
+19.03.2021;Neuvedené;17;X;;;0;0;Trnavský;;Piešťany
+19.03.2021;Neuvedené;17;X;;;0;0;Prešovský;;Svidník
+19.03.2021;Neuvedené;17;X;;;0;0;Žilinský;;Tvrdošín
+19.03.2021;Neuvedené;16;X;;;0;0;Nitriansky;;Levice
+19.03.2021;Neuvedené;16;X;;;0;0;Bratislavský;;Pezinok
+19.03.2021;Neuvedené;15;X;;;0;0;Nitriansky;;Nové Zámky
+19.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Sabinov
+19.03.2021;Neuvedené;15;X;;;0;0;Nitriansky;;Topoľčany
+19.03.2021;Neuvedené;14;X;;;0;0;Nitriansky;;Nitra
+19.03.2021;Neuvedené;13;X;;;0;0;Košický;;Gelnica
+19.03.2021;Neuvedené;12;X;;;0;0;Prešovský;;Humenné
+19.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+19.03.2021;Neuvedené;12;X;;;0;0;Trenčiansky;;Púchov
+19.03.2021;Neuvedené;10;X;;;0;0;Žilinský;;Dolný Kubín
+19.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Zvolen
+19.03.2021;Neuvedené;9;X;;;0;0;Trnavský;;Hlohovec
+19.03.2021;Neuvedené;9;X;;;0;0;Nitriansky;;Komárno
+19.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Revúca
+19.03.2021;Neuvedené;8;X;;;0;0;Žilinský;;Turčianske Teplice
+19.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Žarnovica
+19.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+19.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Detva
+19.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Krupina
+19.03.2021;Neuvedené;7;X;;;0;0;Košický;;Rožňava
+19.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Poltár
+19.03.2021;Neuvedené;6;X;;;0;0;Prešovský;;Snina
+19.03.2021;Neuvedené;5;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+19.03.2021;Neuvedené;5;X;;;0;0;Trenčiansky;;Partizánske
+19.03.2021;Neuvedené;5;X;;;0;0;Nitriansky;;Šaľa
+19.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Banská Štiavnica
+19.03.2021;Neuvedené;2;X;;;0;0;Košický;;Sobrance
+19.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Stropkov
+19.03.2021;Neuvedené;2;X;;;0;0;Nitriansky;;Zlaté Moravce
+19.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Medzilaborce
+18.03.2021;Neuvedené;0;X;;;0;80;Neuvedené;;Neuvedené
+18.03.2021;Neuvedené;101;X;;;0;0;Bratislavský;;Bratislava I
+18.03.2021;Neuvedené;81;X;;;0;0;Žilinský;;Martin
+18.03.2021;Neuvedené;80;X;;;0;0;Žilinský;;Žilina
+18.03.2021;Neuvedené;69;X;;;0;0;Košický;;Košice I
+18.03.2021;Neuvedené;60;X;;;0;0;Prešovský;;Poprad
+18.03.2021;Neuvedené;57;X;;;0;0;Trenčiansky;;Trenčín
+18.03.2021;Neuvedené;56;X;;;0;0;Košický;;Michalovce
+18.03.2021;Neuvedené;55;X;;;0;0;Košický;;Trebišov
+18.03.2021;Neuvedené;48;X;;;0;0;Trenčiansky;;Ilava
+18.03.2021;Neuvedené;47;X;;;0;0;Žilinský;;Liptovský Mikuláš
+18.03.2021;Neuvedené;42;X;;;0;0;Prešovský;;Prešov
+18.03.2021;Neuvedené;39;X;;;0;0;Trenčiansky;;Považská Bystrica
+18.03.2021;Neuvedené;39;X;;;0;0;Trenčiansky;;Púchov
+18.03.2021;Neuvedené;38;X;;;0;0;Žilinský;;Čadca
+18.03.2021;Neuvedené;36;X;;;0;0;Banskobystrický;;Banská Bystrica
+18.03.2021;Neuvedené;35;X;;;0;0;Trnavský;;Skalica
+18.03.2021;Neuvedené;34;X;;;0;0;Prešovský;;Humenné
+18.03.2021;Neuvedené;32;X;;;0;0;Trnavský;;Dunajská Streda
+18.03.2021;Neuvedené;32;X;;;0;0;Košický;;Spišská Nová Ves
+18.03.2021;Neuvedené;31;X;;;0;0;Košický;;Košice - okolie
+18.03.2021;Neuvedené;30;X;;;0;0;Banskobystrický;;Lučenec
+18.03.2021;Neuvedené;29;X;;;0;0;Nitriansky;;Komárno
+18.03.2021;Neuvedené;28;X;;;0;0;Prešovský;;Bardejov
+18.03.2021;Neuvedené;27;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+18.03.2021;Neuvedené;27;X;;;0;0;Banskobystrický;;Rimavská Sobota
+18.03.2021;Neuvedené;26;X;;;0;0;Nitriansky;;Nové Zámky
+18.03.2021;Neuvedené;26;X;;;0;0;Trnavský;;Trnava
+18.03.2021;Neuvedené;21;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+18.03.2021;Neuvedené;21;X;;;0;0;Trnavský;;Piešťany
+18.03.2021;Neuvedené;21;X;;;0;0;Trnavský;;Senica
+18.03.2021;Neuvedené;20;X;;;0;0;Bratislavský;;Senec
+18.03.2021;Neuvedené;19;X;;;0;0;Banskobystrický;;Veľký Krtíš
+18.03.2021;Neuvedené;18;X;;;0;0;Trenčiansky;;Partizánske
+18.03.2021;Neuvedené;18;X;;;0;0;Trenčiansky;;Prievidza
+18.03.2021;Neuvedené;18;X;;;0;0;Prešovský;;Svidník
+18.03.2021;Neuvedené;18;X;;;0;0;Prešovský;;Vranov nad Topľou
+18.03.2021;Neuvedené;17;X;;;0;0;Nitriansky;;Šaľa
+18.03.2021;Neuvedené;16;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+18.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Stará Ľubovňa
+18.03.2021;Neuvedené;14;X;;;0;0;Trnavský;;Galanta
+18.03.2021;Neuvedené;14;X;;;0;0;Banskobystrický;;Zvolen
+18.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Kežmarok
+18.03.2021;Neuvedené;13;X;;;0;0;Košický;;Rožňava
+18.03.2021;Neuvedené;13;X;;;0;0;Žilinský;;Ružomberok
+18.03.2021;Neuvedené;13;X;;;0;0;Žilinský;;Turčianske Teplice
+18.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Námestovo
+18.03.2021;Neuvedené;12;X;;;0;0;Bratislavský;;Pezinok
+18.03.2021;Neuvedené;12;X;;;0;0;Košický;;Sobrance
+18.03.2021;Neuvedené;10;X;;;0;0;Žilinský;;Bytča
+18.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Poltár
+18.03.2021;Neuvedené;10;X;;;0;0;Nitriansky;;Topoľčany
+18.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Detva
+18.03.2021;Neuvedené;9;X;;;0;0;Žilinský;;Dolný Kubín
+18.03.2021;Neuvedené;9;X;;;0;0;Trnavský;;Hlohovec
+18.03.2021;Neuvedené;9;X;;;0;0;Bratislavský;;Malacky
+18.03.2021;Neuvedené;9;X;;;0;0;Nitriansky;;Nitra
+18.03.2021;Neuvedené;9;X;;;0;0;Prešovský;;Sabinov
+18.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+18.03.2021;Neuvedené;6;X;;;0;0;Košický;;Gelnica
+18.03.2021;Neuvedené;6;X;;;0;0;Nitriansky;;Levice
+18.03.2021;Neuvedené;6;X;;;0;0;Nitriansky;;Zlaté Moravce
+18.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Snina
+18.03.2021;Neuvedené;5;X;;;0;0;Žilinský;;Tvrdošín
+18.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Levoča
+18.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Medzilaborce
+18.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Stropkov
+18.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Žarnovica
+18.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Krupina
+18.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Revúca
+17.03.2021;Neuvedené;0;X;;;0;76;Neuvedené;;Neuvedené
+17.03.2021;Neuvedené;121;X;;;0;0;Žilinský;;Žilina
+17.03.2021;Neuvedené;105;X;;;0;0;Prešovský;;Poprad
+17.03.2021;Neuvedené;96;X;;;0;0;Bratislavský;;Bratislava I
+17.03.2021;Neuvedené;88;X;;;0;0;Trenčiansky;;Ilava
+17.03.2021;Neuvedené;83;X;;;0;0;Trenčiansky;;Prievidza
+17.03.2021;Neuvedené;66;X;;;0;0;Žilinský;;Čadca
+17.03.2021;Neuvedené;64;X;;;0;0;Prešovský;;Prešov
+17.03.2021;Neuvedené;55;X;;;0;0;Žilinský;;Martin
+17.03.2021;Neuvedené;52;X;;;0;0;Prešovský;;Kežmarok
+17.03.2021;Neuvedené;52;X;;;0;0;Žilinský;;Liptovský Mikuláš
+17.03.2021;Neuvedené;52;X;;;0;0;Banskobystrický;;Rimavská Sobota
+17.03.2021;Neuvedené;52;X;;;0;0;Trenčiansky;;Trenčín
+17.03.2021;Neuvedené;50;X;;;0;0;Trnavský;;Senica
+17.03.2021;Neuvedené;42;X;;;0;0;Trnavský;;Skalica
+17.03.2021;Neuvedené;42;X;;;0;0;Trnavský;;Trnava
+17.03.2021;Neuvedené;41;X;;;0;0;Trnavský;;Piešťany
+17.03.2021;Neuvedené;39;X;;;0;0;Trnavský;;Dunajská Streda
+17.03.2021;Neuvedené;38;X;;;0;0;Prešovský;;Bardejov
+17.03.2021;Neuvedené;38;X;;;0;0;Košický;;Spišská Nová Ves
+17.03.2021;Neuvedené;37;X;;;0;0;Banskobystrický;;Lučenec
+17.03.2021;Neuvedené;37;X;;;0;0;Trenčiansky;;Považská Bystrica
+17.03.2021;Neuvedené;36;X;;;0;0;Košický;;Košice I
+17.03.2021;Neuvedené;36;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+17.03.2021;Neuvedené;35;X;;;0;0;Košický;;Trebišov
+17.03.2021;Neuvedené;34;X;;;0;0;Trenčiansky;;Púchov
+17.03.2021;Neuvedené;30;X;;;0;0;Bratislavský;;Malacky
+17.03.2021;Neuvedené;30;X;;;0;0;Bratislavský;;Senec
+17.03.2021;Neuvedené;29;X;;;0;0;Banskobystrický;;Banská Bystrica
+17.03.2021;Neuvedené;29;X;;;0;0;Banskobystrický;;Veľký Krtíš
+17.03.2021;Neuvedené;26;X;;;0;0;Banskobystrický;;Poltár
+17.03.2021;Neuvedené;23;X;;;0;0;Trenčiansky;;Myjava
+17.03.2021;Neuvedené;22;X;;;0;0;Žilinský;;Dolný Kubín
+17.03.2021;Neuvedené;22;X;;;0;0;Nitriansky;;Komárno
+17.03.2021;Neuvedené;21;X;;;0;0;Bratislavský;;Pezinok
+17.03.2021;Neuvedené;21;X;;;0;0;Žilinský;;Ružomberok
+17.03.2021;Neuvedené;21;X;;;0;0;Banskobystrický;;Zvolen
+17.03.2021;Neuvedené;20;X;;;0;0;Banskobystrický;;Brezno
+17.03.2021;Neuvedené;20;X;;;0;0;Trnavský;;Galanta
+17.03.2021;Neuvedené;19;X;;;0;0;Košický;;Gelnica
+17.03.2021;Neuvedené;19;X;;;0;0;Žilinský;;Námestovo
+17.03.2021;Neuvedené;18;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+17.03.2021;Neuvedené;18;X;;;0;0;Košický;;Michalovce
+17.03.2021;Neuvedené;18;X;;;0;0;Nitriansky;;Nové Zámky
+17.03.2021;Neuvedené;16;X;;;0;0;Nitriansky;;Levice
+17.03.2021;Neuvedené;16;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+17.03.2021;Neuvedené;14;X;;;0;0;Košický;;Košice - okolie
+17.03.2021;Neuvedené;14;X;;;0;0;Banskobystrický;;Krupina
+17.03.2021;Neuvedené;14;X;;;0;0;Prešovský;;Levoča
+17.03.2021;Neuvedené;13;X;;;0;0;Žilinský;;Bytča
+17.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Humenné
+17.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Svidník
+17.03.2021;Neuvedené;12;X;;;0;0;Košický;;Rožňava
+17.03.2021;Neuvedené;12;X;;;0;0;Prešovský;;Sabinov
+17.03.2021;Neuvedené;11;X;;;0;0;Trnavský;;Hlohovec
+17.03.2021;Neuvedené;11;X;;;0;0;Nitriansky;;Topoľčany
+17.03.2021;Neuvedené;10;X;;;0;0;Nitriansky;;Nitra
+17.03.2021;Neuvedené;9;X;;;0;0;Trenčiansky;;Partizánske
+17.03.2021;Neuvedené;9;X;;;0;0;Nitriansky;;Šaľa
+17.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Revúca
+17.03.2021;Neuvedené;6;X;;;0;0;Prešovský;;Vranov nad Topľou
+17.03.2021;Neuvedené;5;X;;;0;0;Košický;;Sobrance
+17.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Stará Ľubovňa
+17.03.2021;Neuvedené;5;X;;;0;0;Banskobystrický;;Žarnovica
+17.03.2021;Neuvedené;4;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+17.03.2021;Neuvedené;4;X;;;0;0;Prešovský;;Snina
+17.03.2021;Neuvedené;4;X;;;0;0;Prešovský;;Stropkov
+17.03.2021;Neuvedené;4;X;;;0;0;Žilinský;;Turčianske Teplice
+17.03.2021;Neuvedené;4;X;;;0;0;Žilinský;;Tvrdošín
+17.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Banská Štiavnica
+17.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Detva
+17.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Medzilaborce
+17.03.2021;Neuvedené;1;X;;;0;0;Nitriansky;;Zlaté Moravce
+16.03.2021;Neuvedené;0;X;;;0;69;Neuvedené;;Neuvedené
+16.03.2021;Neuvedené;179;X;;;0;0;Žilinský;;Žilina
+16.03.2021;Neuvedené;168;X;;;0;0;Bratislavský;;Bratislava I
+16.03.2021;Neuvedené;116;X;;;0;0;Trenčiansky;;Prievidza
+16.03.2021;Neuvedené;92;X;;;0;0;Prešovský;;Vranov nad Topľou
+16.03.2021;Neuvedené;89;X;;;0;0;Banskobystrický;;Lučenec
+16.03.2021;Neuvedené;89;X;;;0;0;Prešovský;;Prešov
+16.03.2021;Neuvedené;88;X;;;0;0;Košický;;Trebišov
+16.03.2021;Neuvedené;88;X;;;0;0;Trenčiansky;;Trenčín
+16.03.2021;Neuvedené;86;X;;;0;0;Banskobystrický;;Banská Bystrica
+16.03.2021;Neuvedené;81;X;;;0;0;Žilinský;;Čadca
+16.03.2021;Neuvedené;80;X;;;0;0;Košický;;Košice I
+16.03.2021;Neuvedené;76;X;;;0;0;Košický;;Spišská Nová Ves
+16.03.2021;Neuvedené;73;X;;;0;0;Trenčiansky;;Ilava
+16.03.2021;Neuvedené;73;X;;;0;0;Prešovský;;Poprad
+16.03.2021;Neuvedené;72;X;;;0;0;Žilinský;;Liptovský Mikuláš
+16.03.2021;Neuvedené;71;X;;;0;0;Žilinský;;Martin
+16.03.2021;Neuvedené;68;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+16.03.2021;Neuvedené;65;X;;;0;0;Nitriansky;;Nové Zámky
+16.03.2021;Neuvedené;61;X;;;0;0;Trnavský;;Piešťany
+16.03.2021;Neuvedené;58;X;;;0;0;Košický;;Michalovce
+16.03.2021;Neuvedené;51;X;;;0;0;Trnavský;;Trnava
+16.03.2021;Neuvedené;49;X;;;0;0;Trnavský;;Senica
+16.03.2021;Neuvedené;48;X;;;0;0;Trnavský;;Dunajská Streda
+16.03.2021;Neuvedené;44;X;;;0;0;Prešovský;;Bardejov
+16.03.2021;Neuvedené;42;X;;;0;0;Košický;;Košice - okolie
+16.03.2021;Neuvedené;42;X;;;0;0;Trenčiansky;;Považská Bystrica
+16.03.2021;Neuvedené;40;X;;;0;0;Trnavský;;Galanta
+16.03.2021;Neuvedené;40;X;;;0;0;Banskobystrický;;Rimavská Sobota
+16.03.2021;Neuvedené;39;X;;;0;0;Prešovský;;Levoča
+16.03.2021;Neuvedené;37;X;;;0;0;Bratislavský;;Senec
+16.03.2021;Neuvedené;35;X;;;0;0;Trnavský;;Skalica
+16.03.2021;Neuvedené;34;X;;;0;0;Nitriansky;;Komárno
+16.03.2021;Neuvedené;30;X;;;0;0;Košický;;Rožňava
+16.03.2021;Neuvedené;29;X;;;0;0;Bratislavský;;Malacky
+16.03.2021;Neuvedené;29;X;;;0;0;Banskobystrický;;Poltár
+16.03.2021;Neuvedené;28;X;;;0;0;Trenčiansky;;Púchov
+16.03.2021;Neuvedené;27;X;;;0;0;Trnavský;;Hlohovec
+16.03.2021;Neuvedené;27;X;;;0;0;Žilinský;;Ružomberok
+16.03.2021;Neuvedené;26;X;;;0;0;Prešovský;;Kežmarok
+16.03.2021;Neuvedené;26;X;;;0;0;Prešovský;;Stará Ľubovňa
+16.03.2021;Neuvedené;24;X;;;0;0;Bratislavský;;Pezinok
+16.03.2021;Neuvedené;23;X;;;0;0;Nitriansky;;Topoľčany
+16.03.2021;Neuvedené;22;X;;;0;0;Banskobystrický;;Zvolen
+16.03.2021;Neuvedené;20;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+16.03.2021;Neuvedené;19;X;;;0;0;Prešovský;;Humenné
+16.03.2021;Neuvedené;17;X;;;0;0;Žilinský;;Bytča
+16.03.2021;Neuvedené;17;X;;;0;0;Žilinský;;Dolný Kubín
+16.03.2021;Neuvedené;17;X;;;0;0;Prešovský;;Svidník
+16.03.2021;Neuvedené;17;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+16.03.2021;Neuvedené;16;X;;;0;0;Nitriansky;;Levice
+16.03.2021;Neuvedené;16;X;;;0;0;Nitriansky;;Nitra
+16.03.2021;Neuvedené;15;X;;;0;0;Banskobystrický;;Brezno
+16.03.2021;Neuvedené;15;X;;;0;0;Žilinský;;Námestovo
+16.03.2021;Neuvedené;15;X;;;0;0;Banskobystrický;;Revúca
+16.03.2021;Neuvedené;14;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+16.03.2021;Neuvedené;14;X;;;0;0;Trenčiansky;;Partizánske
+16.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Sabinov
+16.03.2021;Neuvedené;13;X;;;0;0;Nitriansky;;Zlaté Moravce
+16.03.2021;Neuvedené;10;X;;;0;0;Prešovský;;Snina
+16.03.2021;Neuvedené;10;X;;;0;0;Prešovský;;Stropkov
+16.03.2021;Neuvedené;10;X;;;0;0;Žilinský;;Tvrdošín
+16.03.2021;Neuvedené;9;X;;;0;0;Košický;;Gelnica
+16.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Veľký Krtíš
+16.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Detva
+16.03.2021;Neuvedené;7;X;;;0;0;Trenčiansky;;Myjava
+16.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Krupina
+16.03.2021;Neuvedené;5;X;;;0;0;Banskobystrický;;Banská Štiavnica
+16.03.2021;Neuvedené;5;X;;;0;0;Nitriansky;;Šaľa
+16.03.2021;Neuvedené;5;X;;;0;0;Žilinský;;Turčianske Teplice
+16.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Medzilaborce
+16.03.2021;Neuvedené;3;X;;;0;0;Košický;;Sobrance
+16.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Žarnovica
+15.03.2021;Neuvedené;0;X;;;0;64;Neuvedené;;Neuvedené
+15.03.2021;Neuvedené;203;X;;;0;0;Prešovský;;Prešov
+15.03.2021;Neuvedené;140;X;;;0;0;Žilinský;;Martin
+15.03.2021;Neuvedené;113;X;;;0;0;Bratislavský;;Bratislava I
+15.03.2021;Neuvedené;74;X;;;0;0;Košický;;Košice I
+15.03.2021;Neuvedené;53;X;;;0;0;Žilinský;;Žilina
+15.03.2021;Neuvedené;39;X;;;0;0;Žilinský;;Čadca
+15.03.2021;Neuvedené;39;X;;;0;0;Nitriansky;;Nitra
+15.03.2021;Neuvedené;38;X;;;0;0;Trenčiansky;;Prievidza
+15.03.2021;Neuvedené;38;X;;;0;0;Bratislavský;;Senec
+15.03.2021;Neuvedené;36;X;;;0;0;Trnavský;;Dunajská Streda
+15.03.2021;Neuvedené;36;X;;;0;0;Trenčiansky;;Považská Bystrica
+15.03.2021;Neuvedené;34;X;;;0;0;Košický;;Košice - okolie
+15.03.2021;Neuvedené;32;X;;;0;0;Prešovský;;Humenné
+15.03.2021;Neuvedené;32;X;;;0;0;Žilinský;;Liptovský Mikuláš
+15.03.2021;Neuvedené;31;X;;;0;0;Nitriansky;;Nové Zámky
+15.03.2021;Neuvedené;31;X;;;0;0;Košický;;Trebišov
+15.03.2021;Neuvedené;30;X;;;0;0;Prešovský;;Poprad
+15.03.2021;Neuvedené;29;X;;;0;0;Nitriansky;;Komárno
+15.03.2021;Neuvedené;29;X;;;0;0;Trnavský;;Piešťany
+15.03.2021;Neuvedené;28;X;;;0;0;Trenčiansky;;Ilava
+15.03.2021;Neuvedené;28;X;;;0;0;Prešovský;;Sabinov
+15.03.2021;Neuvedené;24;X;;;0;0;Prešovský;;Stará Ľubovňa
+15.03.2021;Neuvedené;24;X;;;0;0;Prešovský;;Svidník
+15.03.2021;Neuvedené;23;X;;;0;0;Trenčiansky;;Trenčín
+15.03.2021;Neuvedené;22;X;;;0;0;Trnavský;;Senica
+15.03.2021;Neuvedené;22;X;;;0;0;Trnavský;;Trnava
+15.03.2021;Neuvedené;22;X;;;0;0;Žilinský;;Turčianske Teplice
+15.03.2021;Neuvedené;19;X;;;0;0;Košický;;Michalovce
+15.03.2021;Neuvedené;19;X;;;0;0;Bratislavský;;Pezinok
+15.03.2021;Neuvedené;17;X;;;0;0;Banskobystrický;;Brezno
+15.03.2021;Neuvedené;17;X;;;0;0;Banskobystrický;;Lučenec
+15.03.2021;Neuvedené;17;X;;;0;0;Trenčiansky;;Myjava
+15.03.2021;Neuvedené;17;X;;;0;0;Žilinský;;Námestovo
+15.03.2021;Neuvedené;14;X;;;0;0;Prešovský;;Kežmarok
+15.03.2021;Neuvedené;13;X;;;0;0;Banskobystrický;;Zvolen
+15.03.2021;Neuvedené;12;X;;;0;0;Nitriansky;;Šaľa
+15.03.2021;Neuvedené;12;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+15.03.2021;Neuvedené;11;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+15.03.2021;Neuvedené;11;X;;;0;0;Žilinský;;Ružomberok
+15.03.2021;Neuvedené;10;X;;;0;0;Trnavský;;Galanta
+15.03.2021;Neuvedené;10;X;;;0;0;Bratislavský;;Malacky
+15.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Banská Bystrica
+15.03.2021;Neuvedené;9;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+15.03.2021;Neuvedené;9;X;;;0;0;Žilinský;;Tvrdošín
+15.03.2021;Neuvedené;8;X;;;0;0;Nitriansky;;Levice
+15.03.2021;Neuvedené;8;X;;;0;0;Košický;;Sobrance
+15.03.2021;Neuvedené;7;X;;;0;0;Trnavský;;Hlohovec
+15.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Poltár
+15.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Revúca
+15.03.2021;Neuvedené;6;X;;;0;0;Nitriansky;;Zlaté Moravce
+15.03.2021;Neuvedené;5;X;;;0;0;Košický;;Gelnica
+15.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Snina
+15.03.2021;Neuvedené;5;X;;;0;0;Nitriansky;;Topoľčany
+15.03.2021;Neuvedené;4;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+15.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Detva
+15.03.2021;Neuvedené;4;X;;;0;0;Žilinský;;Dolný Kubín
+15.03.2021;Neuvedené;4;X;;;0;0;Trenčiansky;;Púchov
+15.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Žarnovica
+15.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Bardejov
+15.03.2021;Neuvedené;3;X;;;0;0;Žilinský;;Bytča
+15.03.2021;Neuvedené;3;X;;;0;0;Trenčiansky;;Partizánske
+15.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Veľký Krtíš
+15.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Vranov nad Topľou
+15.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Levoča
+15.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Rimavská Sobota
+15.03.2021;Neuvedené;2;X;;;0;0;Košický;;Spišská Nová Ves
+15.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Stropkov
+15.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Banská Štiavnica
+15.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Skalica
+14.03.2021;Neuvedené;0;X;;;0;77;Neuvedené;;Neuvedené
+14.03.2021;Neuvedené;70;X;;;0;0;Košický;;Košice I
+14.03.2021;Neuvedené;45;X;;;0;0;Bratislavský;;Bratislava I
+14.03.2021;Neuvedené;40;X;;;0;0;Žilinský;;Žilina
+14.03.2021;Neuvedené;36;X;;;0;0;Banskobystrický;;Banská Bystrica
+14.03.2021;Neuvedené;34;X;;;0;0;Košický;;Košice - okolie
+14.03.2021;Neuvedené;34;X;;;0;0;Trenčiansky;;Trenčín
+14.03.2021;Neuvedené;26;X;;;0;0;Košický;;Michalovce
+14.03.2021;Neuvedené;23;X;;;0;0;Prešovský;;Humenné
+14.03.2021;Neuvedené;17;X;;;0;0;Žilinský;;Ružomberok
+14.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Vranov nad Topľou
+14.03.2021;Neuvedené;12;X;;;0;0;Bratislavský;;Malacky
+14.03.2021;Neuvedené;11;X;;;0;0;Žilinský;;Dolný Kubín
+14.03.2021;Neuvedené;9;X;;;0;0;Bratislavský;;Pezinok
+14.03.2021;Neuvedené;9;X;;;0;0;Bratislavský;;Senec
+14.03.2021;Neuvedené;6;X;;;0;0;Košický;;Sobrance
+14.03.2021;Neuvedené;5;X;;;0;0;Žilinský;;Liptovský Mikuláš
+14.03.2021;Neuvedené;5;X;;;0;0;Žilinský;;Martin
+14.03.2021;Neuvedené;5;X;;;0;0;Žilinský;;Námestovo
+14.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Poprad
+14.03.2021;Neuvedené;5;X;;;0;0;Košický;;Trebišov
+14.03.2021;Neuvedené;4;X;;;0;0;Trnavský;;Hlohovec
+14.03.2021;Neuvedené;4;X;;;0;0;Prešovský;;Prešov
+14.03.2021;Neuvedené;4;X;;;0;0;Trnavský;;Trnava
+14.03.2021;Neuvedené;3;X;;;0;0;Trnavský;;Dunajská Streda
+14.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Svidník
+14.03.2021;Neuvedené;2;X;;;0;0;Trenčiansky;;Ilava
+14.03.2021;Neuvedené;2;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+14.03.2021;Neuvedené;2;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+14.03.2021;Neuvedené;2;X;;;0;0;Trenčiansky;;Považská Bystrica
+14.03.2021;Neuvedené;2;X;;;0;0;Košický;;Rožňava
+14.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Snina
+14.03.2021;Neuvedené;2;X;;;0;0;Nitriansky;;Topoľčany
+14.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Banská Štiavnica
+14.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Brezno
+14.03.2021;Neuvedené;1;X;;;0;0;Žilinský;;Čadca
+14.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Galanta
+14.03.2021;Neuvedené;1;X;;;0;0;Košický;;Gelnica
+14.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Kežmarok
+14.03.2021;Neuvedené;1;X;;;0;0;Nitriansky;;Levice
+14.03.2021;Neuvedené;1;X;;;0;0;Trenčiansky;;Partizánske
+14.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Piešťany
+14.03.2021;Neuvedené;1;X;;;0;0;Trenčiansky;;Prievidza
+14.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Rimavská Sobota
+14.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Sabinov
+14.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Senica
+14.03.2021;Neuvedené;1;X;;;0;0;Košický;;Spišská Nová Ves
+14.03.2021;Neuvedené;1;X;;;0;0;Žilinský;;Tvrdošín
+13.03.2021;Neuvedené;0;X;;;0;88;Neuvedené;;Neuvedené
+13.03.2021;Neuvedené;74;X;;;0;0;Banskobystrický;;Rimavská Sobota
+13.03.2021;Neuvedené;57;X;;;0;0;Banskobystrický;;Banská Bystrica
+13.03.2021;Neuvedené;57;X;;;0;0;Bratislavský;;Bratislava I
+13.03.2021;Neuvedené;56;X;;;0;0;Trenčiansky;;Považská Bystrica
+13.03.2021;Neuvedené;56;X;;;0;0;Trenčiansky;;Trenčín
+13.03.2021;Neuvedené;49;X;;;0;0;Košický;;Košice I
+13.03.2021;Neuvedené;49;X;;;0;0;Trenčiansky;;Púchov
+13.03.2021;Neuvedené;47;X;;;0;0;Prešovský;;Prešov
+13.03.2021;Neuvedené;45;X;;;0;0;Košický;;Spišská Nová Ves
+13.03.2021;Neuvedené;41;X;;;0;0;Žilinský;;Liptovský Mikuláš
+13.03.2021;Neuvedené;39;X;;;0;0;Trnavský;;Trnava
+13.03.2021;Neuvedené;37;X;;;0;0;Prešovský;;Poprad
+13.03.2021;Neuvedené;36;X;;;0;0;Prešovský;;Bardejov
+13.03.2021;Neuvedené;32;X;;;0;0;Trnavský;;Skalica
+13.03.2021;Neuvedené;31;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+13.03.2021;Neuvedené;30;X;;;0;0;Trnavský;;Dunajská Streda
+13.03.2021;Neuvedené;29;X;;;0;0;Žilinský;;Žilina
+13.03.2021;Neuvedené;26;X;;;0;0;Trenčiansky;;Prievidza
+13.03.2021;Neuvedené;25;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+13.03.2021;Neuvedené;23;X;;;0;0;Bratislavský;;Senec
+13.03.2021;Neuvedené;22;X;;;0;0;Bratislavský;;Malacky
+13.03.2021;Neuvedené;21;X;;;0;0;Trnavský;;Senica
+13.03.2021;Neuvedené;20;X;;;0;0;Košický;;Michalovce
+13.03.2021;Neuvedené;19;X;;;0;0;Trenčiansky;;Ilava
+13.03.2021;Neuvedené;19;X;;;0;0;Trenčiansky;;Partizánske
+13.03.2021;Neuvedené;19;X;;;0;0;Prešovský;;Vranov nad Topľou
+13.03.2021;Neuvedené;17;X;;;0;0;Trnavský;;Galanta
+13.03.2021;Neuvedené;17;X;;;0;0;Nitriansky;;Šaľa
+13.03.2021;Neuvedené;15;X;;;0;0;Banskobystrický;;Zvolen
+13.03.2021;Neuvedené;14;X;;;0;0;Nitriansky;;Komárno
+13.03.2021;Neuvedené;14;X;;;0;0;Prešovský;;Stará Ľubovňa
+13.03.2021;Neuvedené;13;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+13.03.2021;Neuvedené;13;X;;;0;0;Trnavský;;Hlohovec
+13.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Čadca
+13.03.2021;Neuvedené;12;X;;;0;0;Prešovský;;Kežmarok
+13.03.2021;Neuvedené;12;X;;;0;0;Košický;;Košice - okolie
+13.03.2021;Neuvedené;11;X;;;0;0;Nitriansky;;Levice
+13.03.2021;Neuvedené;11;X;;;0;0;Košický;;Rožňava
+13.03.2021;Neuvedené;11;X;;;0;0;Prešovský;;Sabinov
+13.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Revúca
+13.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Žarnovica
+13.03.2021;Neuvedené;9;X;;;0;0;Nitriansky;;Nové Zámky
+13.03.2021;Neuvedené;9;X;;;0;0;Žilinský;;Ružomberok
+13.03.2021;Neuvedené;8;X;;;0;0;Žilinský;;Bytča
+13.03.2021;Neuvedené;8;X;;;0;0;Žilinský;;Dolný Kubín
+13.03.2021;Neuvedené;8;X;;;0;0;Bratislavský;;Pezinok
+13.03.2021;Neuvedené;7;X;;;0;0;Prešovský;;Levoča
+13.03.2021;Neuvedené;7;X;;;0;0;Prešovský;;Svidník
+13.03.2021;Neuvedené;6;X;;;0;0;Prešovský;;Stropkov
+13.03.2021;Neuvedené;5;X;;;0;0;Košický;;Gelnica
+13.03.2021;Neuvedené;5;X;;;0;0;Banskobystrický;;Lučenec
+13.03.2021;Neuvedené;5;X;;;0;0;Nitriansky;;Nitra
+13.03.2021;Neuvedené;5;X;;;0;0;Nitriansky;;Topoľčany
+13.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Krupina
+13.03.2021;Neuvedené;4;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+13.03.2021;Neuvedené;4;X;;;0;0;Nitriansky;;Zlaté Moravce
+13.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Detva
+13.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Humenné
+13.03.2021;Neuvedené;3;X;;;0;0;Trnavský;;Piešťany
+13.03.2021;Neuvedené;3;X;;;0;0;Košický;;Sobrance
+13.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Brezno
+13.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Poltár
+13.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Banská Štiavnica
+13.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Medzilaborce
+13.03.2021;Neuvedené;1;X;;;0;0;Trenčiansky;;Myjava
+13.03.2021;Neuvedené;1;X;;;0;0;Žilinský;;Námestovo
+13.03.2021;Neuvedené;1;X;;;0;0;Košický;;Trebišov
+13.03.2021;Neuvedené;1;X;;;0;0;Žilinský;;Tvrdošín
+13.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Veľký Krtíš
+12.03.2021;Neuvedené;0;X;;;0;94;Neuvedené;;Neuvedené
+12.03.2021;Neuvedené;129;X;;;0;0;Žilinský;;Žilina
+12.03.2021;Neuvedené;128;X;;;0;0;Košický;;Košice I
+12.03.2021;Neuvedené;105;X;;;0;0;Bratislavský;;Bratislava I
+12.03.2021;Neuvedené;103;X;;;0;0;Žilinský;;Martin
+12.03.2021;Neuvedené;102;X;;;0;0;Prešovský;;Prešov
+12.03.2021;Neuvedené;101;X;;;0;0;Trenčiansky;;Trenčín
+12.03.2021;Neuvedené;89;X;;;0;0;Prešovský;;Vranov nad Topľou
+12.03.2021;Neuvedené;81;X;;;0;0;Žilinský;;Liptovský Mikuláš
+12.03.2021;Neuvedené;67;X;;;0;0;Košický;;Košice - okolie
+12.03.2021;Neuvedené;66;X;;;0;0;Prešovský;;Bardejov
+12.03.2021;Neuvedené;64;X;;;0;0;Prešovský;;Poprad
+12.03.2021;Neuvedené;57;X;;;0;0;Žilinský;;Čadca
+12.03.2021;Neuvedené;57;X;;;0;0;Trenčiansky;;Prievidza
+12.03.2021;Neuvedené;55;X;;;0;0;Žilinský;;Ružomberok
+12.03.2021;Neuvedené;51;X;;;0;0;Trenčiansky;;Ilava
+12.03.2021;Neuvedené;50;X;;;0;0;Trnavský;;Trnava
+12.03.2021;Neuvedené;49;X;;;0;0;Nitriansky;;Nové Zámky
+12.03.2021;Neuvedené;45;X;;;0;0;Banskobystrický;;Banská Bystrica
+12.03.2021;Neuvedené;44;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+12.03.2021;Neuvedené;43;X;;;0;0;Trenčiansky;;Považská Bystrica
+12.03.2021;Neuvedené;41;X;;;0;0;Košický;;Michalovce
+12.03.2021;Neuvedené;39;X;;;0;0;Trnavský;;Senica
+12.03.2021;Neuvedené;38;X;;;0;0;Trenčiansky;;Myjava
+12.03.2021;Neuvedené;38;X;;;0;0;Košický;;Trebišov
+12.03.2021;Neuvedené;35;X;;;0;0;Košický;;Spišská Nová Ves
+12.03.2021;Neuvedené;34;X;;;0;0;Banskobystrický;;Rimavská Sobota
+12.03.2021;Neuvedené;31;X;;;0;0;Trnavský;;Dunajská Streda
+12.03.2021;Neuvedené;31;X;;;0;0;Trnavský;;Galanta
+12.03.2021;Neuvedené;31;X;;;0;0;Košický;;Rožňava
+12.03.2021;Neuvedené;30;X;;;0;0;Nitriansky;;Komárno
+12.03.2021;Neuvedené;30;X;;;0;0;Banskobystrický;;Lučenec
+12.03.2021;Neuvedené;29;X;;;0;0;Banskobystrický;;Veľký Krtíš
+12.03.2021;Neuvedené;27;X;;;0;0;Žilinský;;Dolný Kubín
+12.03.2021;Neuvedené;24;X;;;0;0;Prešovský;;Humenné
+12.03.2021;Neuvedené;24;X;;;0;0;Trnavský;;Piešťany
+12.03.2021;Neuvedené;23;X;;;0;0;Žilinský;;Turčianske Teplice
+12.03.2021;Neuvedené;22;X;;;0;0;Trnavský;;Skalica
+12.03.2021;Neuvedené;21;X;;;0;0;Bratislavský;;Malacky
+12.03.2021;Neuvedené;21;X;;;0;0;Žilinský;;Námestovo
+12.03.2021;Neuvedené;20;X;;;0;0;Prešovský;;Levoča
+12.03.2021;Neuvedené;19;X;;;0;0;Košický;;Gelnica
+12.03.2021;Neuvedené;19;X;;;0;0;Trenčiansky;;Púchov
+12.03.2021;Neuvedené;17;X;;;0;0;Prešovský;;Svidník
+12.03.2021;Neuvedené;16;X;;;0;0;Banskobystrický;;Brezno
+12.03.2021;Neuvedené;15;X;;;0;0;Nitriansky;;Levice
+12.03.2021;Neuvedené;13;X;;;0;0;Bratislavský;;Pezinok
+12.03.2021;Neuvedené;13;X;;;0;0;Bratislavský;;Senec
+12.03.2021;Neuvedené;12;X;;;0;0;Prešovský;;Stará Ľubovňa
+12.03.2021;Neuvedené;12;X;;;0;0;Nitriansky;;Topoľčany
+12.03.2021;Neuvedené;11;X;;;0;0;Prešovský;;Sabinov
+12.03.2021;Neuvedené;11;X;;;0;0;Banskobystrický;;Zvolen
+12.03.2021;Neuvedené;10;X;;;0;0;Prešovský;;Kežmarok
+12.03.2021;Neuvedené;10;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+12.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Revúca
+12.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+12.03.2021;Neuvedené;9;X;;;0;0;Nitriansky;;Nitra
+12.03.2021;Neuvedené;8;X;;;0;0;Trenčiansky;;Partizánske
+12.03.2021;Neuvedené;7;X;;;0;0;Žilinský;;Bytča
+12.03.2021;Neuvedené;7;X;;;0;0;Košický;;Sobrance
+12.03.2021;Neuvedené;7;X;;;0;0;Žilinský;;Tvrdošín
+12.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Detva
+12.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Krupina
+12.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Poltár
+12.03.2021;Neuvedené;6;X;;;0;0;Prešovský;;Stropkov
+12.03.2021;Neuvedené;6;X;;;0;0;Nitriansky;;Šaľa
+12.03.2021;Neuvedené;6;X;;;0;0;Nitriansky;;Zlaté Moravce
+12.03.2021;Neuvedené;5;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+12.03.2021;Neuvedené;4;X;;;0;0;Trnavský;;Hlohovec
+12.03.2021;Neuvedené;4;X;;;0;0;Prešovský;;Snina
+12.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Banská Štiavnica
+12.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Žarnovica
+11.03.2021;Neuvedené;0;X;;;0;102;Neuvedené;;Neuvedené
+11.03.2021;Neuvedené;150;X;;;0;0;Košický;;Košice I
+11.03.2021;Neuvedené;124;X;;;0;0;Žilinský;;Žilina
+11.03.2021;Neuvedené;112;X;;;0;0;Bratislavský;;Bratislava I
+11.03.2021;Neuvedené;104;X;;;0;0;Prešovský;;Prešov
+11.03.2021;Neuvedené;94;X;;;0;0;Žilinský;;Čadca
+11.03.2021;Neuvedené;91;X;;;0;0;Trenčiansky;;Prievidza
+11.03.2021;Neuvedené;88;X;;;0;0;Prešovský;;Vranov nad Topľou
+11.03.2021;Neuvedené;68;X;;;0;0;Trenčiansky;;Trenčín
+11.03.2021;Neuvedené;65;X;;;0;0;Košický;;Košice - okolie
+11.03.2021;Neuvedené;56;X;;;0;0;Košický;;Spišská Nová Ves
+11.03.2021;Neuvedené;54;X;;;0;0;Žilinský;;Martin
+11.03.2021;Neuvedené;53;X;;;0;0;Prešovský;;Humenné
+11.03.2021;Neuvedené;50;X;;;0;0;Banskobystrický;;Banská Bystrica
+11.03.2021;Neuvedené;50;X;;;0;0;Nitriansky;;Komárno
+11.03.2021;Neuvedené;49;X;;;0;0;Košický;;Michalovce
+11.03.2021;Neuvedené;46;X;;;0;0;Žilinský;;Liptovský Mikuláš
+11.03.2021;Neuvedené;45;X;;;0;0;Trnavský;;Trnava
+11.03.2021;Neuvedené;44;X;;;0;0;Banskobystrický;;Rimavská Sobota
+11.03.2021;Neuvedené;43;X;;;0;0;Košický;;Trebišov
+11.03.2021;Neuvedené;42;X;;;0;0;Prešovský;;Bardejov
+11.03.2021;Neuvedené;41;X;;;0;0;Trenčiansky;;Považská Bystrica
+11.03.2021;Neuvedené;40;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+11.03.2021;Neuvedené;40;X;;;0;0;Trnavský;;Skalica
+11.03.2021;Neuvedené;38;X;;;0;0;Žilinský;;Ružomberok
+11.03.2021;Neuvedené;37;X;;;0;0;Nitriansky;;Nové Zámky
+11.03.2021;Neuvedené;34;X;;;0;0;Trnavský;;Dunajská Streda
+11.03.2021;Neuvedené;33;X;;;0;0;Trnavský;;Piešťany
+11.03.2021;Neuvedené;32;X;;;0;0;Trnavský;;Senica
+11.03.2021;Neuvedené;29;X;;;0;0;Prešovský;;Poprad
+11.03.2021;Neuvedené;28;X;;;0;0;Trenčiansky;;Ilava
+11.03.2021;Neuvedené;28;X;;;0;0;Bratislavský;;Senec
+11.03.2021;Neuvedené;28;X;;;0;0;Banskobystrický;;Veľký Krtíš
+11.03.2021;Neuvedené;27;X;;;0;0;Prešovský;;Levoča
+11.03.2021;Neuvedené;27;X;;;0;0;Prešovský;;Svidník
+11.03.2021;Neuvedené;24;X;;;0;0;Prešovský;;Kežmarok
+11.03.2021;Neuvedené;24;X;;;0;0;Banskobystrický;;Lučenec
+11.03.2021;Neuvedené;24;X;;;0;0;Bratislavský;;Malacky
+11.03.2021;Neuvedené;22;X;;;0;0;Nitriansky;;Topoľčany
+11.03.2021;Neuvedené;21;X;;;0;0;Prešovský;;Sabinov
+11.03.2021;Neuvedené;19;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+11.03.2021;Neuvedené;16;X;;;0;0;Banskobystrický;;Brezno
+11.03.2021;Neuvedené;16;X;;;0;0;Prešovský;;Snina
+11.03.2021;Neuvedené;15;X;;;0;0;Žilinský;;Námestovo
+11.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Stará Ľubovňa
+11.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Stropkov
+11.03.2021;Neuvedené;15;X;;;0;0;Banskobystrický;;Zvolen
+11.03.2021;Neuvedené;14;X;;;0;0;Bratislavský;;Pezinok
+11.03.2021;Neuvedené;12;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+11.03.2021;Neuvedené;12;X;;;0;0;Košický;;Gelnica
+11.03.2021;Neuvedené;12;X;;;0;0;Trenčiansky;;Púchov
+11.03.2021;Neuvedené;11;X;;;0;0;Košický;;Sobrance
+11.03.2021;Neuvedené;10;X;;;0;0;Trnavský;;Galanta
+11.03.2021;Neuvedené;10;X;;;0;0;Trnavský;;Hlohovec
+11.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Revúca
+11.03.2021;Neuvedené;10;X;;;0;0;Košický;;Rožňava
+11.03.2021;Neuvedené;9;X;;;0;0;Nitriansky;;Levice
+11.03.2021;Neuvedené;9;X;;;0;0;Trenčiansky;;Partizánske
+11.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Detva
+11.03.2021;Neuvedené;8;X;;;0;0;Žilinský;;Dolný Kubín
+11.03.2021;Neuvedené;8;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+11.03.2021;Neuvedené;8;X;;;0;0;Nitriansky;;Šaľa
+11.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Poltár
+11.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Žarnovica
+11.03.2021;Neuvedené;6;X;;;0;0;Žilinský;;Turčianske Teplice
+11.03.2021;Neuvedené;4;X;;;0;0;Žilinský;;Tvrdošín
+11.03.2021;Neuvedené;3;X;;;0;0;Nitriansky;;Zlaté Moravce
+11.03.2021;Neuvedené;2;X;;;0;0;Žilinský;;Bytča
+11.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Medzilaborce
+11.03.2021;Neuvedené;2;X;;;0;0;Nitriansky;;Nitra
+11.03.2021;Neuvedené;1;X;;;0;0;Trenčiansky;;Myjava
+10.03.2021;Neuvedené;0;X;;;0;98;Neuvedené;;Neuvedené
+10.03.2021;Neuvedené;103;X;;;0;0;Bratislavský;;Bratislava I
+10.03.2021;Neuvedené;102;X;;;0;0;Žilinský;;Žilina
+10.03.2021;Neuvedené;86;X;;;0;0;Trenčiansky;;Ilava
+10.03.2021;Neuvedené;80;X;;;0;0;Prešovský;;Prešov
+10.03.2021;Neuvedené;79;X;;;0;0;Trenčiansky;;Trenčín
+10.03.2021;Neuvedené;65;X;;;0;0;Žilinský;;Martin
+10.03.2021;Neuvedené;65;X;;;0;0;Prešovský;;Poprad
+10.03.2021;Neuvedené;63;X;;;0;0;Trenčiansky;;Prievidza
+10.03.2021;Neuvedené;56;X;;;0;0;Žilinský;;Ružomberok
+10.03.2021;Neuvedené;54;X;;;0;0;Trenčiansky;;Púchov
+10.03.2021;Neuvedené;52;X;;;0;0;Žilinský;;Čadca
+10.03.2021;Neuvedené;52;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+10.03.2021;Neuvedené;51;X;;;0;0;Banskobystrický;;Rimavská Sobota
+10.03.2021;Neuvedené;46;X;;;0;0;Trnavský;;Senica
+10.03.2021;Neuvedené;45;X;;;0;0;Trnavský;;Trnava
+10.03.2021;Neuvedené;42;X;;;0;0;Prešovský;;Stará Ľubovňa
+10.03.2021;Neuvedené;40;X;;;0;0;Banskobystrický;;Veľký Krtíš
+10.03.2021;Neuvedené;39;X;;;0;0;Banskobystrický;;Lučenec
+10.03.2021;Neuvedené;38;X;;;0;0;Žilinský;;Liptovský Mikuláš
+10.03.2021;Neuvedené;35;X;;;0;0;Trnavský;;Dunajská Streda
+10.03.2021;Neuvedené;33;X;;;0;0;Trnavský;;Galanta
+10.03.2021;Neuvedené;33;X;;;0;0;Trnavský;;Skalica
+10.03.2021;Neuvedené;31;X;;;0;0;Trnavský;;Piešťany
+10.03.2021;Neuvedené;30;X;;;0;0;Košický;;Košice I
+10.03.2021;Neuvedené;29;X;;;0;0;Banskobystrický;;Banská Bystrica
+10.03.2021;Neuvedené;29;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+10.03.2021;Neuvedené;26;X;;;0;0;Nitriansky;;Levice
+10.03.2021;Neuvedené;26;X;;;0;0;Trenčiansky;;Považská Bystrica
+10.03.2021;Neuvedené;25;X;;;0;0;Banskobystrický;;Brezno
+10.03.2021;Neuvedené;23;X;;;0;0;Bratislavský;;Senec
+10.03.2021;Neuvedené;22;X;;;0;0;Prešovský;;Bardejov
+10.03.2021;Neuvedené;22;X;;;0;0;Prešovský;;Kežmarok
+10.03.2021;Neuvedené;22;X;;;0;0;Košický;;Spišská Nová Ves
+10.03.2021;Neuvedené;21;X;;;0;0;Trenčiansky;;Myjava
+10.03.2021;Neuvedené;19;X;;;0;0;Trnavský;;Hlohovec
+10.03.2021;Neuvedené;19;X;;;0;0;Nitriansky;;Komárno
+10.03.2021;Neuvedené;19;X;;;0;0;Bratislavský;;Malacky
+10.03.2021;Neuvedené;19;X;;;0;0;Bratislavský;;Pezinok
+10.03.2021;Neuvedené;18;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+10.03.2021;Neuvedené;18;X;;;0;0;Prešovský;;Levoča
+10.03.2021;Neuvedené;17;X;;;0;0;Prešovský;;Sabinov
+10.03.2021;Neuvedené;17;X;;;0;0;Prešovský;;Svidník
+10.03.2021;Neuvedené;16;X;;;0;0;Nitriansky;;Nové Zámky
+10.03.2021;Neuvedené;15;X;;;0;0;Košický;;Košice - okolie
+10.03.2021;Neuvedené;15;X;;;0;0;Košický;;Rožňava
+10.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Stropkov
+10.03.2021;Neuvedené;15;X;;;0;0;Košický;;Trebišov
+10.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Humenné
+10.03.2021;Neuvedené;13;X;;;0;0;Banskobystrický;;Revúca
+10.03.2021;Neuvedené;13;X;;;0;0;Nitriansky;;Topoľčany
+10.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Bytča
+10.03.2021;Neuvedené;12;X;;;0;0;Košický;;Michalovce
+10.03.2021;Neuvedené;12;X;;;0;0;Banskobystrický;;Zvolen
+10.03.2021;Neuvedené;11;X;;;0;0;Žilinský;;Dolný Kubín
+10.03.2021;Neuvedené;11;X;;;0;0;Košický;;Gelnica
+10.03.2021;Neuvedené;11;X;;;0;0;Žilinský;;Námestovo
+10.03.2021;Neuvedené;11;X;;;0;0;Nitriansky;;Šaľa
+10.03.2021;Neuvedené;10;X;;;0;0;Nitriansky;;Nitra
+10.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Poltár
+10.03.2021;Neuvedené;9;X;;;0;0;Žilinský;;Tvrdošín
+10.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Žarnovica
+10.03.2021;Neuvedené;8;X;;;0;0;Prešovský;;Snina
+10.03.2021;Neuvedené;7;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+10.03.2021;Neuvedené;5;X;;;0;0;Žilinský;;Turčianske Teplice
+10.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Vranov nad Topľou
+10.03.2021;Neuvedené;3;X;;;0;0;Trenčiansky;;Partizánske
+10.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Banská Štiavnica
+10.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Detva
+10.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Krupina
+10.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Medzilaborce
+10.03.2021;Neuvedené;1;X;;;0;0;Košický;;Sobrance
+10.03.2021;Neuvedené;1;X;;;0;0;Nitriansky;;Zlaté Moravce
+09.03.2021;Neuvedené;0;X;;;0;109;Neuvedené;;Neuvedené
+09.03.2021;Neuvedené;216;X;;;0;0;Košický;;Košice I
+09.03.2021;Neuvedené;195;X;;;0;0;Žilinský;;Žilina
+09.03.2021;Neuvedené;154;X;;;0;0;Bratislavský;;Bratislava I
+09.03.2021;Neuvedené;134;X;;;0;0;Košický;;Trebišov
+09.03.2021;Neuvedené;134;X;;;0;0;Trenčiansky;;Trenčín
+09.03.2021;Neuvedené;126;X;;;0;0;Trnavský;;Dunajská Streda
+09.03.2021;Neuvedené;117;X;;;0;0;Žilinský;;Martin
+09.03.2021;Neuvedené;107;X;;;0;0;Trenčiansky;;Považská Bystrica
+09.03.2021;Neuvedené;102;X;;;0;0;Košický;;Košice - okolie
+09.03.2021;Neuvedené;98;X;;;0;0;Nitriansky;;Komárno
+09.03.2021;Neuvedené;98;X;;;0;0;Prešovský;;Prešov
+09.03.2021;Neuvedené;94;X;;;0;0;Prešovský;;Vranov nad Topľou
+09.03.2021;Neuvedené;93;X;;;0;0;Žilinský;;Liptovský Mikuláš
+09.03.2021;Neuvedené;81;X;;;0;0;Košický;;Spišská Nová Ves
+09.03.2021;Neuvedené;76;X;;;0;0;Banskobystrický;;Banská Bystrica
+09.03.2021;Neuvedené;76;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+09.03.2021;Neuvedené;75;X;;;0;0;Trenčiansky;;Ilava
+09.03.2021;Neuvedené;71;X;;;0;0;Prešovský;;Poprad
+09.03.2021;Neuvedené;71;X;;;0;0;Trnavský;;Trnava
+09.03.2021;Neuvedené;69;X;;;0;0;Trnavský;;Piešťany
+09.03.2021;Neuvedené;60;X;;;0;0;Trenčiansky;;Púchov
+09.03.2021;Neuvedené;57;X;;;0;0;Košický;;Michalovce
+09.03.2021;Neuvedené;57;X;;;0;0;Trenčiansky;;Prievidza
+09.03.2021;Neuvedené;56;X;;;0;0;Banskobystrický;;Rimavská Sobota
+09.03.2021;Neuvedené;56;X;;;0;0;Banskobystrický;;Zvolen
+09.03.2021;Neuvedené;55;X;;;0;0;Nitriansky;;Nové Zámky
+09.03.2021;Neuvedené;55;X;;;0;0;Trnavský;;Senica
+09.03.2021;Neuvedené;54;X;;;0;0;Trnavský;;Skalica
+09.03.2021;Neuvedené;53;X;;;0;0;Prešovský;;Bardejov
+09.03.2021;Neuvedené;41;X;;;0;0;Prešovský;;Svidník
+09.03.2021;Neuvedené;39;X;;;0;0;Bratislavský;;Senec
+09.03.2021;Neuvedené;35;X;;;0;0;Trnavský;;Hlohovec
+09.03.2021;Neuvedené;34;X;;;0;0;Košický;;Gelnica
+09.03.2021;Neuvedené;34;X;;;0;0;Banskobystrický;;Lučenec
+09.03.2021;Neuvedené;33;X;;;0;0;Žilinský;;Čadca
+09.03.2021;Neuvedené;32;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+09.03.2021;Neuvedené;32;X;;;0;0;Trnavský;;Galanta
+09.03.2021;Neuvedené;32;X;;;0;0;Trenčiansky;;Myjava
+09.03.2021;Neuvedené;32;X;;;0;0;Košický;;Rožňava
+09.03.2021;Neuvedené;30;X;;;0;0;Prešovský;;Humenné
+09.03.2021;Neuvedené;30;X;;;0;0;Nitriansky;;Šaľa
+09.03.2021;Neuvedené;30;X;;;0;0;Nitriansky;;Topoľčany
+09.03.2021;Neuvedené;29;X;;;0;0;Bratislavský;;Malacky
+09.03.2021;Neuvedené;27;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+09.03.2021;Neuvedené;26;X;;;0;0;Prešovský;;Stará Ľubovňa
+09.03.2021;Neuvedené;25;X;;;0;0;Nitriansky;;Nitra
+09.03.2021;Neuvedené;24;X;;;0;0;Banskobystrický;;Brezno
+09.03.2021;Neuvedené;23;X;;;0;0;Žilinský;;Bytča
+09.03.2021;Neuvedené;23;X;;;0;0;Prešovský;;Sabinov
+09.03.2021;Neuvedené;22;X;;;0;0;Banskobystrický;;Poltár
+09.03.2021;Neuvedené;20;X;;;0;0;Nitriansky;;Levice
+09.03.2021;Neuvedené;20;X;;;0;0;Bratislavský;;Pezinok
+09.03.2021;Neuvedené;20;X;;;0;0;Banskobystrický;;Revúca
+09.03.2021;Neuvedené;20;X;;;0;0;Košický;;Sobrance
+09.03.2021;Neuvedené;19;X;;;0;0;Prešovský;;Kežmarok
+09.03.2021;Neuvedené;19;X;;;0;0;Prešovský;;Levoča
+09.03.2021;Neuvedené;19;X;;;0;0;Žilinský;;Ružomberok
+09.03.2021;Neuvedené;18;X;;;0;0;Žilinský;;Turčianske Teplice
+09.03.2021;Neuvedené;16;X;;;0;0;Prešovský;;Snina
+09.03.2021;Neuvedené;14;X;;;0;0;Prešovský;;Stropkov
+09.03.2021;Neuvedené;13;X;;;0;0;Trenčiansky;;Partizánske
+09.03.2021;Neuvedené;10;X;;;0;0;Žilinský;;Dolný Kubín
+09.03.2021;Neuvedené;10;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+09.03.2021;Neuvedené;10;X;;;0;0;Žilinský;;Námestovo
+09.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Detva
+09.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Krupina
+09.03.2021;Neuvedené;9;X;;;0;0;Žilinský;;Tvrdošín
+09.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Veľký Krtíš
+09.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Žarnovica
+09.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Banská Štiavnica
+09.03.2021;Neuvedené;2;X;;;0;0;Nitriansky;;Zlaté Moravce
+09.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Medzilaborce
+08.03.2021;Neuvedené;0;X;;;0;116;Neuvedené;;Neuvedené
+08.03.2021;Neuvedené;291;X;;;0;0;Košický;;Košice I
+08.03.2021;Neuvedené;174;X;;;0;0;Bratislavský;;Bratislava I
+08.03.2021;Neuvedené;171;X;;;0;0;Prešovský;;Prešov
+08.03.2021;Neuvedené;136;X;;;0;0;Žilinský;;Žilina
+08.03.2021;Neuvedené;118;X;;;0;0;Žilinský;;Martin
+08.03.2021;Neuvedené;100;X;;;0;0;Košický;;Košice - okolie
+08.03.2021;Neuvedené;64;X;;;0;0;Trenčiansky;;Trenčín
+08.03.2021;Neuvedené;63;X;;;0;0;Košický;;Michalovce
+08.03.2021;Neuvedené;57;X;;;0;0;Košický;;Trebišov
+08.03.2021;Neuvedené;56;X;;;0;0;Trnavský;;Galanta
+08.03.2021;Neuvedené;43;X;;;0;0;Žilinský;;Čadca
+08.03.2021;Neuvedené;42;X;;;0;0;Nitriansky;;Komárno
+08.03.2021;Neuvedené;40;X;;;0;0;Prešovský;;Poprad
+08.03.2021;Neuvedené;38;X;;;0;0;Trnavský;;Dunajská Streda
+08.03.2021;Neuvedené;36;X;;;0;0;Bratislavský;;Senec
+08.03.2021;Neuvedené;34;X;;;0;0;Nitriansky;;Topoľčany
+08.03.2021;Neuvedené;33;X;;;0;0;Banskobystrický;;Lučenec
+08.03.2021;Neuvedené;33;X;;;0;0;Nitriansky;;Nitra
+08.03.2021;Neuvedené;33;X;;;0;0;Trenčiansky;;Prievidza
+08.03.2021;Neuvedené;32;X;;;0;0;Banskobystrický;;Zvolen
+08.03.2021;Neuvedené;31;X;;;0;0;Banskobystrický;;Brezno
+08.03.2021;Neuvedené;29;X;;;0;0;Trenčiansky;;Ilava
+08.03.2021;Neuvedené;29;X;;;0;0;Trnavský;;Piešťany
+08.03.2021;Neuvedené;27;X;;;0;0;Bratislavský;;Pezinok
+08.03.2021;Neuvedené;27;X;;;0;0;Trnavský;;Trnava
+08.03.2021;Neuvedené;26;X;;;0;0;Prešovský;;Sabinov
+08.03.2021;Neuvedené;25;X;;;0;0;Košický;;Spišská Nová Ves
+08.03.2021;Neuvedené;23;X;;;0;0;Prešovský;;Humenné
+08.03.2021;Neuvedené;23;X;;;0;0;Žilinský;;Ružomberok
+08.03.2021;Neuvedené;22;X;;;0;0;Prešovský;;Vranov nad Topľou
+08.03.2021;Neuvedené;21;X;;;0;0;Trnavský;;Hlohovec
+08.03.2021;Neuvedené;21;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+08.03.2021;Neuvedené;19;X;;;0;0;Banskobystrický;;Rimavská Sobota
+08.03.2021;Neuvedené;18;X;;;0;0;Bratislavský;;Malacky
+08.03.2021;Neuvedené;16;X;;;0;0;Žilinský;;Liptovský Mikuláš
+08.03.2021;Neuvedené;16;X;;;0;0;Nitriansky;;Šaľa
+08.03.2021;Neuvedené;15;X;;;0;0;Trenčiansky;;Partizánske
+08.03.2021;Neuvedené;14;X;;;0;0;Banskobystrický;;Poltár
+08.03.2021;Neuvedené;13;X;;;0;0;Košický;;Gelnica
+08.03.2021;Neuvedené;13;X;;;0;0;Nitriansky;;Nové Zámky
+08.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Námestovo
+08.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Turčianske Teplice
+08.03.2021;Neuvedené;11;X;;;0;0;Banskobystrický;;Banská Bystrica
+08.03.2021;Neuvedené;10;X;;;0;0;Trnavský;;Senica
+08.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Revúca
+08.03.2021;Neuvedené;8;X;;;0;0;Žilinský;;Dolný Kubín
+08.03.2021;Neuvedené;8;X;;;0;0;Trenčiansky;;Myjava
+08.03.2021;Neuvedené;8;X;;;0;0;Prešovský;;Svidník
+08.03.2021;Neuvedené;7;X;;;0;0;Žilinský;;Bytča
+08.03.2021;Neuvedené;7;X;;;0;0;Trenčiansky;;Považská Bystrica
+08.03.2021;Neuvedené;7;X;;;0;0;Trenčiansky;;Púchov
+08.03.2021;Neuvedené;7;X;;;0;0;Košický;;Sobrance
+08.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Veľký Krtíš
+08.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Banská Štiavnica
+08.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Detva
+08.03.2021;Neuvedené;6;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+08.03.2021;Neuvedené;6;X;;;0;0;Nitriansky;;Levice
+08.03.2021;Neuvedené;6;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+08.03.2021;Neuvedené;6;X;;;0;0;Žilinský;;Tvrdošín
+08.03.2021;Neuvedené;5;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+08.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Bardejov
+08.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Levoča
+08.03.2021;Neuvedené;4;X;;;0;0;Prešovský;;Kežmarok
+08.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Medzilaborce
+08.03.2021;Neuvedené;3;X;;;0;0;Košický;;Rožňava
+08.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Stropkov
+08.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Snina
+08.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Stará Ľubovňa
+08.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Krupina
+08.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Skalica
+08.03.2021;Neuvedené;1;X;;;0;0;Nitriansky;;Zlaté Moravce
+08.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Žarnovica
+07.03.2021;Neuvedené;0;X;;;0;85;Neuvedené;;Neuvedené
+07.03.2021;Neuvedené;82;X;;;0;0;Bratislavský;;Bratislava I
+07.03.2021;Neuvedené;35;X;;;0;0;Nitriansky;;Nové Zámky
+07.03.2021;Neuvedené;32;X;;;0;0;Bratislavský;;Malacky
+07.03.2021;Neuvedené;30;X;;;0;0;Banskobystrický;;Banská Bystrica
+07.03.2021;Neuvedené;17;X;;;0;0;Žilinský;;Dolný Kubín
+07.03.2021;Neuvedené;17;X;;;0;0;Košický;;Michalovce
+07.03.2021;Neuvedené;16;X;;;0;0;Bratislavský;;Senec
+07.03.2021;Neuvedené;15;X;;;0;0;Trnavský;;Trnava
+07.03.2021;Neuvedené;14;X;;;0;0;Košický;;Košice I
+07.03.2021;Neuvedené;12;X;;;0;0;Bratislavský;;Pezinok
+07.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Ružomberok
+07.03.2021;Neuvedené;11;X;;;0;0;Banskobystrický;;Lučenec
+07.03.2021;Neuvedené;11;X;;;0;0;Prešovský;;Prešov
+07.03.2021;Neuvedené;9;X;;;0;0;Košický;;Košice - okolie
+07.03.2021;Neuvedené;9;X;;;0;0;Žilinský;;Námestovo
+07.03.2021;Neuvedené;8;X;;;0;0;Trnavský;;Hlohovec
+07.03.2021;Neuvedené;5;X;;;0;0;Banskobystrický;;Poltár
+07.03.2021;Neuvedené;4;X;;;0;0;Košický;;Gelnica
+07.03.2021;Neuvedené;4;X;;;0;0;Nitriansky;;Komárno
+07.03.2021;Neuvedené;4;X;;;0;0;Nitriansky;;Levice
+07.03.2021;Neuvedené;4;X;;;0;0;Nitriansky;;Nitra
+07.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Rimavská Sobota
+07.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Kežmarok
+07.03.2021;Neuvedené;3;X;;;0;0;Žilinský;;Liptovský Mikuláš
+07.03.2021;Neuvedené;3;X;;;0;0;Žilinský;;Martin
+07.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Revúca
+07.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Detva
+07.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Levoča
+07.03.2021;Neuvedené;2;X;;;0;0;Prešovský;;Poprad
+07.03.2021;Neuvedené;2;X;;;0;0;Trnavský;;Senica
+07.03.2021;Neuvedené;2;X;;;0;0;Trnavský;;Skalica
+07.03.2021;Neuvedené;2;X;;;0;0;Trenčiansky;;Trenčín
+07.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Zvolen
+07.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Žarnovica
+07.03.2021;Neuvedené;2;X;;;0;0;Žilinský;;Žilina
+07.03.2021;Neuvedené;1;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+07.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Brezno
+07.03.2021;Neuvedené;1;X;;;0;0;Žilinský;;Čadca
+07.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Dunajská Streda
+07.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Galanta
+07.03.2021;Neuvedené;1;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+07.03.2021;Neuvedené;1;X;;;0;0;Trnavský;;Piešťany
+07.03.2021;Neuvedené;1;X;;;0;0;Prešovský;;Sabinov
+07.03.2021;Neuvedené;1;X;;;0;0;Košický;;Spišská Nová Ves
+07.03.2021;Neuvedené;1;X;;;0;0;Nitriansky;;Topoľčany
+07.03.2021;Neuvedené;1;X;;;0;0;Žilinský;;Tvrdošín
+06.03.2021;Neuvedené;0;X;;;0;97;Neuvedené;;Neuvedené
+06.03.2021;Neuvedené;73;X;;;0;0;Banskobystrický;;Rimavská Sobota
+06.03.2021;Neuvedené;71;X;;;0;0;Žilinský;;Žilina
+06.03.2021;Neuvedené;58;X;;;0;0;Bratislavský;;Bratislava I
+06.03.2021;Neuvedené;55;X;;;0;0;Košický;;Košice I
+06.03.2021;Neuvedené;50;X;;;0;0;Trenčiansky;;Púchov
+06.03.2021;Neuvedené;48;X;;;0;0;Trenčiansky;;Trenčín
+06.03.2021;Neuvedené;45;X;;;0;0;Trenčiansky;;Považská Bystrica
+06.03.2021;Neuvedené;43;X;;;0;0;Banskobystrický;;Banská Bystrica
+06.03.2021;Neuvedené;42;X;;;0;0;Trnavský;;Trnava
+06.03.2021;Neuvedené;39;X;;;0;0;Prešovský;;Bardejov
+06.03.2021;Neuvedené;38;X;;;0;0;Prešovský;;Poprad
+06.03.2021;Neuvedené;37;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+06.03.2021;Neuvedené;35;X;;;0;0;Žilinský;;Čadca
+06.03.2021;Neuvedené;35;X;;;0;0;Trnavský;;Skalica
+06.03.2021;Neuvedené;34;X;;;0;0;Žilinský;;Liptovský Mikuláš
+06.03.2021;Neuvedené;33;X;;;0;0;Trenčiansky;;Ilava
+06.03.2021;Neuvedené;30;X;;;0;0;Košický;;Spišská Nová Ves
+06.03.2021;Neuvedené;30;X;;;0;0;Prešovský;;Vranov nad Topľou
+06.03.2021;Neuvedené;27;X;;;0;0;Nitriansky;;Nitra
+06.03.2021;Neuvedené;26;X;;;0;0;Trnavský;;Piešťany
+06.03.2021;Neuvedené;24;X;;;0;0;Košický;;Košice - okolie
+06.03.2021;Neuvedené;24;X;;;0;0;Košický;;Trebišov
+06.03.2021;Neuvedené;23;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+06.03.2021;Neuvedené;22;X;;;0;0;Prešovský;;Prešov
+06.03.2021;Neuvedené;21;X;;;0;0;Košický;;Rožňava
+06.03.2021;Neuvedené;20;X;;;0;0;Trenčiansky;;Prievidza
+06.03.2021;Neuvedené;17;X;;;0;0;Nitriansky;;Komárno
+06.03.2021;Neuvedené;16;X;;;0;0;Banskobystrický;;Zvolen
+06.03.2021;Neuvedené;15;X;;;0;0;Banskobystrický;;Revúca
+06.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Stropkov
+06.03.2021;Neuvedené;14;X;;;0;0;Trnavský;;Dunajská Streda
+06.03.2021;Neuvedené;14;X;;;0;0;Košický;;Michalovce
+06.03.2021;Neuvedené;14;X;;;0;0;Trnavský;;Senica
+06.03.2021;Neuvedené;13;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+06.03.2021;Neuvedené;13;X;;;0;0;Nitriansky;;Levice
+06.03.2021;Neuvedené;12;X;;;0;0;Trnavský;;Hlohovec
+06.03.2021;Neuvedené;12;X;;;0;0;Prešovský;;Kežmarok
+06.03.2021;Neuvedené;11;X;;;0;0;Trnavský;;Galanta
+06.03.2021;Neuvedené;11;X;;;0;0;Bratislavský;;Senec
+06.03.2021;Neuvedené;11;X;;;0;0;Nitriansky;;Šaľa
+06.03.2021;Neuvedené;10;X;;;0;0;Prešovský;;Snina
+06.03.2021;Neuvedené;8;X;;;0;0;Nitriansky;;Nové Zámky
+06.03.2021;Neuvedené;8;X;;;0;0;Prešovský;;Sabinov
+06.03.2021;Neuvedené;7;X;;;0;0;Žilinský;;Bytča
+06.03.2021;Neuvedené;7;X;;;0;0;Košický;;Gelnica
+06.03.2021;Neuvedené;7;X;;;0;0;Žilinský;;Námestovo
+06.03.2021;Neuvedené;7;X;;;0;0;Nitriansky;;Topoľčany
+06.03.2021;Neuvedené;6;X;;;0;0;Prešovský;;Stará Ľubovňa
+06.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+06.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Levoča
+06.03.2021;Neuvedené;5;X;;;0;0;Bratislavský;;Malacky
+06.03.2021;Neuvedené;5;X;;;0;0;Bratislavský;;Pezinok
+06.03.2021;Neuvedené;5;X;;;0;0;Prešovský;;Svidník
+06.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Brezno
+06.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Poltár
+06.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Humenné
+06.03.2021;Neuvedené;3;X;;;0;0;Trenčiansky;;Partizánske
+06.03.2021;Neuvedené;3;X;;;0;0;Žilinský;;Ružomberok
+06.03.2021;Neuvedené;3;X;;;0;0;Nitriansky;;Zlaté Moravce
+06.03.2021;Neuvedené;2;X;;;0;0;Košický;;Sobrance
+06.03.2021;Neuvedené;2;X;;;0;0;Žilinský;;Turčianske Teplice
+06.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Detva
+06.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Krupina
+06.03.2021;Neuvedené;1;X;;;0;0;Žilinský;;Martin
+06.03.2021;Neuvedené;1;X;;;0;0;Trenčiansky;;Myjava
+06.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Žarnovica
+05.03.2021;Neuvedené;0;X;;;0;74;Neuvedené;;Neuvedené
+05.03.2021;Neuvedené;157;X;;;0;0;Bratislavský;;Bratislava I
+05.03.2021;Neuvedené;145;X;;;0;0;Košický;;Košice I
+05.03.2021;Neuvedené;137;X;;;0;0;Prešovský;;Prešov
+05.03.2021;Neuvedené;119;X;;;0;0;Prešovský;;Vranov nad Topľou
+05.03.2021;Neuvedené;118;X;;;0;0;Košický;;Trebišov
+05.03.2021;Neuvedené;92;X;;;0;0;Žilinský;;Žilina
+05.03.2021;Neuvedené;88;X;;;0;0;Žilinský;;Liptovský Mikuláš
+05.03.2021;Neuvedené;86;X;;;0;0;Trenčiansky;;Prievidza
+05.03.2021;Neuvedené;83;X;;;0;0;Žilinský;;Martin
+05.03.2021;Neuvedené;79;X;;;0;0;Košický;;Michalovce
+05.03.2021;Neuvedené;74;X;;;0;0;Trnavský;;Trnava
+05.03.2021;Neuvedené;70;X;;;0;0;Trenčiansky;;Trenčín
+05.03.2021;Neuvedené;66;X;;;0;0;Trnavský;;Dunajská Streda
+05.03.2021;Neuvedené;62;X;;;0;0;Prešovský;;Humenné
+05.03.2021;Neuvedené;55;X;;;0;0;Banskobystrický;;Rimavská Sobota
+05.03.2021;Neuvedené;51;X;;;0;0;Košický;;Košice - okolie
+05.03.2021;Neuvedené;49;X;;;0;0;Trenčiansky;;Považská Bystrica
+05.03.2021;Neuvedené;49;X;;;0;0;Trnavský;;Senica
+05.03.2021;Neuvedené;48;X;;;0;0;Prešovský;;Poprad
+05.03.2021;Neuvedené;46;X;;;0;0;Banskobystrický;;Banská Bystrica
+05.03.2021;Neuvedené;46;X;;;0;0;Žilinský;;Ružomberok
+05.03.2021;Neuvedené;43;X;;;0;0;Nitriansky;;Komárno
+05.03.2021;Neuvedené;40;X;;;0;0;Nitriansky;;Nitra
+05.03.2021;Neuvedené;39;X;;;0;0;Trnavský;;Galanta
+05.03.2021;Neuvedené;37;X;;;0;0;Bratislavský;;Malacky
+05.03.2021;Neuvedené;35;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+05.03.2021;Neuvedené;34;X;;;0;0;Bratislavský;;Senec
+05.03.2021;Neuvedené;33;X;;;0;0;Prešovský;;Bardejov
+05.03.2021;Neuvedené;28;X;;;0;0;Trenčiansky;;Ilava
+05.03.2021;Neuvedené;28;X;;;0;0;Prešovský;;Svidník
+05.03.2021;Neuvedené;27;X;;;0;0;Trnavský;;Piešťany
+05.03.2021;Neuvedené;24;X;;;0;0;Banskobystrický;;Zvolen
+05.03.2021;Neuvedené;23;X;;;0;0;Trnavský;;Skalica
+05.03.2021;Neuvedené;21;X;;;0;0;Trnavský;;Hlohovec
+05.03.2021;Neuvedené;21;X;;;0;0;Prešovský;;Sabinov
+05.03.2021;Neuvedené;20;X;;;0;0;Trenčiansky;;Myjava
+05.03.2021;Neuvedené;20;X;;;0;0;Trenčiansky;;Partizánske
+05.03.2021;Neuvedené;20;X;;;0;0;Banskobystrický;;Revúca
+05.03.2021;Neuvedené;18;X;;;0;0;Banskobystrický;;Veľký Krtíš
+05.03.2021;Neuvedené;17;X;;;0;0;Košický;;Rožňava
+05.03.2021;Neuvedené;17;X;;;0;0;Košický;;Sobrance
+05.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Kežmarok
+05.03.2021;Neuvedené;15;X;;;0;0;Nitriansky;;Topoľčany
+05.03.2021;Neuvedené;14;X;;;0;0;Banskobystrický;;Brezno
+05.03.2021;Neuvedené;14;X;;;0;0;Nitriansky;;Nové Zámky
+05.03.2021;Neuvedené;13;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+05.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Snina
+05.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Bytča
+05.03.2021;Neuvedené;12;X;;;0;0;Žilinský;;Dolný Kubín
+05.03.2021;Neuvedené;12;X;;;0;0;Trenčiansky;;Púchov
+05.03.2021;Neuvedené;12;X;;;0;0;Prešovský;;Stará Ľubovňa
+05.03.2021;Neuvedené;11;X;;;0;0;Nitriansky;;Levice
+05.03.2021;Neuvedené;11;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+05.03.2021;Neuvedené;10;X;;;0;0;Bratislavský;;Pezinok
+05.03.2021;Neuvedené;9;X;;;0;0;Banskobystrický;;Žarnovica
+05.03.2021;Neuvedené;8;X;;;0;0;Banskobystrický;;Lučenec
+05.03.2021;Neuvedené;8;X;;;0;0;Žilinský;;Námestovo
+05.03.2021;Neuvedené;6;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+05.03.2021;Neuvedené;6;X;;;0;0;Košický;;Gelnica
+05.03.2021;Neuvedené;6;X;;;0;0;Banskobystrický;;Krupina
+05.03.2021;Neuvedené;6;X;;;0;0;Prešovský;;Levoča
+05.03.2021;Neuvedené;6;X;;;0;0;Košický;;Spišská Nová Ves
+05.03.2021;Neuvedené;6;X;;;0;0;Žilinský;;Turčianske Teplice
+05.03.2021;Neuvedené;6;X;;;0;0;Nitriansky;;Zlaté Moravce
+05.03.2021;Neuvedené;5;X;;;0;0;Žilinský;;Čadca
+05.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Detva
+05.03.2021;Neuvedené;4;X;;;0;0;Banskobystrický;;Poltár
+05.03.2021;Neuvedené;4;X;;;0;0;Nitriansky;;Šaľa
+05.03.2021;Neuvedené;4;X;;;0;0;Žilinský;;Tvrdošín
+05.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Medzilaborce
+05.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Banská Štiavnica
+04.03.2021;Neuvedené;0;X;;;0;105;Neuvedené;;Neuvedené
+04.03.2021;Neuvedené;128;X;;;0;0;Bratislavský;;Bratislava I
+04.03.2021;Neuvedené;123;X;;;0;0;Prešovský;;Prešov
+04.03.2021;Neuvedené;109;X;;;0;0;Košický;;Košice I
+04.03.2021;Neuvedené;102;X;;;0;0;Žilinský;;Martin
+04.03.2021;Neuvedené;102;X;;;0;0;Košický;;Trebišov
+04.03.2021;Neuvedené;102;X;;;0;0;Žilinský;;Žilina
+04.03.2021;Neuvedené;98;X;;;0;0;Žilinský;;Čadca
+04.03.2021;Neuvedené;76;X;;;0;0;Nitriansky;;Komárno
+04.03.2021;Neuvedené;71;X;;;0;0;Prešovský;;Vranov nad Topľou
+04.03.2021;Neuvedené;70;X;;;0;0;Trenčiansky;;Prievidza
+04.03.2021;Neuvedené;69;X;;;0;0;Trenčiansky;;Trenčín
+04.03.2021;Neuvedené;59;X;;;0;0;Trnavský;;Piešťany
+04.03.2021;Neuvedené;59;X;;;0;0;Košický;;Spišská Nová Ves
+04.03.2021;Neuvedené;55;X;;;0;0;Trnavský;;Dunajská Streda
+04.03.2021;Neuvedené;49;X;;;0;0;Žilinský;;Ružomberok
+04.03.2021;Neuvedené;46;X;;;0;0;Košický;;Michalovce
+04.03.2021;Neuvedené;44;X;;;0;0;Trenčiansky;;Ilava
+04.03.2021;Neuvedené;42;X;;;0;0;Prešovský;;Humenné
+04.03.2021;Neuvedené;42;X;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+04.03.2021;Neuvedené;41;X;;;0;0;Žilinský;;Liptovský Mikuláš
+04.03.2021;Neuvedené;40;X;;;0;0;Banskobystrický;;Banská Bystrica
+04.03.2021;Neuvedené;40;X;;;0;0;Košický;;Košice - okolie
+04.03.2021;Neuvedené;40;X;;;0;0;Banskobystrický;;Žiar nad Hronom
+04.03.2021;Neuvedené;35;X;;;0;0;Trnavský;;Skalica
+04.03.2021;Neuvedené;35;X;;;0;0;Trnavský;;Trnava
+04.03.2021;Neuvedené;34;X;;;0;0;Bratislavský;;Malacky
+04.03.2021;Neuvedené;34;X;;;0;0;Trenčiansky;;Považská Bystrica
+04.03.2021;Neuvedené;32;X;;;0;0;Banskobystrický;;Rimavská Sobota
+04.03.2021;Neuvedené;31;X;;;0;0;Banskobystrický;;Zvolen
+04.03.2021;Neuvedené;30;X;;;0;0;Bratislavský;;Senec
+04.03.2021;Neuvedené;30;X;;;0;0;Banskobystrický;;Veľký Krtíš
+04.03.2021;Neuvedené;29;X;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+04.03.2021;Neuvedené;29;X;;;0;0;Prešovský;;Bardejov
+04.03.2021;Neuvedené;27;X;;;0;0;Nitriansky;;Nové Zámky
+04.03.2021;Neuvedené;27;X;;;0;0;Košický;;Rožňava
+04.03.2021;Neuvedené;26;X;;;0;0;Trnavský;;Hlohovec
+04.03.2021;Neuvedené;25;X;;;0;0;Košický;;Gelnica
+04.03.2021;Neuvedené;25;X;;;0;0;Nitriansky;;Levice
+04.03.2021;Neuvedené;25;X;;;0;0;Prešovský;;Levoča
+04.03.2021;Neuvedené;24;X;;;0;0;Prešovský;;Poprad
+04.03.2021;Neuvedené;22;X;;;0;0;Trenčiansky;;Púchov
+04.03.2021;Neuvedené;21;X;;;0;0;Žilinský;;Dolný Kubín
+04.03.2021;Neuvedené;18;X;;;0;0;Banskobystrický;;Lučenec
+04.03.2021;Neuvedené;17;X;;;0;0;Nitriansky;;Topoľčany
+04.03.2021;Neuvedené;15;X;;;0;0;Žilinský;;Kysucké Nové Mesto
+04.03.2021;Neuvedené;15;X;;;0;0;Prešovský;;Sabinov
+04.03.2021;Neuvedené;14;X;;;0;0;Žilinský;;Bytča
+04.03.2021;Neuvedené;14;X;;;0;0;Trnavský;;Galanta
+04.03.2021;Neuvedené;14;X;;;0;0;Nitriansky;;Nitra
+04.03.2021;Neuvedené;14;X;;;0;0;Trnavský;;Senica
+04.03.2021;Neuvedené;13;X;;;0;0;Prešovský;;Stropkov
+04.03.2021;Neuvedené;13;X;;;0;0;Nitriansky;;Šaľa
+04.03.2021;Neuvedené;13;X;;;0;0;Žilinský;;Turčianske Teplice
+04.03.2021;Neuvedené;12;X;;;0;0;Bratislavský;;Pezinok
+04.03.2021;Neuvedené;11;X;;;0;0;Trenčiansky;;Partizánske
+04.03.2021;Neuvedené;10;X;;;0;0;Prešovský;;Snina
+04.03.2021;Neuvedené;10;X;;;0;0;Banskobystrický;;Žarnovica
+04.03.2021;Neuvedené;9;X;;;0;0;Prešovský;;Kežmarok
+04.03.2021;Neuvedené;9;X;;;0;0;Žilinský;;Námestovo
+04.03.2021;Neuvedené;9;X;;;0;0;Košický;;Sobrance
+04.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Detva
+04.03.2021;Neuvedené;7;X;;;0;0;Banskobystrický;;Revúca
+04.03.2021;Neuvedené;5;X;;;0;0;Banskobystrický;;Krupina
+04.03.2021;Neuvedené;4;X;;;0;0;Prešovský;;Medzilaborce
+04.03.2021;Neuvedené;4;X;;;0;0;Prešovský;;Stará Ľubovňa
+04.03.2021;Neuvedené;4;X;;;0;0;Nitriansky;;Zlaté Moravce
+04.03.2021;Neuvedené;3;X;;;0;0;Banskobystrický;;Poltár
+04.03.2021;Neuvedené;3;X;;;0;0;Prešovský;;Svidník
+04.03.2021;Neuvedené;3;X;;;0;0;Žilinský;;Tvrdošín
+04.03.2021;Neuvedené;2;X;;;0;0;Banskobystrický;;Brezno
+04.03.2021;Neuvedené;2;X;;;0;0;Trenčiansky;;Myjava
+04.03.2021;Neuvedené;1;X;;;0;0;Banskobystrický;;Banská Štiavnica
+03.03.2021;Neuvedené;0;X;;;0;71;Neuvedené;;Neuvedené
+03.03.2021;Neuvedené;140;;;;0;0;Trenčiansky;;Trenčín
+03.03.2021;Neuvedené;138;;;;0;0;Bratislavský;;Bratislava I
+03.03.2021;Neuvedené;106;;;;0;0;Žilinský;;Žilina
+03.03.2021;Neuvedené;103;;;;0;0;Žilinský;;Liptovský Mikuláš
+03.03.2021;Neuvedené;102;;;;0;0;Prešovský;;Prešov
+03.03.2021;Neuvedené;97;;;;0;0;Košický;;Košice I
+03.03.2021;Neuvedené;83;;;;0;0;Košický;;Trebišov
+03.03.2021;Neuvedené;82;;;;0;0;Žilinský;;Martin
+03.03.2021;Neuvedené;82;;;;0;0;Trnavský;;Trnava
+03.03.2021;Neuvedené;80;;;;0;0;Trnavský;;Galanta
+03.03.2021;Neuvedené;68;;;;0;0;Banskobystrický;;Banská Bystrica
+03.03.2021;Neuvedené;65;;;;0;0;Košický;;Spišská Nová Ves
+03.03.2021;Neuvedené;64;;;;0;0;Žilinský;;Čadca
+03.03.2021;Neuvedené;62;;;;0;0;Trenčiansky;;Považská Bystrica
+03.03.2021;Neuvedené;61;;;;0;0;Prešovský;;Poprad
+03.03.2021;Neuvedené;61;;;;0;0;Trnavský;;Skalica
+03.03.2021;Neuvedené;53;;;;0;0;Banskobystrický;;Rimavská Sobota
+03.03.2021;Neuvedené;53;;;;0;0;Trnavský;;Senica
+03.03.2021;Neuvedené;52;;;;0;0;Prešovský;;Bardejov
+03.03.2021;Neuvedené;51;;;;0;0;Nitriansky;;Komárno
+03.03.2021;Neuvedené;51;;;;0;0;Trnavský;;Piešťany
+03.03.2021;Neuvedené;49;;;;0;0;Trenčiansky;;Prievidza
+03.03.2021;Neuvedené;46;;;;0;0;Košický;;Michalovce
+03.03.2021;Neuvedené;45;;;;0;0;Trnavský;;Hlohovec
+03.03.2021;Neuvedené;45;;;;0;0;Košický;;Rožňava
+03.03.2021;Neuvedené;44;;;;0;0;Trenčiansky;;Nové Mesto nad Váhom
+03.03.2021;Neuvedené;44;;;;0;0;Bratislavský;;Senec
+03.03.2021;Neuvedené;43;;;;0;0;Trenčiansky;;Ilava
+03.03.2021;Neuvedené;41;;;;0;0;Trnavský;;Dunajská Streda
+03.03.2021;Neuvedené;41;;;;0;0;Nitriansky;;Nové Zámky
+03.03.2021;Neuvedené;39;;;;0;0;Banskobystrický;;Lučenec
+03.03.2021;Neuvedené;39;;;;0;0;Banskobystrický;;Veľký Krtíš
+03.03.2021;Neuvedené;38;;;;0;0;Prešovský;;Vranov nad Topľou
+03.03.2021;Neuvedené;37;;;;0;0;Trenčiansky;;Púchov
+03.03.2021;Neuvedené;35;;;;0;0;Bratislavský;;Malacky
+03.03.2021;Neuvedené;33;;;;0;0;Nitriansky;;Nitra
+03.03.2021;Neuvedené;33;;;;0;0;Bratislavský;;Pezinok
+03.03.2021;Neuvedené;33;;;;0;0;Prešovský;;Stará Ľubovňa
+03.03.2021;Neuvedené;30;;;;0;0;Žilinský;;Ružomberok
+03.03.2021;Neuvedené;27;;;;0;0;Košický;;Košice - okolie
+03.03.2021;Neuvedené;26;;;;0;0;Banskobystrický;;Žiar nad Hronom
+03.03.2021;Neuvedené;25;;;;0;0;Trenčiansky;;Myjava
+03.03.2021;Neuvedené;24;;;;0;0;Prešovský;;Kežmarok
+03.03.2021;Neuvedené;24;;;;0;0;Banskobystrický;;Žarnovica
+03.03.2021;Neuvedené;22;;;;0;0;Prešovský;;Levoča
+03.03.2021;Neuvedené;21;;;;0;0;Košický;;Gelnica
+03.03.2021;Neuvedené;19;;;;0;0;Nitriansky;;Topoľčany
+03.03.2021;Neuvedené;17;;;;0;0;Žilinský;;Kysucké Nové Mesto
+03.03.2021;Neuvedené;17;;;;0;0;Banskobystrický;;Poltár
+03.03.2021;Neuvedené;17;;;;0;0;Prešovský;;Snina
+03.03.2021;Neuvedené;16;;;;0;0;Prešovský;;Sabinov
+03.03.2021;Neuvedené;16;;;;0;0;Prešovský;;Svidník
+03.03.2021;Neuvedené;15;;;;0;0;Žilinský;;Námestovo
+03.03.2021;Neuvedené;13;;;;0;0;Nitriansky;;Levice
+03.03.2021;Neuvedené;13;;;;0;0;Nitriansky;;Šaľa
+03.03.2021;Neuvedené;12;;;;0;0;Banskobystrický;;Zvolen
+03.03.2021;Neuvedené;11;;;;0;0;Banskobystrický;;Brezno
+03.03.2021;Neuvedené;11;;;;0;0;Banskobystrický;;Revúca
+03.03.2021;Neuvedené;11;;;;0;0;Prešovský;;Stropkov
+03.03.2021;Neuvedené;11;;;;0;0;Žilinský;;Turčianske Teplice
+03.03.2021;Neuvedené;8;;;;0;0;Žilinský;;Bytča
+03.03.2021;Neuvedené;7;;;;0;0;Trenčiansky;;Bánovce nad Bebravou
+03.03.2021;Neuvedené;6;;;;0;0;Banskobystrický;;Banská Štiavnica
+03.03.2021;Neuvedené;6;;;;0;0;Žilinský;;Dolný Kubín
+03.03.2021;Neuvedené;6;;;;0;0;Banskobystrický;;Krupina
+03.03.2021;Neuvedené;6;;;;0;0;Trenčiansky;;Partizánske
+03.03.2021;Neuvedené;6;;;;0;0;Košický;;Sobrance
+03.03.2021;Neuvedené;6;;;;0;0;Žilinský;;Tvrdošín
+03.03.2021;Neuvedené;5;;;;0;0;Banskobystrický;;Detva
+03.03.2021;Neuvedené;4;;;;0;0;Prešovský;;Humenné
+03.03.2021;Neuvedené;2;;;;0;0;Nitriansky;;Zlaté Moravce
+03.03.2021;Neuvedené;1;;;;0;0;Prešovský;;Medzilaborce
 02.03.2021;Neuvedené;0;X;;;0;101;Neuvedené;;Neuvedené
 02.03.2021;Neuvedené;177;X;;;0;0;Bratislavský;;Bratislava I
 02.03.2021;Neuvedené;168;X;;;0;0;Trenčiansky;;Trenčín

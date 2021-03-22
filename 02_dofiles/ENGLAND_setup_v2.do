@@ -81,6 +81,8 @@ drop check
 sum date
 *drop if date>=r(max)-2
 
+gen ctry = "England"
+
 compress
 save "$coviddir/04_master/england_data.dta", replace	
 export delimited using "$coviddir/04_master/csv_nuts/england_data.csv", replace delim(;)

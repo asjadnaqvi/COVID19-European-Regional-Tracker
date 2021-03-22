@@ -1,5 +1,5 @@
 # :bell: Overview
-This respository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. This repository is updated once every 10-14 days.
+This repository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. This repository is updated once every 10-14 days.
 
 The data is also periodically released on Zenodo:
 
@@ -14,7 +14,7 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 ## Challenges with data access
 
 
-* Almost all countries in Europe showcase COVID-19 data in the form of choropleth maps and trend graphs. Access to data behind these visualizations varies from country to country which can be stored on various platforms ranging from official government websites, national statistical agencies, and health ministries. Some countries also just export it to third-party repositories, for example, ArcGIS Hub and Github. As a result, each country has to be dealt with individually. While most countries allow some form of access to regional data, others do not release this information publicly. In case of the latter, one can likely find data scraped from websites on platforms like Github.
+* Almost all countries in Europe showcase COVID-19 data in the form of choropleth maps and trend graphs. Access to data behind these visualizations varies from country to country which can be stored on various platforms ranging from official government websites, national statistical agencies, and health ministries. Some countries also just export it to third-party repositories, for example, ArcGIS Hub and GitHub. As a result, each country has to be dealt with individually. While most countries allow some form of access to regional data, others do not release this information publicly. In case of the latter, one can likely find data scraped from websites on platforms like GitHub.
 
 * Information provided by countries is not consistent. Not all countries release data on deaths, tests performed, hospitalization rates, gender and age breakdowns etc. Thus this database, currently only focuses on cases reported, even though for most countries other information exists as well. This will be added here soon.
 
@@ -35,11 +35,11 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 | Country (NUTS 0) | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
 | --- | --- | --- | --- | --- | --- | 
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
-| Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten / Communes (581)** | 
+| Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten/Communes (581)** | 
 | Czechia | CZ  | Území(1) | Regiony soudržnosti (8) | **Kraje (14)** | Obce (6258) | 
 | Denmark | DK  | - | Regioner (5) | Landsdele (11) | **Kommuner (99)** | 
 | Estonia | EE  | - | - | Maakondade grupid (5) | **Linn, vald (79)** | 
-| Finland* | FI  | Manner-Suomi, Ahvenananmaa / Fasta Finland, Åland (2) | Suuralueet / Storområden (5)  |  **Maakunnat / Landskap (19)** | Kunnat / Kommuner (311) |
+| Finland | FI  | Manner-Suomi, Ahvenananmaa / Fasta Finland, Åland (2) | Suuralueet/Storområden (5)  |  **Maakunnat/Landskap (19)** | Kunnat / Kommuner (311) |
 | France | FR  | Zones d'études et d'aménagement du territoire (14) | Régions (27) | **Départements (101)** | Communes (34970) | 
 | Germany | DE  | Länder (3) | Regierungsbezirke (38) | **Kreise (401)** | Gemeniden (11087) | 
 | Greece | EL  | Geografikes Perioches (4) | **Periferies (13)** | Periferiakon Enotiton (52) | Topikes Koinotites (6134) | 
@@ -48,7 +48,7 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 | Italy | IT  | Gruppi di regioni (5) | Regioni (21) | **Provincie (107)** | Comuni (7926) | 
 | Latvia | LV  | - | - | Statistiskie reģioni (6) | **Republikas pilsētas, novadi (119)** | 
 | Netherlands | NL  | Landsdelen (4) | Provincies (12) | NUTS3 (40) | **Gemeenten (355)** | 
-| Norway* | NO  | - | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
+| Norway | NO  | - | Landsdeler (7) | Fylker (18) | **Kommuner (356)** | 
 | Poland | PL  | Makroregiony (7) | **Regiony (17)** | Podregiony (73) | Gminy (2478) | 
 | Portugal | PT  | Continente + Regiões Autónomas (3) | Grupos de Entidades Intermunicipais + Regiões Autónomas (7) | **Entidades Intermunicipais + Regiões Autónomas (25)** | Freguesias (3098) | 
 | Romania | RO | Macroregiuni (4) | Regiuni (8) | **Judet + Bucuresti (42)** | Comuni + Municipiu + Orase (3181) |
@@ -56,10 +56,10 @@ For comments, feedback, error reporting, or other queries please e-mail at asjad
 | Slovakia | SK  | - | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
 | Sweden | SE | Grupper av riksområden (3) | Riksområden (8) | **Län (21)** | Kommuner (290) |
-| Switzerland* | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
-| *United Kingdom* * | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | *Lower Authority Districts (317)* | 
+| Switzerland | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
+| United Kingdom | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | **Lower Authority Districts (LADs) (317)** | 
 
-Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. Countries marked with a * are not in the EU and do not have to provide data at consistent NUTS3/LAU levels. *Italicized* countries are still being processed.
+Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. *Italicized* countries are still being processed.
 
 The following workflow is used to compile the data:
 
@@ -132,22 +132,24 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ## Individual country maps:
 
-<img src="./05_figures/covid19_AT.png" width="300" title="Austria"><img src="./05_figures/covid19_BE.png" width="300" title="Belgium">
-<img src="./05_figures/covid19_CH.png" width="300" title="Switzerland"><img src="./05_figures/covid19_CZ.png" width="300" title="Czechia">
-<img src="./05_figures/covid19_DE.png" width="300" title="Germany"><img src="./05_figures/covid19_DK.png" width="300" title="Denmark">
-<img src="./05_figures/covid19_EE.png" width="300"  title="Estonia"><img src="./05_figures/covid19_EL.png" width="300"  title="Greece">
-<img src="./05_figures/covid19_ES.png" width="300" title="Spain"><img src="./05_figures/covid19_FI.png" width="200" title="Finland">
-<img src="./05_figures/covid19_FR.png" width="300" title="France"><img src="./05_figures/covid19_HR.png" width="300" title="Croatia">
-<img src="./05_figures/covid19_HU.png" width="300" title="Hungary"><img src="./05_figures/covid19_IE.png" width="300" title="Ireland">
-<img src="./05_figures/covid19_IT.png" width="300" title="Italy"><img src="./05_figures/covid19_LV.png" width="300" title="Latvia">
-<img src="./05_figures/covid19_NL.png" width="300" title="Netherlands"><img src="./05_figures/covid19_NO.png" width="300"  title="Norway">
-<img src="./05_figures/covid19_PL.png" width="300" title="Poland"><img src="./05_figures/covid19_PT.png" width="300" title="Portugal">
-<img src="./05_figures/covid19_RO.png" width="300" title="Romania"><img src="./05_figures/covid19_SE.png" width="100" title="Sweden">
-<img src="./05_figures/covid19_SI.png" width="300" title="Slovenia"><img src="./05_figures/covid19_SK.png" width="300" title="Slovakia">
+<img src="./05_figures/covid19_AT.png" width="250" title="Austria"><img src="./05_figures/covid19_BE.png" width="250" title="Belgium">
+<img src="./05_figures/covid19_CH.png" width="250" title="Switzerland"><img src="./05_figures/covid19_CZ.png" width="250" title="Czechia">
+<img src="./05_figures/covid19_DE.png" width="250" title="Germany"><img src="./05_figures/covid19_DK.png" width="250" title="Denmark">
+<img src="./05_figures/covid19_EE.png" width="250"  title="Estonia"><img src="./05_figures/covid19_EL.png" width="250"  title="Greece">
+<img src="./05_figures/covid19_ES.png" width="250" title="Spain"><img src="./05_figures/covid19_FI.png" width="200" title="Finland">
+<img src="./05_figures/covid19_FR.png" width="250" title="France"><img src="./05_figures/covid19_HR.png" width="250" title="Croatia">
+<img src="./05_figures/covid19_HU.png" width="250" title="Hungary"><img src="./05_figures/covid19_IE.png" width="250" title="Ireland">
+<img src="./05_figures/covid19_IT.png" width="250" title="Italy"><img src="./05_figures/covid19_LV.png" width="250" title="Latvia">
+<img src="./05_figures/covid19_NL.png" width="250" title="Netherlands"><img src="./05_figures/covid19_NO.png" width="250"  title="Norway">
+<img src="./05_figures/covid19_PL.png" width="250" title="Poland"><img src="./05_figures/covid19_RO.png" width="250" title="Romania">
+<img src="./05_figures/covid19_SE.png" width="100" title="Sweden"><img src="./05_figures/covid19_SI.png" width="250" title="Slovenia">
+<img src="./05_figures/covid19_SK.png" width="250" title="Slovakia"><img src="./05_figures/covid19_UK.png" width="250" title="United Kingdom">
 
+<!--- <img src="./05_figures/covid19_PT.png" width="250" title="Portugal"> -->
 
 
 # Change Logs
+* 22 Mar 2021: Scotland data was not loading properly. The code including the paths to the correct files has been fixed. Other minor fixes to the code. I am taking out Portugal from the displayed maps. The data is bi-weekly and it is not possible to elicit daily information. The data files are still in the database. Names from country maps have been removed. A new map has been added which days percentage change in cases from the last 14 days. Note that for EU-level maps, the last entry of each NUTS region is used. This is to ensure that maps are as complete as possible since some data points for the more current date are usually missing.
 * 04 Mar 2021: All files checked and updated. Minor fixes to the code. Path to access raw data for Spain fixed. Folders cleaned up further.
 * 13 Feb 2021: All files checked and updated. Major fixes to the code. Raw data is now in the 04_master folder in .csv and .dta format. Daily cases fixed for several countries. Previously they were calculated as the difference between the observations and not the dates. Thus if a country had skipped several days, the daily cases would show a huge jump. These observations are now set to missing. As aa result there are more gaps now. If a country has 0 cases for a given date, that date is now dropped from the homogenized dataset. For example, Portugal which changed the reported to weekly and bi-weekly frequeny now has large gaps. The original data still contains all the dates and the values. Estonia's data fixed and it now reflects the correct values. A validation file added which aggregates country level data for each date and compares it with Our World in Data (OWID) values. This update is released as v1.3 on Zenodo.
 * 25 Jan 2021: All files checked and updated. Minor fixes to code. Some file paths changed. Country level graphs now show the last data point for a region. This is just for presentation. Please see the data files for actual information.
