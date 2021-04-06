@@ -1,5 +1,5 @@
 # :bell: Overview
-This repository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. This repository is updated once every 10-14 days.
+This repository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. 
 
 The data is also periodically released on Zenodo:
 
@@ -8,9 +8,7 @@ The data is also periodically released on Zenodo:
 A pre-print of the tracker is available here:
 https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v2.full
 
-Please cite the Zenodo DOI and the above document if you are using the dataset for analysis. For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at
-
-
+This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at
 
 
 ## Challenges with data access
