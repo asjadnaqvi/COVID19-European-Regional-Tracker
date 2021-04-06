@@ -134,24 +134,25 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ## Individual country maps:
 
-<img src="./05_figures/covid19_AT.png" width="250" title="Austria"><img src="./05_figures/covid19_BE.png" width="250" title="Belgium">
-<img src="./05_figures/covid19_CH.png" width="250" title="Switzerland"><img src="./05_figures/covid19_CZ.png" width="250" title="Czechia">
-<img src="./05_figures/covid19_DE.png" width="250" title="Germany"><img src="./05_figures/covid19_DK.png" width="250" title="Denmark">
-<img src="./05_figures/covid19_EE.png" width="250"  title="Estonia"><img src="./05_figures/covid19_EL.png" width="250"  title="Greece">
-<img src="./05_figures/covid19_ES.png" width="250" title="Spain"><img src="./05_figures/covid19_FI.png" width="200" title="Finland">
-<img src="./05_figures/covid19_FR.png" width="250" title="France"><img src="./05_figures/covid19_HR.png" width="250" title="Croatia">
-<img src="./05_figures/covid19_HU.png" width="250" title="Hungary"><img src="./05_figures/covid19_IE.png" width="250" title="Ireland">
-<img src="./05_figures/covid19_IT.png" width="250" title="Italy"><img src="./05_figures/covid19_LV.png" width="250" title="Latvia">
-<img src="./05_figures/covid19_NL.png" width="250" title="Netherlands"><img src="./05_figures/covid19_NO.png" width="250"  title="Norway">
-<img src="./05_figures/covid19_PL.png" width="250" title="Poland"><img src="./05_figures/covid19_RO.png" width="250" title="Romania">
-<img src="./05_figures/covid19_SE.png" width="100" title="Sweden"><img src="./05_figures/covid19_SI.png" width="250" title="Slovenia">
-<img src="./05_figures/covid19_SK.png" width="250" title="Slovakia"><img src="./05_figures/covid19_UK.png" width="250" title="United Kingdom">
+<img src="./05_figures/covid19_AT.png" height="250" title="Austria"><img src="./05_figures/covid19_BE.png" height="250" title="Belgium">
+<img src="./05_figures/covid19_CH.png" height="250" title="Switzerland"><img src="./05_figures/covid19_CZ.png" height="250" title="Czechia">
+<img src="./05_figures/covid19_DE.png" height="250" title="Germany"><img src="./05_figures/covid19_DK.png" height="250" title="Denmark">
+<img src="./05_figures/covid19_EE.png" height="250" title="Estonia"><img src="./05_figures/covid19_EL.png" height="250"  title="Greece">
+<img src="./05_figures/covid19_ES.png" height="250" title="Spain"><img src="./05_figures/covid19_FI.png" height="200" title="Finland">
+<img src="./05_figures/covid19_FR.png" height="250" title="France"><img src="./05_figures/covid19_HR.png" height="250" title="Croatia">
+<img src="./05_figures/covid19_HU.png" height="250" title="Hungary"><img src="./05_figures/covid19_IE.png" height="250" title="Ireland">
+<img src="./05_figures/covid19_IT.png" height="250" title="Italy"><img src="./05_figures/covid19_LV.png" height="250" title="Latvia">
+<img src="./05_figures/covid19_NL.png" height="250" title="Netherlands"><img src="./05_figures/covid19_NO.png" height="250"  title="Norway">
+<img src="./05_figures/covid19_PL.png" height="250" title="Poland"><img src="./05_figures/covid19_RO.png" height="250" title="Romania">
+<img src="./05_figures/covid19_SE.png" height="250" title="Sweden"><img src="./05_figures/covid19_SI.png" height="250" title="Slovenia">
+<img src="./05_figures/covid19_SK.png" height="250" title="Slovakia"><img src="./05_figures/covid19_UK.png" height="250" title="United Kingdom">
 
 <!--- <img src="./05_figures/covid19_PT.png" width="250" title="Portugal"> -->
 
 
 # Change Logs
-* 22 Mar 2021: Scotland data was not loading properly. The code including the paths to the correct files has been fixed. Other minor fixes to the code. I am taking out Portugal from the displayed maps above. Portugal's data is bi-weekly and it is not possible to elicit daily information. The data files are still in the database. Names from country maps have been removed. A new map has been added which days percentage change in cases from the last 14 days. Note that for EU-level maps, the last entry of each NUTS region is used. This is to ensure that maps are as complete as possible since some data points for the more current date are usually missing.
+* 06 Apr 2021: All files updated for the April release. Maps switched back to Viridis color scheme.
+* 22 Mar 2021: Scotland data source has been switched to official NHS. The code including the paths to the correct files has been fixed. Other minor fixes to the code. I am taking out Portugal from the displayed maps above. Portugal's data is bi-weekly and it is not possible to elicit daily information. The data files are still in the database. Names from country maps have been removed. A new map has been added which days percentage change in cases from the last 14 days. Note that for EU-level maps, the last entry of each NUTS region is used. This is to ensure that maps are as complete as possible since some data points for the more current date are usually missing.
 * 04 Mar 2021: All files checked and updated. Minor fixes to the code. Path to access raw data for Spain fixed. Folders cleaned up further.
 * 13 Feb 2021: All files checked and updated. Major fixes to the code. Raw data is now in the 04_master folder in .csv and .dta format. Daily cases fixed for several countries. Previously they were calculated as the difference between the observations and not the dates. Thus if a country had skipped several days, the daily cases would show a huge jump. These observations are now set to missing. As aa result there are more gaps now. If a country has 0 cases for a given date, that date is now dropped from the homogenized dataset. For example, Portugal which changed the reported to weekly and bi-weekly frequeny now has large gaps. The original data still contains all the dates and the values. Estonia's data fixed and it now reflects the correct values. A validation file added which aggregates country level data for each date and compares it with Our World in Data (OWID) values. This update is released as v1.3 on Zenodo.
 * 25 Jan 2021: All files checked and updated. Minor fixes to code. Some file paths changed. Country level graphs now show the last data point for a region. This is just for presentation. Please see the data files for actual information.

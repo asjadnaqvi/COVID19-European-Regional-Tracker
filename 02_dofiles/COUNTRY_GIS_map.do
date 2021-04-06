@@ -96,7 +96,7 @@ display "`ldate'"
 
 ***** graph of last reported daily cases
 
-colorpalette inferno, ipolate(20, power(1.2)) reverse nograph
+colorpalette viridis, ipolate(17, power(1.2)) reverse nograph
 local colors `r(p)'
 
 spmap cases_daily using "nuts3_mix_shp.dta" if last==1 , ///  // & (nuts0_id!="PT" & nuts0_id!="EL")
@@ -109,7 +109,7 @@ id(_ID) cln(15)  fcolor("`colors'")  ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data source: Misc. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 		
 		graph export "../05_figures/COVID19_EUROPE_cases_today.png", replace wid(2000)
-		graph export "../05_figures/COVID19_EUROPE_cases_today.pdf", replace
+		*graph export "../05_figures/COVID19_EUROPE_cases_today.pdf", replace
 
 
 		
@@ -118,7 +118,7 @@ id(_ID) cln(15)  fcolor("`colors'")  ///
 ***** graph of last reported daily cases per 10k population
 
 
-colorpalette inferno, ipolate(20, power(1.2)) reverse nograph
+colorpalette viridis, ipolate(17, power(1.2)) reverse nograph
 local colors `r(p)'
 
 spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
@@ -131,12 +131,12 @@ id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
 		graph export "../05_figures/COVID19_EUROPE_casespop_today.png", replace wid(2000)
-		graph export "../05_figures/COVID19_EUROPE_casespop_today.pdf", replace		
+		*graph export "../05_figures/COVID19_EUROPE_casespop_today.pdf", replace		
 
 **** graph of cumulative cases 
 
 
-colorpalette inferno, ipolate(20, power(1.2)) reverse nograph
+colorpalette viridis, ipolate(17, power(1.2)) reverse nograph
 local colors `r(p)'
 
 spmap cases using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
@@ -149,7 +149,7 @@ id(_ID) cln(15)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbr
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
 		graph export "../05_figures/COVID19_EUROPE_cases_total.png", replace wid(2000)
-		graph export "../05_figures/COVID19_EUROPE_cases_total.pdf", replace	
+		*graph export "../05_figures/COVID19_EUROPE_cases_total.pdf", replace	
 
 **** graph of cumulative cases per population
 
@@ -157,7 +157,7 @@ id(_ID) cln(15)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbr
 format cases_pop 	%9.0f		
 		
 
-colorpalette inferno, ipolate(20, power(1.2)) reverse nograph
+colorpalette viridis, ipolate(17, power(1.2)) reverse nograph
 local colors `r(p)'
 
 spmap cases_pop using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
@@ -170,7 +170,7 @@ id(_ID) cln(15)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbr
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
 		graph export "../05_figures/COVID19_EUROPE_casespop_total.png", replace wid(2000)
-		graph export "../05_figures/COVID19_EUROPE_casespop_total.pdf", replace 		
+		*graph export "../05_figures/COVID19_EUROPE_casespop_total.pdf", replace 		
 	
 
 ***** graph of 2 week increase in cases
@@ -182,11 +182,11 @@ replace change14 = . if nuts0_id=="PT"
 format change14 	%9.0f		
 		
 
-colorpalette inferno,  ipolate(17, power(1.2)) reverse nograph
+colorpalette viridis,  ipolate(16, power(1.2)) reverse nograph
 local colors `r(p)'
 
 spmap change14 using "nuts3_mix_shp.dta" if last==1 & country!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
-id(_ID) clm(custom) clbreaks(0 2 4 6 8 10 12 14 16 18 20 50 100)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
+id(_ID) clm(custom) clbreaks(0 2 4 6 8 10 12 14 16 18 20 50 100 500)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
@@ -195,7 +195,7 @@ id(_ID) clm(custom) clbreaks(0 2 4 6 8 10 12 14 16 18 20 50 100)   fcolor("`colo
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
 		graph export "../05_figures/COVID19_EUROPE_change14.png", replace wid(2000)
-		graph export "../05_figures/COVID19_EUROPE_change14.pdf", replace 	
+		*graph export "../05_figures/COVID19_EUROPE_change14.pdf", replace 	
 	
 	
 		
@@ -223,7 +223,7 @@ display "`x'"
 			local ldate1 = `r(max)'
 			local ldate2 : di %tdd_m_y `ldate1'
 
-		colorpalette inferno, ipolate(8, power(1.2)) reverse nograph
+		colorpalette viridis, ipolate(6, power(1.2)) reverse nograph
 		local colors `r(p)'
 
 			spmap cases_daily using "nuts3_shp_`x'.dta" if last==1, ///
@@ -260,7 +260,7 @@ display "`x'"
 			local ldate1 = `r(max)'
 			local ldate2 : di %tdd_m_y `ldate1'
 
-		colorpalette viridis, ipolate(8, power(1.2)) reverse nograph
+		colorpalette viridis, ipolate(6, power(1.2)) reverse nograph
 		local colors `r(p)'
 
 			spmap cases_daily_pop using "nuts3_shp_`x'.dta" if last==1, ///

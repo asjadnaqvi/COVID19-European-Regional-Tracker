@@ -14,7 +14,7 @@ cd "$coviddir/01_raw/Sweden"
 import excel using Folkhalsomyndigheten_Covid19.xlsx, clear first sheet("Antal per dag region")
 
 
-save "$coviddir/04_master/sweden_data_raw.dta", replace
+save "$coviddir/04_master/sweden_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/sweden_data_original.csv", replace	delim(;)
 
 ren Statistikdatum date
