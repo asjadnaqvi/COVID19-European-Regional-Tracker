@@ -120,6 +120,10 @@ The map below shows the combined dataset of all the countries that have been pro
 
 <img src="./05_figures/COVID19_EUROPE_cases_today.png" width="400" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="COVID-19 per 10,000 population (last observation)">
 
+Change in cases in the past 14 days:
+
+<img src="./05_figures/COVID19_EUROPE_change14.png" width="400" title="Percentage change in COVID-19 cases relative to the past 14 days">
+
 <!--- use this to mark out codes  -->
 
 <!--- For the maps above, the last available data point is used. The video below shows the evolution of cases over time for data available till 7th December 2020:
