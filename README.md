@@ -124,12 +124,9 @@ The map below shows the combined dataset of all the countries that have been pro
 
 <!--- use this to mark out codes  -->
 
-For the maps above, the last available data point is used. The video below shows the evolution of cases over time for data available till 7th December 2020:
-
-[![](http://img.youtube.com/vi/QTbUUhLiKrQ/0.jpg)](https://youtu.be/Yql1HFUUYTM "December 2020 update")
-
-
-Countries with data only at the NUTS-2 level have not been added to the video above. See below for individual countries maps which are updated weekly.
+<!--- For the maps above, the last available data point is used. The video below shows the evolution of cases over time for data available till 7th December 2020:
+[![](http://img.youtube.com/vi/QTbUUhLiKrQ/0.jpg)](https://youtu.be/Yql1HFUUYTM "December 2020 update") 
+Countries with data only at the NUTS-2 level have not been added to the video above. See below for individual countries maps which are updated weekly. -->
 
 
 ## Individual country maps:
