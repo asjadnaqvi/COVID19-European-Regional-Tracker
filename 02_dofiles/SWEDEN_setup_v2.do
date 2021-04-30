@@ -8,7 +8,7 @@ cd "$coviddir/01_raw/Sweden"
 *** data is hidden here in the second tab on the map
 * https://experience.arcgis.com/experience/a6d20c1544f34d33b60026f45b786230
 
-**** data can be downloaded from this link given at the very bottom of the page
+**** data can be downloaded from this link
 *https://fohm.maps.arcgis.com/sharing/rest/content/items/b5e7488e117749c19881cce45db13f7e/data
 
 import excel using Folkhalsomyndigheten_Covid19.xlsx, clear first sheet("Antal per dag region")

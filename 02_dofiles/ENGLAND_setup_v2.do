@@ -21,33 +21,31 @@ save UK_regions.dta, replace
 
 
 
-
 *** ENGLAND
 
 **https://raw.githubusercontent.com/odileeds/covid-19-uk-datasets/master/data/england-cases.csv
 
-insheet using "https://raw.githubusercontent.com/odileeds/covid-19-uk-datasets/master/data/england-cases.csv", clear n
+// errors in last file uploaded
+*insheet using "https://raw.githubusercontent.com/odileeds/covid-19-uk-datasets/master/data/england-cases.csv", clear n
+
+// using the last stable commit from 25th April 2021 downloaded manually
+
+insheet using england-cases_25April2021.csv, clear
 
 save "$coviddir/04_master/england_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/england_data_original.csv", replace delim(;)
 
 
+ren date date2
+gen date = date(date2, "YMD")
+format date %tdDD-Mon-yy
+drop date2
 
-gen year  = substr(date, 1, 4)
-gen month = substr(date, 6, 2)
-gen day   = substr(date, 9, 2)
-
-destring year month day, replace
-drop date
-gen date = mdy(month,day, year)
-drop year month day
-format date %tdDD-Mon-yyyy
 ren totalcases cases
 ren dailycases cases_daily
 ren areacode lad_id
 compress
 save england.dta, replace
-
 
 
 

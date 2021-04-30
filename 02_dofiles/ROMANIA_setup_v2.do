@@ -18,7 +18,7 @@ save county_code.dta, replace
 
 **** here we use a file cleaned from a json reader: https://json-csv.com/
 
-insheet using "date_05_aprilie_la_13_00.csv", clear non
+insheet using "date_29_aprilie_la_13_00.csv", clear non
 
 
 foreach x of varlist v* {
@@ -140,7 +140,7 @@ export delimited using "$coviddir/04_master/csv_original/romania_data_original.c
 
 ren date date2
 gen date = date(date2, "YMD")
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 
 
 drop date2

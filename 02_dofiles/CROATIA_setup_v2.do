@@ -108,8 +108,8 @@ destring _all, replace
 
 ren region nuts3_name
 
+replace nuts3_name = subinstr(nuts3_name, "`=char(10)'", " ", .)
 replace nuts3_name = trim(nuts3_name)
-
 
 
 gen nuts3_id=""
@@ -121,7 +121,7 @@ replace nuts3_id="HR041" if nuts3_name=="Grad Zagreb"
 replace nuts3_id="HR036" if nuts3_name=="Istarska"
 replace nuts3_id="HR04D" if nuts3_name=="Karlovačka"
 replace nuts3_id="HR045" if nuts3_name=="Koprivničko-križevačka"
-replace nuts3_id="HR043" if nuts3_name=="Krapinsko-zagorska županija"
+replace nuts3_id="HR043" if nuts3_name=="Krapinsko-zagorska"
 replace nuts3_id="HR032" if nuts3_name=="Ličko-senjska"
 replace nuts3_id="HR046" if nuts3_name=="Međimurska"
 replace nuts3_id="HR04B" if nuts3_name=="Osječko-baranjska"

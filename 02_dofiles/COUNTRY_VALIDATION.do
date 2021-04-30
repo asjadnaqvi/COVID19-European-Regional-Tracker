@@ -92,6 +92,7 @@ twoway ///
 	*graph export "../05_figures/validation1.png", replace wid(3000)
 */	
 	
+set scheme white_w3d	
 		
 twoway ///
 	(scatter diff date, mcolor(%30) msize(vsmall) msymbol(circle) mlwidth(vvthin)), ///

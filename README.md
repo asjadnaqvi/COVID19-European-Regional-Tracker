@@ -1,5 +1,5 @@
 # :bell: Overview
-This repository takes a stock of COVID-19 datasets for European countries at the regional (NUTS3 or NUTS2) level. 
+This repository takes a stock of COVID-19 datasets for 26 European countries at the regional NUTS3 or NUTS2 level. 
 
 The data is also periodically released on Zenodo:
 
@@ -16,17 +16,17 @@ This repository is updated every four weeks. All raw data and scripts are availa
 
 * Almost all countries in Europe showcase COVID-19 data in the form of choropleth maps and trend graphs. Access to data behind these visualizations varies from country to country which can be stored on various platforms ranging from official government websites, national statistical agencies, and health ministries. Some countries also just export it to third-party repositories, for example, ArcGIS Hub and GitHub. As a result, each country has to be dealt with individually. While most countries allow some form of access to regional data, others do not release this information publicly. In case of the latter, one can likely find data scraped from websites on platforms like GitHub.
 
-* Information provided by countries is not consistent. Not all countries release data on deaths, tests performed, hospitalization rates, gender and age breakdowns etc. Thus this database, currently only focuses on cases reported, even though for most countries other information exists as well. This will be added here soon.
+* Information provided by countries is not consistent. Not all countries release data on deaths, tests performed, hospitalization rates, vaccnication rates, and by gender and age breakdowns. Thus this database, currently only focuses on cases reported, even though for most countries other information exists in the raw files as well. This will be added here soon.
 
 
 
 ## Combining data across countries
 
-* Countries in European define regions differently, and therefore, making data homogeneous is a challenging task. For consistency, the European Commission and the Eurostat, have homogenous units called NOMENCLATURE OF TERRITORIAL UNITS FOR STATISTICS or [NUTS](https://ec.europa.eu/eurostat/web/nuts/background). NUTS0 are countries, NUTS1 are typically provinces, NUTS2 are typically districts, and NUTS3 are typically sub-districts. Most countries release information at administrative units lower than NUTS3. These are referred to as Local Administrative Units or [LAUs](https://ec.europa.eu/eurostat/web/nuts/local-administrative-units), where LAU1 (districts) and LAU2 (municipalities) were formerly NUTS4 and NUTS5 regions respectively. Currently only one level of LAU is documented by the European Commission even though countries themselves might provide data at finer levels.
+* Countries in European define regions differently, and therefore, making data homogeneous is a challenging task. For consistency, the European Commission and the Eurostat, have homogenous units called NOMENCLATURE OF TERRITORIAL UNITS FOR STATISTICS or [NUTS](https://ec.europa.eu/eurostat/web/nuts/background). NUTS0 are countries, NUTS1 are typically provinces, NUTS2 are typically districts, and NUTS3 are typically sub-districts. Most countries release information at administrative units lower than NUTS3. These are referred to as Local Administrative Units or [LAUs](https://ec.europa.eu/eurostat/web/nuts/local-administrative-units), where LAU1 (districts) and LAU2 (municipalities) were formerly NUTS4 and NUTS5 regions respectively. Currently only one level of LAU is documented by the European Commission. Several countries provide data at finer LAU levels.
 
-* The NUTS regions are redefined every afew years (2013, 2016, 2021). Currently the 2016 definitions are used but the list of 2021 NUTS regions has been released. This has its own set of challenges. While some countries just rename regions, others actually change, merge, and shift boundaries. Data released at LAU level can be aggregated to the NUTS3 level. For this database, 2016 values are used. The switch from 2016 to 2021 definition on January 2020 might itself pose a challenge esepcially if boundaries of LAUs change. For example, the data for Italy is being released at the 2021 NUTS boundaries, which do not perfectly match 2016 boundaries.
+* The NUTS regions are redefined every afew years (2013, 2016, 2021). Currently the 2021 NUTS regions have come into effect since 1st January 2021. But since most of the regional data on Eurostat is at the 2016 level, this tracker homogenizes data records also at the NUTS 2016 boundaries. The process of homogenization has its own set of challenges. While some countries just rename regions, others actually change, merge, and shift boundaries. Not all countries match perfectly to NUTS 2016 boundaries. For example, the data for Italy was always released at the 2021 NUTS boundaries definitions. This causes problems with a couple of small regions on the islands. Similarly, data for Finland is released at the hospital district level. These do not perfectly align with NUTS 3 boundaries. The rate of error is minimial since most of the regions affected by boundary shifts are very small. Additionally, the raw data is available which allows the data to be used as it is or aggregated to other administrative levels.
 
-* Not all countries in Europe are in the [European Union](https://europa.eu/european-union/about-eu/countries_en), and hence are not subject to Eurostat reporting/data sharing requirements. While all countries have correspondence tables between their own region definitions and NUTS, providing NUTS level information is not mandatory for non-EU countries. This list includes, the UK (post Brexit), Norway, Switzerland, and some countries in the East. While some countries provide detailed information on COVID-19 (for example, Norway), they don't have the latest LAU-NUTS correspondence tables available. They way around this problem is to spatially overlay LAU and NUTS boundaries and extract the information based on boundary overlaps. While in theory the overlaps should be perfect, in practice, small errors might persist based on slight differences in boundaries, differences in resolution of spatial files, and simply some LAUs might cut across NUTS boundaries (UK is a good example of this problem).
+* Not all countries in Europe are in the [European Union](https://europa.eu/european-union/about-eu/countries_en), and hence are not subject to Eurostat reporting/data sharing requirements. While all countries have correspondence tables between their own region definitions and NUTS, providing NUTS level information is not mandatory for non-EU countries. This list includes, the UK (post Brexit), Norway, and the Switzerland. While some countries provide detailed regional information on COVID-19 (for example, Norway), they don't have the latest LAU-NUTS correspondence tables available. They way around this problem is to spatially overlay LAU and NUTS boundaries and extract the information based on boundary overlaps. While in theory the overlaps should be perfect, in practice, small errors might persist based on slight differences in boundaries, differences in resolution of spatial files, and simply some LAUs might cut across NUTS boundaries (UK is a good example of this problem).
 
 
 
@@ -36,6 +36,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 | --- | --- | --- | --- | --- | --- | 
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
 | Belgium | BE  | Gewesten / Régions (3) | Provincies / Provinces (11) | Arrondissementen / Arrondissements (44) | **Gemeenten/Communes (581)** | 
+| Croatia | HR  | -  | Regija (4)    | **Županija (21)** | Gradovi i općine (556)  | 
 | Czechia | CZ  | Území(1) | Regiony soudržnosti (8) | **Kraje (14)** | Obce (6258) | 
 | Denmark | DK  | - | Regioner (5) | Landsdele (11) | **Kommuner (99)** | 
 | Estonia | EE  | - | - | Maakondade grupid (5) | **Linn, vald (79)** | 
@@ -53,13 +54,13 @@ This repository is updated every four weeks. All raw data and scripts are availa
 | Portugal | PT  | Continente + Regiões Autónomas (3) | Grupos de Entidades Intermunicipais + Regiões Autónomas (7) | **Entidades Intermunicipais + Regiões Autónomas (25)** | Freguesias (3098) | 
 | Romania | RO | Macroregiuni (4) | Regiuni (8) | **Judet + Bucuresti (42)** | Comuni + Municipiu + Orase (3181) |
 | Slovenia | SI  | - | Kohezijske regije (2) | Statistične regije (12) | **Občine (212)** | 
-| Slovakia | SK  | - | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
+| Slovak Republic | SK  | - | Oblasti (4) | **Kraje (8)** | Obce (2927) | 
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
 | Sweden | SE | Grupper av riksområden (3) | Riksområden (8) | **Län (21)** | Kommuner (290) |
 | Switzerland | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
 | United Kingdom | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | **Lower Authority Districts (LADs) (317)** | 
 
-Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same. *Italicized* countries are still being processed.
+Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same administrative regions. UK is treated as four separate countries. For the UK, daily regional data is available for England and Scotland.
 
 The following workflow is used to compile the data:
 
@@ -86,7 +87,7 @@ The date range for countries:
 | Finland | FI | [THL](https://thl.fi/en/web/infectious-diseases-and-vaccinations/what-s-new/coronavirus-covid-19-latest-updates)  | [Link](https://github.com/HS-Datadesk/koronavirus-avoindata)   | 
 | France | FR | [Santé publique France](https://www.santepubliquefrance.fr/)  | [Link](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/)  | 
 | Germany | DE | [Robert Koch Institute (RKI)](https://www.rki.de/EN/Home/homepage.html)  | [Link](https://github.com/jgehrcke/covid-19-germany-gae)  |  
-| Greece | EL | [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/) | [Link](https://github.com/Covid-19-Response-Greece/covid19-data-greece)  | 
+| Greece | EL | [EODY](https://eody.gov.gr/epidimiologika-statistika-dedomena/ektheseis-covid-19/) | [Link](https://github.com/Sandbird/covid19-Greece)  | 
 | Hungary | HU | [Government of Hungary](https://koronavirus.gov.hu/) | [Link](https://github.com/nickgon/Hungary-COVID19-Data)   | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [Link](https://opendata-geohive.hub.arcgis.com/datasets/d9be85b30d7748b5b7c09450b8aede63_0)  | 
 | Italy | IT | [Ministero della Salute](http://www.salute.gov.it/portale/nuovocoronavirus/homeNuovoCoronavirus.jsp?lingua=english)  | [Link](https://github.com/pcm-dpc/COVID-19)  | 
@@ -107,7 +108,7 @@ The date range for countries:
 | Scotland |   | [The Scottish Government](https://www.gov.scot/coronavirus-covid-19/)  | [Link](https://public.tableau.com/profile/phs.covid.19#!/vizhome/COVID-19DailyDashboard_15960160643010/Overview)   |   
 | Wales |   |  [The Welsh Government](https://www.gov.scot/coronavirus-covid-19/)  |    |   
 
-Note: The links are subject to change. If you find an error or a better data source, then please email.
+Note: The links are subject to change. If you find an error or a better data source, then please let me know.
 
 </details>
 
@@ -150,6 +151,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 # Change Logs
+* 01 May 2021: All files updated for the May release. Minor errors fixed in dofiles. Population file has been updated to include 2020 regional population data. For the UK 2019 values are used since regional information no longer exists in the Eurostat database due to Brexit.
 * 06 Apr 2021: All files updated for the April release. Maps switched back to Viridis color scheme.
 * 22 Mar 2021: Scotland data is now from the official NHS website. The code has also been corrected. Other minor fixes to the remaining countries. I am taking out Portugal from the maps. Portugal's data is bi-weekly and it is not possible to elicit daily information. The raw data files are still in the database. Region names from the maps have been removed. A new map has been added which shows percentage change in cases in the last 14 days. Note that for Europe maps, the last available data entry of each NUTS region is used. This is to ensure that maps are as complete as possible since some data points for the latest date are missing.
 * 04 Mar 2021: All files checked and updated. Minor fixes to the code. Path to access raw data for Spain fixed. Folders cleaned up further.

@@ -11,14 +11,16 @@ cd "$coviddir"
 use "./01_raw/Eurostat/demo_r_pjangrp3", clear   
 *export delimited using "./01 raw/Eurostat/demo_r_pjangrp3.csv", clear delim(;)
 
-	keep if year==2019
+	gen country=substr(geo,1,2)
+	keep if (year==2020 & country!="UK") | (year==2019 & country=="UK")  // UK NUTS data removed from Eurostat 2020
+	drop country
 	drop year
 	keep if sex=="T"
 	drop sex
 	drop unit
 	keep if age=="TOTAL"
 	drop age
-	keep if length(geo)==5 | length(geo)==4  // some countries are at NUTS2 level
+	keep if length(geo)==5 | length(geo)==4  // EL/PL are at NUTS2 level
 	ren geo nuts_id
 	ren y population
 	compress
@@ -228,20 +230,18 @@ twoway ///
 		ytitle("") yscale(noline) ///
 		ylabel(1(1)26, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
-			xlabel(#20, labsize(vsmall) angle(vertical)) ///
-			title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")
+			xlabel(#17, labsize(vsmall) angle(vertical)) 
 	graph export "../05_figures/range_date.png", replace wid(3000)
-*	graph export "../05_figures/range_date.pdf", replace
-
+    graph export "../05_figures/range_date.pdf", replace
+* title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")
 
 twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop < 30, mcolor(black%60) msize(*0.5) msymbol(smcircle) mlwidth(vvthin)), ///
-		xtitle("") ///
-		title("{fontface Arial Bold: Regional distribution of daily cases}")
+	(scatter cases_daily_pop date if cases_daily_pop < 30, mcolor(black%50) msize(*0.4) msymbol(smcircle) mlwidth(vvthin)), ///
+		xtitle("") xlabel(#17, labsize(vsmall) angle(vertical))
 		
 	graph export "../05_figures/range_newcasepop.png", replace wid(3000)
-*	graph export "../05_figures/range_newcasepop.pdf", replace
-
+    graph export "../05_figures/range_newcasepop.pdf", replace
+* title("{fontface Arial Bold: Regional distribution of daily cases}")
 	
 	
 /*
