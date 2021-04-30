@@ -117,11 +117,13 @@ Note: The links are subject to change. If you find an error or a better data sou
 
 The map below shows the combined dataset of all the countries that have been processed:
 
+### Full date range:
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="400" title="Cumulative COVID-19 per 10,000 population">
 
+### Cases on the last reported NUTS data point in the dataset:
 <img src="./05_figures/COVID19_EUROPE_cases_today.png" width="400" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="COVID-19 per 10,000 population (last observation)">
 
-Change in cases in the past 14 days:
+### Change in cases in the past 14 days:
 
 <img src="./05_figures/COVID19_EUROPE_change14.png" width="400" title="Percentage change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14_abs.png" width="400" title="Absolute change in COVID-19 cases per 10k population (past 14 days)">
 
