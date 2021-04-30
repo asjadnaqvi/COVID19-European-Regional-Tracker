@@ -123,7 +123,7 @@ The map below shows the combined dataset of all the countries that have been pro
 
 Change in cases in the past 14 days:
 
-<img src="./05_figures/COVID19_EUROPE_change14.png" width="400" title="Percentage change in COVID-19 cases relative to the past 14 days">
+<img src="./05_figures/COVID19_EUROPE_change14.png" width="400" title="Percentage change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14.png" width="400" title="Absolute change in COVID-19 cases per 10k population (past 14 days)">
 
 <!--- use this to mark out codes  -->
 
