@@ -482,8 +482,22 @@ date;cases;region
 25-Apr-2121;0;Ahvenanmaa
 26-Apr-2121;1;Ahvenanmaa
 27-Apr-2121;0;Ahvenanmaa
-28-Apr-2121;0;Ahvenanmaa
+28-Apr-2121;1;Ahvenanmaa
 29-Apr-2121;0;Ahvenanmaa
+30-Apr-2121;1;Ahvenanmaa
+01-May-2121;0;Ahvenanmaa
+02-May-2121;0;Ahvenanmaa
+03-May-2121;0;Ahvenanmaa
+04-May-2121;0;Ahvenanmaa
+05-May-2121;2;Ahvenanmaa
+06-May-2121;1;Ahvenanmaa
+07-May-2121;0;Ahvenanmaa
+08-May-2121;0;Ahvenanmaa
+09-May-2121;0;Ahvenanmaa
+10-May-2121;0;Ahvenanmaa
+11-May-2121;0;Ahvenanmaa
+12-May-2121;0;Ahvenanmaa
+13-May-2121;0;Ahvenanmaa
 01-Jan-2020;0;Varsinais-Suomi
 02-Jan-2020;0;Varsinais-Suomi
 03-Jan-2020;0;Varsinais-Suomi
@@ -776,7 +790,7 @@ date;cases;region
 16-Oct-2020;7;Varsinais-Suomi
 17-Oct-2020;11;Varsinais-Suomi
 18-Oct-2020;5;Varsinais-Suomi
-19-Oct-2020;17;Varsinais-Suomi
+19-Oct-2020;16;Varsinais-Suomi
 20-Oct-2020;11;Varsinais-Suomi
 21-Oct-2020;17;Varsinais-Suomi
 22-Oct-2020;13;Varsinais-Suomi
@@ -848,7 +862,7 @@ date;cases;region
 27-Dec-2020;37;Varsinais-Suomi
 28-Dec-2020;74;Varsinais-Suomi
 29-Dec-2020;45;Varsinais-Suomi
-30-Dec-2020;41;Varsinais-Suomi
+30-Dec-2020;40;Varsinais-Suomi
 31-Dec-2020;19;Varsinais-Suomi
 01-Jan-2121;17;Varsinais-Suomi
 02-Jan-2121;17;Varsinais-Suomi
@@ -905,8 +919,8 @@ date;cases;region
 22-Feb-2121;67;Varsinais-Suomi
 23-Feb-2121;59;Varsinais-Suomi
 24-Feb-2121;57;Varsinais-Suomi
-25-Feb-2121;73;Varsinais-Suomi
-26-Feb-2121;93;Varsinais-Suomi
+25-Feb-2121;76;Varsinais-Suomi
+26-Feb-2121;91;Varsinais-Suomi
 27-Feb-2121;26;Varsinais-Suomi
 28-Feb-2121;38;Varsinais-Suomi
 01-Mar-2121;137;Varsinais-Suomi
@@ -938,7 +952,7 @@ date;cases;region
 27-Mar-2121;42;Varsinais-Suomi
 28-Mar-2121;33;Varsinais-Suomi
 29-Mar-2121;98;Varsinais-Suomi
-30-Mar-2121;71;Varsinais-Suomi
+30-Mar-2121;72;Varsinais-Suomi
 31-Mar-2121;71;Varsinais-Suomi
 01-Apr-2121;69;Varsinais-Suomi
 02-Apr-2121;39;Varsinais-Suomi
@@ -951,8 +965,8 @@ date;cases;region
 09-Apr-2121;55;Varsinais-Suomi
 10-Apr-2121;10;Varsinais-Suomi
 11-Apr-2121;32;Varsinais-Suomi
-12-Apr-2121;52;Varsinais-Suomi
-13-Apr-2121;48;Varsinais-Suomi
+12-Apr-2121;51;Varsinais-Suomi
+13-Apr-2121;47;Varsinais-Suomi
 14-Apr-2121;58;Varsinais-Suomi
 15-Apr-2121;61;Varsinais-Suomi
 16-Apr-2121;46;Varsinais-Suomi
@@ -960,15 +974,29 @@ date;cases;region
 18-Apr-2121;24;Varsinais-Suomi
 19-Apr-2121;51;Varsinais-Suomi
 20-Apr-2121;40;Varsinais-Suomi
-21-Apr-2121;39;Varsinais-Suomi
+21-Apr-2121;28;Varsinais-Suomi
 22-Apr-2121;29;Varsinais-Suomi
 23-Apr-2121;34;Varsinais-Suomi
 24-Apr-2121;9;Varsinais-Suomi
 25-Apr-2121;22;Varsinais-Suomi
-26-Apr-2121;28;Varsinais-Suomi
-27-Apr-2121;28;Varsinais-Suomi
-28-Apr-2121;13;Varsinais-Suomi
-29-Apr-2121;0;Varsinais-Suomi
+26-Apr-2121;29;Varsinais-Suomi
+27-Apr-2121;29;Varsinais-Suomi
+28-Apr-2121;25;Varsinais-Suomi
+29-Apr-2121;27;Varsinais-Suomi
+30-Apr-2121;34;Varsinais-Suomi
+01-May-2121;9;Varsinais-Suomi
+02-May-2121;20;Varsinais-Suomi
+03-May-2121;59;Varsinais-Suomi
+04-May-2121;36;Varsinais-Suomi
+05-May-2121;60;Varsinais-Suomi
+06-May-2121;63;Varsinais-Suomi
+07-May-2121;45;Varsinais-Suomi
+08-May-2121;18;Varsinais-Suomi
+09-May-2121;27;Varsinais-Suomi
+10-May-2121;39;Varsinais-Suomi
+11-May-2121;27;Varsinais-Suomi
+12-May-2121;7;Varsinais-Suomi
+13-May-2121;0;Varsinais-Suomi
 01-Jan-2020;0;Satakunta
 02-Jan-2020;0;Satakunta
 03-Jan-2020;0;Satakunta
@@ -1281,7 +1309,7 @@ date;cases;region
 05-Nov-2020;0;Satakunta
 06-Nov-2020;3;Satakunta
 07-Nov-2020;0;Satakunta
-08-Nov-2020;0;Satakunta
+08-Nov-2020;1;Satakunta
 09-Nov-2020;1;Satakunta
 10-Nov-2020;0;Satakunta
 11-Nov-2020;3;Satakunta
@@ -1443,17 +1471,31 @@ date;cases;region
 16-Apr-2121;5;Satakunta
 17-Apr-2121;4;Satakunta
 18-Apr-2121;1;Satakunta
-19-Apr-2121;4;Satakunta
+19-Apr-2121;3;Satakunta
 20-Apr-2121;3;Satakunta
 21-Apr-2121;3;Satakunta
-22-Apr-2121;3;Satakunta
+22-Apr-2121;2;Satakunta
 23-Apr-2121;7;Satakunta
 24-Apr-2121;1;Satakunta
 25-Apr-2121;3;Satakunta
 26-Apr-2121;5;Satakunta
 27-Apr-2121;6;Satakunta
-28-Apr-2121;4;Satakunta
-29-Apr-2121;0;Satakunta
+28-Apr-2121;6;Satakunta
+29-Apr-2121;3;Satakunta
+30-Apr-2121;2;Satakunta
+01-May-2121;3;Satakunta
+02-May-2121;5;Satakunta
+03-May-2121;8;Satakunta
+04-May-2121;1;Satakunta
+05-May-2121;6;Satakunta
+06-May-2121;1;Satakunta
+07-May-2121;5;Satakunta
+08-May-2121;4;Satakunta
+09-May-2121;0;Satakunta
+10-May-2121;3;Satakunta
+11-May-2121;3;Satakunta
+12-May-2121;0;Satakunta
+13-May-2121;0;Satakunta
 01-Jan-2020;0;Kanta-Häme
 02-Jan-2020;0;Kanta-Häme
 03-Jan-2020;0;Kanta-Häme
@@ -1755,7 +1797,7 @@ date;cases;region
 25-Oct-2020;1;Kanta-Häme
 26-Oct-2020;10;Kanta-Häme
 27-Oct-2020;8;Kanta-Häme
-28-Oct-2020;2;Kanta-Häme
+28-Oct-2020;3;Kanta-Häme
 29-Oct-2020;6;Kanta-Häme
 30-Oct-2020;4;Kanta-Häme
 31-Oct-2020;0;Kanta-Häme
@@ -1894,7 +1936,7 @@ date;cases;region
 13-Mar-2121;10;Kanta-Häme
 14-Mar-2121;1;Kanta-Häme
 15-Mar-2121;35;Kanta-Häme
-16-Mar-2121;33;Kanta-Häme
+16-Mar-2121;34;Kanta-Häme
 17-Mar-2121;18;Kanta-Häme
 18-Mar-2121;21;Kanta-Häme
 19-Mar-2121;13;Kanta-Häme
@@ -1926,7 +1968,7 @@ date;cases;region
 14-Apr-2121;6;Kanta-Häme
 15-Apr-2121;5;Kanta-Häme
 16-Apr-2121;3;Kanta-Häme
-17-Apr-2121;0;Kanta-Häme
+17-Apr-2121;1;Kanta-Häme
 18-Apr-2121;0;Kanta-Häme
 19-Apr-2121;7;Kanta-Häme
 20-Apr-2121;6;Kanta-Häme
@@ -1935,10 +1977,24 @@ date;cases;region
 23-Apr-2121;4;Kanta-Häme
 24-Apr-2121;5;Kanta-Häme
 25-Apr-2121;0;Kanta-Häme
-26-Apr-2121;10;Kanta-Häme
-27-Apr-2121;8;Kanta-Häme
-28-Apr-2121;0;Kanta-Häme
-29-Apr-2121;0;Kanta-Häme
+26-Apr-2121;13;Kanta-Häme
+27-Apr-2121;9;Kanta-Häme
+28-Apr-2121;14;Kanta-Häme
+29-Apr-2121;7;Kanta-Häme
+30-Apr-2121;10;Kanta-Häme
+01-May-2121;0;Kanta-Häme
+02-May-2121;2;Kanta-Häme
+03-May-2121;12;Kanta-Häme
+04-May-2121;2;Kanta-Häme
+05-May-2121;7;Kanta-Häme
+06-May-2121;2;Kanta-Häme
+07-May-2121;14;Kanta-Häme
+08-May-2121;4;Kanta-Häme
+09-May-2121;0;Kanta-Häme
+10-May-2121;8;Kanta-Häme
+11-May-2121;1;Kanta-Häme
+12-May-2121;1;Kanta-Häme
+13-May-2121;0;Kanta-Häme
 01-Jan-2020;0;Pirkanmaa
 02-Jan-2020;0;Pirkanmaa
 03-Jan-2020;0;Pirkanmaa
@@ -2366,7 +2422,7 @@ date;cases;region
 28-Feb-2121;19;Pirkanmaa
 01-Mar-2121;42;Pirkanmaa
 02-Mar-2121;21;Pirkanmaa
-03-Mar-2121;34;Pirkanmaa
+03-Mar-2121;33;Pirkanmaa
 04-Mar-2121;25;Pirkanmaa
 05-Mar-2121;43;Pirkanmaa
 06-Mar-2121;29;Pirkanmaa
@@ -2379,7 +2435,7 @@ date;cases;region
 13-Mar-2121;27;Pirkanmaa
 14-Mar-2121;26;Pirkanmaa
 15-Mar-2121;58;Pirkanmaa
-16-Mar-2121;36;Pirkanmaa
+16-Mar-2121;37;Pirkanmaa
 17-Mar-2121;49;Pirkanmaa
 18-Mar-2121;62;Pirkanmaa
 19-Mar-2121;33;Pirkanmaa
@@ -2392,38 +2448,52 @@ date;cases;region
 26-Mar-2121;45;Pirkanmaa
 27-Mar-2121;18;Pirkanmaa
 28-Mar-2121;24;Pirkanmaa
-29-Mar-2121;42;Pirkanmaa
+29-Mar-2121;41;Pirkanmaa
 30-Mar-2121;45;Pirkanmaa
 31-Mar-2121;14;Pirkanmaa
 01-Apr-2121;27;Pirkanmaa
 02-Apr-2121;11;Pirkanmaa
 03-Apr-2121;27;Pirkanmaa
-04-Apr-2121;18;Pirkanmaa
+04-Apr-2121;19;Pirkanmaa
 05-Apr-2121;15;Pirkanmaa
 06-Apr-2121;34;Pirkanmaa
-07-Apr-2121;30;Pirkanmaa
-08-Apr-2121;32;Pirkanmaa
-09-Apr-2121;28;Pirkanmaa
+07-Apr-2121;31;Pirkanmaa
+08-Apr-2121;34;Pirkanmaa
+09-Apr-2121;31;Pirkanmaa
 10-Apr-2121;18;Pirkanmaa
-11-Apr-2121;14;Pirkanmaa
-12-Apr-2121;23;Pirkanmaa
+11-Apr-2121;15;Pirkanmaa
+12-Apr-2121;22;Pirkanmaa
 13-Apr-2121;33;Pirkanmaa
 14-Apr-2121;32;Pirkanmaa
 15-Apr-2121;23;Pirkanmaa
 16-Apr-2121;23;Pirkanmaa
-17-Apr-2121;16;Pirkanmaa
-18-Apr-2121;18;Pirkanmaa
+17-Apr-2121;15;Pirkanmaa
+18-Apr-2121;17;Pirkanmaa
 19-Apr-2121;30;Pirkanmaa
 20-Apr-2121;36;Pirkanmaa
-21-Apr-2121;34;Pirkanmaa
+21-Apr-2121;35;Pirkanmaa
 22-Apr-2121;31;Pirkanmaa
-23-Apr-2121;37;Pirkanmaa
+23-Apr-2121;36;Pirkanmaa
 24-Apr-2121;19;Pirkanmaa
 25-Apr-2121;7;Pirkanmaa
-26-Apr-2121;8;Pirkanmaa
-27-Apr-2121;12;Pirkanmaa
-28-Apr-2121;0;Pirkanmaa
-29-Apr-2121;0;Pirkanmaa
+26-Apr-2121;15;Pirkanmaa
+27-Apr-2121;25;Pirkanmaa
+28-Apr-2121;21;Pirkanmaa
+29-Apr-2121;21;Pirkanmaa
+30-Apr-2121;17;Pirkanmaa
+01-May-2121;9;Pirkanmaa
+02-May-2121;5;Pirkanmaa
+03-May-2121;25;Pirkanmaa
+04-May-2121;14;Pirkanmaa
+05-May-2121;17;Pirkanmaa
+06-May-2121;12;Pirkanmaa
+07-May-2121;10;Pirkanmaa
+08-May-2121;5;Pirkanmaa
+09-May-2121;5;Pirkanmaa
+10-May-2121;12;Pirkanmaa
+11-May-2121;2;Pirkanmaa
+12-May-2121;1;Pirkanmaa
+13-May-2121;0;Pirkanmaa
 01-Jan-2020;0;Päijät-Häme
 02-Jan-2020;0;Päijät-Häme
 03-Jan-2020;0;Päijät-Häme
@@ -2878,7 +2948,7 @@ date;cases;region
 27-Mar-2121;17;Päijät-Häme
 28-Mar-2121;29;Päijät-Häme
 29-Mar-2121;23;Päijät-Häme
-30-Mar-2121;23;Päijät-Häme
+30-Mar-2121;24;Päijät-Häme
 31-Mar-2121;27;Päijät-Häme
 01-Apr-2121;10;Päijät-Häme
 02-Apr-2121;24;Päijät-Häme
@@ -2905,10 +2975,24 @@ date;cases;region
 23-Apr-2121;14;Päijät-Häme
 24-Apr-2121;14;Päijät-Häme
 25-Apr-2121;7;Päijät-Häme
-26-Apr-2121;5;Päijät-Häme
-27-Apr-2121;1;Päijät-Häme
-28-Apr-2121;0;Päijät-Häme
-29-Apr-2121;0;Päijät-Häme
+26-Apr-2121;15;Päijät-Häme
+27-Apr-2121;13;Päijät-Häme
+28-Apr-2121;19;Päijät-Häme
+29-Apr-2121;29;Päijät-Häme
+30-Apr-2121;6;Päijät-Häme
+01-May-2121;22;Päijät-Häme
+02-May-2121;9;Päijät-Häme
+03-May-2121;23;Päijät-Häme
+04-May-2121;16;Päijät-Häme
+05-May-2121;24;Päijät-Häme
+06-May-2121;21;Päijät-Häme
+07-May-2121;17;Päijät-Häme
+08-May-2121;11;Päijät-Häme
+09-May-2121;14;Päijät-Häme
+10-May-2121;15;Päijät-Häme
+11-May-2121;7;Päijät-Häme
+12-May-2121;1;Päijät-Häme
+13-May-2121;0;Päijät-Häme
 01-Jan-2020;0;Kymenlaakso
 02-Jan-2020;0;Kymenlaakso
 03-Jan-2020;0;Kymenlaakso
@@ -3194,7 +3278,7 @@ date;cases;region
 09-Oct-2020;1;Kymenlaakso
 10-Oct-2020;0;Kymenlaakso
 11-Oct-2020;0;Kymenlaakso
-12-Oct-2020;0;Kymenlaakso
+12-Oct-2020;1;Kymenlaakso
 13-Oct-2020;1;Kymenlaakso
 14-Oct-2020;0;Kymenlaakso
 15-Oct-2020;2;Kymenlaakso
@@ -3364,7 +3448,7 @@ date;cases;region
 28-Mar-2121;15;Kymenlaakso
 29-Mar-2121;24;Kymenlaakso
 30-Mar-2121;24;Kymenlaakso
-31-Mar-2121;17;Kymenlaakso
+31-Mar-2121;18;Kymenlaakso
 01-Apr-2121;29;Kymenlaakso
 02-Apr-2121;11;Kymenlaakso
 03-Apr-2121;20;Kymenlaakso
@@ -3380,7 +3464,7 @@ date;cases;region
 13-Apr-2121;8;Kymenlaakso
 14-Apr-2121;14;Kymenlaakso
 15-Apr-2121;3;Kymenlaakso
-16-Apr-2121;7;Kymenlaakso
+16-Apr-2121;6;Kymenlaakso
 17-Apr-2121;5;Kymenlaakso
 18-Apr-2121;2;Kymenlaakso
 19-Apr-2121;2;Kymenlaakso
@@ -3392,8 +3476,22 @@ date;cases;region
 25-Apr-2121;3;Kymenlaakso
 26-Apr-2121;3;Kymenlaakso
 27-Apr-2121;1;Kymenlaakso
-28-Apr-2121;1;Kymenlaakso
-29-Apr-2121;0;Kymenlaakso
+28-Apr-2121;2;Kymenlaakso
+29-Apr-2121;1;Kymenlaakso
+30-Apr-2121;3;Kymenlaakso
+01-May-2121;3;Kymenlaakso
+02-May-2121;1;Kymenlaakso
+03-May-2121;2;Kymenlaakso
+04-May-2121;4;Kymenlaakso
+05-May-2121;3;Kymenlaakso
+06-May-2121;3;Kymenlaakso
+07-May-2121;2;Kymenlaakso
+08-May-2121;3;Kymenlaakso
+09-May-2121;1;Kymenlaakso
+10-May-2121;8;Kymenlaakso
+11-May-2121;4;Kymenlaakso
+12-May-2121;3;Kymenlaakso
+13-May-2121;0;Kymenlaakso
 01-Jan-2020;0;Etelä-Karjala
 02-Jan-2020;0;Etelä-Karjala
 03-Jan-2020;0;Etelä-Karjala
@@ -3824,7 +3922,7 @@ date;cases;region
 03-Mar-2121;8;Etelä-Karjala
 04-Mar-2121;18;Etelä-Karjala
 05-Mar-2121;13;Etelä-Karjala
-06-Mar-2121;12;Etelä-Karjala
+06-Mar-2121;11;Etelä-Karjala
 07-Mar-2121;12;Etelä-Karjala
 08-Mar-2121;17;Etelä-Karjala
 09-Mar-2121;7;Etelä-Karjala
@@ -3864,9 +3962,9 @@ date;cases;region
 12-Apr-2121;6;Etelä-Karjala
 13-Apr-2121;11;Etelä-Karjala
 14-Apr-2121;5;Etelä-Karjala
-15-Apr-2121;7;Etelä-Karjala
+15-Apr-2121;5;Etelä-Karjala
 16-Apr-2121;5;Etelä-Karjala
-17-Apr-2121;3;Etelä-Karjala
+17-Apr-2121;4;Etelä-Karjala
 18-Apr-2121;1;Etelä-Karjala
 19-Apr-2121;8;Etelä-Karjala
 20-Apr-2121;1;Etelä-Karjala
@@ -3877,8 +3975,22 @@ date;cases;region
 25-Apr-2121;2;Etelä-Karjala
 26-Apr-2121;6;Etelä-Karjala
 27-Apr-2121;7;Etelä-Karjala
-28-Apr-2121;2;Etelä-Karjala
+28-Apr-2121;19;Etelä-Karjala
 29-Apr-2121;0;Etelä-Karjala
+30-Apr-2121;2;Etelä-Karjala
+01-May-2121;1;Etelä-Karjala
+02-May-2121;1;Etelä-Karjala
+03-May-2121;7;Etelä-Karjala
+04-May-2121;2;Etelä-Karjala
+05-May-2121;0;Etelä-Karjala
+06-May-2121;4;Etelä-Karjala
+07-May-2121;6;Etelä-Karjala
+08-May-2121;1;Etelä-Karjala
+09-May-2121;1;Etelä-Karjala
+10-May-2121;0;Etelä-Karjala
+11-May-2121;0;Etelä-Karjala
+12-May-2121;0;Etelä-Karjala
+13-May-2121;0;Etelä-Karjala
 01-Jan-2020;0;Etelä-Savo
 02-Jan-2020;0;Etelä-Savo
 03-Jan-2020;0;Etelä-Savo
@@ -4361,9 +4473,23 @@ date;cases;region
 24-Apr-2121;0;Etelä-Savo
 25-Apr-2121;0;Etelä-Savo
 26-Apr-2121;0;Etelä-Savo
-27-Apr-2121;0;Etelä-Savo
+27-Apr-2121;1;Etelä-Savo
 28-Apr-2121;0;Etelä-Savo
 29-Apr-2121;0;Etelä-Savo
+30-Apr-2121;0;Etelä-Savo
+01-May-2121;0;Etelä-Savo
+02-May-2121;0;Etelä-Savo
+03-May-2121;0;Etelä-Savo
+04-May-2121;0;Etelä-Savo
+05-May-2121;2;Etelä-Savo
+06-May-2121;2;Etelä-Savo
+07-May-2121;0;Etelä-Savo
+08-May-2121;0;Etelä-Savo
+09-May-2121;0;Etelä-Savo
+10-May-2121;0;Etelä-Savo
+11-May-2121;3;Etelä-Savo
+12-May-2121;1;Etelä-Savo
+13-May-2121;0;Etelä-Savo
 01-Jan-2020;0;Itä-Savo
 02-Jan-2020;0;Itä-Savo
 03-Jan-2020;0;Itä-Savo
@@ -4849,6 +4975,20 @@ date;cases;region
 27-Apr-2121;0;Itä-Savo
 28-Apr-2121;0;Itä-Savo
 29-Apr-2121;0;Itä-Savo
+30-Apr-2121;0;Itä-Savo
+01-May-2121;0;Itä-Savo
+02-May-2121;0;Itä-Savo
+03-May-2121;1;Itä-Savo
+04-May-2121;1;Itä-Savo
+05-May-2121;0;Itä-Savo
+06-May-2121;0;Itä-Savo
+07-May-2121;0;Itä-Savo
+08-May-2121;0;Itä-Savo
+09-May-2121;0;Itä-Savo
+10-May-2121;0;Itä-Savo
+11-May-2121;0;Itä-Savo
+12-May-2121;0;Itä-Savo
+13-May-2121;0;Itä-Savo
 01-Jan-2020;0;Pohjois-Karjala
 02-Jan-2020;0;Pohjois-Karjala
 03-Jan-2020;0;Pohjois-Karjala
@@ -5277,7 +5417,7 @@ date;cases;region
 01-Mar-2121;1;Pohjois-Karjala
 02-Mar-2121;0;Pohjois-Karjala
 03-Mar-2121;2;Pohjois-Karjala
-04-Mar-2121;0;Pohjois-Karjala
+04-Mar-2121;1;Pohjois-Karjala
 05-Mar-2121;0;Pohjois-Karjala
 06-Mar-2121;0;Pohjois-Karjala
 07-Mar-2121;4;Pohjois-Karjala
@@ -5332,8 +5472,22 @@ date;cases;region
 25-Apr-2121;2;Pohjois-Karjala
 26-Apr-2121;3;Pohjois-Karjala
 27-Apr-2121;3;Pohjois-Karjala
-28-Apr-2121;0;Pohjois-Karjala
+28-Apr-2121;1;Pohjois-Karjala
 29-Apr-2121;0;Pohjois-Karjala
+30-Apr-2121;0;Pohjois-Karjala
+01-May-2121;1;Pohjois-Karjala
+02-May-2121;1;Pohjois-Karjala
+03-May-2121;1;Pohjois-Karjala
+04-May-2121;1;Pohjois-Karjala
+05-May-2121;1;Pohjois-Karjala
+06-May-2121;2;Pohjois-Karjala
+07-May-2121;1;Pohjois-Karjala
+08-May-2121;0;Pohjois-Karjala
+09-May-2121;0;Pohjois-Karjala
+10-May-2121;4;Pohjois-Karjala
+11-May-2121;0;Pohjois-Karjala
+12-May-2121;0;Pohjois-Karjala
+13-May-2121;0;Pohjois-Karjala
 01-Jan-2020;0;Pohjois-Savo
 02-Jan-2020;0;Pohjois-Savo
 03-Jan-2020;0;Pohjois-Savo
@@ -5815,10 +5969,24 @@ date;cases;region
 23-Apr-2121;4;Pohjois-Savo
 24-Apr-2121;0;Pohjois-Savo
 25-Apr-2121;0;Pohjois-Savo
-26-Apr-2121;1;Pohjois-Savo
+26-Apr-2121;2;Pohjois-Savo
 27-Apr-2121;2;Pohjois-Savo
-28-Apr-2121;0;Pohjois-Savo
-29-Apr-2121;0;Pohjois-Savo
+28-Apr-2121;1;Pohjois-Savo
+29-Apr-2121;2;Pohjois-Savo
+30-Apr-2121;1;Pohjois-Savo
+01-May-2121;2;Pohjois-Savo
+02-May-2121;2;Pohjois-Savo
+03-May-2121;3;Pohjois-Savo
+04-May-2121;0;Pohjois-Savo
+05-May-2121;0;Pohjois-Savo
+06-May-2121;1;Pohjois-Savo
+07-May-2121;1;Pohjois-Savo
+08-May-2121;0;Pohjois-Savo
+09-May-2121;0;Pohjois-Savo
+10-May-2121;3;Pohjois-Savo
+11-May-2121;0;Pohjois-Savo
+12-May-2121;0;Pohjois-Savo
+13-May-2121;0;Pohjois-Savo
 01-Jan-2020;0;Keski-Suomi
 02-Jan-2020;0;Keski-Suomi
 03-Jan-2020;0;Keski-Suomi
@@ -6286,7 +6454,7 @@ date;cases;region
 09-Apr-2121;6;Keski-Suomi
 10-Apr-2121;2;Keski-Suomi
 11-Apr-2121;7;Keski-Suomi
-12-Apr-2121;7;Keski-Suomi
+12-Apr-2121;8;Keski-Suomi
 13-Apr-2121;11;Keski-Suomi
 14-Apr-2121;4;Keski-Suomi
 15-Apr-2121;1;Keski-Suomi
@@ -6302,8 +6470,22 @@ date;cases;region
 25-Apr-2121;0;Keski-Suomi
 26-Apr-2121;1;Keski-Suomi
 27-Apr-2121;2;Keski-Suomi
-28-Apr-2121;0;Keski-Suomi
+28-Apr-2121;2;Keski-Suomi
 29-Apr-2121;0;Keski-Suomi
+30-Apr-2121;0;Keski-Suomi
+01-May-2121;0;Keski-Suomi
+02-May-2121;0;Keski-Suomi
+03-May-2121;4;Keski-Suomi
+04-May-2121;2;Keski-Suomi
+05-May-2121;4;Keski-Suomi
+06-May-2121;0;Keski-Suomi
+07-May-2121;3;Keski-Suomi
+08-May-2121;2;Keski-Suomi
+09-May-2121;0;Keski-Suomi
+10-May-2121;0;Keski-Suomi
+11-May-2121;0;Keski-Suomi
+12-May-2121;0;Keski-Suomi
+13-May-2121;0;Keski-Suomi
 01-Jan-2020;0;Etelä-Pohjanmaa
 02-Jan-2020;0;Etelä-Pohjanmaa
 03-Jan-2020;0;Etelä-Pohjanmaa
@@ -6787,8 +6969,22 @@ date;cases;region
 25-Apr-2121;0;Etelä-Pohjanmaa
 26-Apr-2121;3;Etelä-Pohjanmaa
 27-Apr-2121;1;Etelä-Pohjanmaa
-28-Apr-2121;0;Etelä-Pohjanmaa
-29-Apr-2121;0;Etelä-Pohjanmaa
+28-Apr-2121;2;Etelä-Pohjanmaa
+29-Apr-2121;3;Etelä-Pohjanmaa
+30-Apr-2121;3;Etelä-Pohjanmaa
+01-May-2121;0;Etelä-Pohjanmaa
+02-May-2121;3;Etelä-Pohjanmaa
+03-May-2121;2;Etelä-Pohjanmaa
+04-May-2121;2;Etelä-Pohjanmaa
+05-May-2121;1;Etelä-Pohjanmaa
+06-May-2121;2;Etelä-Pohjanmaa
+07-May-2121;0;Etelä-Pohjanmaa
+08-May-2121;3;Etelä-Pohjanmaa
+09-May-2121;0;Etelä-Pohjanmaa
+10-May-2121;2;Etelä-Pohjanmaa
+11-May-2121;3;Etelä-Pohjanmaa
+12-May-2121;0;Etelä-Pohjanmaa
+13-May-2121;0;Etelä-Pohjanmaa
 01-Jan-2020;0;Vaasa
 02-Jan-2020;0;Vaasa
 03-Jan-2020;0;Vaasa
@@ -7073,7 +7269,7 @@ date;cases;region
 08-Oct-2020;57;Vaasa
 09-Oct-2020;37;Vaasa
 10-Oct-2020;35;Vaasa
-11-Oct-2020;23;Vaasa
+11-Oct-2020;22;Vaasa
 12-Oct-2020;31;Vaasa
 13-Oct-2020;27;Vaasa
 14-Oct-2020;30;Vaasa
@@ -7242,7 +7438,7 @@ date;cases;region
 26-Mar-2121;4;Vaasa
 27-Mar-2121;2;Vaasa
 28-Mar-2121;3;Vaasa
-29-Mar-2121;6;Vaasa
+29-Mar-2121;7;Vaasa
 30-Mar-2121;7;Vaasa
 31-Mar-2121;8;Vaasa
 01-Apr-2121;10;Vaasa
@@ -7262,7 +7458,7 @@ date;cases;region
 15-Apr-2121;3;Vaasa
 16-Apr-2121;5;Vaasa
 17-Apr-2121;0;Vaasa
-18-Apr-2121;2;Vaasa
+18-Apr-2121;3;Vaasa
 19-Apr-2121;4;Vaasa
 20-Apr-2121;1;Vaasa
 21-Apr-2121;0;Vaasa
@@ -7270,10 +7466,24 @@ date;cases;region
 23-Apr-2121;3;Vaasa
 24-Apr-2121;0;Vaasa
 25-Apr-2121;1;Vaasa
-26-Apr-2121;1;Vaasa
+26-Apr-2121;2;Vaasa
 27-Apr-2121;0;Vaasa
-28-Apr-2121;0;Vaasa
-29-Apr-2121;0;Vaasa
+28-Apr-2121;2;Vaasa
+29-Apr-2121;2;Vaasa
+30-Apr-2121;3;Vaasa
+01-May-2121;3;Vaasa
+02-May-2121;1;Vaasa
+03-May-2121;4;Vaasa
+04-May-2121;1;Vaasa
+05-May-2121;3;Vaasa
+06-May-2121;1;Vaasa
+07-May-2121;3;Vaasa
+08-May-2121;1;Vaasa
+09-May-2121;0;Vaasa
+10-May-2121;2;Vaasa
+11-May-2121;0;Vaasa
+12-May-2121;0;Vaasa
+13-May-2121;0;Vaasa
 01-Jan-2020;0;Keski-Pohjanmaa
 02-Jan-2020;0;Keski-Pohjanmaa
 03-Jan-2020;0;Keski-Pohjanmaa
@@ -7745,7 +7955,7 @@ date;cases;region
 13-Apr-2121;0;Keski-Pohjanmaa
 14-Apr-2121;0;Keski-Pohjanmaa
 15-Apr-2121;1;Keski-Pohjanmaa
-16-Apr-2121;1;Keski-Pohjanmaa
+16-Apr-2121;0;Keski-Pohjanmaa
 17-Apr-2121;0;Keski-Pohjanmaa
 18-Apr-2121;0;Keski-Pohjanmaa
 19-Apr-2121;0;Keski-Pohjanmaa
@@ -7759,6 +7969,20 @@ date;cases;region
 27-Apr-2121;0;Keski-Pohjanmaa
 28-Apr-2121;1;Keski-Pohjanmaa
 29-Apr-2121;0;Keski-Pohjanmaa
+30-Apr-2121;0;Keski-Pohjanmaa
+01-May-2121;0;Keski-Pohjanmaa
+02-May-2121;0;Keski-Pohjanmaa
+03-May-2121;0;Keski-Pohjanmaa
+04-May-2121;0;Keski-Pohjanmaa
+05-May-2121;1;Keski-Pohjanmaa
+06-May-2121;4;Keski-Pohjanmaa
+07-May-2121;5;Keski-Pohjanmaa
+08-May-2121;3;Keski-Pohjanmaa
+09-May-2121;9;Keski-Pohjanmaa
+10-May-2121;8;Keski-Pohjanmaa
+11-May-2121;15;Keski-Pohjanmaa
+12-May-2121;8;Keski-Pohjanmaa
+13-May-2121;0;Keski-Pohjanmaa
 01-Jan-2020;0;Pohjois-Pohjanmaa
 02-Jan-2020;0;Pohjois-Pohjanmaa
 03-Jan-2020;0;Pohjois-Pohjanmaa
@@ -8236,14 +8460,28 @@ date;cases;region
 19-Apr-2121;13;Pohjois-Pohjanmaa
 20-Apr-2121;16;Pohjois-Pohjanmaa
 21-Apr-2121;15;Pohjois-Pohjanmaa
-22-Apr-2121;6;Pohjois-Pohjanmaa
+22-Apr-2121;5;Pohjois-Pohjanmaa
 23-Apr-2121;14;Pohjois-Pohjanmaa
 24-Apr-2121;7;Pohjois-Pohjanmaa
 25-Apr-2121;6;Pohjois-Pohjanmaa
-26-Apr-2121;14;Pohjois-Pohjanmaa
-27-Apr-2121;15;Pohjois-Pohjanmaa
-28-Apr-2121;10;Pohjois-Pohjanmaa
-29-Apr-2121;0;Pohjois-Pohjanmaa
+26-Apr-2121;15;Pohjois-Pohjanmaa
+27-Apr-2121;18;Pohjois-Pohjanmaa
+28-Apr-2121;14;Pohjois-Pohjanmaa
+29-Apr-2121;11;Pohjois-Pohjanmaa
+30-Apr-2121;13;Pohjois-Pohjanmaa
+01-May-2121;1;Pohjois-Pohjanmaa
+02-May-2121;3;Pohjois-Pohjanmaa
+03-May-2121;9;Pohjois-Pohjanmaa
+04-May-2121;6;Pohjois-Pohjanmaa
+05-May-2121;7;Pohjois-Pohjanmaa
+06-May-2121;5;Pohjois-Pohjanmaa
+07-May-2121;8;Pohjois-Pohjanmaa
+08-May-2121;6;Pohjois-Pohjanmaa
+09-May-2121;3;Pohjois-Pohjanmaa
+10-May-2121;8;Pohjois-Pohjanmaa
+11-May-2121;4;Pohjois-Pohjanmaa
+12-May-2121;2;Pohjois-Pohjanmaa
+13-May-2121;0;Pohjois-Pohjanmaa
 01-Jan-2020;0;Kainuu
 02-Jan-2020;0;Kainuu
 03-Jan-2020;0;Kainuu
@@ -8729,6 +8967,20 @@ date;cases;region
 27-Apr-2121;0;Kainuu
 28-Apr-2121;0;Kainuu
 29-Apr-2121;0;Kainuu
+30-Apr-2121;0;Kainuu
+01-May-2121;0;Kainuu
+02-May-2121;0;Kainuu
+03-May-2121;0;Kainuu
+04-May-2121;2;Kainuu
+05-May-2121;4;Kainuu
+06-May-2121;0;Kainuu
+07-May-2121;0;Kainuu
+08-May-2121;0;Kainuu
+09-May-2121;0;Kainuu
+10-May-2121;0;Kainuu
+11-May-2121;0;Kainuu
+12-May-2121;0;Kainuu
+13-May-2121;0;Kainuu
 01-Jan-2020;0;Länsi-Pohja
 02-Jan-2020;0;Länsi-Pohja
 03-Jan-2020;0;Länsi-Pohja
@@ -9127,7 +9379,7 @@ date;cases;region
 30-Jan-2121;5;Länsi-Pohja
 31-Jan-2121;0;Länsi-Pohja
 01-Feb-2121;9;Länsi-Pohja
-02-Feb-2121;2;Länsi-Pohja
+02-Feb-2121;3;Länsi-Pohja
 03-Feb-2121;2;Länsi-Pohja
 04-Feb-2121;3;Länsi-Pohja
 05-Feb-2121;3;Länsi-Pohja
@@ -9209,11 +9461,25 @@ date;cases;region
 22-Apr-2121;8;Länsi-Pohja
 23-Apr-2121;4;Länsi-Pohja
 24-Apr-2121;3;Länsi-Pohja
-25-Apr-2121;1;Länsi-Pohja
-26-Apr-2121;7;Länsi-Pohja
-27-Apr-2121;3;Länsi-Pohja
+25-Apr-2121;2;Länsi-Pohja
+26-Apr-2121;9;Länsi-Pohja
+27-Apr-2121;2;Länsi-Pohja
 28-Apr-2121;1;Länsi-Pohja
 29-Apr-2121;0;Länsi-Pohja
+30-Apr-2121;3;Länsi-Pohja
+01-May-2121;0;Länsi-Pohja
+02-May-2121;1;Länsi-Pohja
+03-May-2121;1;Länsi-Pohja
+04-May-2121;4;Länsi-Pohja
+05-May-2121;0;Länsi-Pohja
+06-May-2121;2;Länsi-Pohja
+07-May-2121;2;Länsi-Pohja
+08-May-2121;0;Länsi-Pohja
+09-May-2121;1;Länsi-Pohja
+10-May-2121;0;Länsi-Pohja
+11-May-2121;0;Länsi-Pohja
+12-May-2121;0;Länsi-Pohja
+13-May-2121;0;Länsi-Pohja
 01-Jan-2020;0;Lappi
 02-Jan-2020;0;Lappi
 03-Jan-2020;0;Lappi
@@ -9689,7 +9955,7 @@ date;cases;region
 17-Apr-2121;0;Lappi
 18-Apr-2121;0;Lappi
 19-Apr-2121;0;Lappi
-20-Apr-2121;1;Lappi
+20-Apr-2121;0;Lappi
 21-Apr-2121;0;Lappi
 22-Apr-2121;2;Lappi
 23-Apr-2121;1;Lappi
@@ -9699,6 +9965,20 @@ date;cases;region
 27-Apr-2121;1;Lappi
 28-Apr-2121;0;Lappi
 29-Apr-2121;0;Lappi
+30-Apr-2121;0;Lappi
+01-May-2121;0;Lappi
+02-May-2121;0;Lappi
+03-May-2121;3;Lappi
+04-May-2121;0;Lappi
+05-May-2121;1;Lappi
+06-May-2121;0;Lappi
+07-May-2121;1;Lappi
+08-May-2121;1;Lappi
+09-May-2121;0;Lappi
+10-May-2121;1;Lappi
+11-May-2121;0;Lappi
+12-May-2121;0;Lappi
+13-May-2121;0;Lappi
 01-Jan-2020;0;HUS
 02-Jan-2020;0;HUS
 03-Jan-2020;0;HUS
@@ -9952,7 +10232,7 @@ date;cases;region
 07-Sep-2020;22;HUS
 08-Sep-2020;19;HUS
 09-Sep-2020;22;HUS
-10-Sep-2020;16;HUS
+10-Sep-2020;17;HUS
 11-Sep-2020;25;HUS
 12-Sep-2020;14;HUS
 13-Sep-2020;15;HUS
@@ -9970,7 +10250,7 @@ date;cases;region
 25-Sep-2020;85;HUS
 26-Sep-2020;47;HUS
 27-Sep-2020;53;HUS
-28-Sep-2020;84;HUS
+28-Sep-2020;85;HUS
 29-Sep-2020;81;HUS
 30-Sep-2020;93;HUS
 01-Oct-2020;79;HUS
@@ -9983,14 +10263,14 @@ date;cases;region
 08-Oct-2020;136;HUS
 09-Oct-2020;126;HUS
 10-Oct-2020;53;HUS
-11-Oct-2020;72;HUS
-12-Oct-2020;136;HUS
+11-Oct-2020;74;HUS
+12-Oct-2020;135;HUS
 13-Oct-2020;118;HUS
 14-Oct-2020;87;HUS
 15-Oct-2020;116;HUS
 16-Oct-2020;119;HUS
 17-Oct-2020;51;HUS
-18-Oct-2020;86;HUS
+18-Oct-2020;85;HUS
 19-Oct-2020;127;HUS
 20-Oct-2020;90;HUS
 21-Oct-2020;105;HUS
@@ -9999,19 +10279,19 @@ date;cases;region
 24-Oct-2020;66;HUS
 25-Oct-2020;71;HUS
 26-Oct-2020;133;HUS
-27-Oct-2020;120;HUS
-28-Oct-2020;122;HUS
+27-Oct-2020;121;HUS
+28-Oct-2020;121;HUS
 29-Oct-2020;102;HUS
 30-Oct-2020;123;HUS
 31-Oct-2020;72;HUS
-01-Nov-2020;92;HUS
+01-Nov-2020;93;HUS
 02-Nov-2020;156;HUS
 03-Nov-2020;149;HUS
 04-Nov-2020;126;HUS
 05-Nov-2020;138;HUS
 06-Nov-2020;116;HUS
 07-Nov-2020;94;HUS
-08-Nov-2020;81;HUS
+08-Nov-2020;80;HUS
 09-Nov-2020;162;HUS
 10-Nov-2020;127;HUS
 11-Nov-2020;147;HUS
@@ -10030,7 +10310,7 @@ date;cases;region
 24-Nov-2020;283;HUS
 25-Nov-2020;299;HUS
 26-Nov-2020;262;HUS
-27-Nov-2020;241;HUS
+27-Nov-2020;242;HUS
 28-Nov-2020;151;HUS
 29-Nov-2020;158;HUS
 30-Nov-2020;313;HUS
@@ -10093,7 +10373,7 @@ date;cases;region
 26-Jan-2121;212;HUS
 27-Jan-2121;188;HUS
 28-Jan-2121;229;HUS
-29-Jan-2121;189;HUS
+29-Jan-2121;190;HUS
 30-Jan-2121;132;HUS
 31-Jan-2121;166;HUS
 01-Feb-2121;297;HUS
@@ -10120,18 +10400,18 @@ date;cases;region
 22-Feb-2121;386;HUS
 23-Feb-2121;383;HUS
 24-Feb-2121;417;HUS
-25-Feb-2121;354;HUS
-26-Feb-2121;430;HUS
+25-Feb-2121;360;HUS
+26-Feb-2121;429;HUS
 27-Feb-2121;266;HUS
-28-Feb-2121;265;HUS
+28-Feb-2121;264;HUS
 01-Mar-2121;481;HUS
-02-Mar-2121;491;HUS
-03-Mar-2121;474;HUS
-04-Mar-2121;388;HUS
-05-Mar-2121;419;HUS
-06-Mar-2121;274;HUS
+02-Mar-2121;492;HUS
+03-Mar-2121;475;HUS
+04-Mar-2121;389;HUS
+05-Mar-2121;420;HUS
+06-Mar-2121;275;HUS
 07-Mar-2121;255;HUS
-08-Mar-2121;503;HUS
+08-Mar-2121;502;HUS
 09-Mar-2121;507;HUS
 10-Mar-2121;504;HUS
 11-Mar-2121;477;HUS
@@ -10139,9 +10419,9 @@ date;cases;region
 13-Mar-2121;327;HUS
 14-Mar-2121;261;HUS
 15-Mar-2121;508;HUS
-16-Mar-2121;452;HUS
+16-Mar-2121;454;HUS
 17-Mar-2121;417;HUS
-18-Mar-2121;456;HUS
+18-Mar-2121;455;HUS
 19-Mar-2121;444;HUS
 20-Mar-2121;287;HUS
 21-Mar-2121;286;HUS
@@ -10152,38 +10432,52 @@ date;cases;region
 26-Mar-2121;407;HUS
 27-Mar-2121;199;HUS
 28-Mar-2121;245;HUS
-29-Mar-2121;377;HUS
-30-Mar-2121;323;HUS
-31-Mar-2121;331;HUS
-01-Apr-2121;253;HUS
+29-Mar-2121;378;HUS
+30-Mar-2121;322;HUS
+31-Mar-2121;330;HUS
+01-Apr-2121;252;HUS
 02-Apr-2121;222;HUS
-03-Apr-2121;187;HUS
+03-Apr-2121;188;HUS
 04-Apr-2121;206;HUS
 05-Apr-2121;232;HUS
-06-Apr-2121;303;HUS
-07-Apr-2121;245;HUS
+06-Apr-2121;305;HUS
+07-Apr-2121;246;HUS
 08-Apr-2121;211;HUS
 09-Apr-2121;175;HUS
-10-Apr-2121;135;HUS
-11-Apr-2121;143;HUS
+10-Apr-2121;136;HUS
+11-Apr-2121;142;HUS
 12-Apr-2121;215;HUS
-13-Apr-2121;154;HUS
+13-Apr-2121;155;HUS
 14-Apr-2121;169;HUS
-15-Apr-2121;128;HUS
-16-Apr-2121;128;HUS
-17-Apr-2121;123;HUS
+15-Apr-2121;129;HUS
+16-Apr-2121;130;HUS
+17-Apr-2121;124;HUS
 18-Apr-2121;87;HUS
 19-Apr-2121;136;HUS
 20-Apr-2121;145;HUS
 21-Apr-2121;114;HUS
-22-Apr-2121;140;HUS
+22-Apr-2121;139;HUS
 23-Apr-2121;110;HUS
-24-Apr-2121;85;HUS
-25-Apr-2121;82;HUS
-26-Apr-2121;111;HUS
-27-Apr-2121;103;HUS
-28-Apr-2121;77;HUS
-29-Apr-2121;0;HUS
+24-Apr-2121;86;HUS
+25-Apr-2121;84;HUS
+26-Apr-2121;120;HUS
+27-Apr-2121;108;HUS
+28-Apr-2121;142;HUS
+29-Apr-2121;94;HUS
+30-Apr-2121;97;HUS
+01-May-2121;51;HUS
+02-May-2121;82;HUS
+03-May-2121;155;HUS
+04-May-2121;110;HUS
+05-May-2121;127;HUS
+06-May-2121;112;HUS
+07-May-2121;92;HUS
+08-May-2121;67;HUS
+09-May-2121;68;HUS
+10-May-2121;131;HUS
+11-May-2121;106;HUS
+12-May-2121;85;HUS
+13-May-2121;0;HUS
 01-Jan-2020;0;Kaikki sairaanhoitopiirit
 02-Jan-2020;0;Kaikki sairaanhoitopiirit
 03-Jan-2020;0;Kaikki sairaanhoitopiirit
@@ -10437,7 +10731,7 @@ date;cases;region
 07-Sep-2020;45;Kaikki sairaanhoitopiirit
 08-Sep-2020;57;Kaikki sairaanhoitopiirit
 09-Sep-2020;55;Kaikki sairaanhoitopiirit
-10-Sep-2020;53;Kaikki sairaanhoitopiirit
+10-Sep-2020;54;Kaikki sairaanhoitopiirit
 11-Sep-2020;58;Kaikki sairaanhoitopiirit
 12-Sep-2020;40;Kaikki sairaanhoitopiirit
 13-Sep-2020;46;Kaikki sairaanhoitopiirit
@@ -10455,7 +10749,7 @@ date;cases;region
 25-Sep-2020;128;Kaikki sairaanhoitopiirit
 26-Sep-2020;74;Kaikki sairaanhoitopiirit
 27-Sep-2020;70;Kaikki sairaanhoitopiirit
-28-Sep-2020;123;Kaikki sairaanhoitopiirit
+28-Sep-2020;124;Kaikki sairaanhoitopiirit
 29-Sep-2020;134;Kaikki sairaanhoitopiirit
 30-Sep-2020;166;Kaikki sairaanhoitopiirit
 01-Oct-2020;191;Kaikki sairaanhoitopiirit
@@ -10468,15 +10762,15 @@ date;cases;region
 08-Oct-2020;259;Kaikki sairaanhoitopiirit
 09-Oct-2020;226;Kaikki sairaanhoitopiirit
 10-Oct-2020;110;Kaikki sairaanhoitopiirit
-11-Oct-2020;130;Kaikki sairaanhoitopiirit
+11-Oct-2020;131;Kaikki sairaanhoitopiirit
 12-Oct-2020;256;Kaikki sairaanhoitopiirit
 13-Oct-2020;199;Kaikki sairaanhoitopiirit
 14-Oct-2020;202;Kaikki sairaanhoitopiirit
 15-Oct-2020;190;Kaikki sairaanhoitopiirit
 16-Oct-2020;195;Kaikki sairaanhoitopiirit
 17-Oct-2020;104;Kaikki sairaanhoitopiirit
-18-Oct-2020;130;Kaikki sairaanhoitopiirit
-19-Oct-2020;244;Kaikki sairaanhoitopiirit
+18-Oct-2020;129;Kaikki sairaanhoitopiirit
+19-Oct-2020;243;Kaikki sairaanhoitopiirit
 20-Oct-2020;167;Kaikki sairaanhoitopiirit
 21-Oct-2020;188;Kaikki sairaanhoitopiirit
 22-Oct-2020;220;Kaikki sairaanhoitopiirit
@@ -10484,12 +10778,12 @@ date;cases;region
 24-Oct-2020;107;Kaikki sairaanhoitopiirit
 25-Oct-2020;124;Kaikki sairaanhoitopiirit
 26-Oct-2020;255;Kaikki sairaanhoitopiirit
-27-Oct-2020;231;Kaikki sairaanhoitopiirit
+27-Oct-2020;232;Kaikki sairaanhoitopiirit
 28-Oct-2020;240;Kaikki sairaanhoitopiirit
 29-Oct-2020;237;Kaikki sairaanhoitopiirit
 30-Oct-2020;220;Kaikki sairaanhoitopiirit
 31-Oct-2020;121;Kaikki sairaanhoitopiirit
-01-Nov-2020;150;Kaikki sairaanhoitopiirit
+01-Nov-2020;151;Kaikki sairaanhoitopiirit
 02-Nov-2020;288;Kaikki sairaanhoitopiirit
 03-Nov-2020;241;Kaikki sairaanhoitopiirit
 04-Nov-2020;213;Kaikki sairaanhoitopiirit
@@ -10515,7 +10809,7 @@ date;cases;region
 24-Nov-2020;471;Kaikki sairaanhoitopiirit
 25-Nov-2020;619;Kaikki sairaanhoitopiirit
 26-Nov-2020;510;Kaikki sairaanhoitopiirit
-27-Nov-2020;455;Kaikki sairaanhoitopiirit
+27-Nov-2020;456;Kaikki sairaanhoitopiirit
 28-Nov-2020;284;Kaikki sairaanhoitopiirit
 29-Nov-2020;293;Kaikki sairaanhoitopiirit
 30-Nov-2020;595;Kaikki sairaanhoitopiirit
@@ -10548,7 +10842,7 @@ date;cases;region
 27-Dec-2020;191;Kaikki sairaanhoitopiirit
 28-Dec-2020;435;Kaikki sairaanhoitopiirit
 29-Dec-2020;307;Kaikki sairaanhoitopiirit
-30-Dec-2020;256;Kaikki sairaanhoitopiirit
+30-Dec-2020;255;Kaikki sairaanhoitopiirit
 31-Dec-2020;253;Kaikki sairaanhoitopiirit
 01-Jan-2121;129;Kaikki sairaanhoitopiirit
 02-Jan-2121;206;Kaikki sairaanhoitopiirit
@@ -10578,11 +10872,11 @@ date;cases;region
 26-Jan-2121;397;Kaikki sairaanhoitopiirit
 27-Jan-2121;382;Kaikki sairaanhoitopiirit
 28-Jan-2121;435;Kaikki sairaanhoitopiirit
-29-Jan-2121;376;Kaikki sairaanhoitopiirit
+29-Jan-2121;377;Kaikki sairaanhoitopiirit
 30-Jan-2121;232;Kaikki sairaanhoitopiirit
 31-Jan-2121;273;Kaikki sairaanhoitopiirit
 01-Feb-2121;534;Kaikki sairaanhoitopiirit
-02-Feb-2121;395;Kaikki sairaanhoitopiirit
+02-Feb-2121;396;Kaikki sairaanhoitopiirit
 03-Feb-2121;441;Kaikki sairaanhoitopiirit
 04-Feb-2121;372;Kaikki sairaanhoitopiirit
 05-Feb-2121;368;Kaikki sairaanhoitopiirit
@@ -10605,18 +10899,18 @@ date;cases;region
 22-Feb-2121;623;Kaikki sairaanhoitopiirit
 23-Feb-2121;626;Kaikki sairaanhoitopiirit
 24-Feb-2121;598;Kaikki sairaanhoitopiirit
-25-Feb-2121;618;Kaikki sairaanhoitopiirit
-26-Feb-2121;690;Kaikki sairaanhoitopiirit
+25-Feb-2121;627;Kaikki sairaanhoitopiirit
+26-Feb-2121;687;Kaikki sairaanhoitopiirit
 27-Feb-2121;401;Kaikki sairaanhoitopiirit
-28-Feb-2121;420;Kaikki sairaanhoitopiirit
+28-Feb-2121;419;Kaikki sairaanhoitopiirit
 01-Mar-2121;871;Kaikki sairaanhoitopiirit
-02-Mar-2121;758;Kaikki sairaanhoitopiirit
+02-Mar-2121;759;Kaikki sairaanhoitopiirit
 03-Mar-2121;732;Kaikki sairaanhoitopiirit
-04-Mar-2121;638;Kaikki sairaanhoitopiirit
-05-Mar-2121;629;Kaikki sairaanhoitopiirit
+04-Mar-2121;640;Kaikki sairaanhoitopiirit
+05-Mar-2121;630;Kaikki sairaanhoitopiirit
 06-Mar-2121;431;Kaikki sairaanhoitopiirit
 07-Mar-2121;396;Kaikki sairaanhoitopiirit
-08-Mar-2121;835;Kaikki sairaanhoitopiirit
+08-Mar-2121;834;Kaikki sairaanhoitopiirit
 09-Mar-2121;774;Kaikki sairaanhoitopiirit
 10-Mar-2121;822;Kaikki sairaanhoitopiirit
 11-Mar-2121;779;Kaikki sairaanhoitopiirit
@@ -10624,9 +10918,9 @@ date;cases;region
 13-Mar-2121;491;Kaikki sairaanhoitopiirit
 14-Mar-2121;433;Kaikki sairaanhoitopiirit
 15-Mar-2121;892;Kaikki sairaanhoitopiirit
-16-Mar-2121;763;Kaikki sairaanhoitopiirit
+16-Mar-2121;767;Kaikki sairaanhoitopiirit
 17-Mar-2121;743;Kaikki sairaanhoitopiirit
-18-Mar-2121;736;Kaikki sairaanhoitopiirit
+18-Mar-2121;735;Kaikki sairaanhoitopiirit
 19-Mar-2121;744;Kaikki sairaanhoitopiirit
 20-Mar-2121;404;Kaikki sairaanhoitopiirit
 21-Mar-2121;417;Kaikki sairaanhoitopiirit
@@ -10637,35 +10931,49 @@ date;cases;region
 26-Mar-2121;688;Kaikki sairaanhoitopiirit
 27-Mar-2121;351;Kaikki sairaanhoitopiirit
 28-Mar-2121;370;Kaikki sairaanhoitopiirit
-29-Mar-2121;653;Kaikki sairaanhoitopiirit
-30-Mar-2121;569;Kaikki sairaanhoitopiirit
+29-Mar-2121;654;Kaikki sairaanhoitopiirit
+30-Mar-2121;570;Kaikki sairaanhoitopiirit
 31-Mar-2121;550;Kaikki sairaanhoitopiirit
-01-Apr-2121;487;Kaikki sairaanhoitopiirit
+01-Apr-2121;486;Kaikki sairaanhoitopiirit
 02-Apr-2121;361;Kaikki sairaanhoitopiirit
-03-Apr-2121;319;Kaikki sairaanhoitopiirit
-04-Apr-2121;320;Kaikki sairaanhoitopiirit
+03-Apr-2121;320;Kaikki sairaanhoitopiirit
+04-Apr-2121;321;Kaikki sairaanhoitopiirit
 05-Apr-2121;359;Kaikki sairaanhoitopiirit
-06-Apr-2121;543;Kaikki sairaanhoitopiirit
-07-Apr-2121;424;Kaikki sairaanhoitopiirit
-08-Apr-2121;403;Kaikki sairaanhoitopiirit
-09-Apr-2121;348;Kaikki sairaanhoitopiirit
-10-Apr-2121;224;Kaikki sairaanhoitopiirit
+06-Apr-2121;545;Kaikki sairaanhoitopiirit
+07-Apr-2121;426;Kaikki sairaanhoitopiirit
+08-Apr-2121;405;Kaikki sairaanhoitopiirit
+09-Apr-2121;351;Kaikki sairaanhoitopiirit
+10-Apr-2121;225;Kaikki sairaanhoitopiirit
 11-Apr-2121;239;Kaikki sairaanhoitopiirit
-12-Apr-2121;397;Kaikki sairaanhoitopiirit
+12-Apr-2121;396;Kaikki sairaanhoitopiirit
 13-Apr-2121;325;Kaikki sairaanhoitopiirit
 14-Apr-2121;345;Kaikki sairaanhoitopiirit
-15-Apr-2121;275;Kaikki sairaanhoitopiirit
+15-Apr-2121;274;Kaikki sairaanhoitopiirit
 16-Apr-2121;264;Kaikki sairaanhoitopiirit
-17-Apr-2121;169;Kaikki sairaanhoitopiirit
+17-Apr-2121;171;Kaikki sairaanhoitopiirit
 18-Apr-2121;155;Kaikki sairaanhoitopiirit
-19-Apr-2121;284;Kaikki sairaanhoitopiirit
-20-Apr-2121;286;Kaikki sairaanhoitopiirit
-21-Apr-2121;243;Kaikki sairaanhoitopiirit
-22-Apr-2121;261;Kaikki sairaanhoitopiirit
-23-Apr-2121;258;Kaikki sairaanhoitopiirit
-24-Apr-2121;153;Kaikki sairaanhoitopiirit
-25-Apr-2121;138;Kaikki sairaanhoitopiirit
-26-Apr-2121;208;Kaikki sairaanhoitopiirit
-27-Apr-2121;193;Kaikki sairaanhoitopiirit
-28-Apr-2121;109;Kaikki sairaanhoitopiirit
-29-Apr-2121;0;Kaikki sairaanhoitopiirit
+19-Apr-2121;283;Kaikki sairaanhoitopiirit
+20-Apr-2121;285;Kaikki sairaanhoitopiirit
+21-Apr-2121;233;Kaikki sairaanhoitopiirit
+22-Apr-2121;258;Kaikki sairaanhoitopiirit
+23-Apr-2121;257;Kaikki sairaanhoitopiirit
+24-Apr-2121;154;Kaikki sairaanhoitopiirit
+25-Apr-2121;141;Kaikki sairaanhoitopiirit
+26-Apr-2121;243;Kaikki sairaanhoitopiirit
+27-Apr-2121;228;Kaikki sairaanhoitopiirit
+28-Apr-2121;273;Kaikki sairaanhoitopiirit
+29-Apr-2121;200;Kaikki sairaanhoitopiirit
+30-Apr-2121;195;Kaikki sairaanhoitopiirit
+01-May-2121;105;Kaikki sairaanhoitopiirit
+02-May-2121;136;Kaikki sairaanhoitopiirit
+03-May-2121;319;Kaikki sairaanhoitopiirit
+04-May-2121;204;Kaikki sairaanhoitopiirit
+05-May-2121;270;Kaikki sairaanhoitopiirit
+06-May-2121;238;Kaikki sairaanhoitopiirit
+07-May-2121;215;Kaikki sairaanhoitopiirit
+08-May-2121;129;Kaikki sairaanhoitopiirit
+09-May-2121;129;Kaikki sairaanhoitopiirit
+10-May-2121;244;Kaikki sairaanhoitopiirit
+11-May-2121;175;Kaikki sairaanhoitopiirit
+12-May-2121;109;Kaikki sairaanhoitopiirit
+13-May-2121;0;Kaikki sairaanhoitopiirit

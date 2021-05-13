@@ -44,7 +44,7 @@ do "./02_dofiles/ITALY_setup_v1.do"
 do "./02_dofiles/LATVIA_setup_v1.do"
 do "./02_dofiles/NETHERLANDS_setup_v1.do"
 do "./02_dofiles/NORWAY_setup_v1.do"
-do "./02_dofiles/POLAND_setup_v5.do"  		
+do "./02_dofiles/POLAND_setup_v6.do"  		
 do "./02_dofiles/PORTUGAL_setup_v2.do"			
 do "./02_dofiles/ROMANIA_setup_v2.do"	 	// manual update		
 do "./02_dofiles/SCOTLAND_setup_v3.do" 	  	// manual update

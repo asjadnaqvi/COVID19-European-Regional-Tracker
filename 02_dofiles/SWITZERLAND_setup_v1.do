@@ -113,6 +113,7 @@ tab check
 sort nuts3_id date
 bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
 drop check
+drop if cases==.
 
 
 // since there are delays in data updates, drop the last four observations
