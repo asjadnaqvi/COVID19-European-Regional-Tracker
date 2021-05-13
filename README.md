@@ -8,7 +8,7 @@ The data is also periodically released on Zenodo:
 A pre-print of the tracker is available here:
 https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v2.full
 
-This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at
+This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. Please report errors and inconsistencies if you find any in the dataset. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
 
 
 ## Challenges with data access
@@ -153,6 +153,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 # Change Logs
+* 13 May 2021: Fixed Poland's (PL) repository. The underlying data structure changed for the files were not compiling correctly. Switzerland's (CH) data file had missing data points wrongly showing up as 0 cases. These have been fixed.
 * 01 May 2021: All files updated for the May release. Minor errors fixed in dofiles. Population file has been updated to include 2020 regional population data. For the UK 2019 values are used since regional information no longer exists in the Eurostat database due to Brexit.
 * 06 Apr 2021: All files updated for the April release. Maps switched back to Viridis color scheme.
 * 22 Mar 2021: Scotland data is now from the official NHS website. The code has also been corrected. Other minor fixes to the remaining countries. I am taking out Portugal from the maps. Portugal's data is bi-weekly and it is not possible to elicit daily information. The raw data files are still in the database. Region names from the maps have been removed. A new map has been added which shows percentage change in cases in the last 14 days. Note that for Europe maps, the last available data entry of each NUTS region is used. This is to ensure that maps are as complete as possible since some data points for the latest date are missing.
