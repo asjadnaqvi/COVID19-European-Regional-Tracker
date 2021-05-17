@@ -153,6 +153,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 # Change Logs
+* 18 May 2021: Negative change in daily cases were being dropped in the master file. These have been added back in. It is up to the users to decide on how to deal with them. Negative changes in daily cases exist in the raw files and are mostly likely corrections to the data. A flag variable has been added to the master file which equals 1 if the daily_cases variable is negative. These are 0.18% of the data at the time of this update. Other minor clean ups to the master file including dropping redundant variables and ordering the columns. The scatter plot for daily NUTS cases per 10k population now shows the complete data series.
 * 13 May 2021: Fixed Poland's (PL) repository. The underlying data structure changed for the files were not compiling correctly. Switzerland's (CH) data file had missing data points wrongly showing up as 0 cases. These have been fixed.
 * 01 May 2021: All files updated for the May release. Minor errors fixed in dofiles. Population file has been updated to include 2020 regional population data. For the UK 2019 values are used since regional information no longer exists in the Eurostat database due to Brexit.
 * 06 Apr 2021: All files updated for the April release. Maps switched back to Viridis color scheme.

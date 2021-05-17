@@ -20,6 +20,7 @@ use nuts3_mix, clear
 
 		drop _m
 
+		
 
 
 *** drop dates for which countries are missing data points
@@ -30,12 +31,12 @@ summ date
 drop if date >= `r(max)' - 3  // drop the last 2 or three observations to avoid incompleteness
 
 *** drop all the days when no cases exist
+drop if cases_daily < 0  // to make maps easiers
+
 bysort country date: egen total = sum(cases_daily)
 drop if total == 0
 drop total
 
-
-gen cases_pop = (cases / pop) * 10000 
 
 
 *** generate a variable for the last observation for each country

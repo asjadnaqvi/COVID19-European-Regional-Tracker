@@ -93,13 +93,19 @@ drop _m
 
 drop if date==.
 drop if date<21915  // 1st Jan 2020
+drop if date<21929  // 15th Jan 2020
 
 
 
+***** here are genuine negative values here
+*replace cases_daily = 0 if cases_daily < 0  	// taking this code out from the early days of the tracker
 
-*****
+gen flag = 1 if cases_daily < 0
 
-replace cases_daily = 0 if cases_daily < 0  		// afew outliers that we make zero
+lab de flag 1 "Decrease in daily cases"
+lab val flag flag
+
+
 gen cases_daily_pop = (cases_daily / pop) * 10000  	// new cases / 10k population
 
 
@@ -107,7 +113,7 @@ gen cases_daily_pop = (cases_daily / pop) * 10000  	// new cases / 10k populatio
 
 
 
-drop if date < 21929
+
 
 
 **** generate back cumulative cases
@@ -158,9 +164,17 @@ gen country = ""
 	replace country = "Scotland (UK)" 			if ctry=="Scotland"
 
 
-	
-	
-	
+
+*** if the sum of all entries of a country on a given day are zero, then drop that date (e.g. portugal)
+bysort country date: egen total = sum(cases_daily)
+drop if total == 0
+drop total
+
+drop ctry
+
+gen cases_pop = (cases / pop) * 10000 
+
+
 lab var country 		"Country"	
 lab var nuts0_id 		"NUTS 0"
 lab var nuts2_id 		"NUTS 2"
@@ -169,20 +183,13 @@ lab var nuts_id  		"NUTS2 or NUTS3"
 lab var population 		"Population"
 lab var date 	 		"Date"
 lab var cases 	 		"Culumative cases"
+lab var cases_pop  		"Culumative cases per 10,000 population"
 lab var cases_daily 	"Daily cases"
 lab var cases_daily_pop "Daily cases per 10,000 population"
-
-
-
-*** if the sum of all entries of a country on a given day are zero, then drop that date (e.g. portugal)
-bysort country date: egen total = sum(cases_daily)
-drop if total == 0
-drop total
+lab var flag 			"Flagged observations"
 
 	
-	
-order  nuts0_id nuts2_id nuts3_id nuts_id
-order nuts0_id  nuts2_id nuts3_id nuts_id date
+order country nuts0_id  nuts2_id nuts3_id nuts_id date population cases cases_daily cases_pop cases_daily_pop
 sort  nuts0_id  nuts_id date
 
 compress
@@ -197,10 +204,27 @@ export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv",
 **** data summary graphs below. Can mark this out
 
 
-graph set window fontface "Arial Narrow"
 
 use "EUROPE_COVID19_master.dta", clear
 
+format date %tdDD-Mon-YY
+set scheme white_w3d, perm
+graph set window fontface "Arial Narrow"
+
+
+// scatter of nuts date combinations
+
+twoway ///
+	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 60, mcolor(black%10) msize(*0.4) msymbol(smcircle) mlwidth(vvthin)), ///
+		xtitle("") xlabel(#17, labsize(vsmall) angle(vertical))
+		
+	graph export "../05_figures/range_newcasepop.png", replace wid(3000)
+    graph export "../05_figures/range_newcasepop.pdf", replace
+
+* title("{fontface Arial Bold: Regional distribution of daily cases}")
+
+
+// scatter of data range
 
 gen first = .
 gen last = .
@@ -223,7 +247,8 @@ gen 	range = 1
 
 encode country, gen(nuts0)
 
-format date %tdDD-Mon-YY
+
+
 
 twoway ///
 	(scatter nuts0 date, mcolor(black%50) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)), ///
@@ -233,15 +258,12 @@ twoway ///
 			xlabel(#17, labsize(vsmall) angle(vertical)) 
 	graph export "../05_figures/range_date.png", replace wid(3000)
     graph export "../05_figures/range_date.pdf", replace
+
+	
 * title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")
 
-twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop < 30, mcolor(black%50) msize(*0.4) msymbol(smcircle) mlwidth(vvthin)), ///
-		xtitle("") xlabel(#17, labsize(vsmall) angle(vertical))
-		
-	graph export "../05_figures/range_newcasepop.png", replace wid(3000)
-    graph export "../05_figures/range_newcasepop.pdf", replace
-* title("{fontface Arial Bold: Regional distribution of daily cases}")
+
+
 	
 	
 /*
@@ -252,4 +274,18 @@ twoway ///
 		title("{fontface Arial Bold: Regional distribution of daily cases}")
 	graph export "../05 figures/range_newcasepop2.png", replace wid(3000)
 
+*/
+
+/*
+
+local lines
+levelsof nuts_id, local(lvls)
+foreach x of local lvls {
+		local lines `lines' (line cases_daily_pop date if nuts_id=="`x'", lc(gs4%30) lw(vthin))  ||
+}
+twoway ///
+	`lines' ///
+	, ///
+		xtitle("") xlabel(#17, labsize(vsmall) angle(vertical)) legend(off)
+	
 
