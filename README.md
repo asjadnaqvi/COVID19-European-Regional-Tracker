@@ -78,7 +78,7 @@ The scatter plot of daily cases per 10k population at the NUTS level:
 
 
 <details>
-  <summary>Data sources here </summary>
+  <summary>Data sources </summary>
 
 | Country | Code  | Official institution | Data source |
 | --- |  --- |  --- |  --- | 
