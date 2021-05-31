@@ -107,10 +107,10 @@ uncertainty_upper: Den estimerede øvre grænse, når der tages højde for usikk
 ------------------------------------------------------
 
 Fil 10: Test_pos_over_time: 
-Tabellen indeholder kun personer testet ved pcr-test. 
+Tabellen indeholder kun personer testet ved PCR-test. 
 Denne tabel fokuserer på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag. I denne fil indgår udelukkende personer testet med PCR-test.
 
-Dette er modsat dashboardet (www.ssi.dk/covid19data), hvor positiveprocenten beregnes over en uge, med antal personer som er testet positive seneste ni dage over antallet af personer testet seneste ni dage, hvor ni dage er anvendt på grund af manglende observationer de seneste tre dage.
+Dette er modsat dashboardet (www.ssi.dk/covid19data), hvor positivprocenten beregnes over en uge, med antal personer som er testet positive seneste ni dage over antallet af personer testet seneste ni dage, hvor ni dage er anvendt på grund af manglende observationer de seneste tre dage.
 
 Date: Datoer i formatet YYYY-MM-DD som der stratificeres efter.
 NewPositive: Antallet af personer, som for første gang er testet positive for covid-19, på en given dag.
@@ -126,9 +126,9 @@ Noter: I den sidste række (Antal personer) er den totale opgørelse opgjort så
 
 Fil 11: Test_pos_over_time_antigen: 
 Denne tabel indeholder - i modsætning til test_pos_over_time - kun personer testet ved antigen-test.
-Denne tabel fokuserer på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag. I denne fil indgår udelukkende personer testet med PCR-test.
+Denne tabel fokuserer ligeledes på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag. I denne fil indgår udelukkende personer testet med antigen-test.
 
-Dette er modsat dashboardet (www.ssi.dk/covid19data), hvor positiveprocenten beregnes over en uge, med antal personer som er testet positive seneste ni dage over antallet af personer testet seneste ni dage, hvor ni dage er anvendt på grund af manglende observationer de seneste tre dage.
+Dette er modsat dashboardet (www.ssi.dk/covid19data), hvor positivprocenten beregnes over en uge, med antal personer som er testet positive seneste ni dage over antallet af personer testet seneste ni dage, hvor ni dage er anvendt på grund af manglende observationer de seneste tre dage.
 
 Date: Datoer i formatet YYYY-MM-DD som der stratificeres efter.
 NewPositive: Antallet af personer, som for første gang er testet positive for covid-19, på en given dag.
@@ -158,7 +158,7 @@ Kumulativ_total: Det kumulerede antal tests gennemført på en given dag eller u
 
 ------------------------------------------------------
 
-Fil 13: Antigentests_pr_dag 
+Fil 13: Antigentests_pr_dag: 
 
 Dette er en opgørelse af antallet af antigentests per dag. Personer med flere antigentests på en dag vil kun tælles en gang per dag. Et positivt svar vil vægtes højere end et negativt svar, og et negativt svar vil vægtes højere end intet svar. 
 Derudover opgøres hvor mange personer, som er blevet testet med PCR-test på samme dag eller dagen efter antigen-test. 
@@ -176,3 +176,18 @@ AGpos_PCRpos				: Antal positive antigentests hvor PCR-test også var positiv
 AGposPCRneg 				: Antal positive antigentests hvor PCR-test var negativ
 AGnegPCRpos				: Antal negative antigentests hvor PCR-test var positiv
 AGnegPCRneg				: Antal negative antigentests hvor PCR-test også var negativ
+
+------------------------------------------------------
+
+Fil 14: plejehjem_ugeoversigt:
+
+OBS: Kommer kun ud om tirsdagen. 
+Denne fil indeholder en opgørelse over covid-19-tests og -tilfælde på danske plejehjem pr. uge siden uge 11 2020. Dette er dataen bag figur 7.1, som dog kun indeholder de seneste fem uger. 
+
+År: Årstal, der stratificeres efter.
+Uge: Uge, der stratificeres efter. 
+Bekræftede tilfælde beboere: Antal beboere på plejehjem, som er testet positiv for covid-19 med en PCR test inden for den givne uge. Alle personer tæller kun med med deres første positive test.
+Dødsfald blandt bekræftede beboere: Antal beboere på plejehjem, som er døde i den givne uge, hvis det er inden for 30 dage, efter at de er testet positiv for covid-19 med en PCR-test for første gang. 
+Plejehjem med bekræftede beboere: Antal plejehjem, hvor mindst én beboer er testet positiv for covid-19 med en PCR-test inden for den givne uge. Igen tæller kun beboernes første positive test.
+Testede beboere: Antal PCR-tests for covid-19 udført på beboere på plejehjem inden for den givne uge. Hver beboer kan tælle med flere gange. Beboere, som tidligere er testet positive, tæller fortsat med, hvis de bliver testet igen senere (uafhængigt af resultat).
+Plejehjem med testede beboere: Antal plejehjem, hvor mindst én beboer er blevet PCR-testet for covid-19 inden for den givne uge.

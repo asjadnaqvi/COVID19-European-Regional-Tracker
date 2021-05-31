@@ -216,10 +216,10 @@ graph set window fontface "Arial Narrow"
 
 twoway ///
 	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 60, mcolor(black%10) msize(*0.4) msymbol(smcircle) mlwidth(vvthin)), ///
-		xtitle("") xlabel(#17, labsize(vsmall) angle(vertical))
+		xtitle("") xlabel(#18, labsize(vsmall) angle(vertical))
 		
 	graph export "../05_figures/range_newcasepop.png", replace wid(3000)
-    graph export "../05_figures/range_newcasepop.pdf", replace
+    *graph export "../05_figures/range_newcasepop.pdf", replace
 
 * title("{fontface Arial Bold: Regional distribution of daily cases}")
 
@@ -255,9 +255,9 @@ twoway ///
 		ytitle("") yscale(noline) ///
 		ylabel(1(1)26, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
-			xlabel(#17, labsize(vsmall) angle(vertical)) 
+			xlabel(#18, labsize(vsmall) angle(vertical)) 
 	graph export "../05_figures/range_date.png", replace wid(3000)
-    graph export "../05_figures/range_date.pdf", replace
+    *graph export "../05_figures/range_date.pdf", replace
 
 	
 * title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")

@@ -29,7 +29,6 @@ save UK_regions.dta, replace
 *insheet using "https://raw.githubusercontent.com/odileeds/covid-19-uk-datasets/master/data/england-cases.csv", clear n
 
 // using the last stable commit from 25th April 2021 downloaded manually
-
 insheet using england-cases_25April2021.csv, clear
 
 save "$coviddir/04_master/england_data_original.dta", replace
