@@ -79,7 +79,8 @@ recode change14			(0=.)
 recode change14_abs		(0=.)
 recode change14_abs_pop	(0=.)
 
-replace last = . if nuts0_id=="PT"
+replace last = . if nuts0_id=="PT"  
+replace last = . if country=="England (UK)" 
 
 
 format cases_daily		%9.0f
@@ -183,7 +184,7 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 
 
 replace change14 = . if change14==0
-replace change14 = . if nuts0_id=="PT"
+replace change14 = . if nuts0_id=="PT" | 
 
 format change14 	%9.2f		
 		
@@ -234,6 +235,7 @@ id(_ID) cln(14)  clm(k)    fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)
 
 replace change14_abs = . if change14_abs==0
 replace change14_abs = . if nuts0_id=="PT"
+replace change14_abs = . if country=="England (UK)"
 
 format change14_abs_pop 	%9.0f		
 		
@@ -243,7 +245,7 @@ colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 
 local colors `r(p)'
 
-spmap change14_abs using "nuts3_mix_shp.dta" if last==1 & country!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14_abs using "nuts3_mix_shp.dta" if last==1 & nuts0_id!="PT" | country!="England (UK)", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs2 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -305,7 +307,7 @@ display "`x'"
 					*label(data("nuts_label_`x'") x(_CX) y(_CY) label(nuts_name) size(*0.5 ..) length(30)) ///	
 
 
-levelsof nuts0_id if nuts0_id!="PT", local(cntry)
+levelsof nuts0_id if nuts0_id!="PT" , local(cntry)
 
 foreach x of local cntry {
 
@@ -313,7 +315,7 @@ display "`x'"
 
 	preserve
 	
-		keep if nuts0_id=="`x'"
+		keep if nuts0_id=="`x'" & country!="England (UK)"
 		sort _ID
 
 		summ date

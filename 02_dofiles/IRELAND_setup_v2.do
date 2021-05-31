@@ -37,17 +37,15 @@ destring year month day, replace
 drop date
 gen date = mdy(month,day, year)
 drop year month day
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 
 
 
 ren confirmedcovidcases cases
 ren populationcensus16 population
-
 drop confirmedcoviddeaths confirmedcovidrecovered
 
-sort county date
-bysort county: gen cases_daily = cases - cases[_n-1]
+
 
 
 gen nuts3_id=""
@@ -81,12 +79,28 @@ replace nuts3_id="IE063" if county=="Offaly"
 replace nuts3_id="IE063" if county=="Laois"
 
 
+
+
 order date county nuts3_id 
 
 
 
 
-collapse (sum) cases cases_daily, by(nuts3_id date)
+collapse (sum) cases, by(nuts3_id date)
+
+
+sort nuts3_id date
+bysort nuts3_id: gen check = date - date[_n-1]
+
+tab check
+
+sort nuts3_id date
+bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
+
+drop check
+
+sum date
+drop if date >= `r(max)' - 2
 
 
 compress
