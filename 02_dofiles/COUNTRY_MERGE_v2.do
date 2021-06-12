@@ -92,13 +92,9 @@ drop _m
 
 
 drop if date==.
-drop if date<21915  // 1st Jan 2020
+drop if date<21915  //  1st Jan 2020
 drop if date<21929  // 15th Jan 2020
 
-
-
-***** here are genuine negative values here
-*replace cases_daily = 0 if cases_daily < 0  	// taking this code out from the early days of the tracker
 
 gen flag = 1 if cases_daily < 0
 
@@ -109,14 +105,7 @@ lab val flag flag
 gen cases_daily_pop = (cases_daily / pop) * 10000  	// new cases / 10k population
 
 
-
-
-
-
-
-
-
-**** generate back cumulative cases
+**** generate back cumulative cases missing for countries
 gen temp = 1 if cases==.
 gen cases2 = .
 
@@ -129,9 +118,6 @@ foreach x of local dts {
 
 replace cases = cases2 if cases==. & cases2!=.
 drop cases2 temp
-
-
-
 
 
 gen country = ""
@@ -160,8 +146,8 @@ gen country = ""
 	replace country = "Sweden" 				if nuts0_id=="SE"
 	replace country = "Switzerland" 		if nuts0_id=="CH"
 	
-	replace country = "England (UK)" 			if ctry=="England"
-	replace country = "Scotland (UK)" 			if ctry=="Scotland"
+	replace country = "England (UK)" 		if ctry=="England"
+	replace country = "Scotland (UK)" 		if ctry=="Scotland"
 
 
 
@@ -192,6 +178,8 @@ lab var flag 			"Flagged observations"
 order country nuts0_id  nuts2_id nuts3_id nuts_id date population cases cases_daily cases_pop cases_daily_pop
 sort  nuts0_id  nuts_id date
 
+
+// save final data file
 compress
 save "EUROPE_COVID19_master.dta", replace
 export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv", replace delim(;)
@@ -200,9 +188,7 @@ export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv",
 
 
 
-
-**** data summary graphs below. Can mark this out
-
+**** data summary graphs below. Can be marked out
 
 
 use "EUROPE_COVID19_master.dta", clear
@@ -222,12 +208,12 @@ twoway ///
 		note("Few observations over 40 cases per 10k population have been removed from the figure for visibility", size(vsmall))
 		
 	graph export "../05_figures/range_newcasepop.png", replace wid(2000)
-    *graph export "../05_figures/range_newcasepop.pdf", replace
+    
+	*graph export "../05_figures/range_newcasepop.pdf", replace
+	* title("{fontface Arial Bold: Regional distribution of daily cases}")
 
-* title("{fontface Arial Bold: Regional distribution of daily cases}")
 
-
-// scatter of data range
+// Data range
 
 gen first = .
 gen last = .
@@ -260,35 +246,11 @@ twoway ///
 			xtitle("") ///
 			xlabel(#18, labsize(vsmall) angle(vertical)) 
 	graph export "../05_figures/range_date.png", replace wid(2000)
-    *graph export "../05_figures/range_date.pdf", replace
-
-	
-* title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")
-
+    
+	*graph export "../05_figures/range_date.pdf", replace
+	* title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")
 
 
-	
-	
-/*
-twoway ///
-	(scatter cases_daily_pop date, mcolor(black%80) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)) ///
-		if cases_daily_pop < 25, ///
-		xtitle("") ///
-		title("{fontface Arial Bold: Regional distribution of daily cases}")
-	graph export "../05 figures/range_newcasepop2.png", replace wid(3000)
 
-*/
 
-/*
-
-local lines
-levelsof nuts_id, local(lvls)
-foreach x of local lvls {
-		local lines `lines' (line cases_daily_pop date if nuts_id=="`x'", lc(gs4%30) lw(vthin))  ||
-}
-twoway ///
-	`lines' ///
-	, ///
-		xtitle("") xlabel(#17, labsize(vsmall) angle(vertical)) legend(off)
-	
 
