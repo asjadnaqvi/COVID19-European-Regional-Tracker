@@ -58,7 +58,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 | Spain | ES  | Agrupación de comunidades autónomas (7) | Comunidades y ciudades Autónomas (19) | **Provincias + islas + Ceuta, Melilla (59)** | Municipios (8131) | 
 | Sweden | SE | Grupper av riksområden (3) | Riksområden (8) | **Län (21)** | Kommuner (290) |
 | Switzerland | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
-| United Kingdom | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | **Lower Authority Districts (LADs) (317)** | 
+| United Kingdom | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | **Lower Authority Districts (LADs/LTLAs) (315)** | 
 
 Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same administrative regions. UK is treated as four separate countries. For the UK, daily regional data is available for England and Scotland.
 
@@ -107,7 +107,7 @@ The scatter plot of daily cases per 10k population at the NUTS level:
 | Sweden | SE | [The Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/)  | [Link](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/)  | 
 | Switzerland | CH  | [Bundesamt für Gesundheit](https://www.bag.admin.ch/bag/de/home.html) | [Link](https://github.com/covid19-eu-zh/covid19-eu-data)  | 
 | United Kingdom | UK  | [The UK Government](https://coronavirus.data.gov.uk/)   |    |   
-| England |   | [National Health Service (NHS)](https://www.england.nhs.uk/coronavirus/)   | [Link](https://github.com/odileeds/covid-19-uk-datasets)   |    
+| England |   | [National Health Service (NHS)](https://www.england.nhs.uk/coronavirus/)   | [Link](https://coronavirus.data.gov.uk/details/download)   |    
 | North Ireland |  | [Department of Health North Ireland](https://www.health-ni.gov.uk/coronavirus)  |   | 
 | Scotland |   | [The Scottish Government](https://www.gov.scot/coronavirus-covid-19/)  | [Link](https://public.tableau.com/profile/phs.covid.19#!/vizhome/COVID-19DailyDashboard_15960160643010/Overview)   |   
 | Wales |   |  [The Welsh Government](https://www.gov.scot/coronavirus-covid-19/)  |    |   
@@ -157,7 +157,8 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 # Change Logs
-* 31 May 2021: All countries updated. Minor fixes to Ireland's dofile. England's data from ODI Leeds is no longer being updated regularly and is also no longer available at only the NUTS3 level. For this update, England's data is still the old version from April. One option to deal with this is to replace England data with the official ONS information but it is a mixed NUTS2/NUTS3 domain since ULTAs vary in size. This means that either all the old data is back-corrected using the official data, or, a separate version is created with the new data. Both options will provide some challenges from an end-user perspective. I will decide on this in the coming weeks but please reach out if you have a preference!
+* 12 Jun 2021: England data source changed to the offical ONS data at the LTLA level which maps to NUTS 3. Since the raw files are very large the original version has been removed from the directories. Please see the dofiles for the links. All countries updated. This will be the official May/June 2021 release version.
+* 31 May 2021: All countries updated. Minor fixes to Ireland's dofile. England's data from ODI Leeds is no longer being updated regularly. For this update, England's data is still the old version from April. One option is to replace England data with the official ONS information but its mapping to NUTS2/NUTS3 needs to be checked.
 * 18 May 2021: Negative change in daily cases were being dropped in the master file. These have been added back in. It is up to the users to decide on how to deal with them. Negative changes in daily cases exist in the raw files and are mostly likely corrections to the data. A flag variable has been added to the master file which equals 1 if the daily_cases variable is negative. These are 0.18% of the data at the time of this update. Other minor fixes include dropping redundant variables and ordering the columns. The scatter plot for daily NUTS cases per 10k population now shows the complete data series.
 * 13 May 2021: Fixed Poland's (PL) repository. The underlying data structure changed for the files were not compiling correctly. Switzerland's (CH) data file had missing data points wrongly showing up as 0 cases. These have been fixed.
 * 01 May 2021: All files updated for the May release. Minor errors fixed in dofiles. Population file has been updated to include 2020 regional population data. For the UK 2019 values are used since regional information no longer exists in the Eurostat database due to Brexit.

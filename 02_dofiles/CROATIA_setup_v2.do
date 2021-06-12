@@ -155,7 +155,6 @@ tab check
 sort nuts3_id date
 bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
 bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1] if check==1
-
 drop check
 
 compress

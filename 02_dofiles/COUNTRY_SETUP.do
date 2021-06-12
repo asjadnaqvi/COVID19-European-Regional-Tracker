@@ -1,6 +1,4 @@
 clear
-
-
 /// set this to your path directory:
 global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
@@ -21,18 +19,14 @@ global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 cd "$coviddir"
 
-
-
-
 **** run all the country dofiles:
-
 
 do "./02_dofiles/AUSTRIA_setup_v1.do"
 do "./02_dofiles/BELGIUM_setup_v4.do"
 do "./02_dofiles/CROATIA_setup_v2.do"
 do "./02_dofiles/CZECHIA_setup_v2.do"
 do "./02_dofiles/DENMARK_setup_v1.do" 	  	// manual update   
-do "./02_dofiles/ENGLAND_setup_v2.do"		
+do "./02_dofiles/ENGLAND_setup_v3.do"		
 do "./02_dofiles/ESTONIA_setup_v1.do"
 do "./02_dofiles/FINLAND_setup_v1.do"			
 do "./02_dofiles/FRANCE_setup_v1.do"  	  	// manual update		
@@ -56,4 +50,4 @@ do "./02_dofiles/SWITZERLAND_setup_v1.do"
 
 
 
-
+****< END OF FILE: run the COUNTRY_MERGE_v2.do file next >****

@@ -47,17 +47,17 @@ gen change14_abs_pop = .
 
 sort nuts_id date
 
-levelsof nuts_id, local(lvls)
+levelsof country, local(lvls)
 foreach x of local lvls {
 
 	display "`x'"
 	
-	qui summ date if nuts_id=="`x'" & cases_daily!=.
+	qui summ date if country=="`x'" & cases_daily!=.
 	local last   = `r(max)'
 
 	
 	
-	qui replace last   = 1 if date==`r(max)' & nuts_id=="`x'"
+	qui replace last   = 1 if date==`r(max)' & country=="`x'"
 	
 	qui replace change14 = ((cases - cases[_n-14]) / cases[_n-14]) * 100  // %change change in cases
 	qui replace change14_abs_pop = ((cases - cases[_n-14]) * 10000) / pop         // absolute change in cases per pop
@@ -80,7 +80,7 @@ recode change14_abs		(0=.)
 recode change14_abs_pop	(0=.)
 
 replace last = . if nuts0_id=="PT"  
-replace last = . if country=="England (UK)" 
+*replace last = . if country=="England (UK)" 
 
 
 format cases_daily		%9.0f
@@ -106,10 +106,10 @@ display "`ldate'"
 colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap cases_daily using "nuts3_mix_shp.dta" if last==1 , ///  // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap cases_daily using "nuts3_mix_shp.dta" if last==1  & nuts0_id!="PT", ///  // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(15)  fcolor("`colors'")  /// 
 	ocolor(gs6 ..) osize(vvthin ..) ///
-	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases on the last reported date") ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
 		title("{fontface Arial Bold: COVID-19 new cases (`ldate')}", size(2.5)) ///
@@ -128,10 +128,10 @@ id(_ID) cln(15)  fcolor("`colors'")  ///
 colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1  & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 	ocolor(gs6 ..) osize(vvthin ..) ///
-	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
 		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(2.5)) ///
@@ -146,10 +146,10 @@ id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 colorpalette viridis, ipolate(15, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap cases using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap cases using "nuts3_mix_shp.dta" if last==1  & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs6 ..) osize(vvthin ..) ///
-	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
 		title("{fontface Arial Bold: COVID-19 cumulative cases (15 Jan 20 - `ldate')}", size(2.5)) ///
@@ -167,10 +167,10 @@ format cases_pop 	%9.0f
 colorpalette viridis, ipolate(15, power(1.2)) reverse nograph
 local colors `r(p)'
 
-spmap cases_pop using "nuts3_mix_shp.dta" if last==1 , /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap cases_pop using "nuts3_mix_shp.dta" if last==1 & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs6 ..) osize(vvthin ..) ///
-	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases/missing data") ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
 		title("{fontface Arial Bold: COVID-19 cumulative cases per 10,000 pop (15 Jan 20 - `ldate')}", size(2.5)) ///
@@ -184,7 +184,8 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 
 
 replace change14 = . if change14==0
-replace change14 = . if nuts0_id=="PT" | 
+replace change14 = . if nuts0_id=="PT"
+*replace change14 = . if country=="England (UK)"
 
 format change14 	%9.2f		
 		
@@ -192,7 +193,7 @@ colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 
 local colors `r(p)'
 
-spmap change14 using "nuts3_mix_shp.dta" if last==1 & country!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14 using "nuts3_mix_shp.dta" if last==1 &  nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -210,6 +211,7 @@ id(_ID) cln(14) clm(k)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 
 replace change14_abs_pop = . if change14==0
 replace change14_abs_pop = . if nuts0_id=="PT"
+*replace change14_abs_pop = . if country=="England (UK)"
 
 format change14_abs_pop 	%9.0f		
 		
@@ -217,7 +219,7 @@ format change14_abs_pop 	%9.0f
 colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap change14_abs_pop using "nuts3_mix_shp.dta" if last==1 & country!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14_abs_pop using "nuts3_mix_shp.dta" if last==1 &  nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14)  clm(k)    fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs2 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -235,7 +237,7 @@ id(_ID) cln(14)  clm(k)    fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)
 
 replace change14_abs = . if change14_abs==0
 replace change14_abs = . if nuts0_id=="PT"
-replace change14_abs = . if country=="England (UK)"
+*replace change14_abs = . if country=="England (UK)"
 
 format change14_abs_pop 	%9.0f		
 		
@@ -245,7 +247,7 @@ colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 
 local colors `r(p)'
 
-spmap change14_abs using "nuts3_mix_shp.dta" if last==1 & nuts0_id!="PT" | country!="England (UK)", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14_abs using "nuts3_mix_shp.dta" if last==1 & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs2 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -315,7 +317,7 @@ display "`x'"
 
 	preserve
 	
-		keep if nuts0_id=="`x'" & country!="England (UK)"
+		keep if nuts0_id=="`x'"
 		sort _ID
 
 		summ date
@@ -345,15 +347,8 @@ display "`x'"
 
 
 
-
-*label(data("nuts_label_`x'") x(_CX) y(_CY) label(nuts_name) size(1.4 ..) length(30)) ///
-
 ****** END OF FILE ******
 	
-	
-	
-	
-
 	
 	
 		

@@ -53,7 +53,7 @@ destring year month day, replace
 drop date
 gen date = mdy(month,day, year)
 drop year month day
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 
 destring _all, replace
 
@@ -79,6 +79,18 @@ order nuts3_id date
 
 ren cases cases_daily
 collapse (sum) cases_daily, by(nuts3_id date)
+
+gen cases = .
+
+levelsof date, local(dts)
+foreach x of local dts {
+	bysort nuts3_id: egen temp= sum(cases_daily) if date <= `x'
+	qui cap replace cases = temp	if date == `x'
+	qui drop temp
+}
+
+
+
 
 sort  nuts3_id date
 order nuts3_id date

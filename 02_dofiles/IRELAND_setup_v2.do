@@ -100,7 +100,7 @@ bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
 drop check
 
 sum date
-drop if date >= `r(max)' - 2
+drop if date >= `r(max)'
 
 
 compress

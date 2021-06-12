@@ -39,15 +39,13 @@ tab departement if _m==1
 drop if _m==1
 drop _m
 
-gen year  = substr(date, 1, 4)
-gen month = substr(date, 6, 2)
-gen day   = substr(date, 9, 2)
 
-destring year month day, replace
-drop date
-gen date = mdy(month,day, year)
-drop year month day
-format date %tdDD-Mon-yyyy
+ren date date2
+gen date = date(date2, "YMD")
+format date %tdDD-Mon-yy
+drop date2
+
+
 
 ren nb_pos  cases_daily
 ren nb_test tested
@@ -63,7 +61,7 @@ save "france_data_old.dta", replace
 *** raw data from here
 *https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/
 
-insheet using "sp-pos-quot-dep-2021-05-29-19h05.csv", clear delim(;)
+insheet using "sp-pos-quot-dep-2021-06-11-19h09.csv", clear delim(;)
 save "$coviddir/04_master/france_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/france_data_original.csv", replace delim(;)
 
@@ -85,15 +83,11 @@ drop _m
 
 *ren NUTS nuts3_id
 
-gen year  = substr(date, 1, 4)
-gen month = substr(date, 6, 2)
-gen day   = substr(date, 9, 2)
+ren date date2
+gen date = date(date2, "YMD")
+format date %tdDD-Mon-yy
+drop date2
 
-destring year month day, replace
-drop date
-gen date = mdy(month,day, year)
-drop year month day
-format date %tdDD-Mon-yyyy
 
 ren p cases_daily
 ren t tested

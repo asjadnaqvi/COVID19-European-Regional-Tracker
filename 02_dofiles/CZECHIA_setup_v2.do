@@ -28,12 +28,12 @@ format date %tdDD-Mon-yyyy
 
 ren kumulativni_pocet_nakazenych 	cases
 ren kumulativni_pocet_vylecenych 	recovered
-ren kumulativni_pocet_umrti 		dead
+ren kumulativni_pocet_umrti 		deaths
 ren kraj_nuts_kod 					nuts3_id
 ren okres_lau_kod					lau_id
 
 
-collapse (sum) cases recovered dead, by(nuts3_id date)
+collapse (sum) cases recovered deaths, by(nuts3_id date)
 
 order nuts3_id  date 
 sort nuts3_id date 
@@ -48,7 +48,8 @@ tab check
 
 
 bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
-
+bysort nuts3_id: gen deaths_daily = deaths - deaths[_n-1] if check==1
+drop check
 
 
 compress

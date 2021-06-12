@@ -25,16 +25,12 @@ ren communeehak lau_id
 ren statisticsdate date
 sort date
 
-gen year  = substr(date, 1, 4)
-gen month = substr(date, 6, 2)
-gen day   = substr(date, 9, 2)
 
-destring year month day, replace
-drop date
-gen date = mdy(month,day, year)
-drop year month day
-format date %tdDD-Mon-yyyy
-order date
+ren date date2
+gen date = date(date2, "YMD")
+format date %tdDD-Mon-yy
+drop date2
+
 
 
 // minor cleaning due to renaming of LAUs

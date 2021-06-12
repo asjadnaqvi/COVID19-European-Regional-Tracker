@@ -215,10 +215,13 @@ graph set window fontface "Arial Narrow"
 // scatter of nuts date combinations
 
 twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 60, mcolor(black%10) msize(*0.4) msymbol(smcircle) mlwidth(vvthin)), ///
-		xtitle("") xlabel(#18, labsize(vsmall) angle(vertical))
+	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 40, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
+	, ///
+	legend(off) ///
+		xtitle("") xlabel(#18, labsize(vsmall) angle(vertical)) ///
+		note("Few observations over 40 cases per 10k population have been removed from the figure for visibility", size(vsmall))
 		
-	graph export "../05_figures/range_newcasepop.png", replace wid(3000)
+	graph export "../05_figures/range_newcasepop.png", replace wid(2000)
     *graph export "../05_figures/range_newcasepop.pdf", replace
 
 * title("{fontface Arial Bold: Regional distribution of daily cases}")
@@ -256,7 +259,7 @@ twoway ///
 		ylabel(1(1)26, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
 			xlabel(#18, labsize(vsmall) angle(vertical)) 
-	graph export "../05_figures/range_date.png", replace wid(3000)
+	graph export "../05_figures/range_date.png", replace wid(2000)
     *graph export "../05_figures/range_date.pdf", replace
 
 	

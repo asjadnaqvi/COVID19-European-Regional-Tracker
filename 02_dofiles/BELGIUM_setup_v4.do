@@ -6,6 +6,7 @@ cd "$coviddir/01_raw/Belgium"
 
 
 ***** LAU 1
+/*
 import excel using "LAU1.xlsx", first clear
 ren NUTS3CODE nuts3
 ren LAUCODE lau
@@ -15,16 +16,15 @@ ren TOTALAREAm2 area_m2
 drop area_m2
 compress
 save lau_belgium.dta, replace
+*/
 
 
+***** Data from website: cases
 
-***** excel data from website
 
 insheet using "https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI.csv", clear
 save "$coviddir/04_master/belgium_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/belgium_data_original.csv", replace delim(;)
-
-
 
 
 foreach x of varlist _all {
@@ -33,9 +33,6 @@ ren `x' `header'
 }
 
 drop in 1
-
-*save belgium_raw.dta, replace
-*export delimited using belgium_raw.csv, replace delim(;)
 
 
 
@@ -65,7 +62,7 @@ replace province = trim(subinstr(province, "Provincie" , "", .))
 
 ren date date2
 gen date = date(date2, "YMD")
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 drop date2
 
 order date lau
@@ -109,14 +106,21 @@ drop _m
 ren nuts3 nuts3_id
 
 
-
-
-
 collapse (sum) cases_daily population, by(date nuts3_id)
 
 
-order nuts3_id date
-sort nuts3_id date
+gen cases = .
+
+levelsof date, local(dts)
+foreach x of local dts {
+	bysort nuts3_id: egen temp= sum(cases_daily) if date <= `x'
+	qui cap replace cases = temp	if date == `x'
+	qui drop temp
+}
+
+
+order nuts3_id date cases cases_daily
+sort nuts3_id date  
 
 summ date
 drop if date==`r(max)'

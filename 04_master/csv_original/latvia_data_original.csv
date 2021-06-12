@@ -52331,7 +52331,7 @@ v1;v2;v3;v4;v5;v6
 2021.05.29.;Amatas novads;0424701;300;…;13
 2021.05.29.;Apes novads;0360800;233;…;10
 2021.05.29.;Auces novads;0460800;238;…;11
-2021.05.29.;Ādažu novads;0804400;1266;…;67
+2021.05.29.;Ādažu novads;0804400;1265;…;66
 2021.05.29.;Babītes novads;0804900;726;…;33
 2021.05.29.;Baldones novads;0800600;328;…;12
 2021.05.29.;Baltinavas novads;0384400;33;…;no 1 līdz 5
@@ -52374,7 +52374,7 @@ v1;v2;v3;v4;v5;v6
 2021.05.29.;Krāslavas novads;0600202;1304;…;34
 2021.05.29.;Krimuldas novads;0806900;218;…;9
 2021.05.29.;Krustpils novads;0566900;489;…;13
-2021.05.29.;Kuldīgas novads;0620200;957;…;54
+2021.05.29.;Kuldīgas novads;0620200;956;…;53
 2021.05.29.;Ķeguma novads;0741001;306;…;19
 2021.05.29.;Ķekavas novads;0800800;1775;…;45
 2021.05.29.;Lielvārdes novads;0741401;534;…;43
@@ -52440,3 +52440,1563 @@ v1;v2;v3;v4;v5;v6
 2021.05.29.;Viļakas novads;0381600;423;…;no 1 līdz 5
 2021.05.29.;Viļānu novads;0781800;465;…;24
 2021.05.29.;Zilupes novads;0681801;213;…;20
+2021.05.30.;Adrese nav norādīta;Nav;…;…;…
+2021.05.30.;Aglonas novads;0604300;406;…;no 1 līdz 5
+2021.05.30.;Aizkraukles novads;0320200;481;…;36
+2021.05.30.;Aizputes novads;0640600;359;…;no 1 līdz 5
+2021.05.30.;Aknīstes novads;0560800;457;…;0
+2021.05.30.;Alojas novads;0661000;208;…;no 1 līdz 5
+2021.05.30.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.05.30.;Alūksnes novads;0360200;1173;…;65
+2021.05.30.;Amatas novads;0424701;300;…;12
+2021.05.30.;Apes novads;0360800;234;…;11
+2021.05.30.;Auces novads;0460800;238;…;8
+2021.05.30.;Ādažu novads;0804400;1265;…;60
+2021.05.30.;Babītes novads;0804900;726;…;30
+2021.05.30.;Baldones novads;0800600;328;…;11
+2021.05.30.;Baltinavas novads;0384400;33;…;no 1 līdz 5
+2021.05.30.;Balvu novads;0380200;1232;…;34
+2021.05.30.;Bauskas novads;0400200;1310;…;57
+2021.05.30.;Beverīnas novads;0964700;127;…;no 1 līdz 5
+2021.05.30.;Brocēnu novads;0840601;285;…;9
+2021.05.30.;Burtnieku novads;0967101;229;…;11
+2021.05.30.;Carnikavas novads;0805200;591;…;35
+2021.05.30.;Cesvaines novads;0700800;110;…;17
+2021.05.30.;Cēsu novads;0420200;710;…;38
+2021.05.30.;Ciblas novads;0684901;156;…;no 1 līdz 5
+2021.05.30.;Dagdas novads;0601000;405;…;13
+2021.05.30.;Daugavpils;0050000;9259;…;198
+2021.05.30.;Daugavpils novads;0440200;1632;…;35
+2021.05.30.;Dobeles novads;0460200;1174;…;51
+2021.05.30.;Dundagas novads;0885100;149;…;no 1 līdz 5
+2021.05.30.;Durbes novads;0640801;88;…;no 1 līdz 5
+2021.05.30.;Engures novads;0905100;635;…;19
+2021.05.30.;Ērgļu novads;0705500;86;…;no 1 līdz 5
+2021.05.30.;Garkalnes novads;0806000;670;…;18
+2021.05.30.;Grobiņas novads;0641000;398;…;8
+2021.05.30.;Gulbenes novads;0500200;1692;…;34
+2021.05.30.;Iecavas novads;0406400;653;…;35
+2021.05.30.;Ikšķiles novads;0740600;546;…;25
+2021.05.30.;Ilūkstes novads;0440801;418;…;11
+2021.05.30.;Inčukalna novads;0801800;465;…;33
+2021.05.30.;Jaunjelgavas novads;0321000;180;…;no 1 līdz 5
+2021.05.30.;Jaunpiebalgas novads;0425700;47;…;8
+2021.05.30.;Jaunpils novads;0905700;168;…;14
+2021.05.30.;Jelgava;0090000;4774;…;171
+2021.05.30.;Jelgavas novads;0540200;1514;…;48
+2021.05.30.;Jēkabpils;0110000;1855;…;62
+2021.05.30.;Jēkabpils novads;0560200;315;…;12
+2021.05.30.;Jūrmala;0130000;3246;…;97
+2021.05.30.;Kandavas novads;0901201;219;…;11
+2021.05.30.;Kārsavas novads;0681000;316;…;19
+2021.05.30.;Kocēnu novads;0960200;222;…;6
+2021.05.30.;Kokneses novads;0326100;287;…;9
+2021.05.30.;Krāslavas novads;0600202;1308;…;36
+2021.05.30.;Krimuldas novads;0806900;218;…;9
+2021.05.30.;Krustpils novads;0566900;492;…;15
+2021.05.30.;Kuldīgas novads;0620200;956;…;48
+2021.05.30.;Ķeguma novads;0741001;306;…;19
+2021.05.30.;Ķekavas novads;0800800;1779;…;48
+2021.05.30.;Lielvārdes novads;0741401;534;…;37
+2021.05.30.;Liepāja;0170000;3157;…;128
+2021.05.30.;Limbažu novads;0660200;808;…;28
+2021.05.30.;Līgatnes novads;0421200;151;…;9
+2021.05.30.;Līvānu novads;0761201;866;…;14
+2021.05.30.;Lubānas novads;0701400;153;…;no 1 līdz 5
+2021.05.30.;Ludzas novads;0680200;1018;…;28
+2021.05.30.;Madonas novads;0700200;1212;…;54
+2021.05.30.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.05.30.;Mālpils novads;0807400;155;…;no 1 līdz 5
+2021.05.30.;Mārupes novads;0807600;1468;…;53
+2021.05.30.;Mērsraga novads;0887600;44;…;no 1 līdz 5
+2021.05.30.;Naukšēnu novads;0967300;60;…;30
+2021.05.30.;Neretas novads;0327100;168;…;0
+2021.05.30.;Nīcas novads;0647900;113;…;6
+2021.05.30.;Ogres novads;0740202;2196;…;154
+2021.05.30.;Olaines novads;0801000;1617;…;47
+2021.05.30.;Ozolnieku novads;0546701;709;…;34
+2021.05.30.;Pārgaujas novads;0427500;93;…;6
+2021.05.30.;Pāvilostas novads;0641401;56;…;no 1 līdz 5
+2021.05.30.;Pļaviņu novads;0321400;192;…;no 1 līdz 5
+2021.05.30.;Preiļu novads;0760202;965;…;51
+2021.05.30.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.05.30.;Priekuļu novads;0427300;348;…;22
+2021.05.30.;Raunas novads;0427700;149;…;7
+2021.05.30.;Rēzekne;0210000;3107;…;141
+2021.05.30.;Rēzeknes novads;0780200;1506;…;56
+2021.05.30.;Riebiņu novads;0766300;368;…;41
+2021.05.30.;Rīga;0010000;46040;…;1639
+2021.05.30.;Rojas novads;0888301;146;…;6
+2021.05.30.;Ropažu novads;0808400;627;…;16
+2021.05.30.;Rucavas novads;0648500;41;…;0
+2021.05.30.;Rugāju novads;0387500;153;…;no 1 līdz 5
+2021.05.30.;Rundāles novads;0407700;128;…;7
+2021.05.30.;Rūjienas novads;0961600;341;…;28
+2021.05.30.;Salacgrīvas novads;0661400;396;…;6
+2021.05.30.;Salas novads;0568700;191;…;no 1 līdz 5
+2021.05.30.;Salaspils novads;0801200;1737;…;54
+2021.05.30.;Saldus novads;0840200;1090;…;57
+2021.05.30.;Saulkrastu novads;0801400;403;…;31
+2021.05.30.;Sējas novads;0809200;130;…;10
+2021.05.30.;Siguldas novads;0801601;847;…;43
+2021.05.30.;Skrīveru novads;0328200;215;…;no 1 līdz 5
+2021.05.30.;Skrundas novads;0621200;199;…;16
+2021.05.30.;Smiltenes novads;0941600;621;…;42
+2021.05.30.;Stopiņu novads;0809600;849;…;35
+2021.05.30.;Strenču novads;0941800;203;…;8
+2021.05.30.;Talsu novads;0880200;1766;…;77
+2021.05.30.;Tērvetes novads;0468900;164;…;45
+2021.05.30.;Tukuma novads;0900200;1666;…;110
+2021.05.30.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.05.30.;Valkas novads;0940200;418;…;19
+2021.05.30.;Valmiera;0250000;1122;…;24
+2021.05.30.;Varakļānu novads;0701800;323;…;no 1 līdz 5
+2021.05.30.;Vārkavas novads;0769101;105;…;no 1 līdz 5
+2021.05.30.;Vecpiebalgas novads;0429300;335;…;17
+2021.05.30.;Vecumnieku novads;0409500;354;…;17
+2021.05.30.;Ventspils;0270000;1749;…;174
+2021.05.30.;Ventspils novads;0980200;376;…;23
+2021.05.30.;Viesītes novads;0561800;168;…;12
+2021.05.30.;Viļakas novads;0381600;423;…;no 1 līdz 5
+2021.05.30.;Viļānu novads;0781800;465;…;23
+2021.05.30.;Zilupes novads;0681801;213;…;20
+2021.05.31.;Adrese nav norādīta;Nav;…;…;…
+2021.05.31.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.05.31.;Aizkraukles novads;0320200;483;…;38
+2021.05.31.;Aizputes novads;0640600;359;…;no 1 līdz 5
+2021.05.31.;Aknīstes novads;0560800;457;…;0
+2021.05.31.;Alojas novads;0661000;208;…;no 1 līdz 5
+2021.05.31.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.05.31.;Alūksnes novads;0360200;1174;…;66
+2021.05.31.;Amatas novads;0424701;300;…;12
+2021.05.31.;Apes novads;0360800;234;…;10
+2021.05.31.;Auces novads;0460800;238;…;8
+2021.05.31.;Ādažu novads;0804400;1266;…;61
+2021.05.31.;Babītes novads;0804900;729;…;32
+2021.05.31.;Baldones novads;0800600;328;…;11
+2021.05.31.;Baltinavas novads;0384400;33;…;no 1 līdz 5
+2021.05.31.;Balvu novads;0380200;1232;…;33
+2021.05.31.;Bauskas novads;0400200;1310;…;57
+2021.05.31.;Beverīnas novads;0964700;127;…;no 1 līdz 5
+2021.05.31.;Brocēnu novads;0840601;285;…;9
+2021.05.31.;Burtnieku novads;0967101;229;…;10
+2021.05.31.;Carnikavas novads;0805200;591;…;35
+2021.05.31.;Cesvaines novads;0700800;110;…;17
+2021.05.31.;Cēsu novads;0420200;710;…;36
+2021.05.31.;Ciblas novads;0684901;156;…;no 1 līdz 5
+2021.05.31.;Dagdas novads;0601000;406;…;14
+2021.05.31.;Daugavpils;0050000;9263;…;202
+2021.05.31.;Daugavpils novads;0440200;1632;…;35
+2021.05.31.;Dobeles novads;0460200;1175;…;51
+2021.05.31.;Dundagas novads;0885100;149;…;no 1 līdz 5
+2021.05.31.;Durbes novads;0640801;88;…;no 1 līdz 5
+2021.05.31.;Engures novads;0905100;635;…;18
+2021.05.31.;Ērgļu novads;0705500;86;…;no 1 līdz 5
+2021.05.31.;Garkalnes novads;0806000;670;…;17
+2021.05.31.;Grobiņas novads;0641000;398;…;8
+2021.05.31.;Gulbenes novads;0500200;1693;…;35
+2021.05.31.;Iecavas novads;0406400;653;…;34
+2021.05.31.;Ikšķiles novads;0740600;546;…;24
+2021.05.31.;Ilūkstes novads;0440801;418;…;11
+2021.05.31.;Inčukalna novads;0801800;465;…;29
+2021.05.31.;Jaunjelgavas novads;0321000;180;…;no 1 līdz 5
+2021.05.31.;Jaunpiebalgas novads;0425700;49;…;10
+2021.05.31.;Jaunpils novads;0905700;168;…;14
+2021.05.31.;Jelgava;0090000;4778;…;170
+2021.05.31.;Jelgavas novads;0540200;1515;…;48
+2021.05.31.;Jēkabpils;0110000;1855;…;61
+2021.05.31.;Jēkabpils novads;0560200;315;…;12
+2021.05.31.;Jūrmala;0130000;3248;…;94
+2021.05.31.;Kandavas novads;0901201;219;…;10
+2021.05.31.;Kārsavas novads;0681000;316;…;19
+2021.05.31.;Kocēnu novads;0960200;222;…;no 1 līdz 5
+2021.05.31.;Kokneses novads;0326100;287;…;9
+2021.05.31.;Krāslavas novads;0600202;1308;…;36
+2021.05.31.;Krimuldas novads;0806900;219;…;10
+2021.05.31.;Krustpils novads;0566900;492;…;15
+2021.05.31.;Kuldīgas novads;0620200;956;…;47
+2021.05.31.;Ķeguma novads;0741001;307;…;19
+2021.05.31.;Ķekavas novads;0800800;1779;…;46
+2021.05.31.;Lielvārdes novads;0741401;535;…;37
+2021.05.31.;Liepāja;0170000;3163;…;129
+2021.05.31.;Limbažu novads;0660200;809;…;29
+2021.05.31.;Līgatnes novads;0421200;151;…;9
+2021.05.31.;Līvānu novads;0761201;866;…;14
+2021.05.31.;Lubānas novads;0701400;153;…;no 1 līdz 5
+2021.05.31.;Ludzas novads;0680200;1018;…;28
+2021.05.31.;Madonas novads;0700200;1212;…;53
+2021.05.31.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.05.31.;Mālpils novads;0807400;155;…;no 1 līdz 5
+2021.05.31.;Mārupes novads;0807600;1474;…;58
+2021.05.31.;Mērsraga novads;0887600;44;…;no 1 līdz 5
+2021.05.31.;Naukšēnu novads;0967300;60;…;30
+2021.05.31.;Neretas novads;0327100;168;…;0
+2021.05.31.;Nīcas novads;0647900;113;…;6
+2021.05.31.;Ogres novads;0740202;2200;…;152
+2021.05.31.;Olaines novads;0801000;1621;…;48
+2021.05.31.;Ozolnieku novads;0546701;709;…;32
+2021.05.31.;Pārgaujas novads;0427500;93;…;no 1 līdz 5
+2021.05.31.;Pāvilostas novads;0641401;56;…;no 1 līdz 5
+2021.05.31.;Pļaviņu novads;0321400;192;…;no 1 līdz 5
+2021.05.31.;Preiļu novads;0760202;965;…;51
+2021.05.31.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.05.31.;Priekuļu novads;0427300;348;…;21
+2021.05.31.;Raunas novads;0427700;149;…;7
+2021.05.31.;Rēzekne;0210000;3108;…;142
+2021.05.31.;Rēzeknes novads;0780200;1506;…;54
+2021.05.31.;Riebiņu novads;0766300;368;…;39
+2021.05.31.;Rīga;0010000;46079;…;1613
+2021.05.31.;Rojas novads;0888301;146;…;6
+2021.05.31.;Ropažu novads;0808400;627;…;13
+2021.05.31.;Rucavas novads;0648500;41;…;0
+2021.05.31.;Rugāju novads;0387500;153;…;no 1 līdz 5
+2021.05.31.;Rundāles novads;0407700;129;…;8
+2021.05.31.;Rūjienas novads;0961600;341;…;28
+2021.05.31.;Salacgrīvas novads;0661400;396;…;6
+2021.05.31.;Salas novads;0568700;191;…;no 1 līdz 5
+2021.05.31.;Salaspils novads;0801200;1740;…;55
+2021.05.31.;Saldus novads;0840200;1091;…;57
+2021.05.31.;Saulkrastu novads;0801400;405;…;32
+2021.05.31.;Sējas novads;0809200;130;…;10
+2021.05.31.;Siguldas novads;0801601;848;…;43
+2021.05.31.;Skrīveru novads;0328200;215;…;no 1 līdz 5
+2021.05.31.;Skrundas novads;0621200;199;…;16
+2021.05.31.;Smiltenes novads;0941600;621;…;42
+2021.05.31.;Stopiņu novads;0809600;849;…;32
+2021.05.31.;Strenču novads;0941800;203;…;8
+2021.05.31.;Talsu novads;0880200;1767;…;78
+2021.05.31.;Tērvetes novads;0468900;164;…;45
+2021.05.31.;Tukuma novads;0900200;1671;…;112
+2021.05.31.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.05.31.;Valkas novads;0940200;418;…;19
+2021.05.31.;Valmiera;0250000;1122;…;21
+2021.05.31.;Varakļānu novads;0701800;324;…;no 1 līdz 5
+2021.05.31.;Vārkavas novads;0769101;105;…;no 1 līdz 5
+2021.05.31.;Vecpiebalgas novads;0429300;337;…;18
+2021.05.31.;Vecumnieku novads;0409500;354;…;17
+2021.05.31.;Ventspils;0270000;1748;…;170
+2021.05.31.;Ventspils novads;0980200;376;…;22
+2021.05.31.;Viesītes novads;0561800;168;…;12
+2021.05.31.;Viļakas novads;0381600;423;…;no 1 līdz 5
+2021.05.31.;Viļānu novads;0781800;465;…;23
+2021.05.31.;Zilupes novads;0681801;213;…;20
+2021.06.01.;Adrese nav norādīta;Nav;…;…;…
+2021.06.01.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.01.;Aizkraukles novads;0320200;483;…;33
+2021.06.01.;Aizputes novads;0640600;360;…;no 1 līdz 5
+2021.06.01.;Aknīstes novads;0560800;457;…;0
+2021.06.01.;Alojas novads;0661000;208;…;no 1 līdz 5
+2021.06.01.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.01.;Alūksnes novads;0360200;1176;…;61
+2021.06.01.;Amatas novads;0424701;301;…;10
+2021.06.01.;Apes novads;0360800;234;…;6
+2021.06.01.;Auces novads;0460800;238;…;7
+2021.06.01.;Ādažu novads;0804400;1269;…;58
+2021.06.01.;Babītes novads;0804900;733;…;34
+2021.06.01.;Baldones novads;0800600;328;…;10
+2021.06.01.;Baltinavas novads;0384400;33;…;no 1 līdz 5
+2021.06.01.;Balvu novads;0380200;1232;…;30
+2021.06.01.;Bauskas novads;0400200;1313;…;53
+2021.06.01.;Beverīnas novads;0964700;127;…;no 1 līdz 5
+2021.06.01.;Brocēnu novads;0840601;285;…;9
+2021.06.01.;Burtnieku novads;0967101;229;…;10
+2021.06.01.;Carnikavas novads;0805200;593;…;29
+2021.06.01.;Cesvaines novads;0700800;110;…;15
+2021.06.01.;Cēsu novads;0420200;714;…;38
+2021.06.01.;Ciblas novads;0684901;156;…;no 1 līdz 5
+2021.06.01.;Dagdas novads;0601000;406;…;14
+2021.06.01.;Daugavpils;0050000;9278;…;191
+2021.06.01.;Daugavpils novads;0440200;1632;…;29
+2021.06.01.;Dobeles novads;0460200;1184;…;54
+2021.06.01.;Dundagas novads;0885100;151;…;no 1 līdz 5
+2021.06.01.;Durbes novads;0640801;89;…;no 1 līdz 5
+2021.06.01.;Engures novads;0905100;636;…;18
+2021.06.01.;Ērgļu novads;0705500;86;…;no 1 līdz 5
+2021.06.01.;Garkalnes novads;0806000;671;…;14
+2021.06.01.;Grobiņas novads;0641000;399;…;9
+2021.06.01.;Gulbenes novads;0500200;1697;…;34
+2021.06.01.;Iecavas novads;0406400;655;…;28
+2021.06.01.;Ikšķiles novads;0740600;546;…;22
+2021.06.01.;Ilūkstes novads;0440801;418;…;8
+2021.06.01.;Inčukalna novads;0801800;466;…;26
+2021.06.01.;Jaunjelgavas novads;0321000;181;…;no 1 līdz 5
+2021.06.01.;Jaunpiebalgas novads;0425700;49;…;9
+2021.06.01.;Jaunpils novads;0905700;168;…;12
+2021.06.01.;Jelgava;0090000;4788;…;153
+2021.06.01.;Jelgavas novads;0540200;1518;…;46
+2021.06.01.;Jēkabpils;0110000;1857;…;56
+2021.06.01.;Jēkabpils novads;0560200;315;…;9
+2021.06.01.;Jūrmala;0130000;3250;…;89
+2021.06.01.;Kandavas novads;0901201;219;…;10
+2021.06.01.;Kārsavas novads;0681000;317;…;20
+2021.06.01.;Kocēnu novads;0960200;222;…;no 1 līdz 5
+2021.06.01.;Kokneses novads;0326100;289;…;8
+2021.06.01.;Krāslavas novads;0600202;1308;…;35
+2021.06.01.;Krimuldas novads;0806900;219;…;10
+2021.06.01.;Krustpils novads;0566900;496;…;17
+2021.06.01.;Kuldīgas novads;0620200;956;…;45
+2021.06.01.;Ķeguma novads;0741001;307;…;19
+2021.06.01.;Ķekavas novads;0800800;1782;…;45
+2021.06.01.;Lielvārdes novads;0741401;536;…;37
+2021.06.01.;Liepāja;0170000;3174;…;124
+2021.06.01.;Limbažu novads;0660200;810;…;30
+2021.06.01.;Līgatnes novads;0421200;151;…;9
+2021.06.01.;Līvānu novads;0761201;868;…;15
+2021.06.01.;Lubānas novads;0701400;156;…;no 1 līdz 5
+2021.06.01.;Ludzas novads;0680200;1019;…;25
+2021.06.01.;Madonas novads;0700200;1214;…;49
+2021.06.01.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.01.;Mālpils novads;0807400;156;…;no 1 līdz 5
+2021.06.01.;Mārupes novads;0807600;1478;…;59
+2021.06.01.;Mērsraga novads;0887600;44;…;no 1 līdz 5
+2021.06.01.;Naukšēnu novads;0967300;61;…;31
+2021.06.01.;Neretas novads;0327100;168;…;0
+2021.06.01.;Nīcas novads;0647900;113;…;6
+2021.06.01.;Ogres novads;0740202;2205;…;139
+2021.06.01.;Olaines novads;0801000;1622;…;45
+2021.06.01.;Ozolnieku novads;0546701;710;…;21
+2021.06.01.;Pārgaujas novads;0427500;95;…;6
+2021.06.01.;Pāvilostas novads;0641401;56;…;no 1 līdz 5
+2021.06.01.;Pļaviņu novads;0321400;192;…;no 1 līdz 5
+2021.06.01.;Preiļu novads;0760202;966;…;46
+2021.06.01.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.01.;Priekuļu novads;0427300;350;…;23
+2021.06.01.;Raunas novads;0427700;149;…;6
+2021.06.01.;Rēzekne;0210000;3118;…;129
+2021.06.01.;Rēzeknes novads;0780200;1513;…;48
+2021.06.01.;Riebiņu novads;0766300;368;…;37
+2021.06.01.;Rīga;0010000;46209;…;1567
+2021.06.01.;Rojas novads;0888301;146;…;6
+2021.06.01.;Ropažu novads;0808400;629;…;12
+2021.06.01.;Rucavas novads;0648500;41;…;0
+2021.06.01.;Rugāju novads;0387500;154;…;no 1 līdz 5
+2021.06.01.;Rundāles novads;0407700;131;…;8
+2021.06.01.;Rūjienas novads;0961600;342;…;27
+2021.06.01.;Salacgrīvas novads;0661400;396;…;no 1 līdz 5
+2021.06.01.;Salas novads;0568700;193;…;no 1 līdz 5
+2021.06.01.;Salaspils novads;0801200;1743;…;51
+2021.06.01.;Saldus novads;0840200;1091;…;52
+2021.06.01.;Saulkrastu novads;0801400;409;…;35
+2021.06.01.;Sējas novads;0809200;130;…;10
+2021.06.01.;Siguldas novads;0801601;851;…;42
+2021.06.01.;Skrīveru novads;0328200;215;…;no 1 līdz 5
+2021.06.01.;Skrundas novads;0621200;199;…;14
+2021.06.01.;Smiltenes novads;0941600;624;…;36
+2021.06.01.;Stopiņu novads;0809600;851;…;33
+2021.06.01.;Strenču novads;0941800;203;…;8
+2021.06.01.;Talsu novads;0880200;1771;…;80
+2021.06.01.;Tērvetes novads;0468900;164;…;44
+2021.06.01.;Tukuma novads;0900200;1676;…;108
+2021.06.01.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.01.;Valkas novads;0940200;420;…;20
+2021.06.01.;Valmiera;0250000;1125;…;20
+2021.06.01.;Varakļānu novads;0701800;325;…;6
+2021.06.01.;Vārkavas novads;0769101;105;…;no 1 līdz 5
+2021.06.01.;Vecpiebalgas novads;0429300;338;…;12
+2021.06.01.;Vecumnieku novads;0409500;355;…;15
+2021.06.01.;Ventspils;0270000;1751;…;155
+2021.06.01.;Ventspils novads;0980200;376;…;21
+2021.06.01.;Viesītes novads;0561800;168;…;8
+2021.06.01.;Viļakas novads;0381600;423;…;no 1 līdz 5
+2021.06.01.;Viļānu novads;0781800;469;…;22
+2021.06.01.;Zilupes novads;0681801;213;…;15
+2021.06.02.;Adrese nav norādīta;Nav;…;…;…
+2021.06.02.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.02.;Aizkraukles novads;0320200;488;…;34
+2021.06.02.;Aizputes novads;0640600;360;…;no 1 līdz 5
+2021.06.02.;Aknīstes novads;0560800;457;…;0
+2021.06.02.;Alojas novads;0661000;208;…;no 1 līdz 5
+2021.06.02.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.02.;Alūksnes novads;0360200;1180;…;64
+2021.06.02.;Amatas novads;0424701;301;…;9
+2021.06.02.;Apes novads;0360800;234;…;6
+2021.06.02.;Auces novads;0460800;239;…;7
+2021.06.02.;Ādažu novads;0804400;1270;…;56
+2021.06.02.;Babītes novads;0804900;734;…;30
+2021.06.02.;Baldones novads;0800600;328;…;9
+2021.06.02.;Baltinavas novads;0384400;33;…;no 1 līdz 5
+2021.06.02.;Balvu novads;0380200;1233;…;26
+2021.06.02.;Bauskas novads;0400200;1317;…;49
+2021.06.02.;Beverīnas novads;0964700;127;…;no 1 līdz 5
+2021.06.02.;Brocēnu novads;0840601;287;…;10
+2021.06.02.;Burtnieku novads;0967101;229;…;8
+2021.06.02.;Carnikavas novads;0805200;595;…;28
+2021.06.02.;Cesvaines novads;0700800;112;…;16
+2021.06.02.;Cēsu novads;0420200;717;…;36
+2021.06.02.;Ciblas novads;0684901;156;…;no 1 līdz 5
+2021.06.02.;Dagdas novads;0601000;406;…;10
+2021.06.02.;Daugavpils;0050000;9294;…;186
+2021.06.02.;Daugavpils novads;0440200;1634;…;28
+2021.06.02.;Dobeles novads;0460200;1189;…;51
+2021.06.02.;Dundagas novads;0885100;151;…;no 1 līdz 5
+2021.06.02.;Durbes novads;0640801;89;…;no 1 līdz 5
+2021.06.02.;Engures novads;0905100;636;…;16
+2021.06.02.;Ērgļu novads;0705500;86;…;no 1 līdz 5
+2021.06.02.;Garkalnes novads;0806000;673;…;15
+2021.06.02.;Grobiņas novads;0641000;399;…;6
+2021.06.02.;Gulbenes novads;0500200;1697;…;28
+2021.06.02.;Iecavas novads;0406400;658;…;30
+2021.06.02.;Ikšķiles novads;0740600;547;…;17
+2021.06.02.;Ilūkstes novads;0440801;419;…;7
+2021.06.02.;Inčukalna novads;0801800;469;…;21
+2021.06.02.;Jaunjelgavas novads;0321000;182;…;no 1 līdz 5
+2021.06.02.;Jaunpiebalgas novads;0425700;51;…;11
+2021.06.02.;Jaunpils novads;0905700;168;…;11
+2021.06.02.;Jelgava;0090000;4796;…;134
+2021.06.02.;Jelgavas novads;0540200;1523;…;39
+2021.06.02.;Jēkabpils;0110000;1860;…;55
+2021.06.02.;Jēkabpils novads;0560200;315;…;9
+2021.06.02.;Jūrmala;0130000;3259;…;90
+2021.06.02.;Kandavas novads;0901201;222;…;11
+2021.06.02.;Kārsavas novads;0681000;318;…;20
+2021.06.02.;Kocēnu novads;0960200;228;…;9
+2021.06.02.;Kokneses novads;0326100;288;…;7
+2021.06.02.;Krāslavas novads;0600202;1312;…;38
+2021.06.02.;Krimuldas novads;0806900;220;…;8
+2021.06.02.;Krustpils novads;0566900;498;…;19
+2021.06.02.;Kuldīgas novads;0620200;963;…;46
+2021.06.02.;Ķeguma novads;0741001;308;…;19
+2021.06.02.;Ķekavas novads;0800800;1788;…;47
+2021.06.02.;Lielvārdes novads;0741401;537;…;30
+2021.06.02.;Liepāja;0170000;3176;…;107
+2021.06.02.;Limbažu novads;0660200;812;…;28
+2021.06.02.;Līgatnes novads;0421200;151;…;6
+2021.06.02.;Līvānu novads;0761201;868;…;12
+2021.06.02.;Lubānas novads;0701400;156;…;no 1 līdz 5
+2021.06.02.;Ludzas novads;0680200;1020;…;24
+2021.06.02.;Madonas novads;0700200;1216;…;41
+2021.06.02.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.02.;Mālpils novads;0807400;158;…;6
+2021.06.02.;Mārupes novads;0807600;1480;…;53
+2021.06.02.;Mērsraga novads;0887600;44;…;no 1 līdz 5
+2021.06.02.;Naukšēnu novads;0967300;65;…;35
+2021.06.02.;Neretas novads;0327100;168;…;0
+2021.06.02.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.02.;Ogres novads;0740202;2214;…;124
+2021.06.02.;Olaines novads;0801000;1624;…;39
+2021.06.02.;Ozolnieku novads;0546701;710;…;20
+2021.06.02.;Pārgaujas novads;0427500;95;…;6
+2021.06.02.;Pāvilostas novads;0641401;57;…;no 1 līdz 5
+2021.06.02.;Pļaviņu novads;0321400;194;…;6
+2021.06.02.;Preiļu novads;0760202;969;…;42
+2021.06.02.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.02.;Priekuļu novads;0427300;351;…;23
+2021.06.02.;Raunas novads;0427700;149;…;6
+2021.06.02.;Rēzekne;0210000;3125;…;119
+2021.06.02.;Rēzeknes novads;0780200;1516;…;44
+2021.06.02.;Riebiņu novads;0766300;372;…;35
+2021.06.02.;Rīga;0010000;46324;…;1492
+2021.06.02.;Rojas novads;0888301;146;…;no 1 līdz 5
+2021.06.02.;Ropažu novads;0808400;631;…;13
+2021.06.02.;Rucavas novads;0648500;41;…;0
+2021.06.02.;Rugāju novads;0387500;155;…;no 1 līdz 5
+2021.06.02.;Rundāles novads;0407700;131;…;6
+2021.06.02.;Rūjienas novads;0961600;347;…;27
+2021.06.02.;Salacgrīvas novads;0661400;396;…;no 1 līdz 5
+2021.06.02.;Salas novads;0568700;193;…;no 1 līdz 5
+2021.06.02.;Salaspils novads;0801200;1743;…;44
+2021.06.02.;Saldus novads;0840200;1095;…;50
+2021.06.02.;Saulkrastu novads;0801400;410;…;32
+2021.06.02.;Sējas novads;0809200;130;…;9
+2021.06.02.;Siguldas novads;0801601;852;…;40
+2021.06.02.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.02.;Skrundas novads;0621200;199;…;12
+2021.06.02.;Smiltenes novads;0941600;628;…;37
+2021.06.02.;Stopiņu novads;0809600;852;…;30
+2021.06.02.;Strenču novads;0941800;203;…;no 1 līdz 5
+2021.06.02.;Talsu novads;0880200;1777;…;75
+2021.06.02.;Tērvetes novads;0468900;171;…;39
+2021.06.02.;Tukuma novads;0900200;1685;…;108
+2021.06.02.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.02.;Valkas novads;0940200;424;…;21
+2021.06.02.;Valmiera;0250000;1129;…;21
+2021.06.02.;Varakļānu novads;0701800;325;…;no 1 līdz 5
+2021.06.02.;Vārkavas novads;0769101;105;…;no 1 līdz 5
+2021.06.02.;Vecpiebalgas novads;0429300;338;…;12
+2021.06.02.;Vecumnieku novads;0409500;355;…;12
+2021.06.02.;Ventspils;0270000;1760;…;155
+2021.06.02.;Ventspils novads;0980200;379;…;22
+2021.06.02.;Viesītes novads;0561800;168;…;7
+2021.06.02.;Viļakas novads;0381600;423;…;no 1 līdz 5
+2021.06.02.;Viļānu novads;0781800;473;…;25
+2021.06.02.;Zilupes novads;0681801;214;…;14
+2021.06.03.;Adrese nav norādīta;Nav;…;…;…
+2021.06.03.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.03.;Aizkraukles novads;0320200;493;…;37
+2021.06.03.;Aizputes novads;0640600;361;…;no 1 līdz 5
+2021.06.03.;Aknīstes novads;0560800;457;…;0
+2021.06.03.;Alojas novads;0661000;208;…;no 1 līdz 5
+2021.06.03.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.03.;Alūksnes novads;0360200;1185;…;63
+2021.06.03.;Amatas novads;0424701;301;…;9
+2021.06.03.;Apes novads;0360800;234;…;6
+2021.06.03.;Auces novads;0460800;240;…;7
+2021.06.03.;Ādažu novads;0804400;1270;…;47
+2021.06.03.;Babītes novads;0804900;736;…;30
+2021.06.03.;Baldones novads;0800600;329;…;9
+2021.06.03.;Baltinavas novads;0384400;33;…;0
+2021.06.03.;Balvu novads;0380200;1234;…;21
+2021.06.03.;Bauskas novads;0400200;1317;…;46
+2021.06.03.;Beverīnas novads;0964700;127;…;no 1 līdz 5
+2021.06.03.;Brocēnu novads;0840601;288;…;11
+2021.06.03.;Burtnieku novads;0967101;229;…;6
+2021.06.03.;Carnikavas novads;0805200;594;…;25
+2021.06.03.;Cesvaines novads;0700800;112;…;14
+2021.06.03.;Cēsu novads;0420200;717;…;32
+2021.06.03.;Ciblas novads;0684901;156;…;no 1 līdz 5
+2021.06.03.;Dagdas novads;0601000;406;…;10
+2021.06.03.;Daugavpils;0050000;9303;…;178
+2021.06.03.;Daugavpils novads;0440200;1636;…;24
+2021.06.03.;Dobeles novads;0460200;1197;…;52
+2021.06.03.;Dundagas novads;0885100;152;…;no 1 līdz 5
+2021.06.03.;Durbes novads;0640801;89;…;no 1 līdz 5
+2021.06.03.;Engures novads;0905100;637;…;17
+2021.06.03.;Ērgļu novads;0705500;86;…;no 1 līdz 5
+2021.06.03.;Garkalnes novads;0806000;677;…;16
+2021.06.03.;Grobiņas novads;0641000;399;…;no 1 līdz 5
+2021.06.03.;Gulbenes novads;0500200;1700;…;28
+2021.06.03.;Iecavas novads;0406400;658;…;26
+2021.06.03.;Ikšķiles novads;0740600;550;…;17
+2021.06.03.;Ilūkstes novads;0440801;421;…;9
+2021.06.03.;Inčukalna novads;0801800;473;…;21
+2021.06.03.;Jaunjelgavas novads;0321000;182;…;no 1 līdz 5
+2021.06.03.;Jaunpiebalgas novads;0425700;51;…;11
+2021.06.03.;Jaunpils novads;0905700;168;…;7
+2021.06.03.;Jelgava;0090000;4811;…;134
+2021.06.03.;Jelgavas novads;0540200;1526;…;39
+2021.06.03.;Jēkabpils;0110000;1868;…;59
+2021.06.03.;Jēkabpils novads;0560200;315;…;9
+2021.06.03.;Jūrmala;0130000;3262;…;81
+2021.06.03.;Kandavas novads;0901201;223;…;11
+2021.06.03.;Kārsavas novads;0681000;321;…;20
+2021.06.03.;Kocēnu novads;0960200;228;…;9
+2021.06.03.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.03.;Krāslavas novads;0600202;1317;…;37
+2021.06.03.;Krimuldas novads;0806900;223;…;11
+2021.06.03.;Krustpils novads;0566900;499;…;20
+2021.06.03.;Kuldīgas novads;0620200;964;…;42
+2021.06.03.;Ķeguma novads;0741001;309;…;16
+2021.06.03.;Ķekavas novads;0800800;1788;…;38
+2021.06.03.;Lielvārdes novads;0741401;539;…;31
+2021.06.03.;Liepāja;0170000;3182;…;99
+2021.06.03.;Limbažu novads;0660200;812;…;24
+2021.06.03.;Līgatnes novads;0421200;151;…;no 1 līdz 5
+2021.06.03.;Līvānu novads;0761201;869;…;12
+2021.06.03.;Lubānas novads;0701400;156;…;no 1 līdz 5
+2021.06.03.;Ludzas novads;0680200;1020;…;19
+2021.06.03.;Madonas novads;0700200;1217;…;37
+2021.06.03.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.03.;Mālpils novads;0807400;159;…;7
+2021.06.03.;Mārupes novads;0807600;1481;…;53
+2021.06.03.;Mērsraga novads;0887600;44;…;no 1 līdz 5
+2021.06.03.;Naukšēnu novads;0967300;65;…;35
+2021.06.03.;Neretas novads;0327100;168;…;0
+2021.06.03.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.03.;Ogres novads;0740202;2228;…;125
+2021.06.03.;Olaines novads;0801000;1628;…;40
+2021.06.03.;Ozolnieku novads;0546701;713;…;18
+2021.06.03.;Pārgaujas novads;0427500;95;…;6
+2021.06.03.;Pāvilostas novads;0641401;57;…;no 1 līdz 5
+2021.06.03.;Pļaviņu novads;0321400;194;…;6
+2021.06.03.;Preiļu novads;0760202;972;…;39
+2021.06.03.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.03.;Priekuļu novads;0427300;351;…;21
+2021.06.03.;Raunas novads;0427700;151;…;7
+2021.06.03.;Rēzekne;0210000;3131;…;114
+2021.06.03.;Rēzeknes novads;0780200;1516;…;38
+2021.06.03.;Riebiņu novads;0766300;374;…;34
+2021.06.03.;Rīga;0010000;46430;…;1462
+2021.06.03.;Rojas novads;0888301;146;…;no 1 līdz 5
+2021.06.03.;Ropažu novads;0808400;633;…;14
+2021.06.03.;Rucavas novads;0648500;41;…;0
+2021.06.03.;Rugāju novads;0387500;157;…;7
+2021.06.03.;Rundāles novads;0407700;131;…;6
+2021.06.03.;Rūjienas novads;0961600;347;…;23
+2021.06.03.;Salacgrīvas novads;0661400;396;…;no 1 līdz 5
+2021.06.03.;Salas novads;0568700;196;…;6
+2021.06.03.;Salaspils novads;0801200;1748;…;44
+2021.06.03.;Saldus novads;0840200;1095;…;40
+2021.06.03.;Saulkrastu novads;0801400;410;…;29
+2021.06.03.;Sējas novads;0809200;131;…;9
+2021.06.03.;Siguldas novads;0801601;855;…;35
+2021.06.03.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.03.;Skrundas novads;0621200;199;…;12
+2021.06.03.;Smiltenes novads;0941600;629;…;34
+2021.06.03.;Stopiņu novads;0809600;853;…;28
+2021.06.03.;Strenču novads;0941800;203;…;no 1 līdz 5
+2021.06.03.;Talsu novads;0880200;1782;…;66
+2021.06.03.;Tērvetes novads;0468900;171;…;39
+2021.06.03.;Tukuma novads;0900200;1687;…;92
+2021.06.03.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.03.;Valkas novads;0940200;424;…;17
+2021.06.03.;Valmiera;0250000;1130;…;22
+2021.06.03.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.03.;Vārkavas novads;0769101;105;…;0
+2021.06.03.;Vecpiebalgas novads;0429300;339;…;13
+2021.06.03.;Vecumnieku novads;0409500;357;…;11
+2021.06.03.;Ventspils;0270000;1774;…;143
+2021.06.03.;Ventspils novads;0980200;379;…;18
+2021.06.03.;Viesītes novads;0561800;168;…;6
+2021.06.03.;Viļakas novads;0381600;423;…;no 1 līdz 5
+2021.06.03.;Viļānu novads;0781800;475;…;23
+2021.06.03.;Zilupes novads;0681801;215;…;15
+2021.06.04.;Adrese nav norādīta;Nav;…;…;…
+2021.06.04.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.04.;Aizkraukles novads;0320200;493;…;35
+2021.06.04.;Aizputes novads;0640600;362;…;no 1 līdz 5
+2021.06.04.;Aknīstes novads;0560800;457;…;0
+2021.06.04.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.04.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.04.;Alūksnes novads;0360200;1191;…;61
+2021.06.04.;Amatas novads;0424701;301;…;9
+2021.06.04.;Apes novads;0360800;234;…;no 1 līdz 5
+2021.06.04.;Auces novads;0460800;242;…;9
+2021.06.04.;Ādažu novads;0804400;1271;…;42
+2021.06.04.;Babītes novads;0804900;737;…;29
+2021.06.04.;Baldones novads;0800600;329;…;7
+2021.06.04.;Baltinavas novads;0384400;33;…;0
+2021.06.04.;Balvu novads;0380200;1234;…;19
+2021.06.04.;Bauskas novads;0400200;1318;…;44
+2021.06.04.;Beverīnas novads;0964700;129;…;no 1 līdz 5
+2021.06.04.;Brocēnu novads;0840601;288;…;11
+2021.06.04.;Burtnieku novads;0967101;232;…;9
+2021.06.04.;Carnikavas novads;0805200;595;…;24
+2021.06.04.;Cesvaines novads;0700800;112;…;14
+2021.06.04.;Cēsu novads;0420200;721;…;31
+2021.06.04.;Ciblas novads;0684901;156;…;0
+2021.06.04.;Dagdas novads;0601000;406;…;9
+2021.06.04.;Daugavpils;0050000;9315;…;172
+2021.06.04.;Daugavpils novads;0440200;1636;…;17
+2021.06.04.;Dobeles novads;0460200;1202;…;51
+2021.06.04.;Dundagas novads;0885100;155;…;8
+2021.06.04.;Durbes novads;0640801;89;…;no 1 līdz 5
+2021.06.04.;Engures novads;0905100;638;…;17
+2021.06.04.;Ērgļu novads;0705500;86;…;no 1 līdz 5
+2021.06.04.;Garkalnes novads;0806000;676;…;14
+2021.06.04.;Grobiņas novads;0641000;399;…;no 1 līdz 5
+2021.06.04.;Gulbenes novads;0500200;1701;…;28
+2021.06.04.;Iecavas novads;0406400;658;…;26
+2021.06.04.;Ikšķiles novads;0740600;551;…;15
+2021.06.04.;Ilūkstes novads;0440801;421;…;9
+2021.06.04.;Inčukalna novads;0801800;476;…;21
+2021.06.04.;Jaunjelgavas novads;0321000;183;…;no 1 līdz 5
+2021.06.04.;Jaunpiebalgas novads;0425700;54;…;12
+2021.06.04.;Jaunpils novads;0905700;168;…;no 1 līdz 5
+2021.06.04.;Jelgava;0090000;4819;…;128
+2021.06.04.;Jelgavas novads;0540200;1531;…;40
+2021.06.04.;Jēkabpils;0110000;1875;…;59
+2021.06.04.;Jēkabpils novads;0560200;315;…;9
+2021.06.04.;Jūrmala;0130000;3267;…;77
+2021.06.04.;Kandavas novads;0901201;226;…;14
+2021.06.04.;Kārsavas novads;0681000;321;…;19
+2021.06.04.;Kocēnu novads;0960200;228;…;9
+2021.06.04.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.04.;Krāslavas novads;0600202;1319;…;32
+2021.06.04.;Krimuldas novads;0806900;223;…;9
+2021.06.04.;Krustpils novads;0566900;499;…;19
+2021.06.04.;Kuldīgas novads;0620200;966;…;43
+2021.06.04.;Ķeguma novads;0741001;311;…;17
+2021.06.04.;Ķekavas novads;0800800;1790;…;36
+2021.06.04.;Lielvārdes novads;0741401;540;…;29
+2021.06.04.;Liepāja;0170000;3191;…;99
+2021.06.04.;Limbažu novads;0660200;812;…;23
+2021.06.04.;Līgatnes novads;0421200;152;…;no 1 līdz 5
+2021.06.04.;Līvānu novads;0761201;870;…;9
+2021.06.04.;Lubānas novads;0701400;156;…;no 1 līdz 5
+2021.06.04.;Ludzas novads;0680200;1023;…;20
+2021.06.04.;Madonas novads;0700200;1218;…;35
+2021.06.04.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.04.;Mālpils novads;0807400;159;…;6
+2021.06.04.;Mārupes novads;0807600;1484;…;51
+2021.06.04.;Mērsraga novads;0887600;44;…;0
+2021.06.04.;Naukšēnu novads;0967300;66;…;35
+2021.06.04.;Neretas novads;0327100;168;…;0
+2021.06.04.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.04.;Ogres novads;0740202;2235;…;112
+2021.06.04.;Olaines novads;0801000;1627;…;35
+2021.06.04.;Ozolnieku novads;0546701;713;…;14
+2021.06.04.;Pārgaujas novads;0427500;96;…;7
+2021.06.04.;Pāvilostas novads;0641401;60;…;6
+2021.06.04.;Pļaviņu novads;0321400;196;…;7
+2021.06.04.;Preiļu novads;0760202;978;…;42
+2021.06.04.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.04.;Priekuļu novads;0427300;351;…;19
+2021.06.04.;Raunas novads;0427700;152;…;8
+2021.06.04.;Rēzekne;0210000;3132;…;107
+2021.06.04.;Rēzeknes novads;0780200;1518;…;39
+2021.06.04.;Riebiņu novads;0766300;376;…;31
+2021.06.04.;Rīga;0010000;46511;…;1379
+2021.06.04.;Rojas novads;0888301;146;…;no 1 līdz 5
+2021.06.04.;Ropažu novads;0808400;635;…;16
+2021.06.04.;Rucavas novads;0648500;41;…;0
+2021.06.04.;Rugāju novads;0387500;157;…;7
+2021.06.04.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.04.;Rūjienas novads;0961600;347;…;23
+2021.06.04.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.04.;Salas novads;0568700;196;…;no 1 līdz 5
+2021.06.04.;Salaspils novads;0801200;1750;…;43
+2021.06.04.;Saldus novads;0840200;1097;…;34
+2021.06.04.;Saulkrastu novads;0801400;410;…;25
+2021.06.04.;Sējas novads;0809200;131;…;6
+2021.06.04.;Siguldas novads;0801601;856;…;32
+2021.06.04.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.04.;Skrundas novads;0621200;199;…;9
+2021.06.04.;Smiltenes novads;0941600;633;…;38
+2021.06.04.;Stopiņu novads;0809600;857;…;29
+2021.06.04.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.04.;Talsu novads;0880200;1791;…;72
+2021.06.04.;Tērvetes novads;0468900;171;…;39
+2021.06.04.;Tukuma novads;0900200;1693;…;84
+2021.06.04.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.04.;Valkas novads;0940200;428;…;19
+2021.06.04.;Valmiera;0250000;1132;…;22
+2021.06.04.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.04.;Vārkavas novads;0769101;105;…;0
+2021.06.04.;Vecpiebalgas novads;0429300;339;…;9
+2021.06.04.;Vecumnieku novads;0409500;357;…;8
+2021.06.04.;Ventspils;0270000;1778;…;122
+2021.06.04.;Ventspils novads;0980200;380;…;16
+2021.06.04.;Viesītes novads;0561800;168;…;no 1 līdz 5
+2021.06.04.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.04.;Viļānu novads;0781800;475;…;20
+2021.06.04.;Zilupes novads;0681801;215;…;8
+2021.06.05.;Adrese nav norādīta;Nav;…;…;…
+2021.06.05.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.05.;Aizkraukles novads;0320200;493;…;33
+2021.06.05.;Aizputes novads;0640600;362;…;no 1 līdz 5
+2021.06.05.;Aknīstes novads;0560800;457;…;0
+2021.06.05.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.05.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.05.;Alūksnes novads;0360200;1197;…;59
+2021.06.05.;Amatas novads;0424701;301;…;8
+2021.06.05.;Apes novads;0360800;235;…;no 1 līdz 5
+2021.06.05.;Auces novads;0460800;242;…;7
+2021.06.05.;Ādažu novads;0804400;1271;…;37
+2021.06.05.;Babītes novads;0804900;736;…;24
+2021.06.05.;Baldones novads;0800600;330;…;8
+2021.06.05.;Baltinavas novads;0384400;33;…;0
+2021.06.05.;Balvu novads;0380200;1234;…;17
+2021.06.05.;Bauskas novads;0400200;1321;…;39
+2021.06.05.;Beverīnas novads;0964700;130;…;no 1 līdz 5
+2021.06.05.;Brocēnu novads;0840601;290;…;11
+2021.06.05.;Burtnieku novads;0967101;232;…;8
+2021.06.05.;Carnikavas novads;0805200;595;…;20
+2021.06.05.;Cesvaines novads;0700800;113;…;10
+2021.06.05.;Cēsu novads;0420200;722;…;24
+2021.06.05.;Ciblas novads;0684901;156;…;0
+2021.06.05.;Dagdas novads;0601000;406;…;9
+2021.06.05.;Daugavpils;0050000;9334;…;174
+2021.06.05.;Daugavpils novads;0440200;1636;…;11
+2021.06.05.;Dobeles novads;0460200;1203;…;46
+2021.06.05.;Dundagas novads;0885100;155;…;8
+2021.06.05.;Durbes novads;0640801;90;…;no 1 līdz 5
+2021.06.05.;Engures novads;0905100;638;…;16
+2021.06.05.;Ērgļu novads;0705500;87;…;no 1 līdz 5
+2021.06.05.;Garkalnes novads;0806000;676;…;14
+2021.06.05.;Grobiņas novads;0641000;399;…;no 1 līdz 5
+2021.06.05.;Gulbenes novads;0500200;1701;…;22
+2021.06.05.;Iecavas novads;0406400;659;…;23
+2021.06.05.;Ikšķiles novads;0740600;552;…;9
+2021.06.05.;Ilūkstes novads;0440801;421;…;7
+2021.06.05.;Inčukalna novads;0801800;478;…;21
+2021.06.05.;Jaunjelgavas novads;0321000;185;…;6
+2021.06.05.;Jaunpiebalgas novads;0425700;55;…;13
+2021.06.05.;Jaunpils novads;0905700;168;…;no 1 līdz 5
+2021.06.05.;Jelgava;0090000;4828;…;126
+2021.06.05.;Jelgavas novads;0540200;1532;…;35
+2021.06.05.;Jēkabpils;0110000;1877;…;57
+2021.06.05.;Jēkabpils novads;0560200;319;…;10
+2021.06.05.;Jūrmala;0130000;3277;…;75
+2021.06.05.;Kandavas novads;0901201;226;…;14
+2021.06.05.;Kārsavas novads;0681000;322;…;17
+2021.06.05.;Kocēnu novads;0960200;230;…;11
+2021.06.05.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.05.;Krāslavas novads;0600202;1321;…;29
+2021.06.05.;Krimuldas novads;0806900;225;…;10
+2021.06.05.;Krustpils novads;0566900;499;…;19
+2021.06.05.;Kuldīgas novads;0620200;965;…;37
+2021.06.05.;Ķeguma novads;0741001;311;…;15
+2021.06.05.;Ķekavas novads;0800800;1795;…;37
+2021.06.05.;Lielvārdes novads;0741401;540;…;28
+2021.06.05.;Liepāja;0170000;3201;…;97
+2021.06.05.;Limbažu novads;0660200;816;…;25
+2021.06.05.;Līgatnes novads;0421200;154;…;6
+2021.06.05.;Līvānu novads;0761201;873;…;12
+2021.06.05.;Lubānas novads;0701400;156;…;no 1 līdz 5
+2021.06.05.;Ludzas novads;0680200;1025;…;21
+2021.06.05.;Madonas novads;0700200;1221;…;29
+2021.06.05.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.05.;Mālpils novads;0807400;159;…;6
+2021.06.05.;Mārupes novads;0807600;1485;…;49
+2021.06.05.;Mērsraga novads;0887600;44;…;0
+2021.06.05.;Naukšēnu novads;0967300;67;…;35
+2021.06.05.;Neretas novads;0327100;168;…;0
+2021.06.05.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.05.;Ogres novads;0740202;2240;…;106
+2021.06.05.;Olaines novads;0801000;1628;…;33
+2021.06.05.;Ozolnieku novads;0546701;713;…;14
+2021.06.05.;Pārgaujas novads;0427500;97;…;8
+2021.06.05.;Pāvilostas novads;0641401;61;…;7
+2021.06.05.;Pļaviņu novads;0321400;196;…;7
+2021.06.05.;Preiļu novads;0760202;986;…;45
+2021.06.05.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.05.;Priekuļu novads;0427300;351;…;17
+2021.06.05.;Raunas novads;0427700;152;…;7
+2021.06.05.;Rēzekne;0210000;3140;…;97
+2021.06.05.;Rēzeknes novads;0780200;1519;…;39
+2021.06.05.;Riebiņu novads;0766300;375;…;25
+2021.06.05.;Rīga;0010000;46595;…;1333
+2021.06.05.;Rojas novads;0888301;146;…;no 1 līdz 5
+2021.06.05.;Ropažu novads;0808400;636;…;15
+2021.06.05.;Rucavas novads;0648500;41;…;0
+2021.06.05.;Rugāju novads;0387500;157;…;6
+2021.06.05.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.05.;Rūjienas novads;0961600;347;…;23
+2021.06.05.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.05.;Salas novads;0568700;196;…;no 1 līdz 5
+2021.06.05.;Salaspils novads;0801200;1751;…;38
+2021.06.05.;Saldus novads;0840200;1098;…;25
+2021.06.05.;Saulkrastu novads;0801400;411;…;25
+2021.06.05.;Sējas novads;0809200;131;…;no 1 līdz 5
+2021.06.05.;Siguldas novads;0801601;859;…;38
+2021.06.05.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.05.;Skrundas novads;0621200;199;…;7
+2021.06.05.;Smiltenes novads;0941600;635;…;35
+2021.06.05.;Stopiņu novads;0809600;859;…;31
+2021.06.05.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.05.;Talsu novads;0880200;1796;…;70
+2021.06.05.;Tērvetes novads;0468900;176;…;38
+2021.06.05.;Tukuma novads;0900200;1702;…;85
+2021.06.05.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.05.;Valkas novads;0940200;429;…;17
+2021.06.05.;Valmiera;0250000;1134;…;20
+2021.06.05.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.05.;Vārkavas novads;0769101;105;…;0
+2021.06.05.;Vecpiebalgas novads;0429300;339;…;8
+2021.06.05.;Vecumnieku novads;0409500;358;…;8
+2021.06.05.;Ventspils;0270000;1782;…;122
+2021.06.05.;Ventspils novads;0980200;381;…;17
+2021.06.05.;Viesītes novads;0561800;168;…;no 1 līdz 5
+2021.06.05.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.05.;Viļānu novads;0781800;475;…;20
+2021.06.05.;Zilupes novads;0681801;215;…;7
+2021.06.06.;Adrese nav norādīta;Nav;…;…;…
+2021.06.06.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.06.;Aizkraukles novads;0320200;493;…;32
+2021.06.06.;Aizputes novads;0640600;364;…;6
+2021.06.06.;Aknīstes novads;0560800;457;…;0
+2021.06.06.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.06.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.06.;Alūksnes novads;0360200;1198;…;57
+2021.06.06.;Amatas novads;0424701;301;…;7
+2021.06.06.;Apes novads;0360800;235;…;no 1 līdz 5
+2021.06.06.;Auces novads;0460800;243;…;6
+2021.06.06.;Ādažu novads;0804400;1272;…;38
+2021.06.06.;Babītes novads;0804900;737;…;23
+2021.06.06.;Baldones novads;0800600;330;…;6
+2021.06.06.;Baltinavas novads;0384400;33;…;0
+2021.06.06.;Balvu novads;0380200;1234;…;17
+2021.06.06.;Bauskas novads;0400200;1322;…;36
+2021.06.06.;Beverīnas novads;0964700;130;…;no 1 līdz 5
+2021.06.06.;Brocēnu novads;0840601;290;…;10
+2021.06.06.;Burtnieku novads;0967101;233;…;8
+2021.06.06.;Carnikavas novads;0805200;595;…;20
+2021.06.06.;Cesvaines novads;0700800;113;…;9
+2021.06.06.;Cēsu novads;0420200;723;…;23
+2021.06.06.;Ciblas novads;0684901;156;…;0
+2021.06.06.;Dagdas novads;0601000;406;…;9
+2021.06.06.;Daugavpils;0050000;9345;…;183
+2021.06.06.;Daugavpils novads;0440200;1637;…;12
+2021.06.06.;Dobeles novads;0460200;1204;…;43
+2021.06.06.;Dundagas novads;0885100;155;…;8
+2021.06.06.;Durbes novads;0640801;90;…;no 1 līdz 5
+2021.06.06.;Engures novads;0905100;639;…;16
+2021.06.06.;Ērgļu novads;0705500;88;…;no 1 līdz 5
+2021.06.06.;Garkalnes novads;0806000;676;…;14
+2021.06.06.;Grobiņas novads;0641000;399;…;no 1 līdz 5
+2021.06.06.;Gulbenes novads;0500200;1702;…;23
+2021.06.06.;Iecavas novads;0406400;660;…;21
+2021.06.06.;Ikšķiles novads;0740600;552;…;9
+2021.06.06.;Ilūkstes novads;0440801;421;…;6
+2021.06.06.;Inčukalna novads;0801800;481;…;22
+2021.06.06.;Jaunjelgavas novads;0321000;184;…;no 1 līdz 5
+2021.06.06.;Jaunpiebalgas novads;0425700;55;…;13
+2021.06.06.;Jaunpils novads;0905700;168;…;no 1 līdz 5
+2021.06.06.;Jelgava;0090000;4836;…;129
+2021.06.06.;Jelgavas novads;0540200;1532;…;35
+2021.06.06.;Jēkabpils;0110000;1879;…;52
+2021.06.06.;Jēkabpils novads;0560200;320;…;10
+2021.06.06.;Jūrmala;0130000;3283;…;79
+2021.06.06.;Kandavas novads;0901201;228;…;16
+2021.06.06.;Kārsavas novads;0681000;322;…;16
+2021.06.06.;Kocēnu novads;0960200;230;…;11
+2021.06.06.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.06.;Krāslavas novads;0600202;1322;…;27
+2021.06.06.;Krimuldas novads;0806900;225;…;10
+2021.06.06.;Krustpils novads;0566900;499;…;16
+2021.06.06.;Kuldīgas novads;0620200;966;…;32
+2021.06.06.;Ķeguma novads;0741001;311;…;15
+2021.06.06.;Ķekavas novads;0800800;1797;…;37
+2021.06.06.;Lielvārdes novads;0741401;541;…;26
+2021.06.06.;Liepāja;0170000;3202;…;96
+2021.06.06.;Limbažu novads;0660200;816;…;22
+2021.06.06.;Līgatnes novads;0421200;156;…;8
+2021.06.06.;Līvānu novads;0761201;873;…;12
+2021.06.06.;Lubānas novads;0701400;157;…;no 1 līdz 5
+2021.06.06.;Ludzas novads;0680200;1025;…;21
+2021.06.06.;Madonas novads;0700200;1224;…;28
+2021.06.06.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.06.;Mālpils novads;0807400;159;…;no 1 līdz 5
+2021.06.06.;Mārupes novads;0807600;1486;…;48
+2021.06.06.;Mērsraga novads;0887600;44;…;0
+2021.06.06.;Naukšēnu novads;0967300;67;…;33
+2021.06.06.;Neretas novads;0327100;169;…;no 1 līdz 5
+2021.06.06.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.06.;Ogres novads;0740202;2243;…;102
+2021.06.06.;Olaines novads;0801000;1631;…;32
+2021.06.06.;Ozolnieku novads;0546701;713;…;13
+2021.06.06.;Pārgaujas novads;0427500;97;…;8
+2021.06.06.;Pāvilostas novads;0641401;61;…;7
+2021.06.06.;Pļaviņu novads;0321400;196;…;7
+2021.06.06.;Preiļu novads;0760202;987;…;42
+2021.06.06.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.06.;Priekuļu novads;0427300;351;…;17
+2021.06.06.;Raunas novads;0427700;152;…;7
+2021.06.06.;Rēzekne;0210000;3140;…;94
+2021.06.06.;Rēzeknes novads;0780200;1521;…;41
+2021.06.06.;Riebiņu novads;0766300;375;…;22
+2021.06.06.;Rīga;0010000;46634;…;1299
+2021.06.06.;Rojas novads;0888301;146;…;no 1 līdz 5
+2021.06.06.;Ropažu novads;0808400;637;…;15
+2021.06.06.;Rucavas novads;0648500;41;…;0
+2021.06.06.;Rugāju novads;0387500;158;…;7
+2021.06.06.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.06.;Rūjienas novads;0961600;349;…;23
+2021.06.06.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.06.;Salas novads;0568700;196;…;no 1 līdz 5
+2021.06.06.;Salaspils novads;0801200;1754;…;36
+2021.06.06.;Saldus novads;0840200;1099;…;25
+2021.06.06.;Saulkrastu novads;0801400;412;…;24
+2021.06.06.;Sējas novads;0809200;131;…;no 1 līdz 5
+2021.06.06.;Siguldas novads;0801601;865;…;42
+2021.06.06.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.06.;Skrundas novads;0621200;199;…;7
+2021.06.06.;Smiltenes novads;0941600;635;…;35
+2021.06.06.;Stopiņu novads;0809600;860;…;31
+2021.06.06.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.06.;Talsu novads;0880200;1798;…;63
+2021.06.06.;Tērvetes novads;0468900;176;…;35
+2021.06.06.;Tukuma novads;0900200;1704;…;86
+2021.06.06.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.06.;Valkas novads;0940200;429;…;17
+2021.06.06.;Valmiera;0250000;1134;…;20
+2021.06.06.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.06.;Vārkavas novads;0769101;105;…;0
+2021.06.06.;Vecpiebalgas novads;0429300;339;…;8
+2021.06.06.;Vecumnieku novads;0409500;359;…;7
+2021.06.06.;Ventspils;0270000;1787;…;106
+2021.06.06.;Ventspils novads;0980200;383;…;16
+2021.06.06.;Viesītes novads;0561800;168;…;no 1 līdz 5
+2021.06.06.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.06.;Viļānu novads;0781800;475;…;19
+2021.06.06.;Zilupes novads;0681801;215;…;7
+2021.06.07.;Adrese nav norādīta;Nav;…;…;…
+2021.06.07.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.07.;Aizkraukles novads;0320200;493;…;30
+2021.06.07.;Aizputes novads;0640600;364;…;6
+2021.06.07.;Aknīstes novads;0560800;457;…;0
+2021.06.07.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.07.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.07.;Alūksnes novads;0360200;1198;…;57
+2021.06.07.;Amatas novads;0424701;301;…;6
+2021.06.07.;Apes novads;0360800;235;…;no 1 līdz 5
+2021.06.07.;Auces novads;0460800;244;…;7
+2021.06.07.;Ādažu novads;0804400;1272;…;37
+2021.06.07.;Babītes novads;0804900;739;…;24
+2021.06.07.;Baldones novads;0800600;330;…;6
+2021.06.07.;Baltinavas novads;0384400;33;…;0
+2021.06.07.;Balvu novads;0380200;1234;…;13
+2021.06.07.;Bauskas novads;0400200;1322;…;35
+2021.06.07.;Beverīnas novads;0964700;131;…;no 1 līdz 5
+2021.06.07.;Brocēnu novads;0840601;290;…;10
+2021.06.07.;Burtnieku novads;0967101;235;…;9
+2021.06.07.;Carnikavas novads;0805200;595;…;20
+2021.06.07.;Cesvaines novads;0700800;113;…;9
+2021.06.07.;Cēsu novads;0420200;723;…;22
+2021.06.07.;Ciblas novads;0684901;156;…;0
+2021.06.07.;Dagdas novads;0601000;406;…;9
+2021.06.07.;Daugavpils;0050000;9346;…;184
+2021.06.07.;Daugavpils novads;0440200;1637;…;12
+2021.06.07.;Dobeles novads;0460200;1206;…;43
+2021.06.07.;Dundagas novads;0885100;155;…;8
+2021.06.07.;Durbes novads;0640801;90;…;no 1 līdz 5
+2021.06.07.;Engures novads;0905100;639;…;16
+2021.06.07.;Ērgļu novads;0705500;88;…;no 1 līdz 5
+2021.06.07.;Garkalnes novads;0806000;677;…;13
+2021.06.07.;Grobiņas novads;0641000;401;…;no 1 līdz 5
+2021.06.07.;Gulbenes novads;0500200;1702;…;22
+2021.06.07.;Iecavas novads;0406400;660;…;21
+2021.06.07.;Ikšķiles novads;0740600;552;…;8
+2021.06.07.;Ilūkstes novads;0440801;422;…;7
+2021.06.07.;Inčukalna novads;0801800;483;…;24
+2021.06.07.;Jaunjelgavas novads;0321000;185;…;6
+2021.06.07.;Jaunpiebalgas novads;0425700;55;…;10
+2021.06.07.;Jaunpils novads;0905700;168;…;no 1 līdz 5
+2021.06.07.;Jelgava;0090000;4839;…;128
+2021.06.07.;Jelgavas novads;0540200;1533;…;36
+2021.06.07.;Jēkabpils;0110000;1878;…;51
+2021.06.07.;Jēkabpils novads;0560200;319;…;9
+2021.06.07.;Jūrmala;0130000;3286;…;77
+2021.06.07.;Kandavas novads;0901201;229;…;17
+2021.06.07.;Kārsavas novads;0681000;323;…;17
+2021.06.07.;Kocēnu novads;0960200;230;…;10
+2021.06.07.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.07.;Krāslavas novads;0600202;1323;…;28
+2021.06.07.;Krimuldas novads;0806900;225;…;10
+2021.06.07.;Krustpils novads;0566900;500;…;17
+2021.06.07.;Kuldīgas novads;0620200;967;…;33
+2021.06.07.;Ķeguma novads;0741001;311;…;13
+2021.06.07.;Ķekavas novads;0800800;1799;…;38
+2021.06.07.;Lielvārdes novads;0741401;541;…;25
+2021.06.07.;Liepāja;0170000;3201;…;91
+2021.06.07.;Limbažu novads;0660200;817;…;23
+2021.06.07.;Līgatnes novads;0421200;156;…;6
+2021.06.07.;Līvānu novads;0761201;872;…;11
+2021.06.07.;Lubānas novads;0701400;157;…;no 1 līdz 5
+2021.06.07.;Ludzas novads;0680200;1025;…;18
+2021.06.07.;Madonas novads;0700200;1225;…;27
+2021.06.07.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.07.;Mālpils novads;0807400;160;…;6
+2021.06.07.;Mārupes novads;0807600;1486;…;45
+2021.06.07.;Mērsraga novads;0887600;44;…;0
+2021.06.07.;Naukšēnu novads;0967300;67;…;33
+2021.06.07.;Neretas novads;0327100;169;…;no 1 līdz 5
+2021.06.07.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.07.;Ogres novads;0740202;2244;…;100
+2021.06.07.;Olaines novads;0801000;1634;…;30
+2021.06.07.;Ozolnieku novads;0546701;713;…;12
+2021.06.07.;Pārgaujas novads;0427500;97;…;8
+2021.06.07.;Pāvilostas novads;0641401;61;…;6
+2021.06.07.;Pļaviņu novads;0321400;196;…;7
+2021.06.07.;Preiļu novads;0760202;987;…;42
+2021.06.07.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.07.;Priekuļu novads;0427300;351;…;17
+2021.06.07.;Raunas novads;0427700;152;…;7
+2021.06.07.;Rēzekne;0210000;3141;…;95
+2021.06.07.;Rēzeknes novads;0780200;1522;…;40
+2021.06.07.;Riebiņu novads;0766300;375;…;22
+2021.06.07.;Rīga;0010000;46672;…;1276
+2021.06.07.;Rojas novads;0888301;146;…;no 1 līdz 5
+2021.06.07.;Ropažu novads;0808400;637;…;14
+2021.06.07.;Rucavas novads;0648500;41;…;0
+2021.06.07.;Rugāju novads;0387500;158;…;7
+2021.06.07.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.07.;Rūjienas novads;0961600;349;…;22
+2021.06.07.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.07.;Salas novads;0568700;196;…;no 1 līdz 5
+2021.06.07.;Salaspils novads;0801200;1754;…;36
+2021.06.07.;Saldus novads;0840200;1099;…;25
+2021.06.07.;Saulkrastu novads;0801400;413;…;24
+2021.06.07.;Sējas novads;0809200;131;…;no 1 līdz 5
+2021.06.07.;Siguldas novads;0801601;864;…;41
+2021.06.07.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.07.;Skrundas novads;0621200;199;…;7
+2021.06.07.;Smiltenes novads;0941600;635;…;35
+2021.06.07.;Stopiņu novads;0809600;862;…;32
+2021.06.07.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.07.;Talsu novads;0880200;1798;…;63
+2021.06.07.;Tērvetes novads;0468900;176;…;35
+2021.06.07.;Tukuma novads;0900200;1705;…;85
+2021.06.07.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.07.;Valkas novads;0940200;429;…;16
+2021.06.07.;Valmiera;0250000;1135;…;20
+2021.06.07.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.07.;Vārkavas novads;0769101;105;…;0
+2021.06.07.;Vecpiebalgas novads;0429300;339;…;8
+2021.06.07.;Vecumnieku novads;0409500;359;…;7
+2021.06.07.;Ventspils;0270000;1787;…;105
+2021.06.07.;Ventspils novads;0980200;383;…;16
+2021.06.07.;Viesītes novads;0561800;168;…;no 1 līdz 5
+2021.06.07.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.07.;Viļānu novads;0781800;476;…;20
+2021.06.07.;Zilupes novads;0681801;215;…;7
+2021.06.08.;Adrese nav norādīta;Nav;…;…;…
+2021.06.08.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.08.;Aizkraukles novads;0320200;494;…;24
+2021.06.08.;Aizputes novads;0640600;364;…;6
+2021.06.08.;Aknīstes novads;0560800;457;…;0
+2021.06.08.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.08.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.08.;Alūksnes novads;0360200;1201;…;57
+2021.06.08.;Amatas novads;0424701;301;…;no 1 līdz 5
+2021.06.08.;Apes novads;0360800;235;…;no 1 līdz 5
+2021.06.08.;Auces novads;0460800;244;…;7
+2021.06.08.;Ādažu novads;0804400;1275;…;33
+2021.06.08.;Babītes novads;0804900;741;…;23
+2021.06.08.;Baldones novads;0800600;330;…;no 1 līdz 5
+2021.06.08.;Baltinavas novads;0384400;34;…;no 1 līdz 5
+2021.06.08.;Balvu novads;0380200;1234;…;9
+2021.06.08.;Bauskas novads;0400200;1324;…;36
+2021.06.08.;Beverīnas novads;0964700;131;…;no 1 līdz 5
+2021.06.08.;Brocēnu novads;0840601;290;…;10
+2021.06.08.;Burtnieku novads;0967101;235;…;9
+2021.06.08.;Carnikavas novads;0805200;595;…;15
+2021.06.08.;Cesvaines novads;0700800;113;…;8
+2021.06.08.;Cēsu novads;0420200;724;…;20
+2021.06.08.;Ciblas novads;0684901;156;…;0
+2021.06.08.;Dagdas novads;0601000;406;…;9
+2021.06.08.;Daugavpils;0050000;9362;…;177
+2021.06.08.;Daugavpils novads;0440200;1640;…;15
+2021.06.08.;Dobeles novads;0460200;1210;…;44
+2021.06.08.;Dundagas novads;0885100;155;…;8
+2021.06.08.;Durbes novads;0640801;90;…;no 1 līdz 5
+2021.06.08.;Engures novads;0905100;639;…;12
+2021.06.08.;Ērgļu novads;0705500;89;…;no 1 līdz 5
+2021.06.08.;Garkalnes novads;0806000;677;…;12
+2021.06.08.;Grobiņas novads;0641000;402;…;no 1 līdz 5
+2021.06.08.;Gulbenes novads;0500200;1702;…;18
+2021.06.08.;Iecavas novads;0406400;660;…;19
+2021.06.08.;Ikšķiles novads;0740600;552;…;7
+2021.06.08.;Ilūkstes novads;0440801;422;…;7
+2021.06.08.;Inčukalna novads;0801800;483;…;21
+2021.06.08.;Jaunjelgavas novads;0321000;185;…;6
+2021.06.08.;Jaunpiebalgas novads;0425700;55;…;10
+2021.06.08.;Jaunpils novads;0905700;169;…;no 1 līdz 5
+2021.06.08.;Jelgava;0090000;4854;…;131
+2021.06.08.;Jelgavas novads;0540200;1533;…;32
+2021.06.08.;Jēkabpils;0110000;1881;…;51
+2021.06.08.;Jēkabpils novads;0560200;319;…;9
+2021.06.08.;Jūrmala;0130000;3294;…;76
+2021.06.08.;Kandavas novads;0901201;229;…;16
+2021.06.08.;Kārsavas novads;0681000;323;…;14
+2021.06.08.;Kocēnu novads;0960200;230;…;10
+2021.06.08.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.08.;Krāslavas novads;0600202;1324;…;29
+2021.06.08.;Krimuldas novads;0806900;227;…;11
+2021.06.08.;Krustpils novads;0566900;500;…;17
+2021.06.08.;Kuldīgas novads;0620200;969;…;35
+2021.06.08.;Ķeguma novads;0741001;311;…;10
+2021.06.08.;Ķekavas novads;0800800;1806;…;44
+2021.06.08.;Lielvārdes novads;0741401;542;…;19
+2021.06.08.;Liepāja;0170000;3207;…;87
+2021.06.08.;Limbažu novads;0660200;817;…;19
+2021.06.08.;Līgatnes novads;0421200;156;…;no 1 līdz 5
+2021.06.08.;Līvānu novads;0761201;873;…;12
+2021.06.08.;Lubānas novads;0701400;158;…;no 1 līdz 5
+2021.06.08.;Ludzas novads;0680200;1028;…;19
+2021.06.08.;Madonas novads;0700200;1226;…;25
+2021.06.08.;Mazsalacas novads;0961000;87;…;no 1 līdz 5
+2021.06.08.;Mālpils novads;0807400;161;…;7
+2021.06.08.;Mārupes novads;0807600;1488;…;45
+2021.06.08.;Mērsraga novads;0887600;44;…;0
+2021.06.08.;Naukšēnu novads;0967300;67;…;22
+2021.06.08.;Neretas novads;0327100;169;…;no 1 līdz 5
+2021.06.08.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.08.;Ogres novads;0740202;2251;…;89
+2021.06.08.;Olaines novads;0801000;1638;…;32
+2021.06.08.;Ozolnieku novads;0546701;713;…;10
+2021.06.08.;Pārgaujas novads;0427500;97;…;8
+2021.06.08.;Pāvilostas novads;0641401;61;…;6
+2021.06.08.;Pļaviņu novads;0321400;196;…;7
+2021.06.08.;Preiļu novads;0760202;987;…;41
+2021.06.08.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.08.;Priekuļu novads;0427300;355;…;14
+2021.06.08.;Raunas novads;0427700;152;…;7
+2021.06.08.;Rēzekne;0210000;3147;…;81
+2021.06.08.;Rēzeknes novads;0780200;1526;…;40
+2021.06.08.;Riebiņu novads;0766300;375;…;22
+2021.06.08.;Rīga;0010000;46765;…;1232
+2021.06.08.;Rojas novads;0888301;146;…;no 1 līdz 5
+2021.06.08.;Ropažu novads;0808400;638;…;13
+2021.06.08.;Rucavas novads;0648500;41;…;0
+2021.06.08.;Rugāju novads;0387500;158;…;7
+2021.06.08.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.08.;Rūjienas novads;0961600;351;…;22
+2021.06.08.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.08.;Salas novads;0568700;197;…;6
+2021.06.08.;Salaspils novads;0801200;1755;…;31
+2021.06.08.;Saldus novads;0840200;1101;…;23
+2021.06.08.;Saulkrastu novads;0801400;413;…;22
+2021.06.08.;Sējas novads;0809200;131;…;no 1 līdz 5
+2021.06.08.;Siguldas novads;0801601;868;…;42
+2021.06.08.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.08.;Skrundas novads;0621200;199;…;no 1 līdz 5
+2021.06.08.;Smiltenes novads;0941600;640;…;29
+2021.06.08.;Stopiņu novads;0809600;862;…;30
+2021.06.08.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.08.;Talsu novads;0880200;1800;…;63
+2021.06.08.;Tērvetes novads;0468900;184;…;42
+2021.06.08.;Tukuma novads;0900200;1710;…;82
+2021.06.08.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.08.;Valkas novads;0940200;430;…;14
+2021.06.08.;Valmiera;0250000;1138;…;21
+2021.06.08.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.08.;Vārkavas novads;0769101;105;…;0
+2021.06.08.;Vecpiebalgas novads;0429300;339;…;6
+2021.06.08.;Vecumnieku novads;0409500;360;…;8
+2021.06.08.;Ventspils;0270000;1790;…;86
+2021.06.08.;Ventspils novads;0980200;384;…;14
+2021.06.08.;Viesītes novads;0561800;168;…;no 1 līdz 5
+2021.06.08.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.08.;Viļānu novads;0781800;480;…;23
+2021.06.08.;Zilupes novads;0681801;215;…;no 1 līdz 5
+2021.06.09.;Adrese nav norādīta;Nav;…;…;…
+2021.06.09.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.09.;Aizkraukles novads;0320200;496;…;24
+2021.06.09.;Aizputes novads;0640600;364;…;6
+2021.06.09.;Aknīstes novads;0560800;457;…;0
+2021.06.09.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.09.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.09.;Alūksnes novads;0360200;1202;…;53
+2021.06.09.;Amatas novads;0424701;301;…;no 1 līdz 5
+2021.06.09.;Apes novads;0360800;235;…;no 1 līdz 5
+2021.06.09.;Auces novads;0460800;246;…;8
+2021.06.09.;Ādažu novads;0804400;1276;…;28
+2021.06.09.;Babītes novads;0804900;744;…;25
+2021.06.09.;Baldones novads;0800600;330;…;no 1 līdz 5
+2021.06.09.;Baltinavas novads;0384400;34;…;no 1 līdz 5
+2021.06.09.;Balvu novads;0380200;1235;…;10
+2021.06.09.;Bauskas novads;0400200;1326;…;34
+2021.06.09.;Beverīnas novads;0964700;131;…;no 1 līdz 5
+2021.06.09.;Brocēnu novads;0840601;290;…;9
+2021.06.09.;Burtnieku novads;0967101;235;…;8
+2021.06.09.;Carnikavas novads;0805200;596;…;12
+2021.06.09.;Cesvaines novads;0700800;113;…;8
+2021.06.09.;Cēsu novads;0420200;725;…;19
+2021.06.09.;Ciblas novads;0684901;158;…;no 1 līdz 5
+2021.06.09.;Dagdas novads;0601000;406;…;6
+2021.06.09.;Daugavpils;0050000;9380;…;174
+2021.06.09.;Daugavpils novads;0440200;1644;…;19
+2021.06.09.;Dobeles novads;0460200;1216;…;48
+2021.06.09.;Dundagas novads;0885100;155;…;8
+2021.06.09.;Durbes novads;0640801;94;…;7
+2021.06.09.;Engures novads;0905100;639;…;10
+2021.06.09.;Ērgļu novads;0705500;89;…;no 1 līdz 5
+2021.06.09.;Garkalnes novads;0806000;678;…;12
+2021.06.09.;Grobiņas novads;0641000;402;…;no 1 līdz 5
+2021.06.09.;Gulbenes novads;0500200;1703;…;18
+2021.06.09.;Iecavas novads;0406400;662;…;15
+2021.06.09.;Ikšķiles novads;0740600;552;…;7
+2021.06.09.;Ilūkstes novads;0440801;423;…;8
+2021.06.09.;Inčukalna novads;0801800;485;…;23
+2021.06.09.;Jaunjelgavas novads;0321000;186;…;7
+2021.06.09.;Jaunpiebalgas novads;0425700;55;…;10
+2021.06.09.;Jaunpils novads;0905700;169;…;no 1 līdz 5
+2021.06.09.;Jelgava;0090000;4867;…;135
+2021.06.09.;Jelgavas novads;0540200;1538;…;33
+2021.06.09.;Jēkabpils;0110000;1882;…;45
+2021.06.09.;Jēkabpils novads;0560200;319;…;6
+2021.06.09.;Jūrmala;0130000;3295;…;68
+2021.06.09.;Kandavas novads;0901201;230;…;17
+2021.06.09.;Kārsavas novads;0681000;323;…;13
+2021.06.09.;Kocēnu novads;0960200;230;…;9
+2021.06.09.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.09.;Krāslavas novads;0600202;1324;…;26
+2021.06.09.;Krimuldas novads;0806900;228;…;12
+2021.06.09.;Krustpils novads;0566900;500;…;15
+2021.06.09.;Kuldīgas novads;0620200;973;…;32
+2021.06.09.;Ķeguma novads;0741001;311;…;7
+2021.06.09.;Ķekavas novads;0800800;1809;…;43
+2021.06.09.;Lielvārdes novads;0741401;543;…;16
+2021.06.09.;Liepāja;0170000;3219;…;94
+2021.06.09.;Limbažu novads;0660200;817;…;16
+2021.06.09.;Līgatnes novads;0421200;158;…;7
+2021.06.09.;Līvānu novads;0761201;875;…;13
+2021.06.09.;Lubānas novads;0701400;158;…;no 1 līdz 5
+2021.06.09.;Ludzas novads;0680200;1028;…;18
+2021.06.09.;Madonas novads;0700200;1229;…;27
+2021.06.09.;Mazsalacas novads;0961000;87;…;0
+2021.06.09.;Mālpils novads;0807400;162;…;7
+2021.06.09.;Mārupes novads;0807600;1489;…;38
+2021.06.09.;Mērsraga novads;0887600;44;…;0
+2021.06.09.;Naukšēnu novads;0967300;67;…;15
+2021.06.09.;Neretas novads;0327100;169;…;no 1 līdz 5
+2021.06.09.;Nīcas novads;0647900;113;…;no 1 līdz 5
+2021.06.09.;Ogres novads;0740202;2256;…;88
+2021.06.09.;Olaines novads;0801000;1641;…;33
+2021.06.09.;Ozolnieku novads;0546701;713;…;8
+2021.06.09.;Pārgaujas novads;0427500;100;…;8
+2021.06.09.;Pāvilostas novads;0641401;61;…;no 1 līdz 5
+2021.06.09.;Pļaviņu novads;0321400;197;…;6
+2021.06.09.;Preiļu novads;0760202;987;…;33
+2021.06.09.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.09.;Priekuļu novads;0427300;356;…;14
+2021.06.09.;Raunas novads;0427700;153;…;8
+2021.06.09.;Rēzekne;0210000;3150;…;71
+2021.06.09.;Rēzeknes novads;0780200;1526;…;33
+2021.06.09.;Riebiņu novads;0766300;376;…;17
+2021.06.09.;Rīga;0010000;46842;…;1184
+2021.06.09.;Rojas novads;0888301;147;…;no 1 līdz 5
+2021.06.09.;Ropažu novads;0808400;638;…;12
+2021.06.09.;Rucavas novads;0648500;41;…;0
+2021.06.09.;Rugāju novads;0387500;158;…;7
+2021.06.09.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.09.;Rūjienas novads;0961600;354;…;20
+2021.06.09.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.09.;Salas novads;0568700;197;…;6
+2021.06.09.;Salaspils novads;0801200;1759;…;33
+2021.06.09.;Saldus novads;0840200;1101;…;20
+2021.06.09.;Saulkrastu novads;0801400;415;…;24
+2021.06.09.;Sējas novads;0809200;134;…;7
+2021.06.09.;Siguldas novads;0801601;873;…;43
+2021.06.09.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.09.;Skrundas novads;0621200;199;…;no 1 līdz 5
+2021.06.09.;Smiltenes novads;0941600;642;…;29
+2021.06.09.;Stopiņu novads;0809600;865;…;30
+2021.06.09.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.09.;Talsu novads;0880200;1803;…;60
+2021.06.09.;Tērvetes novads;0468900;185;…;36
+2021.06.09.;Tukuma novads;0900200;1717;…;77
+2021.06.09.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.09.;Valkas novads;0940200;432;…;16
+2021.06.09.;Valmiera;0250000;1140;…;21
+2021.06.09.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.09.;Vārkavas novads;0769101;105;…;0
+2021.06.09.;Vecpiebalgas novads;0429300;339;…;6
+2021.06.09.;Vecumnieku novads;0409500;360;…;7
+2021.06.09.;Ventspils;0270000;1792;…;77
+2021.06.09.;Ventspils novads;0980200;384;…;13
+2021.06.09.;Viesītes novads;0561800;168;…;no 1 līdz 5
+2021.06.09.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.09.;Viļānu novads;0781800;481;…;21
+2021.06.09.;Zilupes novads;0681801;215;…;no 1 līdz 5
+2021.06.10.;Adrese nav norādīta;Nav;…;…;…
+2021.06.10.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.10.;Aizkraukles novads;0320200;496;…;22
+2021.06.10.;Aizputes novads;0640600;364;…;6
+2021.06.10.;Aknīstes novads;0560800;457;…;0
+2021.06.10.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.10.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.10.;Alūksnes novads;0360200;1205;…;54
+2021.06.10.;Amatas novads;0424701;302;…;6
+2021.06.10.;Apes novads;0360800;235;…;no 1 līdz 5
+2021.06.10.;Auces novads;0460800;246;…;8
+2021.06.10.;Ādažu novads;0804400;1280;…;23
+2021.06.10.;Babītes novads;0804900;745;…;25
+2021.06.10.;Baldones novads;0800600;330;…;no 1 līdz 5
+2021.06.10.;Baltinavas novads;0384400;34;…;no 1 līdz 5
+2021.06.10.;Balvu novads;0380200;1235;…;8
+2021.06.10.;Bauskas novads;0400200;1327;…;29
+2021.06.10.;Beverīnas novads;0964700;132;…;no 1 līdz 5
+2021.06.10.;Brocēnu novads;0840601;290;…;8
+2021.06.10.;Burtnieku novads;0967101;235;…;8
+2021.06.10.;Carnikavas novads;0805200;597;…;12
+2021.06.10.;Cesvaines novads;0700800;113;…;6
+2021.06.10.;Cēsu novads;0420200;726;…;18
+2021.06.10.;Ciblas novads;0684901;158;…;no 1 līdz 5
+2021.06.10.;Dagdas novads;0601000;406;…;6
+2021.06.10.;Daugavpils;0050000;9396;…;168
+2021.06.10.;Daugavpils novads;0440200;1650;…;25
+2021.06.10.;Dobeles novads;0460200;1219;…;50
+2021.06.10.;Dundagas novads;0885100;156;…;9
+2021.06.10.;Durbes novads;0640801;94;…;7
+2021.06.10.;Engures novads;0905100;640;…;9
+2021.06.10.;Ērgļu novads;0705500;89;…;no 1 līdz 5
+2021.06.10.;Garkalnes novads;0806000;678;…;11
+2021.06.10.;Grobiņas novads;0641000;403;…;6
+2021.06.10.;Gulbenes novads;0500200;1704;…;14
+2021.06.10.;Iecavas novads;0406400;664;…;15
+2021.06.10.;Ikšķiles novads;0740600;553;…;8
+2021.06.10.;Ilūkstes novads;0440801;423;…;8
+2021.06.10.;Inčukalna novads;0801800;487;…;23
+2021.06.10.;Jaunjelgavas novads;0321000;185;…;6
+2021.06.10.;Jaunpiebalgas novads;0425700;55;…;10
+2021.06.10.;Jaunpils novads;0905700;169;…;no 1 līdz 5
+2021.06.10.;Jelgava;0090000;4874;…;131
+2021.06.10.;Jelgavas novads;0540200;1544;…;36
+2021.06.10.;Jēkabpils;0110000;1886;…;48
+2021.06.10.;Jēkabpils novads;0560200;319;…;no 1 līdz 5
+2021.06.10.;Jūrmala;0130000;3296;…;63
+2021.06.10.;Kandavas novads;0901201;231;…;18
+2021.06.10.;Kārsavas novads;0681000;324;…;11
+2021.06.10.;Kocēnu novads;0960200;230;…;9
+2021.06.10.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.10.;Krāslavas novads;0600202;1326;…;23
+2021.06.10.;Krimuldas novads;0806900;229;…;13
+2021.06.10.;Krustpils novads;0566900;500;…;15
+2021.06.10.;Kuldīgas novads;0620200;976;…;31
+2021.06.10.;Ķeguma novads;0741001;311;…;7
+2021.06.10.;Ķekavas novads;0800800;1813;…;44
+2021.06.10.;Lielvārdes novads;0741401;543;…;14
+2021.06.10.;Liepāja;0170000;3224;…;86
+2021.06.10.;Limbažu novads;0660200;817;…;13
+2021.06.10.;Līgatnes novads;0421200;158;…;7
+2021.06.10.;Līvānu novads;0761201;876;…;13
+2021.06.10.;Lubānas novads;0701400;158;…;no 1 līdz 5
+2021.06.10.;Ludzas novads;0680200;1029;…;18
+2021.06.10.;Madonas novads;0700200;1231;…;25
+2021.06.10.;Mazsalacas novads;0961000;88;…;no 1 līdz 5
+2021.06.10.;Mālpils novads;0807400;162;…;7
+2021.06.10.;Mārupes novads;0807600;1497;…;39
+2021.06.10.;Mērsraga novads;0887600;44;…;0
+2021.06.10.;Naukšēnu novads;0967300;68;…;16
+2021.06.10.;Neretas novads;0327100;169;…;no 1 līdz 5
+2021.06.10.;Nīcas novads;0647900;113;…;0
+2021.06.10.;Ogres novads;0740202;2258;…;82
+2021.06.10.;Olaines novads;0801000;1641;…;29
+2021.06.10.;Ozolnieku novads;0546701;713;…;7
+2021.06.10.;Pārgaujas novads;0427500;102;…;10
+2021.06.10.;Pāvilostas novads;0641401;61;…;no 1 līdz 5
+2021.06.10.;Pļaviņu novads;0321400;198;…;7
+2021.06.10.;Preiļu novads;0760202;989;…;34
+2021.06.10.;Priekules novads;0641600;172;…;no 1 līdz 5
+2021.06.10.;Priekuļu novads;0427300;356;…;11
+2021.06.10.;Raunas novads;0427700;153;…;7
+2021.06.10.;Rēzekne;0210000;3154;…;67
+2021.06.10.;Rēzeknes novads;0780200;1529;…;28
+2021.06.10.;Riebiņu novads;0766300;376;…;15
+2021.06.10.;Rīga;0010000;46904;…;1134
+2021.06.10.;Rojas novads;0888301;147;…;no 1 līdz 5
+2021.06.10.;Ropažu novads;0808400;639;…;13
+2021.06.10.;Rucavas novads;0648500;41;…;0
+2021.06.10.;Rugāju novads;0387500;158;…;6
+2021.06.10.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.10.;Rūjienas novads;0961600;355;…;19
+2021.06.10.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.10.;Salas novads;0568700;198;…;7
+2021.06.10.;Salaspils novads;0801200;1760;…;32
+2021.06.10.;Saldus novads;0840200;1103;…;18
+2021.06.10.;Saulkrastu novads;0801400;416;…;23
+2021.06.10.;Sējas novads;0809200;134;…;6
+2021.06.10.;Siguldas novads;0801601;876;…;45
+2021.06.10.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.10.;Skrundas novads;0621200;201;…;no 1 līdz 5
+2021.06.10.;Smiltenes novads;0941600;643;…;26
+2021.06.10.;Stopiņu novads;0809600;866;…;29
+2021.06.10.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.10.;Talsu novads;0880200;1804;…;60
+2021.06.10.;Tērvetes novads;0468900;185;…;28
+2021.06.10.;Tukuma novads;0900200;1718;…;65
+2021.06.10.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.10.;Valkas novads;0940200;432;…;15
+2021.06.10.;Valmiera;0250000;1142;…;21
+2021.06.10.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.10.;Vārkavas novads;0769101;105;…;0
+2021.06.10.;Vecpiebalgas novads;0429300;339;…;6
+2021.06.10.;Vecumnieku novads;0409500;360;…;7
+2021.06.10.;Ventspils;0270000;1796;…;69
+2021.06.10.;Ventspils novads;0980200;384;…;11
+2021.06.10.;Viesītes novads;0561800;170;…;no 1 līdz 5
+2021.06.10.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.10.;Viļānu novads;0781800;485;…;22
+2021.06.10.;Zilupes novads;0681801;215;…;no 1 līdz 5
+2021.06.11.;Adrese nav norādīta;Nav;…;…;…
+2021.06.11.;Aglonas novads;0604300;407;…;no 1 līdz 5
+2021.06.11.;Aizkraukles novads;0320200;496;…;21
+2021.06.11.;Aizputes novads;0640600;366;…;7
+2021.06.11.;Aknīstes novads;0560800;457;…;0
+2021.06.11.;Alojas novads;0661000;209;…;no 1 līdz 5
+2021.06.11.;Alsungas novads;0624200;20;…;no 1 līdz 5
+2021.06.11.;Alūksnes novads;0360200;1206;…;47
+2021.06.11.;Amatas novads;0424701;302;…;no 1 līdz 5
+2021.06.11.;Apes novads;0360800;235;…;no 1 līdz 5
+2021.06.11.;Auces novads;0460800;247;…;9
+2021.06.11.;Ādažu novads;0804400;1280;…;19
+2021.06.11.;Babītes novads;0804900;745;…;24
+2021.06.11.;Baldones novads;0800600;330;…;no 1 līdz 5
+2021.06.11.;Baltinavas novads;0384400;34;…;no 1 līdz 5
+2021.06.11.;Balvu novads;0380200;1235;…;no 1 līdz 5
+2021.06.11.;Bauskas novads;0400200;1327;…;24
+2021.06.11.;Beverīnas novads;0964700;133;…;6
+2021.06.11.;Brocēnu novads;0840601;290;…;6
+2021.06.11.;Burtnieku novads;0967101;236;…;8
+2021.06.11.;Carnikavas novads;0805200;598;…;10
+2021.06.11.;Cesvaines novads;0700800;113;…;no 1 līdz 5
+2021.06.11.;Cēsu novads;0420200;726;…;16
+2021.06.11.;Ciblas novads;0684901;160;…;no 1 līdz 5
+2021.06.11.;Dagdas novads;0601000;408;…;no 1 līdz 5
+2021.06.11.;Daugavpils;0050000;9407;…;162
+2021.06.11.;Daugavpils novads;0440200;1656;…;27
+2021.06.11.;Dobeles novads;0460200;1225;…;54
+2021.06.11.;Dundagas novads;0885100;156;…;7
+2021.06.11.;Durbes novads;0640801;94;…;6
+2021.06.11.;Engures novads;0905100;640;…;no 1 līdz 5
+2021.06.11.;Ērgļu novads;0705500;89;…;no 1 līdz 5
+2021.06.11.;Garkalnes novads;0806000;678;…;11
+2021.06.11.;Grobiņas novads;0641000;402;…;no 1 līdz 5
+2021.06.11.;Gulbenes novads;0500200;1705;…;14
+2021.06.11.;Iecavas novads;0406400;666;…;15
+2021.06.11.;Ikšķiles novads;0740600;554;…;8
+2021.06.11.;Ilūkstes novads;0440801;423;…;8
+2021.06.11.;Inčukalna novads;0801800;487;…;23
+2021.06.11.;Jaunjelgavas novads;0321000;187;…;8
+2021.06.11.;Jaunpiebalgas novads;0425700;55;…;10
+2021.06.11.;Jaunpils novads;0905700;169;…;no 1 līdz 5
+2021.06.11.;Jelgava;0090000;4880;…;127
+2021.06.11.;Jelgavas novads;0540200;1548;…;39
+2021.06.11.;Jēkabpils;0110000;1888;…;42
+2021.06.11.;Jēkabpils novads;0560200;319;…;no 1 līdz 5
+2021.06.11.;Jūrmala;0130000;3297;…;55
+2021.06.11.;Kandavas novads;0901201;232;…;17
+2021.06.11.;Kārsavas novads;0681000;324;…;9
+2021.06.11.;Kocēnu novads;0960200;231;…;10
+2021.06.11.;Kokneses novads;0326100;288;…;no 1 līdz 5
+2021.06.11.;Krāslavas novads;0600202;1326;…;23
+2021.06.11.;Krimuldas novads;0806900;229;…;11
+2021.06.11.;Krustpils novads;0566900;500;…;13
+2021.06.11.;Kuldīgas novads;0620200;980;…;25
+2021.06.11.;Ķeguma novads;0741001;311;…;no 1 līdz 5
+2021.06.11.;Ķekavas novads;0800800;1814;…;42
+2021.06.11.;Lielvārdes novads;0741401;546;…;13
+2021.06.11.;Liepāja;0170000;3235;…;89
+2021.06.11.;Limbažu novads;0660200;817;…;9
+2021.06.11.;Līgatnes novads;0421200;158;…;7
+2021.06.11.;Līvānu novads;0761201;877;…;13
+2021.06.11.;Lubānas novads;0701400;158;…;no 1 līdz 5
+2021.06.11.;Ludzas novads;0680200;1029;…;13
+2021.06.11.;Madonas novads;0700200;1233;…;24
+2021.06.11.;Mazsalacas novads;0961000;88;…;no 1 līdz 5
+2021.06.11.;Mālpils novads;0807400;162;…;7
+2021.06.11.;Mārupes novads;0807600;1500;…;37
+2021.06.11.;Mērsraga novads;0887600;44;…;0
+2021.06.11.;Naukšēnu novads;0967300;69;…;17
+2021.06.11.;Neretas novads;0327100;169;…;no 1 līdz 5
+2021.06.11.;Nīcas novads;0647900;113;…;0
+2021.06.11.;Ogres novads;0740202;2261;…;82
+2021.06.11.;Olaines novads;0801000;1641;…;27
+2021.06.11.;Ozolnieku novads;0546701;713;…;6
+2021.06.11.;Pārgaujas novads;0427500;104;…;11
+2021.06.11.;Pāvilostas novads;0641401;61;…;no 1 līdz 5
+2021.06.11.;Pļaviņu novads;0321400;198;…;7
+2021.06.11.;Preiļu novads;0760202;990;…;32
+2021.06.11.;Priekules novads;0641600;172;…;0
+2021.06.11.;Priekuļu novads;0427300;357;…;11
+2021.06.11.;Raunas novads;0427700;153;…;no 1 līdz 5
+2021.06.11.;Rēzekne;0210000;3156;…;56
+2021.06.11.;Rēzeknes novads;0780200;1535;…;31
+2021.06.11.;Riebiņu novads;0766300;376;…;13
+2021.06.11.;Rīga;0010000;46954;…;1084
+2021.06.11.;Rojas novads;0888301;148;…;no 1 līdz 5
+2021.06.11.;Ropažu novads;0808400;640;…;13
+2021.06.11.;Rucavas novads;0648500;41;…;0
+2021.06.11.;Rugāju novads;0387500;158;…;6
+2021.06.11.;Rundāles novads;0407700;131;…;no 1 līdz 5
+2021.06.11.;Rūjienas novads;0961600;356;…;19
+2021.06.11.;Salacgrīvas novads;0661400;397;…;no 1 līdz 5
+2021.06.11.;Salas novads;0568700;198;…;7
+2021.06.11.;Salaspils novads;0801200;1761;…;29
+2021.06.11.;Saldus novads;0840200;1103;…;16
+2021.06.11.;Saulkrastu novads;0801400;418;…;20
+2021.06.11.;Sējas novads;0809200;134;…;no 1 līdz 5
+2021.06.11.;Siguldas novads;0801601;876;…;39
+2021.06.11.;Skrīveru novads;0328200;216;…;no 1 līdz 5
+2021.06.11.;Skrundas novads;0621200;201;…;no 1 līdz 5
+2021.06.11.;Smiltenes novads;0941600;646;…;28
+2021.06.11.;Stopiņu novads;0809600;867;…;23
+2021.06.11.;Strenču novads;0941800;204;…;no 1 līdz 5
+2021.06.11.;Talsu novads;0880200;1807;…;50
+2021.06.11.;Tērvetes novads;0468900;189;…;32
+2021.06.11.;Tukuma novads;0900200;1720;…;63
+2021.06.11.;Vaiņodes novads;0649300;116;…;no 1 līdz 5
+2021.06.11.;Valkas novads;0940200;433;…;15
+2021.06.11.;Valmiera;0250000;1146;…;25
+2021.06.11.;Varakļānu novads;0701800;326;…;no 1 līdz 5
+2021.06.11.;Vārkavas novads;0769101;105;…;0
+2021.06.11.;Vecpiebalgas novads;0429300;340;…;7
+2021.06.11.;Vecumnieku novads;0409500;361;…;8
+2021.06.11.;Ventspils;0270000;1800;…;63
+2021.06.11.;Ventspils novads;0980200;384;…;11
+2021.06.11.;Viesītes novads;0561800;170;…;no 1 līdz 5
+2021.06.11.;Viļakas novads;0381600;425;…;no 1 līdz 5
+2021.06.11.;Viļānu novads;0781800;486;…;23
+2021.06.11.;Zilupes novads;0681801;216;…;no 1 līdz 5
