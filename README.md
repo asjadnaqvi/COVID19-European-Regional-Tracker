@@ -118,9 +118,6 @@ Note: The links are subject to change. If you find an error or a better data sou
 
 # :triangular_flag_on_post: Maps
 
-
-The map below shows the combined dataset of all the countries that have been processed:
-
 ### Full date range:
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="400" title="Cumulative COVID-19 per 10,000 population">
 
