@@ -119,14 +119,14 @@ Note: The links are subject to change. If you find an error or a better data sou
 ## :triangular_flag_on_post: Maps
 
 ### Full date range:
-<img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="400" title="Cumulative COVID-19 per 10,000 population">
+<img src="./05_figures/COVID19_EUROPE_cases_total.png" width="300" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="300" title="Cumulative COVID-19 per 10,000 population">
 
 ### Cases on the last reported NUTS data point in the dataset:
-<img src="./05_figures/COVID19_EUROPE_cases_today.png" width="400" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="COVID-19 per 10,000 population (last observation)">
+<img src="./05_figures/COVID19_EUROPE_cases_today.png" width="300" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="300" title="COVID-19 per 10,000 population (last observation)">
 
 ### Change in cases in the past 14 days:
 
-<img src="./05_figures/COVID19_EUROPE_change14.png" width="400" title="Percentage change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14_abs.png" width="400" title="Absolute change in COVID-19 cases per 10k population (past 14 days)">
+<img src="./05_figures/COVID19_EUROPE_change14.png" width="300" title="Percentage change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14_abs.png" width="300" title="Absolute change in COVID-19 cases per 10k population (past 14 days)">
 
 <!--- use this to mark out codes  -->
 
@@ -139,18 +139,18 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ### Individual country maps:
 
-<img src="./05_figures/covid19_AT.png" height="250" title="Austria"><img src="./05_figures/covid19_BE.png" height="250" title="Belgium">
-<img src="./05_figures/covid19_CH.png" height="250" title="Switzerland"><img src="./05_figures/covid19_CZ.png" height="250" title="Czechia">
-<img src="./05_figures/covid19_DE.png" height="250" title="Germany"><img src="./05_figures/covid19_DK.png" height="250" title="Denmark">
-<img src="./05_figures/covid19_EE.png" height="250" title="Estonia"><img src="./05_figures/covid19_EL.png" height="250"  title="Greece">
-<img src="./05_figures/covid19_ES.png" height="250" title="Spain"><img src="./05_figures/covid19_FI.png" height="200" title="Finland">
-<img src="./05_figures/covid19_FR.png" height="250" title="France"><img src="./05_figures/covid19_HR.png" height="250" title="Croatia">
-<img src="./05_figures/covid19_HU.png" height="250" title="Hungary"><img src="./05_figures/covid19_IE.png" height="250" title="Ireland">
-<img src="./05_figures/covid19_IT.png" height="250" title="Italy"><img src="./05_figures/covid19_LV.png" height="250" title="Latvia">
-<img src="./05_figures/covid19_NL.png" height="250" title="Netherlands"><img src="./05_figures/covid19_NO.png" height="250"  title="Norway">
-<img src="./05_figures/covid19_PL.png" height="250" title="Poland"><img src="./05_figures/covid19_RO.png" height="250" title="Romania">
-<img src="./05_figures/covid19_SE.png" height="250" title="Sweden"><img src="./05_figures/covid19_SI.png" height="250" title="Slovenia">
-<img src="./05_figures/covid19_SK.png" height="250" title="Slovakia"><img src="./05_figures/covid19_UK.png" height="250" title="United Kingdom">
+<img src="./05_figures/covid19_AT.png" height="200" title="Austria"><img src="./05_figures/covid19_BE.png" height="200" title="Belgium">
+<img src="./05_figures/covid19_CH.png" height="200" title="Switzerland"><img src="./05_figures/covid19_CZ.png" height="200" title="Czechia">
+<img src="./05_figures/covid19_DE.png" height="200" title="Germany"><img src="./05_figures/covid19_DK.png" height="200" title="Denmark">
+<img src="./05_figures/covid19_EE.png" height="200" title="Estonia"><img src="./05_figures/covid19_EL.png" height="200"  title="Greece">
+<img src="./05_figures/covid19_ES.png" height="200" title="Spain"><img src="./05_figures/covid19_FI.png" height="200" title="Finland">
+<img src="./05_figures/covid19_FR.png" height="200" title="France"><img src="./05_figures/covid19_HR.png" height="200" title="Croatia">
+<img src="./05_figures/covid19_HU.png" height="200" title="Hungary"><img src="./05_figures/covid19_IE.png" height="200" title="Ireland">
+<img src="./05_figures/covid19_IT.png" height="200" title="Italy"><img src="./05_figures/covid19_LV.png" height="200" title="Latvia">
+<img src="./05_figures/covid19_NL.png" height="200" title="Netherlands"><img src="./05_figures/covid19_NO.png" height="200"  title="Norway">
+<img src="./05_figures/covid19_PL.png" height="200" title="Poland"><img src="./05_figures/covid19_RO.png" height="200" title="Romania">
+<img src="./05_figures/covid19_SE.png" height="200" title="Sweden"><img src="./05_figures/covid19_SI.png" height="200" title="Slovenia">
+<img src="./05_figures/covid19_SK.png" height="200" title="Slovakia"><img src="./05_figures/covid19_UK.png" height="200" title="United Kingdom">
 
 <!--- <img src="./05_figures/covid19_PT.png" width="250" title="Portugal"> -->
 
