@@ -80,6 +80,8 @@ The scatter plot of daily cases per 10k population at the NUTS level:
 
 ## Data sources
 
+The table below shows the links of the official insitutions that are responsible for COVID-19 data in their respective countries, and links to the actual databases from where the data is pulled.
+
 | Country | Code  | Official institution | Data source |
 | --- |  --- |  --- |  --- | 
 | Austria | AT  | [AGES](https://covid19-dashboard.ages.at/)  | [Link](https://covid19-dashboard.ages.at/)  | 
@@ -112,7 +114,7 @@ The scatter plot of daily cases per 10k population at the NUTS level:
 | Scotland |   | [The Scottish Government](https://www.gov.scot/coronavirus-covid-19/)  | [Link](https://public.tableau.com/profile/phs.covid.19#!/vizhome/COVID-19DailyDashboard_15960160643010/Overview)   |   
 | Wales |   |  [The Welsh Government](https://www.gov.scot/coronavirus-covid-19/)  |    |   
 
-Note: The links are subject to change. If you find an error or a better data source, then please let me know.
+*Note:* The links are subject to change. If you find an error or a better data source, then please let me know.
 
 
 
