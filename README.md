@@ -32,6 +32,8 @@ This repository is updated every four weeks. All raw data and scripts are availa
 
 ## European regions and availability of COVID-19 data
 
+The table below shows the national regional classifications that correspond to NUTS tables. Number of regions for each NUTS level are given in brackets and the NUTS level at which the data is available is highlighted in bold. For smaller countries, NUTS 0 and NUTS 1 are the same administrative regions. 
+
 | Country (NUTS 0) | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
 | --- | --- | --- | --- | --- | --- | 
 | Austria | AT  | Gruppen von Bundesländern (3) | Bundesländer (9) | **Bezirke (35)** | Gemeniden (2096) | 
@@ -60,15 +62,10 @@ This repository is updated every four weeks. All raw data and scripts are availa
 | Switzerland | CH  | - | Grossregionen (7) | **Kantone (26)** | Gemeinden/Communes (2222) | 
 | United Kingdom | UK  | Government Office Regions (12) | Counties (41) | Upper tier authorities (179) | **Lower Authority Districts (LADs/LTLAs) (315)** | 
 
-Source: Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). Number of regions are given in brackets. The region at which the data is available is highlighted in bold. For some countries, NUTS 0 and NUTS 1 are the same administrative regions. UK is treated as four separate countries. For the UK, daily regional data is available for England and Scotland.
-
-The following workflow is used to compile the data:
-
-<img src="./05_figures/workflow.png" width="800" title="Workflow">
+*Source:* Extended from [Eurostat LAU page](https://ec.europa.eu/eurostat/web/nuts/national-structures). 
 
 
-
-## Sources of country level datasets
+## Sources of country datasets
 The date range for countries:
 <img src="./05_figures/range_date.png" width="800" title="">
 
@@ -76,9 +73,6 @@ The scatter plot of daily cases per 10k population at the NUTS level:
 <img src="./05_figures/range_newcasepop.png" width="800" title="">
 
 
-
-
-## Data sources
 
 The table below shows the links of the official insitutions that are responsible for COVID-19 data in their respective countries, and links to the actual databases from where the data is pulled.
 
@@ -116,6 +110,20 @@ The table below shows the links of the official insitutions that are responsible
 
 *Note:* The links are subject to change. If you find an error or a better data source, then please let me know.
 
+
+## Workflow
+The following workflow is used to compile the data at the NUTS3 or NUTS2 level:
+
+<img src="./05_figures/workflow.png" width="800" title="Workflow">
+
+
+## Data validation
+
+In order to validate the data, the regional level information is aggregated up to country-level totals. These are compared with Our World in Data's (OWID) [COVID-19 tracker](https://ourworldindata.org/coronavirus) numbers. OWID is a key source for COVID-19-related information and is referenced frequently in scientific research and the media. OWID was utilizing country-level information provided by the [European Center for Disease Control (ECDC)](https://www.ecdc.europa.eu/en) till November 2020. In November 2020, ECDC announced that it will switch to weekly data releases under [The European Surveillance System (TESSy)](https://covid19-surveillance-report.ecdc.europa.eu/) where countries submit NUTS2-level data. As a response, [OWID switched](https://coronavirus.jhu.edu/map.html) to the John Hopkins University's (JHU) [data](https://coronavirus.jhu.edu/map.html), which provides COVID-19 information at the global level. 
+
+<img src="./05_figures/validation.png" width="800" title="Tracker comparison with OWID data">
+
+For validation, both this Tracker and OWID data is merged on a country-date combination and the difference between the daily cases is calculated. The figure above plots these differences by countries. After October 2020, the mismatch in the totals goes up significantly and persists till today. Two explanations for these trends. First, before October 2020, daily data was provided by ECDC which was taking information directly from European countries. Since this Tracker is pulling data from the countries directly, the match pre-October 2020 is very close with the exception of a few outliers. Second, since the data source of this Tracker remains unchanged, while OWID updated its source to broader (less-verified) database after October 2020, this Tracker provides a more accurate picture of country-level aggregates including regional variations. As of March 2021, ECDC is again releasing daily country-level data but gaps exist between the latest data series and the pre-November 2020 updates.
 
 
 ## Maps
@@ -157,13 +165,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 <!--- <img src="./05_figures/covid19_PT.png" width="250" title="Portugal"> -->
 
 
-## Data validation
 
-In order to validate the data, the regional level information is aggregated up to country-level totals. These are compared with Our World in Data's (OWID) [COVID-19 tracker](https://ourworldindata.org/coronavirus) numbers. OWID is a key source for COVID-19-related information and is referenced frequently in scientific research and the media. OWID was utilizing country-level information provided by the [European Center for Disease Control (ECDC)](https://www.ecdc.europa.eu/en) till November 2020. In November 2020, ECDC announced that it will switch to weekly data releases under [The European Surveillance System (TESSy)](https://covid19-surveillance-report.ecdc.europa.eu/) where countries submit NUTS2-level data. As a response, [OWID switched](https://coronavirus.jhu.edu/map.html) to the John Hopkins University's (JHU) [data](https://coronavirus.jhu.edu/map.html), which provides COVID-19 information at the global level. 
-
-<img src="./05_figures/validation.png" width="800" title="Tracker comparison with OWID data">
-
-For validation, both this Tracker and OWID data is merged on a country-date combination and the difference between the daily cases is calculated. The figure above plots these differences by countries. After October 2020, the mismatch in the totals goes up significantly and persists till today. Two explanations for these trends. First, before October 2020, daily data was provided by ECDC which was taking information directly from European countries. Since this Tracker is pulling data from the countries directly, the match pre-October 2020 is very close with the exception of a few outliers. Second, since the data source of this Tracker remains unchanged, while OWID updated its source to broader (less-verified) database after October 2020, this Tracker provides a more accurate picture of country-level aggregates including regional variations. As of March 2021, ECDC is again releasing daily country-level data but gaps exist between the latest data series and the pre-November 2020 updates.
 
 
 
