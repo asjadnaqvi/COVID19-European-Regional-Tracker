@@ -6,9 +6,9 @@ The data is also periodically released on Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
 A pre-print of the tracker is available here:
-https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3
+[https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3](https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3)
 
-This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. Please report errors and inconsistencies if you find any in the dataset. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at asjadnaqvi@gmail.com or naqvi@iiasa.ac.at.
+This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. Please report errors and inconsistencies if you find any in the dataset. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
 
 ## Challenges with data access
@@ -135,6 +135,8 @@ Note: The links are subject to change. If you find an error or a better data sou
 Countries with data only at the NUTS-2 level have not been added to the video above. See below for individual countries maps which are updated weekly. -->
 
 
+
+
 ## Individual country maps:
 
 <img src="./05_figures/covid19_AT.png" height="250" title="Austria"><img src="./05_figures/covid19_BE.png" height="250" title="Belgium">
@@ -153,7 +155,18 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 <!--- <img src="./05_figures/covid19_PT.png" width="250" title="Portugal"> -->
 
 
-# Change Logs
+## Data validation
+
+In order to validate the data, the regional level information is aggregated up to country-level totals. These are compared with Our World in Data's (OWID) [COVID-19 tracker](https://ourworldindata.org/coronavirus) numbers. OWID is a major source for COVID-19-related information and is referenced frequently in scientific research and the media. OWID was utilizing country-level information provided by the [European Center for Disease Control (ECDC)](https://www.ecdc.europa.eu/en) till November 2020. In November 2020, ECDC announced that it will switch to weekly data releases under [The European Surveillance System (TESSy)](https://covid19-surveillance-report.ecdc.europa.eu/) where countries submit NUTS2-level data. As a response [OWID switched to the John Hopkins University's (JHU) data repository](https://coronavirus.jhu.edu/map.html), a major data source for COVID-19 information at the global level. 
+
+<img src="./05_figures/validation.png" width="800" title="Tracker comparison with OWID data">
+
+For validation, both this Tracker and OWID data is merged on a country-date combination and the difference between the daily cases is calculated. The figure above plots these differences by countries. After October 2020, the difference in the totals for most countries goes up significantly and persists till today. Two reasons can be attributed to this. First, before October 2020, daily data was provided by ECDC which was taking information directly from European countries. Since this Tracker is pulling data from the countries directly, the match is very close with the exception of a few outliers. Second, since the data source of this Tracker remains unchanged, while OWID updated its source to broader (less-verified) database after October 2020, this Tracker provides a more accurate picture of country-level aggregates including regional variations. As of March 2021, ECDC is again releasing daily country-level data but gaps exist between the latest data series and the pre-November 2020 updates.
+
+
+
+## Change Logs
+* 01 Jul 2021: All countries updated. Ireland's data is still not being updated so it has been dropped from Europe maps. New dedicated webpage created for this repository: https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/. In the maps the rise of the delta variant is also visible.
 * 12 Jun 2021: England data source changed to the offical ONS data at the LTLA level which maps to NUTS 3. Since the raw files are very large the original version has been removed from the directories. Please see the dofiles for the links. All countries updated. This will be the official May/June 2021 release version.
 * 31 May 2021: All countries updated. Minor fixes to Ireland's dofile. England's data from ODI Leeds is no longer being updated regularly. For this update, England's data is still the old version from April. One option is to replace England data with the official ONS information but its mapping to NUTS2/NUTS3 needs to be checked.
 * 18 May 2021: Negative change in daily cases were being dropped in the master file. These have been added back in. It is up to the users to decide on how to deal with them. Negative changes in daily cases exist in the raw files and are mostly likely corrections to the data. A flag variable has been added to the master file which equals 1 if the daily_cases variable is negative. These are 0.18% of the data at the time of this update. Other minor fixes include dropping redundant variables and ordering the columns. The scatter plot for daily NUTS cases per 10k population now shows the complete data series.

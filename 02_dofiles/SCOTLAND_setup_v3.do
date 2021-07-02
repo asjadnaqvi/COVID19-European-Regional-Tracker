@@ -29,7 +29,7 @@ save Scotland_regions.dta, replace
 *https://www.opendata.nhs.scot/dataset/covid-19-in-scotland  
 
 
-copy "https://www.opendata.nhs.scot/dataset/b318bddf-a4dc-4262-971f-0ba329e09b87/resource/427f9a25-db22-4014-a3bc-893b68243055/download/trend_ca_20210611.csv" "scotland_raw.csv", replace
+copy "https://www.opendata.nhs.scot/dataset/b318bddf-a4dc-4262-971f-0ba329e09b87/resource/427f9a25-db22-4014-a3bc-893b68243055/download/trend_ca_20210701.csv" "scotland_raw.csv", replace
 
 		
 insheet using scotland_raw.csv, clear

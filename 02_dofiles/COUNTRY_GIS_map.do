@@ -85,6 +85,16 @@ replace last = . if nuts0_id=="PT"
 
 format cases_daily		%9.0f
 format cases_daily_pop 	%9.2f	
+
+
+
+*** drop these countries whose data is messed up.
+	
+drop if nuts0_id=="PT"
+drop if nuts0_id=="IE"
+	
+	
+set scheme rainbow
 	
 	
 **** graphs below
@@ -128,7 +138,7 @@ id(_ID) cln(15)  fcolor("`colors'")  ///
 colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1  & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1, /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
@@ -146,7 +156,7 @@ id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 colorpalette viridis, ipolate(15, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap cases using "nuts3_mix_shp.dta" if last==1  & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap cases using "nuts3_mix_shp.dta" if last==1, /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
@@ -167,7 +177,7 @@ format cases_pop 	%9.0f
 colorpalette viridis, ipolate(15, power(1.2)) reverse nograph
 local colors `r(p)'
 
-spmap cases_pop using "nuts3_mix_shp.dta" if last==1 & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap cases_pop using "nuts3_mix_shp.dta" if last==1, /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
@@ -193,7 +203,7 @@ colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 
 local colors `r(p)'
 
-spmap change14 using "nuts3_mix_shp.dta" if last==1 &  nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14 using "nuts3_mix_shp.dta" if last==1, /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -219,7 +229,7 @@ format change14_abs_pop 	%9.0f
 colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap change14_abs_pop using "nuts3_mix_shp.dta" if last==1 &  nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14_abs_pop using "nuts3_mix_shp.dta" if last==1, /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14)  clm(k)    fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs2 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -247,7 +257,7 @@ colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 
 local colors `r(p)'
 
-spmap change14_abs using "nuts3_mix_shp.dta" if last==1 & nuts0_id!="PT", /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14_abs using "nuts3_mix_shp.dta" if last==1, /// // & (nuts0_id!="PT" & nuts0_id!="EL")
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs2 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -272,7 +282,7 @@ summ date
 
 display "`ldate'"
 
-levelsof nuts0_id if nuts0_id!="PT", local(cntry)
+levelsof nuts0_id, local(cntry)
 
 foreach x of local cntry {
 
@@ -309,7 +319,7 @@ display "`x'"
 					*label(data("nuts_label_`x'") x(_CX) y(_CY) label(nuts_name) size(*0.5 ..) length(30)) ///	
 
 
-levelsof nuts0_id if nuts0_id!="PT" , local(cntry)
+levelsof nuts0_id , local(cntry)
 
 foreach x of local cntry {
 
