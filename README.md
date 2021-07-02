@@ -66,12 +66,6 @@ The table below shows the national regional classifications that correspond to N
 
 
 ## Sources of country datasets
-The date range for countries:
-<img src="./05_figures/range_date.png" width="800" title="">
-
-The scatter plot of daily cases per 10k population at the NUTS level:
-<img src="./05_figures/range_newcasepop.png" width="800" title="">
-
 
 
 The table below shows the links of the official insitutions that are responsible for COVID-19 data in their respective countries, and links to the actual databases from where the data is pulled.
@@ -116,6 +110,12 @@ The following workflow is used to compile the data at the NUTS3 or NUTS2 level:
 
 <img src="./05_figures/workflow.png" width="800" title="Workflow">
 
+The date range for countries:
+<img src="./05_figures/range_date.png" width="800" title="">
+
+The scatter plot of daily cases per 10k population at the NUTS level:
+<img src="./05_figures/range_newcasepop.png" width="800" title="">
+
 
 ## Data validation
 
@@ -126,7 +126,7 @@ In order to validate the data, the regional level information is aggregated up t
 For validation, both this Tracker and OWID data is merged on a country-date combination and the difference between the daily cases is calculated. The figure above plots these differences by countries. After October 2020, the mismatch in the totals goes up significantly and persists till today. Two explanations for these trends. First, before October 2020, daily data was provided by ECDC which was taking information directly from European countries. Since this Tracker is pulling data from the countries directly, the match pre-October 2020 is very close with the exception of a few outliers. Second, since the data source of this Tracker remains unchanged, while OWID updated its source to broader (less-verified) database after October 2020, this Tracker provides a more accurate picture of country-level aggregates including regional variations. As of March 2021, ECDC is again releasing daily country-level data but gaps exist between the latest data series and the pre-November 2020 updates.
 
 
-## Maps
+## Figures
 
 ### Full date range:
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="300" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="300" title="Cumulative COVID-19 per 10,000 population">
