@@ -30,7 +30,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 
 
 
-## :floppy_disk: European regions and availability of COVID-19 data
+## European regions and availability of COVID-19 data
 
 | Country (NUTS 0) | Code | NUTS 1 | NUTS 2 | NUTS 3 | LAU | 
 | --- | --- | --- | --- | --- | --- | 
@@ -68,7 +68,7 @@ The following workflow is used to compile the data:
 
 
 
-## :file_folder: Sources of country level datasets
+## Sources of country level datasets
 The date range for countries:
 <img src="./05_figures/range_date.png" width="800" title="">
 
@@ -77,8 +77,8 @@ The scatter plot of daily cases per 10k population at the NUTS level:
 
 
 
-<details>
-  <summary>Data sources </summary>
+
+## Data sources
 
 | Country | Code  | Official institution | Data source |
 | --- |  --- |  --- |  --- | 
@@ -114,9 +114,9 @@ The scatter plot of daily cases per 10k population at the NUTS level:
 
 Note: The links are subject to change. If you find an error or a better data source, then please let me know.
 
-</details>
 
-## :triangular_flag_on_post: Maps
+
+## Maps
 
 ### Full date range:
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="300" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="300" title="Cumulative COVID-19 per 10,000 population">
