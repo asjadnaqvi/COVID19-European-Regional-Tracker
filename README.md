@@ -8,7 +8,7 @@ The data is also periodically released on Zenodo:
 A pre-print of the tracker is available here:
 [https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3](https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3)
 
-This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. Please report errors and inconsistencies if you find any in the dataset. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
+This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
 
 ## Challenges with data access
