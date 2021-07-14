@@ -15,7 +15,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 This project is supported by [IIASA](https://iiasa.ac.at/) and is released under the CC-BY license.
 
 
-<img src="./misc/IIASA_PNG logo_blue.png" height="40" title="IIASA">     <img src="./misc/by-nc.png" height="40" title="CCBY">
+<img src="./misc/IIASA_PNG logo.png" height="45" title="IIASA">     <img img align="right" src="./misc/by-nc.png" height="45" title="CC-BY">
 
 
 
