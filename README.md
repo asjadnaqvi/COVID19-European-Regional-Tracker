@@ -12,6 +12,15 @@ A pre-print of the tracker is available here:
 This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
 
+This project is supported by [IIASA](https://iiasa.ac.at/) and is released under the CC-BY license.
+
+
+<img src="./misc/IIASA_PNG logo_blue.png" height="30" title="IIASA">  
+
+<img src="./misc/by-nc.png" height="30" title="CCBY">
+
+
+
 ## Challenges with data access
 
 
@@ -202,12 +211,7 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 * 26 Aug 2020: Github repository created with documentation of regions in European countries.
 
 
-# Acknowledgements
-
-This project was supported by [IIASA](https://iiasa.ac.at/) and is released under the CC-BY license.
 
 
-<img src="./misc/IIASA_PNG logo_blue.png" height="50" title="IIASA">  
 
-<img src="./misc/by-nc.png" height="50" title="CCBY">
 
