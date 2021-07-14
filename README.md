@@ -5,6 +5,7 @@ The data is also periodically released on Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
+
 A pre-print of the tracker is available here:
 [https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3](https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3)
 
@@ -199,3 +200,12 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
     * Portugal: taken out for now for data checking since there are issues with the series continuity.
     * France: Historical data before 13th May added. There is a huge jump in the number of tests and reported cases for the few observations that overlap. This is because before 13th May, data was only being collected from 3 labs before proper testing protocols were introduced. There is no way of back correcting this information but maybe some form of data interpolation might help.
 * 26 Aug 2020: Github repository created with documentation of regions in European countries.
+
+
+# Acknowledgements
+
+This project was supported by IIASA and is released under the CC-BY license.
+
+
+<img src="./misc/IIASA_PNG logo_blue.png" height="100" title="IIASA"><img src="./misc/by-nc.png" height="100" title="CCBY">
+
