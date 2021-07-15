@@ -8,10 +8,11 @@ The data is also periodically released on Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
 
-The Tracker is now published on [Nature Scientific Data](https://www.nature.com/sdata/)
+The Tracker is now published in [Nature Scientific Data](https://www.nature.com/sdata/):
+
 [https://www.nature.com/articles/s41597-021-00950-7](https://www.nature.com/articles/s41597-021-00950-7)
 
-This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
+This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Nature Scientific Data DOIs if you are using the dataset for analysis. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
 
 This project is supported by [IIASA](https://iiasa.ac.at/) and is released under the CC-BY license.
