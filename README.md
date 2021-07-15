@@ -1,19 +1,18 @@
 <img align="center" src="./misc/banner.jpg" height="500">
 
+
+[![forthebadge cc-by-nd](http://ForTheBadge.com/images/badges/cc-by-nd.svg)](https://creativecommons.org/licenses/by-nd/4.0)
+
+
 # Overview
 This repository takes a stock of COVID-19 datasets for 26 European countries at the regional NUTS3 or NUTS2 level. 
 
-The data is also periodically released on [Zenodo](https://zenodo.org/):
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
+The data is also periodically released on [Zenodo](https://zenodo.org/): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
 
-The Tracker is now published in [Nature Scientific Data](https://www.nature.com/sdata/):
-
-[![DOI:s41597-021-00950-7](https://zenodo.org/badge/DOI/s41597-021-00950-7.svg)](https://www.nature.com/articles/s41597-021-00950-7)
+The Tracker is now published in [Nature Scientific Data](https://www.nature.com/sdata/): [![DOI:s41597-021-00950-7](https://zenodo.org/badge/DOI/s41597-021-00950-7.svg)](https://www.nature.com/articles/s41597-021-00950-7)
 
 
-[https://www.nature.com/articles/s41597-021-00950-7](https://www.nature.com/articles/s41597-021-00950-7)
 
 This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Nature Scientific Data DOIs if you are using the dataset for analysis. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
@@ -21,7 +20,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 This project is supported by [IIASA](https://iiasa.ac.at/) and is released under the CC-BY license.
 
 
-<img src="./misc/IIASA_logo.png" height="50" title="IIASA">  <img src="./misc/by-nc.png" height="50" title="CC-BY">
+<img src="./misc/IIASA_logo.png" height="50" title="IIASA">  
 
 
 
