@@ -10,9 +10,7 @@ The data is also periodically released on [Zenodo](https://zenodo.org/):
 
 The Tracker is now published in [Nature Scientific Data](https://www.nature.com/sdata/):
 
-[![DOI:s41597-021-00950-7](http://img.shields.io/badge/DOI-s41597.021.00950.7.svg)](https://www.nature.com/articles/s41597-021-00950-7)
-
-
+[![DOI:s41597-021-00950-7](https://zenodo.org/badge/DOI/s41597-021-00950-7.svg)](https://www.nature.com/articles/s41597-021-00950-7)
 
 
 [https://www.nature.com/articles/s41597-021-00950-7](https://www.nature.com/articles/s41597-021-00950-7)
