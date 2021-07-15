@@ -3,7 +3,7 @@
 # Overview
 This repository takes a stock of COVID-19 datasets for 26 European countries at the regional NUTS3 or NUTS2 level. 
 
-The data is also periodically released on Zenodo:
+The data is also periodically released on [Zenodo](https://zenodo.org/):
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
