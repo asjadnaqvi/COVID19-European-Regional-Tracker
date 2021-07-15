@@ -1,4 +1,4 @@
-<img align="center" src="./misc/banner.jpg" width="500">
+<img align="center" src="./misc/banner.jpg" width="1000">
 
 
 [![forthebadge cc-by-nd](http://ForTheBadge.com/images/badges/cc-by-nd.svg)](https://creativecommons.org/licenses/by-nd/4.0)
