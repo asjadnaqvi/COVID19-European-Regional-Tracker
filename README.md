@@ -1,6 +1,7 @@
 <img align="center" src="./misc/banner.jpg" width="1000">
 
-[![licensebuttons by-nc](https://licensebuttons.net/l/by-nc/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0)
+
+[![forthebadge cc-nc](http://ForTheBadge.com/images/badges/cc-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0)
 
 
 # Overview
