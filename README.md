@@ -1,4 +1,4 @@
-<img src="./misc/banner.png" width="100">
+<img src="./misc/banner.jpg" width="100">
 
 # Overview
 This repository takes a stock of COVID-19 datasets for 26 European countries at the regional NUTS3 or NUTS2 level. 
