@@ -1,3 +1,5 @@
+<img src="./misc/banner.png" width="100">
+
 # Overview
 This repository takes a stock of COVID-19 datasets for 26 European countries at the regional NUTS3 or NUTS2 level. 
 
@@ -6,8 +8,8 @@ The data is also periodically released on Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
 
-A pre-print of the tracker is available here:
-[https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3](https://www.medrxiv.org/content/10.1101/2021.02.15.21251788v3)
+The Tracker is now published on [Nature Scientific Data](https://www.nature.com/sdata/)
+[https://www.nature.com/articles/s41597-021-00950-7](https://www.nature.com/articles/s41597-021-00950-7)
 
 This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Medrxiv DOIs if you are using the dataset for analysis. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
