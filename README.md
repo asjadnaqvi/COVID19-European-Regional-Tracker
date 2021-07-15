@@ -1,4 +1,4 @@
-<img align="center" src="./misc/banner.jpg" height="500">
+<img align="center" src="./misc/banner.jpg" width="500">
 
 
 [![forthebadge cc-by-nd](http://ForTheBadge.com/images/badges/cc-by-nd.svg)](https://creativecommons.org/licenses/by-nd/4.0)
@@ -18,7 +18,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 
 This project is supported by:
 
-[<img src="./misc/IIASA_logo.png" height="80" title="IIASA">](https://iiasa.ac.at/)
+[<img src="./misc/IIASA_logo.png" height="60" title="IIASA">](https://iiasa.ac.at/)
 
 
 
