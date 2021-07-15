@@ -18,7 +18,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 
 This project is supported by:
 
-[<img src="./misc/IIASA_logo.png" height="80" title="IIASA">]((https://iiasa.ac.at/)
+[<img src="./misc/IIASA_logo.png" height="80" title="IIASA">](https://iiasa.ac.at/)
 
 
 
