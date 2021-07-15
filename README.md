@@ -7,13 +7,13 @@
 # Overview
 This repository takes a stock of COVID-19 datasets for 26 European countries at the regional NUTS3 or NUTS2 level. 
 
-The data is also periodically released on [Zenodo](https://zenodo.org/): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
-
-
 The Tracker is now published in [Nature Scientific Data](https://www.nature.com/sdata/): [![DOI:s41597-021-00950-7](https://zenodo.org/badge/DOI/s41597-021-00950-7.svg)](https://www.nature.com/articles/s41597-021-00950-7)
 
+The data is released monthly on [Zenodo](https://zenodo.org/): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
-This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 mins to run all the scripts and upload them to GitHub. Please cite the Zenodo and Nature Scientific Data DOIs if you are using the dataset for analysis. The underlying data structures are constantly being updated and it can lead to issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
+
+
+This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 minutes to run all the scripts and upload them to GitHub. Please cite the above DOIs if you are using this dataset. The underlying data structures are constantly being updated and there might be still undetected issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
 
 This project is supported by:
@@ -25,9 +25,9 @@ This project is supported by:
 ## Challenges with data access
 
 
-* Almost all countries in Europe showcase COVID-19 data in the form of choropleth maps and trend graphs. Access to data behind these visualizations varies from country to country which can be stored on various platforms ranging from official government websites, national statistical agencies, and health ministries. Some countries also just export it to third-party repositories, for example, ArcGIS Hub and GitHub. As a result, each country has to be dealt with individually. While most countries allow some form of access to regional data, others do not release this information publicly. In case of the latter, one can likely find data scraped from websites on platforms like GitHub.
+* Almost all countries in Europe showcase COVID-19 data in the form of choropleth maps and trend graphs. Access to data behind these visualizations varies from country to country. The responsibility of providing the data ranges from official government websites, to national statistical agencies, and to health ministries. While countries host the data on these websites, some just export it to third-party repositories, for example, [ArcGIS Hub](https://hub.arcgis.com/) and [GitHub](https://github.com/). As a result, each country has to be dealt with individually. While most countries allow access to regional data in some form, others do not release this information publicly. In case of the latter, one can likely find data scraped from websites especially on platforms like GitHub.
 
-* Information provided by countries is not consistent. Not all countries release data on deaths, tests performed, hospitalization rates, vaccnication rates, and by gender and age breakdowns. Thus this database, currently only focuses on cases reported, even though for most countries other information exists in the raw files as well. This will be added here soon.
+* Information provided by countries is also not consistent. Not all countries release regional data on deaths, tests performed, hospitalization rates, vaccination rates, or information by gender and age groups. Therefore, this database currently only focuses on reported cases, even though for most countries other information exists in the raw files as well. These can be easily extracted from the scripts provided.
 
 
 
@@ -96,8 +96,8 @@ The table below shows the links of the official insitutions that are responsible
 | Hungary | HU | [Government of Hungary](https://koronavirus.gov.hu/) | [Link](https://github.com/nickgon/Hungary-COVID19-Data)   | 
 | Ireland | IE | [Department of Health](https://www.gov.ie/en/organisation/department-of-health/)  | [Link](https://opendata-geohive.hub.arcgis.com/datasets/d9be85b30d7748b5b7c09450b8aede63_0)  | 
 | Italy | IT | [Ministero della Salute](http://www.salute.gov.it/portale/nuovocoronavirus/homeNuovoCoronavirus.jsp?lingua=english)  | [Link](https://github.com/pcm-dpc/COVID-19)  | 
-| Latvia | LV | [Government of Latvia](https://covid19.gov.lv/) | [Link](https://data.gov.lv/lv)  |
-| Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [Link](https://nlcovid-19-esrinl-content.hub.arcgis.com/)  | 
+| Latvia | LV | [Government of Latvia](https://covid19.gov.lv/) | [Link](https://data.gov.lv/dati/lv/dataset/covid-19-pa-adm-terit/resource/492931dd-0012-46d7-b415-)  |
+| Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [Link](https://nlcovid-19-esrinl-content.hub.arcgis.com/datasets/covid-19-historische-gegevens-rivm-vlakken)  | 
 | Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Link](https://github.com/thohan88/covid19-nor-data) |  
 | Poland | PL | [Government of Poland](https://www.gov.pl/web/koronawirus/) | [Link](https://github.com/covid19-eu-zh/covid19-eu-data)  |
 | Portugal | PT | [DSG](https://www.dgs.pt/) | [Link](https://github.com/bruno-leal/covid19-portugal-data)  | 
@@ -105,8 +105,8 @@ The table below shows the links of the official insitutions that are responsible
 | Slovak Republic | SK | [NHIC](http://www.nczisk.sk/en/Pages/default.aspx) |  [Link](https://github.com/radoondas/covid-19-slovakia/)   | 
 | Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Link](https://github.com/sledilnik/data)  |  
 | Spain | ES | [National Center for Epidemiology](https://cnecovid.isciii.es/)  | [Link](https://cnecovid.isciii.es/covid19/)  | 
-| Sweden | SE | [The Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/)  | [Link](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/bekraftade-fall-i-sverige/)  | 
-| Switzerland | CH  | [Bundesamt für Gesundheit](https://www.bag.admin.ch/bag/de/home.html) | [Link](https://github.com/covid19-eu-zh/covid19-eu-data)  | 
+| Sweden | SE | [The Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/)  | [Link](https://experience.arcgis.com/experience/a6d20c1544f34d33b60026f45b786230)  | 
+| Switzerland | CH  | [Bundesamt für Gesundheit](https://www.bag.admin.ch/bag/de/home.html) | [Link](https://experience.arcgis.com/experience/115cd04485904fa7a5629b683a949390)  | 
 | United Kingdom | UK  | [The UK Government](https://coronavirus.data.gov.uk/)   |    |   
 | England |   | [National Health Service (NHS)](https://www.england.nhs.uk/coronavirus/)   | [Link](https://coronavirus.data.gov.uk/details/download)   |    
 | North Ireland |  | [Department of Health North Ireland](https://www.health-ni.gov.uk/coronavirus)  |   | 
