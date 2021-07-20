@@ -176,7 +176,25 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 <!--- <img src="./05_figures/covid19_PT.png" width="250" title="Portugal"> -->
 
 
+## In the media
 
+Articles in the press related to the Tracker:
+
+https://idw-online.de/de/news772852
+
+https://kurier.at/wissen/wissenschaft/oesterreichische-forscher-veroeffentlichen-covid-19-datenbank/401444512
+
+https://science.apa.at/power-search/7815872667735462217
+
+https://sciencenewsnet.in/tracking-covid-19-across-europe/
+
+https://www.newswise.com/coronavirus/tracking-covid-19-across-europe/?article_id=754373
+
+https://www.miragenews.com/tracking-covid-19-across-europe-596568/
+
+https://www.eurekalert.org/pub_releases/2021-07/iifa-tca071521.php
+
+https://science.orf.at/stories/3207633/
 
 
 
