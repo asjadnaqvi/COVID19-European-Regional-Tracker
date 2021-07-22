@@ -140,9 +140,9 @@ For validation, both this Tracker and OWID data is merged on a country-date comb
 ## Figures
 
 ### Share of cases and deaths in Tracker countries
-<img src="./05_figures/tracker_cases.png" width="500" title="Share of cases in Tracker countries">
+<img src="./05_figures/tracker_cases.png" width="800" title="Share of cases in Tracker countries">
 
-<img src="./05_figures/tracker_deaths.png" width="500" title="Share of cases in Tracker deaths">
+<img src="./05_figures/tracker_deaths.png" width="800" title="Share of cases in Tracker deaths">
 
 ### Full date range:
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="300" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="300" title="Cumulative COVID-19 per 10,000 population">
