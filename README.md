@@ -139,6 +139,11 @@ For validation, both this Tracker and OWID data is merged on a country-date comb
 
 ## Figures
 
+### Share of cases and deaths in Tracker countries
+<img src="./05_figures/tracker_cases.png" width="500" title="Share of cases in Tracker countries">
+
+<img src="./05_figures/tracker_deaths.png" width="500" title="Share of cases in Tracker deaths">
+
 ### Full date range:
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="300" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="300" title="Cumulative COVID-19 per 10,000 population">
 
@@ -199,6 +204,7 @@ https://science.orf.at/stories/3207633/
 
 
 ## Change Logs
+* 22 Jul 2021: All countries updated. Changes to the map script to automatically drop regions which don't hav updates for the past 14 days. Since Portugal data is released every two weeks, it contains information on daily cases for the day of the data release. This allows us to calculate bi-weekly changes in cases. NUTS regions which are fall off the maps will be checked. Either their data is not updated or they have issues in their names in the original data files.
 * 01 Jul 2021: All countries updated. Ireland's data is still not being updated so it has been dropped from Europe maps. New dedicated webpage created for this repository: https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/. In the maps the rise of the delta variant is also visible.
 * 12 Jun 2021: England data source changed to the offical ONS data at the LTLA level which maps to NUTS 3. Since the raw files are very large the original version has been removed from the directories. Please see the dofiles for the links. All countries updated. This will be the official May/June 2021 release version.
 * 31 May 2021: All countries updated. Minor fixes to Ireland's dofile. England's data from ODI Leeds is no longer being updated regularly. For this update, England's data is still the old version from April. One option is to replace England data with the official ONS information but its mapping to NUTS2/NUTS3 needs to be checked.

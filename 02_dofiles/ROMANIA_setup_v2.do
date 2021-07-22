@@ -18,7 +18,7 @@ save county_code.dta, replace
 
 **** here we use a file cleaned from a json reader: https://json-csv.com/
 
-insheet using "date_01_iulie_la_13_00.csv", clear non
+insheet using "date_21_iulie_la_13_00.csv", clear non
 
 
 foreach x of varlist v* {

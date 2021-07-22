@@ -70,33 +70,44 @@ Appenzell Ausserrhoden |        219        3.85        7.69
 
 gen nuts3_id = ""
 
-replace nuts3_id="CH033" if nuts3_name=="Aargau"
-replace nuts3_id="CH053" if nuts3_name=="Appenzell Ausserrhoden"
-replace nuts3_id="CH054" if nuts3_name=="Appenzell Innerrhoden"
-replace nuts3_id="CH032" if nuts3_name=="Basel-Landschaft"
-replace nuts3_id="CH031" if nuts3_name=="Basel-Stadt"
+
+replace nuts3_id="CH011" if nuts3_name=="Vaud"
+replace nuts3_id="CH012" if nuts3_name=="Valais"
+replace nuts3_id="CH013" if nuts3_name=="Geneva"
+
 replace nuts3_id="CH021" if nuts3_name=="Berne"
 replace nuts3_id="CH022" if nuts3_name=="Fribourg"
-replace nuts3_id="CH013" if nuts3_name=="Geneva"
-replace nuts3_id="CH051" if nuts3_name=="Glarus"
-replace nuts3_id="CH056" if nuts3_name=="Grisons"
-replace nuts3_id="CH025" if nuts3_name=="Jura"
-replace nuts3_id="CH061" if nuts3_name=="Lucerne"
-replace nuts3_id="CH024" if nuts3_name=="NeuchÃ¢tel"  // neuaechtel
-replace nuts3_id="CH065" if nuts3_name=="Nidwalden"
-replace nuts3_id="CH064" if nuts3_name=="Obwalden"
-replace nuts3_id="CH052" if nuts3_name=="Schaffhausen"
-replace nuts3_id="CH063" if nuts3_name=="Schwyz"
 replace nuts3_id="CH023" if nuts3_name=="Solothurn"
-replace nuts3_id="CH055" if nuts3_name=="St. Gallen"
-replace nuts3_id="CH057" if nuts3_name=="Thurgau"
-replace nuts3_id="CH070" if nuts3_name=="Ticino"
-replace nuts3_id="CH062" if nuts3_name=="Uri"
-replace nuts3_id="CH012" if nuts3_name=="Valais"
-replace nuts3_id="CH011" if nuts3_name=="Vaud"
-replace nuts3_id="CH066" if nuts3_name=="Zug"
+replace nuts3_id="CH024" if nuts3_name=="NeuchÃ¢tel"  // neuaechtel
+replace nuts3_id="CH025" if nuts3_name=="Jura"
+
+replace nuts3_id="CH031" if nuts3_name=="Basel-Stadt"
+replace nuts3_id="CH032" if nuts3_name=="Basel-Landschaft"
+replace nuts3_id="CH033" if nuts3_name=="Aargau"
+
 replace nuts3_id="CH040" if nuts3_name=="ZÃ¼rich"  // zurich
 
+replace nuts3_id="CH051" if nuts3_name=="Glarus"
+replace nuts3_id="CH052" if nuts3_name=="Schaffhausen"
+replace nuts3_id="CH053" if nuts3_name=="Appenzell Ausserrhoden"
+replace nuts3_id="CH054" if nuts3_name=="Appenzell Innerrhoden"
+replace nuts3_id="CH055" if nuts3_name=="St. Gallen"
+replace nuts3_id="CH056" if nuts3_name=="Grisons"
+replace nuts3_id="CH057" if nuts3_name=="Thurgau"
+
+replace nuts3_id="CH061" if nuts3_name=="Lucerne"
+replace nuts3_id="CH062" if nuts3_name=="Uri"
+replace nuts3_id="CH063" if nuts3_name=="Schwyz"
+replace nuts3_id="CH064" if nuts3_name=="Obwalden"
+replace nuts3_id="CH065" if nuts3_name=="Nidwalden"
+replace nuts3_id="CH066" if nuts3_name=="Zug"
+
+replace nuts3_id="CH070" if nuts3_name=="Ticino"
+
+
+
+
+tab nuts3_id, m
 
 
 
@@ -118,7 +129,7 @@ drop if cases==.
 
 // since there are delays in data updates, drop the last four observations
 summ date
-drop if date >= `r(max)' - 3
+drop if date >= `r(max)' - 4
 
 compress
 save "$coviddir/04_master/switzerland_data.dta", replace		

@@ -115,6 +115,8 @@ export delimited using "$coviddir/04_master/csv_original/germany_data_original.c
 
 
 merge m:1 region using lau_germany.dta
+
+tab region if _m==1
 drop if _m!=3  // Berlin is split into finer units
 drop _m
 

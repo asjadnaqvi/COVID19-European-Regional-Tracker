@@ -42,8 +42,11 @@ format date %tdDD-Mon-yy
 
 
 ren confirmedcovidcases cases
+ren confirmedcoviddeaths deaths
+ren confirmedcovidrecovered recovered
+
 ren populationcensus16 population
-drop confirmedcoviddeaths confirmedcovidrecovered
+
 
 
 
@@ -100,7 +103,7 @@ bysort nuts3_id: gen cases_daily = cases - cases[_n-1] if check==1
 drop check
 
 sum date
-drop if date >= `r(max)'
+*drop if date >= `r(max)'
 
 
 compress

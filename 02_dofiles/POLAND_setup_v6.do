@@ -31,7 +31,7 @@ drop in 1
 ***https://github.com/covid19-eu-zh/covid19-eu-data
 
 
-*import delim using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-pl.csv", clear
+import delim using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-pl.csv", clear
 
 // for wierd unicode characters using insheet
 insheet using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-pl.csv", clear
@@ -79,29 +79,26 @@ replace nuts2_id="PL21" if nuts2_name=="małopolskie"		// Małopolskie
 replace nuts2_id="PL22" if nuts2_name=="śląskie"			// Śląskie
 
 replace nuts2_id="PL41" if nuts2_name=="wielkopolskie"  	// Wielkopolskie
-replace nuts2_id="PL42" if nuts2_name=="zachodniopomorskie"		// Zachodniopomorskie
+replace nuts2_id="PL42" if nuts2_name=="zachodniopomorskie"	// Zachodniopomorskie
 replace nuts2_id="PL43" if nuts2_name=="lubuskie"			// Lubuskie
 
 replace nuts2_id="PL51" if nuts2_name=="dolnośląskie"		// Dolnośląskie
-replace nuts2_id="PL52" if nuts2_name=="opolskie"				// Opolskie
+replace nuts2_id="PL52" if nuts2_name=="opolskie"			// Opolskie
 
-replace nuts2_id="PL61" if nuts2_name=="kujawsko-pomorskie"	// Kujawsko-pomorskie
-replace nuts2_id="PL62" if nuts2_name=="warmińsko-mazurskie"		// Warmińsko-mazurskie
-replace nuts2_id="PL63" if nuts2_name=="pomorskie"			// Pomorskie
+replace nuts2_id="PL61" if nuts2_name=="kujawsko-pomorskie"	 // Kujawsko-pomorskie
+replace nuts2_id="PL62" if nuts2_name=="warmińsko-mazurskie" // Warmińsko-mazurskie
+replace nuts2_id="PL63" if nuts2_name=="pomorskie"			 // Pomorskie
 
-replace nuts2_id="PL71" if nuts2_name=="łódzkie"				// Łódzkie
-replace nuts2_id="PL72" if nuts2_name=="świętokrzyskie"			// Świętokrzyskie
+replace nuts2_id="PL71" if nuts2_name=="łódzkie"			// Łódzkie
+replace nuts2_id="PL72" if nuts2_name=="świętokrzyskie"		// Świętokrzyskie
 
 replace nuts2_id="PL81" if nuts2_name=="lubelskie"			// Lubelskie
 replace nuts2_id="PL82" if nuts2_name=="podkarpackie"		// Podkarpackie
 replace nuts2_id="PL84" if nuts2_name=="podlaskie"			// Podlaskie
 
-replace nuts2_id="PL91"	if nuts2_name=="mazowieckie"			// Mazowieckie + Warsaw
+replace nuts2_id="PL91"	if nuts2_name=="mazowieckie"		// Mazowieckie + Warsaw
 
 // some wierd names appearing in the database
-tab nuts2_name if nuts2_id==""
-
-
 
 replace nuts2_id="PL62" if nuts2_name=="warmiñsko-mazurskie"
 replace nuts2_id="PL62" if nuts2_name=="warmiÅsko-mazurskie"
@@ -117,6 +114,9 @@ replace nuts2_id="" if nuts2_name==""
 replace nuts2_id="" if nuts2_name==""
 replace nuts2_id="" if nuts2_name==""
 replace nuts2_id="" if nuts2_name==""
+
+
+tab nuts2_name if nuts2_id==""
 
 
 *gen tag = 1 if nuts2_id==""
