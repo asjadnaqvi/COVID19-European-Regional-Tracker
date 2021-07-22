@@ -139,7 +139,7 @@ For validation, both this Tracker and OWID data is merged on a country-date comb
 
 ## Figures
 
-### Share of cases and deaths
+### Share of cases and deaths in Tracker countries
 
 The Tracker countries are shown in orange, while the rest of Europe and Central Asia is shown in yellow.
 
@@ -151,12 +151,11 @@ The Tracker countries are shown in orange, while the rest of Europe and Central 
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="300" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="300" title="Cumulative COVID-19 per 10k population">
 
 ### Cases on the last reported NUTS data point in the dataset:
-
-<img src="./05_figures/COVID19_EUROPE_change14_abs.png" width="300" title="Change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14_abs_pop.png" width="300" title="Change in COVID-19 cases per 10k population (past 14 days)">
+<img src="./05_figures/COVID19_EUROPE_cases_today.png" width="300" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="300" title="COVID-19 per 10k population (last observation)">
 
 ### Change in cases in the past 14 days:
 
-<img src="./05_figures/COVID19_EUROPE_change14.png" width="300" title="Percentage change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14_abs.png" width="300" title="Absolute change in COVID-19 cases per 10k population (past 14 days)">
+<img src="./05_figures/COVID19_EUROPE_change14_abs.png" width="300" title="Absolute change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14_abs_pop.png" width="300" title="Absolute change in COVID-19 cases per 10k population (past 14 days)">
 
 <!--- use this to mark out codes  -->
 
