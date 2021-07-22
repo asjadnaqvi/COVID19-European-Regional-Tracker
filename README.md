@@ -139,8 +139,7 @@ For validation, both this Tracker and OWID data is merged on a country-date comb
 
 ## Figures
 
-### Share of cases and deaths in Tracker countries
-
+### Share of cases and deaths
 The Tracker countries are shown in orange, while the rest of Europe and Central Asia is shown in yellow.
 
 <img src="./05_figures/tracker_cases.png" width="800" title="Share of cases in Tracker countries">
