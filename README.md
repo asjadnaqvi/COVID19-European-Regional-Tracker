@@ -147,10 +147,10 @@ The Tracker countries are shown in orange, while the rest of Europe and Central 
 
 <img src="./05_figures/tracker_deaths.png" width="800" title="Share of cases in Tracker deaths">
 
-### Full date range:
+### All data points (Jan 2020 to present):
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="400" title="Cumulative COVID-19 per 10k population">
 
-### Cases on the last reported NUTS data point in the dataset:
+### Cases on the last data point for each NUTS region:
 <img src="./05_figures/COVID19_EUROPE_cases_today.png" width="400" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="COVID-19 per 10k population (last observation)">
 
 ### Change in cases in the past 14 days:
