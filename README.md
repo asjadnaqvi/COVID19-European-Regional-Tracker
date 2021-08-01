@@ -18,7 +18,7 @@ This repository is updated every four weeks. All raw data and scripts are availa
 
 This project is supported by:
 
-[<img src="./misc/IIASA_logo.png" height="60" title="IIASA">](https://iiasa.ac.at/)
+[<img src="./misc/IIASA_logo.png" width="60" title="IIASA">](https://iiasa.ac.at/)
 
 
 
@@ -140,7 +140,7 @@ In order to validate the data, the regional level information is aggregated up t
 For validation, both this Tracker and OWID data is merged on a country-date combination and the difference between the daily cases is calculated. The figure above plots these differences by countries. After October 2020, the mismatch in the totals goes up significantly and persists till today. Two explanations for these trends. First, before October 2020, daily data was provided by ECDC which was taking information directly from European countries. Since this Tracker is pulling data from the countries directly, the match pre-October 2020 is very close with the exception of a few outliers. Second, since the data source of this Tracker remains unchanged, while OWID updated its source to broader (less-verified) database after October 2020, this Tracker provides a more accurate picture of country-level aggregates including regional variations. As of March 2021, ECDC is again releasing daily country-level data but gaps exist between the latest data series and the pre-November 2020 updates.
 
 
-# Figures
+# Graphs
 
 ## Share of cases and deaths in Tracker countries
 
@@ -174,161 +174,161 @@ Here, country-level maps and figures are shown as sanity checks on the data. The
 
 ## Austria (AT)
 
-<img src="./05_figures/covid19_AT.png" height="200"><img src="./05_figures/covid19_AT_pop.png" height="200">
+<img src="./05_figures/covid19_AT.png" width="300"><img src="./05_figures/covid19_AT_pop.png" width="300">
 
-<img src="./05_figures/range_date_Austria.png" height="200">
+<img src="./05_figures/range_date_Austria.png" width="400">
 
 
 ## Belgium (BE)
 
-<img src="./05_figures/covid19_BE.png" height="200"><img src="./05_figures/covid19_BE_pop.png" height="200">
+<img src="./05_figures/covid19_BE.png" width="300"><img src="./05_figures/covid19_BE_pop.png" width="300">
 
-<img src="./05_figures/range_date_Belgium.png" height="200">
+<img src="./05_figures/range_date_Belgium.png" width="400">
 
 
 ## Switzerland (CH)
 
-<img src="./05_figures/covid19_CH.png" height="200"><img src="./05_figures/covid19_CH_pop.png" height="200">
+<img src="./05_figures/covid19_CH.png" width="300"><img src="./05_figures/covid19_CH_pop.png" width="300">
 
-<img src="./05_figures/range_date_Switzerland.png" height="200">
+<img src="./05_figures/range_date_Switzerland.png" width="400">
 
 
 ## Czechia (CZ)
 
-<img src="./05_figures/covid19_CZ.png" height="200"><img src="./05_figures/covid19_CZ_pop.png" height="200">
+<img src="./05_figures/covid19_CZ.png" width="300"><img src="./05_figures/covid19_CZ_pop.png" width="300">
 
-<img src="./05_figures/range_date_Czechia.png" height="200">
+<img src="./05_figures/range_date_Czechia.png" width="400">
 
 
 ## Germany (DE)
 
-<img src="./05_figures/covid19_DE.png" height="200"><img src="./05_figures/covid19_DE_pop.png" height="200">
+<img src="./05_figures/covid19_DE.png" width="300"><img src="./05_figures/covid19_DE_pop.png" width="300">
 
-<img src="./05_figures/range_date_Germany.png" height="200">
+<img src="./05_figures/range_date_Germany.png" width="400">
 
 ## Denmark (DK)
-<img src="./05_figures/covid19_DK.png" height="200"><img src="./05_figures/covid19_DK_pop.png" height="200">
+<img src="./05_figures/covid19_DK.png" width="300"><img src="./05_figures/covid19_DK_pop.png" width="300">
 
-<img src="./05_figures/range_date_Denmark.png" height="200">
+<img src="./05_figures/range_date_Denmark.png" width="400">
 
 ## Estonia (EE)
 
-<img src="./05_figures/covid19_EE.png" height="200"><img src="./05_figures/covid19_EE_pop.png" height="200">
+<img src="./05_figures/covid19_EE.png" width="300"><img src="./05_figures/covid19_EE_pop.png" width="300">
 
-<img src="./05_figures/range_date_Estonia.png" height="200">
+<img src="./05_figures/range_date_Estonia.png" width="400">
 
 
 ## Greece (EL)
 
-<img src="./05_figures/covid19_EL.png" height="200"><img src="./05_figures/covid19_EL_pop.png" height="200" >
+<img src="./05_figures/covid19_EL.png" width="300"><img src="./05_figures/covid19_EL_pop.png" width="300" >
 
-<img src="./05_figures/range_date_Greece.png" height="200">
+<img src="./05_figures/range_date_Greece.png" width="400">
 
 ## Spain (ES)
 
-<img src="./05_figures/covid19_ES.png" height="200"><img src="./05_figures/covid19_ES_pop.png" height="200">
+<img src="./05_figures/covid19_ES.png" width="300"><img src="./05_figures/covid19_ES_pop.png" width="300">
 
-<img src="./05_figures/range_date_Spain.png" height="200">
+<img src="./05_figures/range_date_Spain.png" width="400">
 
 ## Finland (FI)
 
-<img src="./05_figures/covid19_FI.png" height="200"><img src="./05_figures/covid19_FI_pop.png" height="200">
+<img src="./05_figures/covid19_FI.png" width="300"><img src="./05_figures/covid19_FI_pop.png" width="300">
 
-<img src="./05_figures/range_date_Finland.png" height="200">
+<img src="./05_figures/range_date_Finland.png" width="400">
 
 ## France (FR)
 
-<img src="./05_figures/covid19_FR.png" height="200"><img src="./05_figures/covid19_FR_pop.png" height="200">
+<img src="./05_figures/covid19_FR.png" width="300"><img src="./05_figures/covid19_FR_pop.png" width="300">
 
-<img src="./05_figures/range_date_France.png" height="200">
+<img src="./05_figures/range_date_France.png" width="400">
 
 ## Croatia (HR)
 
-<img src="./05_figures/covid19_HR.png" height="200"><img src="./05_figures/covid19_HR_pop.png" height="200">
+<img src="./05_figures/covid19_HR.png" width="300"><img src="./05_figures/covid19_HR_pop.png" width="300">
 
-<img src="./05_figures/range_date_Croatia.png" height="200">
+<img src="./05_figures/range_date_Croatia.png" width="400">
 
 ## Hungary (HU)
 
-<img src="./05_figures/covid19_HU.png" height="200"><img src="./05_figures/covid19_HU_pop.png" height="200">
+<img src="./05_figures/covid19_HU.png" width="300"><img src="./05_figures/covid19_HU_pop.png" width="300">
 
-<img src="./05_figures/range_date_Hungary.png" height="200">
+<img src="./05_figures/range_date_Hungary.png" width="400">
 
 ## Ireland (IE)
 
-<img src="./05_figures/covid19_IE.png" height="200"><img src="./05_figures/covid19_IE_pop.png" height="200">
+<img src="./05_figures/covid19_IE.png" width="300"><img src="./05_figures/covid19_IE_pop.png" width="300">
 
-<img src="./05_figures/range_date_Ireland.png" height="200">
+<img src="./05_figures/range_date_Ireland.png" width="400">
 
 ## Italy (IT)
 
-<img src="./05_figures/covid19_IT.png" height="200"><img src="./05_figures/covid19_IT_pop.png" height="200">
+<img src="./05_figures/covid19_IT.png" width="300"><img src="./05_figures/covid19_IT_pop.png" width="300">
 
-<img src="./05_figures/range_date_Italy.png" height="200">
+<img src="./05_figures/range_date_Italy.png" width="400">
 
 
 ## Latvia (LV)
 
-<img src="./05_figures/covid19_LV.png" height="200"><img src="./05_figures/covid19_LV_pop.png" height="200">
+<img src="./05_figures/covid19_LV.png" width="300"><img src="./05_figures/covid19_LV_pop.png" width="300">
 
-<img src="./05_figures/range_date_Latvia.png" height="200">
+<img src="./05_figures/range_date_Latvia.png" width="400">
 
 ## Netherlands (NL)
 
-<img src="./05_figures/covid19_NL.png" height="200"><img src="./05_figures/covid19_NL_pop.png" height="200">
+<img src="./05_figures/covid19_NL.png" width="300"><img src="./05_figures/covid19_NL_pop.png" width="300">
 
-<img src="./05_figures/range_date_Netherlands.png" height="200">
+<img src="./05_figures/range_date_Netherlands.png" width="400">
 
 ## Norway (NO)
 
-<img src="./05_figures/covid19_NO.png" height="200"><img src="./05_figures/covid19_NO_pop.png" height="200">
+<img src="./05_figures/covid19_NO.png" width="300"><img src="./05_figures/covid19_NO_pop.png" width="300">
 
-<img src="./05_figures/range_date_Norway.png" height="200">
+<img src="./05_figures/range_date_Norway.png" width="400">
 
 
 ## Poland (PO)
 
-<img src="./05_figures/covid19_PL.png" height="200"><img src="./05_figures/covid19_PL_pop.png" height="200">
+<img src="./05_figures/covid19_PL.png" width="300"><img src="./05_figures/covid19_PL_pop.png" width="300">
 
-<img src="./05_figures/range_date_Poland.png" height="200">
+<img src="./05_figures/range_date_Poland.png" width="400">
 
 
 ## Portugal (PT)
 
-<img src="./05_figures/covid19_PT.png" height="200"><img src="./05_figures/covid19_PT_pop.png" height="200">
+<img src="./05_figures/covid19_PT.png" width="300"><img src="./05_figures/covid19_PT_pop.png" width="300">
 
-<img src="./05_figures/range_date_Portugal.png" height="200">
+<img src="./05_figures/range_date_Portugal.png" width="400">
 
 
 ## Romania (RO)
 
-<img src="./05_figures/covid19_RO.png" height="200"><img src="./05_figures/covid19_RO_pop.png" height="200">
+<img src="./05_figures/covid19_RO.png" width="300"><img src="./05_figures/covid19_RO_pop.png" width="300">
 
-<img src="./05_figures/range_date_Romania.png" height="200">
+<img src="./05_figures/range_date_Romania.png" width="400">
 
 ## Sweden (SE)
 
-<img src="./05_figures/covid19_SE.png" height="200"><img src="./05_figures/covid19_SE_pop.png" height="200">
+<img src="./05_figures/covid19_SE.png" width="300"><img src="./05_figures/covid19_SE_pop.png" width="300">
 
-<img src="./05_figures/range_date_Sweden.png" height="200">
+<img src="./05_figures/range_date_Sweden.png" width="400">
 
 ## Slovenia (SI)
 
-<img src="./05_figures/covid19_SI.png" height="200"><img src="./05_figures/covid19_SI_pop.png" height="200">
+<img src="./05_figures/covid19_SI.png" width="300"><img src="./05_figures/covid19_SI_pop.png" width="300">
 
-<img src="./05_figures/range_date_Slovenia.png" height="200">
+<img src="./05_figures/range_date_Slovenia.png" width="400">
 
 ## Slovak Republic (SK)
 
-<img src="./05_figures/covid19_SK.png" height="200"><img src="./05_figures/covid19_SK_pop.png" height="200">
+<img src="./05_figures/covid19_SK.png" width="300"><img src="./05_figures/covid19_SK_pop.png" width="300">
 
-<img src="./05_figures/range_date_Slovak Republic.png" height="200">
+<img src="./05_figures/range_date_Slovak Republic.png" width="400">
 
 ## England and Scotland (UK)
 
-<img src="./05_figures/covid19_UK.png" height="200"><img src="./05_figures/covid19_UK_pop.png" height="200">
+<img src="./05_figures/covid19_UK.png" width="300"><img src="./05_figures/covid19_UK_pop.png" width="300">
 
-<img src="./05_figures/range_date_England (UK).png" height="200">
+<img src="./05_figures/range_date_England (UK).png" width="400">
 
 
 
