@@ -110,14 +110,7 @@ local dot = 0
 }	
 	
 	
-	
-*** sometimes countries or even some regions fall off the radar. 
-**   Dont plot data points if there is no information 14 days before
-***  the last data point in the Tracker.
 
-summ date
-replace last = . if last==1 & date < r(max) - 14
-	
 	
 	
 
@@ -144,8 +137,6 @@ format cases_daily_pop 	%9.2f
 
 
 	
-
-	
 	
 **** graphs below
 
@@ -161,46 +152,11 @@ summ date
 
 display "`ldate'"
 
-***** graph of last reported daily cases
-
-colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
-local colors `r(p)'
-
-spmap cases_daily using "nuts3_mix_shp.dta" if last==1, ///  
-id(_ID) cln(15)  fcolor("`colors'")  /// 
-	ocolor(gs6 ..) osize(vvthin ..) ///
-	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
-		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
-		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
-		title("{fontface Arial Bold: COVID-19 new cases (`ldate')}", size(2.5)) ///
-		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data source: Misc. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
-		
-		graph export "../05_figures/COVID19_EUROPE_cases_today.png", replace wid(2000)
 
 
-
-		
-		
-		
-***** graph of last reported daily cases per 10k population
-
-
-colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
-local colors `r(p)'
-
-spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1, /// 
-id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
-	ocolor(gs6 ..) osize(vvthin ..) ///
-	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
-		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
-		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
-		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(2.5)) ///
-		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
-			
-		graph export "../05_figures/COVID19_EUROPE_casespop_today.png", replace wid(2000)
-	
-
-**** graph of cumulative cases 
+**********************************		
+*** graph of cumulative cases  ***
+**********************************
 
 
 colorpalette viridis, ipolate(15, power(1.4)) reverse nograph
@@ -218,9 +174,9 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 		graph export "../05_figures/COVID19_EUROPE_cases_total.png", replace wid(2000)
 
 
-************************************************		
-*** graph of cumulative cases per population ***
-************************************************
+****************************************************		
+*** graph of cumulative cases per 10k population ***
+****************************************************
 
 
 format cases_pop 	%9.0f		
@@ -241,9 +197,63 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 		graph export "../05_figures/COVID19_EUROPE_casespop_total.png", replace wid(2000)
 		
 
-		
 
-***** graph of 2 week increase in cases
+		
+	
+*** sometimes countries or even some regions fall off the radar. 
+**   Dont plot data points if there is no information 14 days before
+***  the last data point in the Tracker.
+
+summ date
+replace last = . if last==1 & date < r(max) - 14
+			
+******************************************
+*** graph of last reported daily cases ***
+******************************************
+
+colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
+local colors `r(p)'
+
+spmap cases_daily using "nuts3_mix_shp.dta" if last==1, ///  
+id(_ID) cln(15)  fcolor("`colors'")  /// 
+	ocolor(gs6 ..) osize(vvthin ..) ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
+		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
+		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
+		title("{fontface Arial Bold: COVID-19 new cases (`ldate')}", size(2.5)) ///
+		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data source: Misc. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
+		
+		graph export "../05_figures/COVID19_EUROPE_cases_today.png", replace wid(2000)
+
+
+
+		
+		
+**************************************************************		
+*** graph of last reported daily cases per 10k population  ***
+**************************************************************
+
+
+colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
+local colors `r(p)'
+
+spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1, /// 
+id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
+	ocolor(gs6 ..) osize(vvthin ..) ///
+	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
+		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
+		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
+		title("{fontface Arial Bold: COVID-19 new cases per 10,000 pop (`ldate')}", size(2.5)) ///
+		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
+			
+		graph export "../05_figures/COVID19_EUROPE_casespop_today.png", replace wid(2000)
+	
+			
+			
+		
+*****************************************
+*** graph of 2 week increase in cases ***
+*****************************************
 
 
 format change14 	%9.2f		
@@ -263,9 +273,10 @@ id(_ID) cln(14) clm(k)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 			
 		graph export "../05_figures/COVID19_EUROPE_change14.png", replace wid(2000)
 	
-		
-***** graph of 2 week absolute increase in cases per pop
-
+	
+***********************************************************	
+*** graph of 2 week absolute increase in cases per pop  ***
+***********************************************************
 
 
 format change14_abs_pop 	%9.0f		
@@ -286,9 +297,9 @@ id(_ID) cln(14)  clm(k)    fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)
 		graph export "../05_figures/COVID19_EUROPE_change14_abs_pop.png", replace wid(2000)
 
 			
-
-***** graph of 2 week absolute increase in cases 
-
+***************************************************
+*** graph of 2 week absolute increase in cases  ***
+***************************************************
 
 format change14_abs_pop 	%9.0f		
 		
@@ -315,8 +326,8 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 ***** country specific graphs below   *****
 *******************************************
 
-
-drop if nuts0_id=="IE"
+** these countries are off the radar
+drop if nuts0_id=="IE" | nuts0_id=="LV"  
 
 
 summ date

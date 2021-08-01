@@ -22,7 +22,7 @@ This project is supported by:
 
 
 
-## Challenges with data access
+# Challenges with data access
 
 
 * Almost all countries in Europe showcase COVID-19 data in the form of choropleth maps and trend graphs. Access to data behind these visualizations varies from country to country. The responsibility of providing the data ranges from official government websites, to national statistical agencies, and to health ministries. While countries host the data on these websites, some just export it to third-party repositories, for example, [ArcGIS Hub](https://hub.arcgis.com/) and [GitHub](https://github.com/). As a result, each country has to be dealt with individually. While most countries allow access to regional data in some form, others do not release this information publicly. In case of the latter, one can likely find data scraped from websites especially on platforms like GitHub.
@@ -116,7 +116,7 @@ The table below shows the links of the official insitutions that are responsible
 *Note:* The links are subject to change. If you find an error or a better data source, then please let me know.
 
 
-## Workflow
+# Workflow
 The following workflow is used to compile the data at the NUTS3 or NUTS2 level:
 
 <img src="./05_figures/workflow.png" width="800" title="Workflow">
@@ -126,6 +126,9 @@ The date range for countries:
 
 The scatter plot of daily cases per 10k population at the NUTS level:
 <img src="./05_figures/range_newcasepop.png" width="800" title="">
+
+Policy stringency index:
+<img src="./05_figures/policystringency.png" width="800" title="">
 
 
 ## Data validation
@@ -137,9 +140,9 @@ In order to validate the data, the regional level information is aggregated up t
 For validation, both this Tracker and OWID data is merged on a country-date combination and the difference between the daily cases is calculated. The figure above plots these differences by countries. After October 2020, the mismatch in the totals goes up significantly and persists till today. Two explanations for these trends. First, before October 2020, daily data was provided by ECDC which was taking information directly from European countries. Since this Tracker is pulling data from the countries directly, the match pre-October 2020 is very close with the exception of a few outliers. Second, since the data source of this Tracker remains unchanged, while OWID updated its source to broader (less-verified) database after October 2020, this Tracker provides a more accurate picture of country-level aggregates including regional variations. As of March 2021, ECDC is again releasing daily country-level data but gaps exist between the latest data series and the pre-November 2020 updates.
 
 
-## Figures
+# Figures
 
-### Share of cases and deaths in Tracker countries
+## Share of cases and deaths in Tracker countries
 
 The Tracker countries are shown in orange, while the rest of Europe and Central Asia is shown in yellow.
 
@@ -147,13 +150,13 @@ The Tracker countries are shown in orange, while the rest of Europe and Central 
 
 <img src="./05_figures/tracker_deaths.png" width="800" title="Share of cases in Tracker deaths">
 
-### All data points (Jan 2020 to present):
+## All data points (Jan 2020 to present):
 <img src="./05_figures/COVID19_EUROPE_cases_total.png" width="400" title="Cumulative COVID-19 cases"><img src="./05_figures/COVID19_EUROPE_casespop_total.png" width="400" title="Cumulative COVID-19 per 10k population">
 
-### Cases on the last data point for each NUTS region:
+## Cases on the last data point for each NUTS region:
 <img src="./05_figures/COVID19_EUROPE_cases_today.png" width="400" title="COVID-19 cases (last observation)"><img src="./05_figures/COVID19_EUROPE_casespop_today.png" width="400" title="COVID-19 per 10k population (last observation)">
 
-### Change in cases in the past 14 days:
+## Change in cases in the past 14 days:
 
 <img src="./05_figures/COVID19_EUROPE_change14_abs.png" width="400" title="Absolute change in COVID-19 cases (past 14 days)"><img src="./05_figures/COVID19_EUROPE_change14_abs_pop.png" width="400" title="Absolute change in COVID-19 cases per 10k population (past 14 days)">
 
@@ -166,25 +169,171 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 
 
-### Individual country maps:
+# Individual country maps:
+Here, country-level maps and figures are shown as sanity checks on the data. These are mostly to ensure data consistency and the level of completeness for NUTS regions. Notes are added to invidual countries where necessary.
 
-<img src="./05_figures/covid19_AT.png" height="200" title="Austria"><img src="./05_figures/covid19_BE.png" height="200" title="Belgium">
-<img src="./05_figures/covid19_CH.png" height="200" title="Switzerland"><img src="./05_figures/covid19_CZ.png" height="200" title="Czechia">
-<img src="./05_figures/covid19_DE.png" height="200" title="Germany"><img src="./05_figures/covid19_DK.png" height="200" title="Denmark">
-<img src="./05_figures/covid19_EE.png" height="200" title="Estonia"><img src="./05_figures/covid19_EL.png" height="200"  title="Greece">
-<img src="./05_figures/covid19_ES.png" height="200" title="Spain"><img src="./05_figures/covid19_FI.png" height="200" title="Finland">
-<img src="./05_figures/covid19_FR.png" height="200" title="France"><img src="./05_figures/covid19_HR.png" height="200" title="Croatia">
-<img src="./05_figures/covid19_HU.png" height="200" title="Hungary"><img src="./05_figures/covid19_IE.png" height="200" title="Ireland">
-<img src="./05_figures/covid19_IT.png" height="200" title="Italy"><img src="./05_figures/covid19_LV.png" height="200" title="Latvia">
-<img src="./05_figures/covid19_NL.png" height="200" title="Netherlands"><img src="./05_figures/covid19_NO.png" height="200"  title="Norway">
-<img src="./05_figures/covid19_PL.png" height="200" title="Poland"><img src="./05_figures/covid19_RO.png" height="200" title="Romania">
-<img src="./05_figures/covid19_SE.png" height="200" title="Sweden"><img src="./05_figures/covid19_SI.png" height="200" title="Slovenia">
-<img src="./05_figures/covid19_SK.png" height="200" title="Slovakia"><img src="./05_figures/covid19_UK.png" height="200" title="United Kingdom">
+## Austria (AT)
 
-<!--- <img src="./05_figures/covid19_PT.png" width="250" title="Portugal"> -->
+<img src="./05_figures/covid19_AT.png" height="200"><img src="./05_figures/covid19_AT_pop.png" height="200">
+
+<img src="./05_figures/range_date_Austria.png" height="200">
 
 
-## In the media
+## Belgium (BE)
+
+<img src="./05_figures/covid19_BE.png" height="200"><img src="./05_figures/covid19_BE_pop.png" height="200">
+
+<img src="./05_figures/range_date_Belgium.png" height="200">
+
+
+## Switzerland (CH)
+
+<img src="./05_figures/covid19_CH.png" height="200"><img src="./05_figures/covid19_CH_pop.png" height="200">
+
+<img src="./05_figures/range_date_Switzerland.png" height="200">
+
+
+## Czechia (CZ)
+
+<img src="./05_figures/covid19_CZ.png" height="200"><img src="./05_figures/covid19_CZ_pop.png" height="200">
+
+<img src="./05_figures/range_date_Czechia.png" height="200">
+
+
+## Germany (DE)
+
+<img src="./05_figures/covid19_DE.png" height="200"><img src="./05_figures/covid19_DE_pop.png" height="200">
+
+<img src="./05_figures/range_date_Germany.png" height="200">
+
+## Denmark (DK)
+<img src="./05_figures/covid19_DK.png" height="200"><img src="./05_figures/covid19_DK_pop.png" height="200">
+
+<img src="./05_figures/range_date_Denmark.png" height="200">
+
+## Estonia (EE)
+
+<img src="./05_figures/covid19_EE.png" height="200"><img src="./05_figures/covid19_EE_pop.png" height="200">
+
+<img src="./05_figures/range_date_Estonia.png" height="200">
+
+
+## Greece (EL)
+
+<img src="./05_figures/covid19_EL.png" height="200"><img src="./05_figures/covid19_EL_pop.png" height="200" >
+
+<img src="./05_figures/range_date_Greece.png" height="200">
+
+## Spain (ES)
+
+<img src="./05_figures/covid19_ES.png" height="200"><img src="./05_figures/covid19_ES_pop.png" height="200">
+
+<img src="./05_figures/range_date_Spain.png" height="200">
+
+## Finland (FI)
+
+<img src="./05_figures/covid19_FI.png" height="200"><img src="./05_figures/covid19_FI_pop.png" height="200">
+
+<img src="./05_figures/range_date_Finland.png" height="200">
+
+## France (FR)
+
+<img src="./05_figures/covid19_FR.png" height="200"><img src="./05_figures/covid19_FR_pop.png" height="200">
+
+<img src="./05_figures/range_date_France.png" height="200">
+
+## Croatia (HR)
+
+<img src="./05_figures/covid19_HR.png" height="200"><img src="./05_figures/covid19_HR_pop.png" height="200">
+
+<img src="./05_figures/range_date_Croatia.png" height="200">
+
+## Hungary (HU)
+
+<img src="./05_figures/covid19_HU.png" height="200"><img src="./05_figures/covid19_HU_pop.png" height="200">
+
+<img src="./05_figures/range_date_Hungary.png" height="200">
+
+## Ireland (IE)
+
+<img src="./05_figures/covid19_IE.png" height="200"><img src="./05_figures/covid19_IE_pop.png" height="200">
+
+<img src="./05_figures/range_date_Ireland.png" height="200">
+
+## Italy (IT)
+
+<img src="./05_figures/covid19_IT.png" height="200"><img src="./05_figures/covid19_IT_pop.png" height="200">
+
+<img src="./05_figures/range_date_Italy.png" height="200">
+
+
+## Latvia (LV)
+
+<img src="./05_figures/covid19_LV.png" height="200"><img src="./05_figures/covid19_LV_pop.png" height="200">
+
+<img src="./05_figures/range_date_Latvia.png" height="200">
+
+## Netherlands (NL)
+
+<img src="./05_figures/covid19_NL.png" height="200"><img src="./05_figures/covid19_NL_pop.png" height="200">
+
+<img src="./05_figures/range_date_Netherlands.png" height="200">
+
+## Norway (NO)
+
+<img src="./05_figures/covid19_NO.png" height="200"><img src="./05_figures/covid19_NO_pop.png" height="200">
+
+<img src="./05_figures/range_date_Norway.png" height="200">
+
+
+## Poland (PO)
+
+<img src="./05_figures/covid19_PL.png" height="200"><img src="./05_figures/covid19_PL_pop.png" height="200">
+
+<img src="./05_figures/range_date_Poland.png" height="200">
+
+
+## Portugal (PT)
+
+<img src="./05_figures/covid19_PT.png" height="200"><img src="./05_figures/covid19_PT_pop.png" height="200">
+
+<img src="./05_figures/range_date_Portugal.png" height="200">
+
+
+## Romania (RO)
+
+<img src="./05_figures/covid19_RO.png" height="200"><img src="./05_figures/covid19_RO_pop.png" height="200">
+
+<img src="./05_figures/range_date_Romania.png" height="200">
+
+## Sweden (SE)
+
+<img src="./05_figures/covid19_SE.png" height="200"><img src="./05_figures/covid19_SE_pop.png" height="200">
+
+<img src="./05_figures/range_date_Sweden.png" height="200">
+
+## Slovenia (SI)
+
+<img src="./05_figures/covid19_SI.png" height="200"><img src="./05_figures/covid19_SI_pop.png" height="200">
+
+<img src="./05_figures/range_date_Slovenia.png" height="200">
+
+## Slovak Republic (SK)
+
+<img src="./05_figures/covid19_SK.png" height="200"><img src="./05_figures/covid19_SK_pop.png" height="200">
+
+<img src="./05_figures/range_date_Slovak Republic.png" height="200">
+
+## England and Scotland (UK)
+
+<img src="./05_figures/covid19_UK.png" height="200"><img src="./05_figures/covid19_UK_pop.png" height="200">
+
+<img src="./05_figures/range_date_England (UK).png" height="200">
+
+
+
+
+# In the media
 
 Articles in the press related to the Tracker:
 
@@ -206,7 +355,8 @@ https://science.orf.at/stories/3207633/
 
 
 
-## Change Logs
+# Change Log
+* 01 Aug 2021: All countries updated. Latvia has switched to a new region system. This will be incorporated in the next update once the correspondence to NUTS 3 2016 is figured out. Added a heat plot on policy stringency. Add individual country hex plots at the NUTS level as checks on the data. This update is the official July 2021 Zenodo release.
 * 22 Jul 2021: All countries updated. Changes to the map script to automatically drop regions which don't hav updates for the past 14 days. Since Portugal data is released every two weeks, it contains information on daily cases for the day of the data release. This allows us to calculate bi-weekly changes in cases. NUTS regions which are fall off the maps will be checked. Either their data is not updated or they have issues in their names in the original data files.
 * 01 Jul 2021: All countries updated. Ireland's data is still not being updated so it has been dropped from Europe maps. New dedicated webpage created for this repository: https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/. In the maps the rise of the delta variant is also visible.
 * 12 Jun 2021: England data source changed to the offical ONS data at the LTLA level which maps to NUTS 3. Since the raw files are very large the original version has been removed from the directories. Please see the dofiles for the links. All countries updated. This will be the official May/June 2021 release version.

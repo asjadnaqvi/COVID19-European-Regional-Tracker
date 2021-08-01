@@ -38,6 +38,10 @@ ren overleden deaths
 ren bevolkingsaantal population
 
 merge m:1 lau using lau_netherlands
+
+br if _m==1
+replace nuts3_id="NL112" if Gemeentenaam=="Eemsdelta"
+
 drop _m
 
 
@@ -49,7 +53,7 @@ destring year month day, replace
 drop datum
 gen date = mdy(month,day, year)
 drop year month day
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 
 
 sort lau date
@@ -58,7 +62,7 @@ keep lau date nuts3_id cases hospitalized deaths population
 order lau date nuts3_id cases hospitalized deaths population
 
 
-collapse (sum) cases hospitalized deaths population, by(date nuts3_id) cw
+collapse (sum) cases hospitalized deaths population, by(date nuts3_id) 
 
 
 **** check gaps in data. if dates are skipped then there will be errors in daily cases
@@ -84,3 +88,8 @@ export delimited using "$coviddir/04_master/csv_nuts/netherlands_data.csv", repl
 
 
 cd "$coviddir"
+
+
+*encode nuts3_id, gen(id)
+*heatplot cases_daily i.id date, hex
+

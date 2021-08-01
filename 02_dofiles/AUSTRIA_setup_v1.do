@@ -79,4 +79,7 @@ save "$coviddir/04_master/austria_data.dta", replace
 export delimited using "$coviddir/04_master/csv_nuts/austria_data.csv", replace delim(;)
 
 
+
+
+
 cd "$coviddir"

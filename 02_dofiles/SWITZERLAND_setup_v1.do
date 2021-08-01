@@ -24,7 +24,7 @@ gen date = mdy(month,day, year)
 drop year month day
 
 order date
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 drop date2
 
 drop if nuts_3==""
@@ -32,7 +32,7 @@ drop if nuts_3==""
 ren nuts_3 nuts3_name
 drop nuts_3_code  // this is actually the ISO names for the Cantons. wrongly labeled in Data.
 
-
+sort nuts3_name date
 
 /*
 
@@ -136,3 +136,7 @@ save "$coviddir/04_master/switzerland_data.dta", replace
 export delimited using "$coviddir/04_master/csv_nuts/switzerland_data.csv", replace	delim(;)
 
 cd "$coviddir" // reset the directory for batch processing
+
+
+encode nuts3_id, gen(id)
+heatplot cases_daily i.id date, hex

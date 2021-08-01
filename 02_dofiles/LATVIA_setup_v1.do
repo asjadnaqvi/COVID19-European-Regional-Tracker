@@ -18,11 +18,15 @@ save lau_latvia.dta, replace
 
 **https://data.gov.lv/dati/lv/dataset/covid-19-pa-adm-terit/resource/492931dd-0012-46d7-b415-76fe0ec7c216
 insheet using "https://data.gov.lv/dati/dataset/e150cc9a-27c1-4920-a6c2-d20d10469873/resource/492931dd-0012-46d7-b415-76fe0ec7c216/download/covid_19_pa_adm_terit.csv", clear delim(;)
+
+
 save "$coviddir/04_master/latvia_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/latvia_data_original.csv", replace delim(;)
 
 
-cap drop v6 v7 v8
+cap drop v6 
+cap drop v7 
+cap drop v8
 
 ren v1 date
 ren v2 lau_name
@@ -37,6 +41,8 @@ drop if lau_id=="Nav"
 replace cases = "1" if cases=="no 1 līdz 5"
 replace active = "1" if active=="no 1 līdz 5"
 replace active = "" if active=="..."
+replace active = "" if active=="…"
+
 
 destring _all, replace
 
@@ -53,12 +59,12 @@ destring year month day, replace
 drop date
 gen date = mdy(month,day, year)
 drop year month day
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 order date
 
 
 
-collapse (sum) cases , by(date nuts3_id) cw
+collapse (sum) cases , by(date nuts3_id) 
 
 
 **** check gaps in data. if dates are skipped then there will be errors in daily cases

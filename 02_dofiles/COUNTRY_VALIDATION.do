@@ -103,4 +103,81 @@ twoway ///
 			xlabel(, angle(vertical) format(%tdD-m-Y)) ///
 			by(, note("Data trends start deviating after 1st October 2020. OWID formally announces switch from ECDC to JHU dataset starting 1st Nov 2020 (https://ourworldindata.org/covid-data-switch-jhu).", size(*0.6))) by(country, yrescale)		
 	graph export "../05_figures/validation.png", replace wid(3000)		
-	graph export "../05_figures/validation.pdf", replace
+*	graph export "../05_figures/validation.pdf", replace
+
+
+
+
+***** Adding the stringency heatplot
+
+clear
+
+insheet using "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv", clear
+
+ren countryname country
+
+
+gen group = .
+
+replace group = 1 if ///
+	country == "Austria" 			|	///	
+	country == "Belgium" 			|	///
+	country == "Croatia"		 	|	///
+	country == "Czech Republic" 	|	///
+	country == "Denmark"    		| 	///
+	country == "Estonia"   			|	///
+	country == "Finland"   			|	///
+	country == "France" 			|	///
+	country == "Germany" 			|	///
+	country == "Greece" 			|	///
+	country == "Hungary" 			|	///
+	country == "Ireland"			| 	///
+	country == "Italy" 				|	///
+	country == "Latvia" 			|	///
+	country == "Netherlands" 		|	///
+	country == "Norway" 			| 	///
+	country == "Poland" 			|	///
+	country == "Portugal" 			| 	///
+	country == "Romania" 			| 	///
+	country == "Slovenia" 			|	///
+	country == "Slovak Republic" 	| 	///
+	country == "Spain"				| 	///
+	country == "Sweden"				|	///
+	country == "Switzerland"		|	///
+	country == "United Kingdom" 	 	
+	 		
+
+keep if group==1
+
+
+keep country date stringencyindexfordisplay
+ren stringencyindexfordisplay stringency
+
+sort country
+encode country , gen(country2) 
+
+*** fix the date
+
+tostring date, gen(date2)    // string the date variable
+drop date
+gen date = date(date2,"YMD")
+format date %tdDD-Mon-yyyy
+drop date2
+drop if date < 21915    // 1st January
+
+order country date
+sort country date
+
+
+heatplot stringency i.country2 date, ///
+	bins(100) cuts(0(10)100) color(viridis, ipolate(10, power(1.5)) reverse) ///
+	p(lc(white) lw(0.04)) ///
+	ylabel(, nogrid labsize(*0.6)) ///
+	xlabel(#18, labsize(*0.6) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+	xtitle("") ///
+	ramp(bottom length(80) space(7) subtitle("")) ///
+	title("{fontface Arial Bold:COVID-19 Policy Stringency Index}") ///
+	note("Source: Oxford COVID-19 Government Response Tracker (OxCGRT)", size(1.5))
+	
+	graph export "../05_figures/policystringency.png", replace wid(3000)		
+	
