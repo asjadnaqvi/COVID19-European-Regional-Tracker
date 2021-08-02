@@ -190,6 +190,7 @@ export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv",
 
 **** data summary graphs below. Can be marked out
 
+set scheme white_tableau, perm
 
 use "EUROPE_COVID19_master.dta", clear
 
@@ -201,7 +202,7 @@ graph set window fontface "Arial Narrow"
 // scatter of nuts date combinations
 
 twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 30, mcolor(red%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
+	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 30, mcolor(%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
 	, ///
 	legend(off) ///
 		xtitle("") xlabel(#20, labsize(vsmall) angle(vertical)) ///
@@ -221,11 +222,11 @@ gen last = .
 levelsof country, local(lvls)
 foreach x of local lvls {
 
-summ date if country=="`x'"
-replace first = 1 if date==`r(min)' &   country=="`x'"
+qui summ date if country=="`x'"
+qui replace first = 1 if date==`r(min)' &   country=="`x'"
 
-summ date if country=="`x'"
-replace last  = 1 if date==`r(max)' &   country=="`x'"
+qui summ date if country=="`x'"
+qui replace last  = 1 if date==`r(max)' &   country=="`x'"
 }
 
 
@@ -245,7 +246,7 @@ encode country, gen(nuts0)
 
 
 twoway ///
-	(scatter nuts0 date if tag==1, mcolor(maroon%50) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)), ///
+	(scatter nuts0 date if tag==1, mcolor(%50) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)), ///
 		ytitle("") yscale(noline) ///
 		ylabel(1(1)26, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
@@ -297,8 +298,8 @@ display "Height = `ys', Width = `xs'"
 heatplot cases_daily_pop i.id date if country=="`x'", ///
 	hex levels(30) color(, reverse) ///
 	p(lc(white) lw(0.04)) ///
-	ylabel(, nogrid labsize(*0.6)) ///
-	xlabel(`xmin'(15)`xmax', labsize(*0.6) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+	ylabel(, nogrid labsize(1.8)) ///
+	xlabel(`xmin'(15)`xmax', labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 	xtitle("") ///
 	ramp(bottom length(80) space(7) subtitle("")) ///
 	title("Data range check - `x'") ///
