@@ -22,18 +22,19 @@ save lau_belgium.dta, replace
 ***** Data from website: cases
 
 
-insheet using "https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI.csv", clear
+import delim using "https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI.csv", clear
 save "$coviddir/04_master/belgium_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/belgium_data_original.csv", replace delim(;)
 
-
+/*
 foreach x of varlist _all {
 local header = lower(`x'[1])
 ren `x' `header'
 }
 
-drop in 1
 
+*drop in 1
+*/
 
 
 cap drop tx_descr_fr 
@@ -42,6 +43,7 @@ cap drop tx_prov_descr_fr
 cap drop tx_rgn_descr_fr
 cap drop if nis5=="NA"
 drop if date=="NA"      
+
 
 replace cases = "1" if cases=="<5"   // judgement call
 ren cases cases_daily
@@ -97,8 +99,6 @@ merge m:1 lau using lau_belgium.dta
 
 tab municipality if _m==1 // fix these
 tab lau_name     if _m==2
-
-
 
 drop if _m!=3  
 drop _m

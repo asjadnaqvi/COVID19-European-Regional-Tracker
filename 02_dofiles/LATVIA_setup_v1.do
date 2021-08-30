@@ -16,8 +16,15 @@ compress
 save lau_latvia.dta, replace
 
 
+
+// new file post July 2021 that still needs to be incorporated:
+*insheet using "https://data.gov.lv/dati/dataset/e150cc9a-27c1-4920-a6c2-d20d10469873/resource/ba1fe21e-6308-491d-a4a0-27609122b441/download/covid_19_pa_adm_terit_new.csv", clear delim(;)
+
+
+// original file
+
 **https://data.gov.lv/dati/lv/dataset/covid-19-pa-adm-terit/resource/492931dd-0012-46d7-b415-76fe0ec7c216
-insheet using "https://data.gov.lv/dati/dataset/e150cc9a-27c1-4920-a6c2-d20d10469873/resource/492931dd-0012-46d7-b415-76fe0ec7c216/download/covid_19_pa_adm_terit.csv", clear delim(;)
+import delim using "https://data.gov.lv/dati/dataset/e150cc9a-27c1-4920-a6c2-d20d10469873/resource/492931dd-0012-46d7-b415-76fe0ec7c216/download/covid_19_pa_adm_terit.csv", clear 
 
 
 save "$coviddir/04_master/latvia_data_original.dta", replace

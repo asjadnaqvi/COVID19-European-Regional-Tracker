@@ -9,7 +9,7 @@ cd "$coviddir/04_master"
 ***  COVID 19 data   ***
 ************************
 
-insheet using "https://covid.ourworldindata.org/data/owid-covid-data.csv", clear
+import delim using "https://covid.ourworldindata.org/data/owid-covid-data.csv", clear
 
 
 gen date2 = date(date, "YMD")

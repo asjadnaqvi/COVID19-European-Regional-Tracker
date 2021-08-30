@@ -78,14 +78,14 @@ replace nuts3_id="CH013" if nuts3_name=="Geneva"
 replace nuts3_id="CH021" if nuts3_name=="Berne"
 replace nuts3_id="CH022" if nuts3_name=="Fribourg"
 replace nuts3_id="CH023" if nuts3_name=="Solothurn"
-replace nuts3_id="CH024" if nuts3_name=="NeuchÃ¢tel"  // neuaechtel
+replace nuts3_id="CH024" if nuts3_name=="NeuchÃ¢tel" | nuts3_name=="Neuchâtel" // neuaechtel
 replace nuts3_id="CH025" if nuts3_name=="Jura"
 
 replace nuts3_id="CH031" if nuts3_name=="Basel-Stadt"
 replace nuts3_id="CH032" if nuts3_name=="Basel-Landschaft"
 replace nuts3_id="CH033" if nuts3_name=="Aargau"
 
-replace nuts3_id="CH040" if nuts3_name=="ZÃ¼rich"  // zurich
+replace nuts3_id="CH040" if nuts3_name=="ZÃ¼rich" | nuts3_name=="Zürich"  // zurich
 
 replace nuts3_id="CH051" if nuts3_name=="Glarus"
 replace nuts3_id="CH052" if nuts3_name=="Schaffhausen"
@@ -129,7 +129,7 @@ drop if cases==.
 
 // since there are delays in data updates, drop the last four observations
 summ date
-drop if date >= `r(max)' - 4
+drop if date >= `r(max)' - 3
 
 compress
 save "$coviddir/04_master/switzerland_data.dta", replace		
@@ -138,5 +138,3 @@ export delimited using "$coviddir/04_master/csv_nuts/switzerland_data.csv", repl
 cd "$coviddir" // reset the directory for batch processing
 
 
-encode nuts3_id, gen(id)
-heatplot cases_daily i.id date, hex

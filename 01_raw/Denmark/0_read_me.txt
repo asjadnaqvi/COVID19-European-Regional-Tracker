@@ -128,8 +128,6 @@ Fil 11: Test_pos_over_time_antigen:
 Denne tabel indeholder - i modsætning til test_pos_over_time - kun personer testet ved antigen-test.
 Denne tabel fokuserer ligeledes på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag. I denne fil indgår udelukkende personer testet med antigen-test.
 
-Dette er modsat dashboardet (www.ssi.dk/covid19data), hvor positivprocenten beregnes over en uge, med antal personer som er testet positive seneste ni dage over antallet af personer testet seneste ni dage, hvor ni dage er anvendt på grund af manglende observationer de seneste tre dage.
-
 Date: Datoer i formatet YYYY-MM-DD som der stratificeres efter.
 NewPositive: Antallet af personer, som for første gang er testet positive for covid-19, på en given dag.
 NotPrevPos: Antallet af personer testet på en given dag, som ikke har testet positive på en tidligere dato. Indeholder negative tests for folk, som ikke har testet positive før, samt første positive test.

@@ -12,8 +12,7 @@ The Tracker is now published in [Nature Scientific Data](https://www.nature.com/
 The data is released monthly on [Zenodo](https://zenodo.org/): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4244878.svg)](https://doi.org/10.5281/zenodo.4244878)
 
 
-
-This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 minutes to run all the scripts and upload them to GitHub. Please cite the above DOIs if you are using this dataset. The underlying data structures are constantly being updated and there might be still undetected issues in the final files. For comments, feedback, error reporting, or other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
+This repository is updated every four weeks. All raw data and scripts are available here in case more frequent updates are required. Otherwise, please feel free to request one. It takes about 30-40 minutes to run all the scripts and upload them to GitHub. Please cite the above DOIs if you are using this dataset. The underlying data structures are constantly being updated and there might be still undetected issues in the final files. For error reporting, open up an [issue](https://github.com/asjadnaqvi/COVID19-European-Regional-Tracker/issues). For comments, feedback, and other queries please e-mail at *asjadnaqvi@gmail.com* or *naqvi@iiasa.ac.at*.
 
 
 This project is supported by:
@@ -356,6 +355,7 @@ https://science.orf.at/stories/3207633/
 
 
 # Change Log
+* 30 Aug 2021: All countries updated. Latvia has completely revamped its administrative structure and the official correspondence from the new to the old boundaries is not clear. The links to the new data has been added to the country dofile but it has been removed for now from the EU-level maps. Ireland data is still not updated.
 * 01 Aug 2021: All countries updated. Latvia has switched to a new region system. This will be incorporated in the next update once the correspondence to NUTS 3 2016 is figured out. Added a heat plot on policy stringency. Add individual country hex plots at the NUTS level as checks on the data. This update is the official July 2021 Zenodo release.
 * 22 Jul 2021: All countries updated. Changes to the map script to automatically drop regions which don't hav updates for the past 14 days. Since Portugal data is released every two weeks, it contains information on daily cases for the day of the data release. This allows us to calculate bi-weekly changes in cases. NUTS regions which are fall off the maps will be checked. Either their data is not updated or they have issues in their names in the original data files.
 * 01 Jul 2021: All countries updated. Ireland's data is still not being updated so it has been dropped from Europe maps. New dedicated webpage created for this repository: https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/. In the maps the rise of the delta variant is also visible.

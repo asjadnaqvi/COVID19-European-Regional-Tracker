@@ -295,7 +295,7 @@ else {
 display "Height = `ys', Width = `xs'"
 
 
-heatplot cases_daily_pop i.id date if country=="`x'", ///
+heatplot cases_daily_pop i.id date if country=="`x'" & cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
 	hex levels(30) color(, reverse) ///
 	p(lc(white) lw(0.04)) ///
 	ylabel(, nogrid labsize(1.8)) ///
