@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: sylhare/Type-on-Strap 
 
 title: COVID-19 European Regional Tracker
 description: Tracking the spread of COVID-19 across NUTS3 and NUTS2 regions in 26 European countries.
