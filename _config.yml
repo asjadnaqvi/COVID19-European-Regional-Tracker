@@ -1,4 +1,8 @@
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+remote_theme: rosario/kasper
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
 
 #title: COVID-19 European Regional Tracker
 #description: Tracking the spread of COVID-19 across NUTS3 and NUTS2 regions in 26 European countries.
