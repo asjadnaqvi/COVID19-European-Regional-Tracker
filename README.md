@@ -3,7 +3,7 @@
 [![forthebadge cc-nc](http://ForTheBadge.com/images/badges/cc-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0)
 
 
-For the best view including an interactive dashboard, please [**click on this website**](https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/).
+An interactive dashboard can be viewed here [**click on this website**](https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/).
 
 # Overview
 This repository takes a stock of COVID-19 datasets for 26 European countries at the regional NUTS3 or NUTS2 level. 
