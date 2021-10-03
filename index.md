@@ -10,5 +10,4 @@ layout: home
 </script>
 
 
-
 Interactive visualization made using [Datawrapper](https://www.datawrapper.de/). The map shows the last data point of each NUT 3 region at the time of the most recent update. Currently, countries with data at the NUTS 2 level (Poland and Greece), have not been added since they require a custom GIS structure. They will be eventually added.
