@@ -13,6 +13,8 @@ Dødsdato: Dagen hvor en person er registreret død.
 Covid-19-relateret indlæggelse: En indlæggelse, hvor patienten blev indlagt inden for 14 dage efter prøvetagningsdato for den første positive SARS-CoV-2-PCR-prøve. Data baseres på de daglige øjebliksbilleder fra regionernes IT-systemer, som sendes hver dag kl. 7 og 15 og Landspatientregistret (LPR). Indlæggelser omfatter patienter, der har været registreret i mindst ét øjebliksbillede, eller som ifølge LPR er eller har været indlagt mere end 12 timer. Indlæggelser registeret i LPR på intensivafdeling inkluderes også når de varer mindre end 12 timer.
 Covid-19-relaterede indlæggelsesdatoer: Indlægges en person mere end 48 timer før deres første positive PCR-test for Covid-19 er taget, så tæller deres prøvetagningsdato som COVID-19-indlæggelsesdatoen. I alle andre tilfælde er det indlæggelsesdatoen, som er angivet.
 Prøvedato: Dette er datoen PCR-testen blev taget og ikke datoen, hvor prøvesvaret forelå.
+Befolkningstal: Befolkningstal er baseret på CPR-registeret og opdateres d.15 i hver måned. Populationen udgøres af personer i live som har et gyldigt CPR nummer, er bosat i Danmark og opfylder følgende kriterier: Personen skal have en gyldig kommunekode, som matcher en eksisterende kommune, køn skal være angivet og personen skal have en gyldig vejkode. 
+
 
 
 
@@ -22,7 +24,7 @@ Rækkerne i filerne er som udgangspunkt stratificeringer efter relevante paramet
 Filerne bliver opdateret hver dag og i denne forbindelse kan tidsserier også ændre sig tilbage i tiden, hvis nyere data foreligger. Derfor anbefales det altid at benytte det senest tilgængelige data og for så vidt muligt, ikke at gemme filer og lave tidsserier på basis af gamle filer.
 
 Typer af tests:
-Filerne bygger som udgangspunkt på PCR-test, som er den test, der bruges til at definere bekræftede covid-19-tilfælde. Antigen-test (også kaldet for lyntest, kviktest, ag-test og hurtigtest) anvendes i teststrategien som screeningsværktøj og bruges i overvågningen til at definere mistænkte tilfælde. Der er nogle filer, som viser data for antigen-tests. Data indeholder ikke serologitest, som er den test, der udføres, når man skal undersøge, om raske mennesker tidligere har haft covid-19.
+Filerne bygger som udgangspunkt på PCR-test, som er den test, der bruges til at definere bekræftede covid-19-tilfælde. Antigen-test (også kaldet for lyntest, kviktest, ag-test og hurtigtest) anvendes i teststrategien som screeningsværktøj og bruges i overvågningen til at definere mistænkte tilfælde. Der er nogle filer, som viser data for antigen-tests, hvis andet ikke er angivet bygger filen på PCR-tests. Data indeholder ikke serologitest, som er den test, der udføres, når man skal undersøge, om raske mennesker tidligere har haft covid-19.
 
 ------------------------------------------------------
 
@@ -62,13 +64,13 @@ Kommune_(id): Trecifrede ID-numre, som unikt identificerer kommunen, der er stra
 Kommune_(navn): Navnet på kommunen der er stratificeret efter.
 Antal_testede: Antal testede personer i den givne kommune. Hver person kan kun bidrage til dette tal en gang, nemlig første gang personen testes. 
 Antal_bekræftede_COVID-19: Antal bekræftede covid-19-tilfælde i den givne kommune.
-Befolkningstal: Befolkningstallet i den givne kommune jævnfør Danmarks Statistiks opgørelse fra første kvartal 2020.
+Befolkningstal: Befolkningstallet i den givne kommune er baseret på CPR-registeret og opdateres d.15 i hver måned.
 Kumulativ_incidens_(per_100000): Den kumulative incidens per 100.000 for den givne kommune. Dette tal udregnes som Antal_bekræftede_COVID-19 divideret med Befolkningstal ganget med 100.000.
 
 ------------------------------------------------------
 
 Fil 6: Municipality_tested_persons_time_series: 
-Dette er en krydstabel over antallet af personer, som er testede for covid-19 for kommunerne på en given dag. Kolonnenavne angiver kommunen, og rækkenavne angiver testdatoen. Cellerne indeholder antallet af testede personer for en given kombination af kommune og testdato. En person kan bidrage op til en gang hver dag, såfremt de ikke tidligere er testet positive. Denne opgørelse er udelukkende baseret på PCR-tests.
+Dette er en krydstabel over antallet af personer, som er testede for covid-19 for kommunerne på en given dag. Kolonnenavne angiver kommunen, og rækkenavne angiver testdatoen. Cellerne indeholder antallet af testede personer for en given kombination af kommune og testdato. En person kan bidrage op til en gang hver dag, såfremt de ikke tidligere er testet positive.
 
 ------------------------------------------------------
 
@@ -108,7 +110,7 @@ uncertainty_upper: Den estimerede øvre grænse, når der tages højde for usikk
 
 Fil 10: Test_pos_over_time: 
 Tabellen indeholder kun personer testet ved PCR-test. 
-Denne tabel fokuserer på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag. I denne fil indgår udelukkende personer testet med PCR-test.
+Denne tabel fokuserer på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag.
 
 Dette er modsat dashboardet (www.ssi.dk/covid19data), hvor positivprocenten beregnes over en uge, med antal personer som er testet positive seneste ni dage over antallet af personer testet seneste ni dage, hvor ni dage er anvendt på grund af manglende observationer de seneste tre dage.
 
@@ -127,6 +129,8 @@ Noter: I den sidste række (Antal personer) er den totale opgørelse opgjort så
 Fil 11: Test_pos_over_time_antigen: 
 Denne tabel indeholder - i modsætning til test_pos_over_time - kun personer testet ved antigen-test.
 Denne tabel fokuserer ligeledes på testede personer per dag frem for personer testet i hele perioden. I modsætning til de andre tabeller kan en person derfor bidrage flere gange til denne tabel, dog kun en gang per dag. I denne fil indgår udelukkende personer testet med antigen-test.
+Fra 1/9-2021 ændres filen til at indeholde samtlige personer med gyldigt CPR nummer uanset om de har været testet med PCR før. Før denne dato har filerne udelukkende indeholdt personer med gyldigt CPR nummer som samtidig også havde fået foretaget en PCR test. Personer uden gyldigt CPR nummer kan ikke følges korrekt og tæller derfor ikke med i denne opgørelse.
+
 
 Date: Datoer i formatet YYYY-MM-DD som der stratificeres efter.
 NewPositive: Antallet af personer, som for første gang er testet positive for covid-19, på en given dag.
@@ -165,6 +169,7 @@ Eksempelvis vil en person med en positiv antigentest den 1/2-2021 og 2/2-2021, s
 Hvis en person har flere PCR-tests inden for samme vindue vil den nærmeste PCR-test tages. Hvis en person har flere PCR på en dag, vægtes 
 PCR-svar på samme måde som antigentestene. Et positivt svar vil vægtes højere end et negativt svar, og et negativt svar vil vægtes 
 højere end intet svar. 
+Fra 1/9-2021 ændres filen til at indeholde samtlige personer med gyldigt CPR nummer uanset om de har været testet med PCR før. Før denne dato har filerne udelukkende indeholdt personer med gyldigt CPR nummer som samtidig også havde fået foretaget en PCR test. Personer uden gyldigt CPR nummer kan ikke følges korrekt og tæller derfor ikke med i denne opgørelse.
 
 Dato					: Dato for prøvetagning 
 AG_testede				: Antallet af antigentests (max en per person per dag)
@@ -180,7 +185,7 @@ AGnegPCRneg				: Antal negative antigentests hvor PCR-test også var negativ
 Fil 14: plejehjem_ugeoversigt:
 
 OBS: Kommer kun ud om tirsdagen. 
-Denne fil indeholder en opgørelse over covid-19-tests og -tilfælde på danske plejehjem pr. uge siden uge 11 2020. Dette er dataen bag figur 7.1, som dog kun indeholder de seneste fem uger. 
+Denne fil indeholder en opgørelse over covid-19-tests og -tilfælde på danske plejehjem pr. uge siden uge 11 2020. Dette er dataen bag tabel 7.1, som dog kun indeholder de seneste fem uger. 
 
 År: Årstal, der stratificeres efter.
 Uge: Uge, der stratificeres efter. 
@@ -189,3 +194,76 @@ Dødsfald blandt bekræftede beboere: Antal beboere på plejehjem, som er døde 
 Plejehjem med bekræftede beboere: Antal plejehjem, hvor mindst én beboer er testet positiv for covid-19 med en PCR-test inden for den givne uge. Igen tæller kun beboernes første positive test.
 Testede beboere: Antal PCR-tests for covid-19 udført på beboere på plejehjem inden for den givne uge. Hver beboer kan tælle med flere gange. Beboere, som tidligere er testet positive, tæller fortsat med, hvis de bliver testet igen senere (uafhængigt af resultat).
 Plejehjem med testede beboere: Antal plejehjem, hvor mindst én beboer er blevet PCR-testet for covid-19 inden for den givne uge.
+
+------------------------------------------------------
+========= Gennembrudsinfektionsfiler =================
+
+OBS: Kommer kun ud om tirsdagen. 
+
+Generelt: 
+Antal personer er antallet af personer på den første mandag i en given uge. En person, som skifter aldersgruppe eller vaccinestatus i løbet af ugen, vil ikke fremgå flere steder. En person bidrager med risikotid så længe personen er i live, bosiddende i Danmark (CPR-register) og op til 30 dage efter første postive PCR-test. Dette er gjort for at holde denne fil forholdsvis simpel, og for at have de samme tællere og nævnere for alle udfald/events. 30 dage er valgt da det tiden vi kalder det en covid-19 relateret død. 
+Personer med tidligere positiv PCR test er ikke med i antal_personer, hvorfra incidenserne bliver udregnet. Incidenserne i denne fil er derfor ikke en til en-sammenlignelige med andre opgørelser. 
+For incidens_alle (som er et udtryk for både re-infektioner (60 dage siden sidste positive prøve) og første infektion bruges antal_personer_alle. 
+En persons vaccine-status er defineret ud fra den status personen havde på tidspunktet for den positive prøve. Eksempelvis vil en person, som bliver testet positiv, vaccineret og derefter indlagt blive talt som indlagt uden vaccine. Dette gøres for at undersøge alvorligheden af gennembrudsinfektioner frem for antallet af vaccinerede indlagte på en given uge.
+Disse filer skal derfor ses som en hjælp til at følge gennembrudsinfektioner frem for sygdomsbyrden i landet. Personer testet positiv med PCR i Danmark bidrager til den aktuelle sygdomsbyrde uanset bopæl. 
+Antallet af personer, cases og indlagte i gruppen fuld effekt vaccine er en delmængde af gruppen anden vaccine.
+Antallet af cases, der havde modtaget anden vaccine men endnu ikke opnået fuld vaccineeffekt på en given uge, findes ved at trække de anden vaccine-gruppe fra fuld vaccineeffekt-gruppen.
+Fuld effekt af vaccine er defineret som opgivet på producenternes produktresumé (produktresume.dk). AstraZeneca COVID-19 Vaccine er fuldt effektiv efter 15 dage, Moderna COVID-19 Vaccine efter 14 dage, Pfizer BioNTech COVID-19 Vaccine efter 7 dage og Janssen COVID-19 Vaccine efter 14 dage efter første vaccine. Personer med blandingsvacciner er angivet som 14 dage efter anden vaccine uanset vaccine. 
+Incidenserne er opgivet i personuger for at holde det sammenligneligt med vores anden overvågning. Incidenserne kan derfor læses som XX events / 100 000 person-uger 
+Antal indlagte er antal ny-lindlagte. For denne opgørelse tæller vi kun første indlæggelse for hver person, det vil sige en person som bliver testet positiv med covid-19, bliver indlagt, udskrevet og derefter indlagt altsammen inden for 14 dage vil kun tælle en gang. 
+Indlægges en person mere end 48 timer før deres første positive PCR-test for Covid-19 er taget, så tæller deres prøvetagningsdato som COVID-19-indlæggelsesdatoen. I alle andre tilfælde er det indlæggelsesdatoen, som er angivet.
+
+Fil 1 table1
+Ugenummer: Ugenummer
+antal_personer_alle_Ingen vaccination: Antal personer uden vaccine inklusiv tidligere positive.
+antal_personer_alle_Første vaccination: Antal personer som har modtaget første vaccine inklusiv tidligere positive.
+antal_personer_alle_Anden vaccination: Antal personer som har modtaget anden vaccine inklusiv tidligere positive.
+antal_personer_alle_Fuld vaccineeffekt: Antal personer som har opnået fuld vaccineeffekt* inklusiv tidligere positive.
+antal_personer_Ingen vaccination: Antal personer uden vaccine.
+antal_personer_Første vaccination: Antal personer som har modtaget første vaccine.
+antal_personer_Anden vaccination: Antal personer som har modtaget anden vaccine.
+antal_personer_Fuld vaccineeffekt: Antal personer som har opnået fuld vaccineeffekt*.
+antal_cases_Ingen vaccination: Antal personer testet positiv med covid-19 uden vaccine.
+antal_cases_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine.
+antal_cases_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine.
+antal_cases_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt*.
+antal_repositive_Ingen vaccination: Antal personer testet positiv med covid-19 uden vaccine med >60 dage siden sidste positive prøve.
+antal_repositive_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine med >60 dage siden sidste positive prøve.
+antal_repositive_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine med >60 dage siden sidste positive prøve.
+antal_repositive_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt* med >60 dage siden sidste positive prøve.
+antal_indlagte_Ingen vaccination: Antal covid-19-relaterede indlæggelser blandt personer uden vaccine.
+antal_indlagte_Første vaccination: Antal covid-19-relaterede indlæggelser blandt personer, som har modtaget første vaccine.
+antal_indlagte_Anden vaccination: Antal covid-19-relaterede indlæggelser blandt personer, som har modtaget anden vaccine.
+antal_indlagte_Fuld vaccineeffekt: Antal covid-19-relaterede indlæggelser blandt personer, som har opnået fuld vaccineeffekt*.
+
+------------------------------------------------------
+
+Fil 2 table2_antal_cases
+Aldersgruppe: Aldersgruppe
+Uge XX_Ingen vaccination: Antal personer testet positiv med covid-19 uden vaccine.
+Uge XX_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine.
+Uge XX_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine.
+Uge XX_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt*.
+
+Filerne table2_antal_indlagte og table2_antal_repositive følger samme skabelon.
+------------------------------------------------------
+
+Fil 3 table2_incidence_cases
+Aldersgruppe: Aldersgruppe
+Uge XX_Ingen vaccination: Antal personer testet positiv med covid-19 uden vaccine / antal personer i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+Uge XX_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine / antal personer i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+Uge XX_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine / antal personer i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+Uge XX_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt* / antal personer i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+
+Filerne table2_incidence_indlagte følger samme skabelon.
+------------------------------------------------------
+
+Fil 4 table2_incidence_alle
+Aldersgruppe: Aldersgruppe
+Uge XX_Ingen vaccination: Antal personer testet positiv med covid-19 uden vaccine inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+Uge XX_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+Uge XX_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+Uge XX_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt* inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
+
+
+

@@ -29,7 +29,7 @@ use nuts3_mix, clear
 drop tag
 
 summ date
-drop if date >= `r(max)' - 4  // drop the last 2 or 3 observations to avoid incompleteness
+drop if date >= `r(max)' - 3  // drop the last 2 or 3 observations to avoid incompleteness
 
 // probably wrong by makes life easier. only very few regions have this problem
 replace cases    	= 0 if cases       < 0  
@@ -45,7 +45,8 @@ drop total
 
 *** generate a variable for the last observation for each country
 
-
+sort nuts_id date
+by nuts_id: egen temp = max(date) if cases_daily!=.
 
 gen last = .
 gen change14 = .

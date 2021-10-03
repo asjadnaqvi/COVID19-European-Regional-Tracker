@@ -62,24 +62,14 @@ sort nuts3_id date
 
 
 ren y cases_daily
-gen cases = .
 
-sort nuts3_id date
+
 
 // generate cumulative sum of cases
-levelsof nuts3_id, local(nuts)
-levelsof date, local(lvls)
 
+sort nuts3_id date
+bysort nuts3_id (date): gen cases = sum(cases_daily)
 
-foreach x of local nuts {
-
-display "`x'"
-	
-	foreach y of local lvls {	
-		qui summ cases_daily 			if date <= `y' & nuts3_id=="`x'"
-		qui replace cases = `r(sum)' 	if date == `y' & nuts3_id=="`x'"
-	}
-}
 
 
 compress

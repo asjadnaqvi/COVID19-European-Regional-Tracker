@@ -170,12 +170,11 @@ sort country date
 
 
 heatplot stringency i.country2 date, ///
-	bins(100) cuts(0(10)100) color(viridis, ipolate(10, power(1.5)) reverse) ///
-	p(lc(white) lw(0.04)) ///
+	xbins(140) cuts(0(10)100) color(plasma, ipolate(10, power(1.5)) reverse) ///
 	ylabel(, nogrid labsize(*0.6)) ///
 	xlabel(#18, labsize(*0.6) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 	xtitle("") ///
-	ramp(bottom length(80) space(7) subtitle("")) ///
+	ramp(bottom length(80) space(8) subtitle("")) ///
 	title("{fontface Arial Bold:COVID-19 Policy Stringency Index}") ///
 	note("Source: Oxford COVID-19 Government Response Tracker (OxCGRT)", size(1.5))
 	

@@ -23,7 +23,7 @@ cd "$coviddir"
 
 do "./02_dofiles/AUSTRIA_setup_v1.do"
 do "./02_dofiles/BELGIUM_setup_v4.do"
-do "./02_dofiles/CROATIA_setup_v2.do"
+do "./02_dofiles/CROATIA_setup_v3.do"
 do "./02_dofiles/CZECHIA_setup_v2.do"
 do "./02_dofiles/DENMARK_setup_v1.do" 	  	// manual data update   
 do "./02_dofiles/ENGLAND_setup_v3.do"		

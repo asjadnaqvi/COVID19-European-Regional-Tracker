@@ -5,7 +5,9 @@ clear
 cd "$coviddir./01_raw/Denmark"
 
 
-**** IDs 
+**** IDs. Need to run it just one time.
+
+/*
 import excel using LAU_Denmark.xlsx, clear first
 replace lau = subinstr(lau,"-", "_", .)
 sort lau
@@ -13,7 +15,7 @@ drop area_m2
 ren pop population
 compress
 save LAU_Denmark.dta, replace
-
+*/
 
 *** file updated from
 *https://covid19.ssi.dk/overvagningsdata/ugentlige-opgorelser-med-overvaagningsdata

@@ -6,8 +6,9 @@ cd "$coviddir"
 
 
 
-**** get the population file in order. File from Eurostat
+**** get the population file in order. File from Eurostat (one time run)
 
+/*
 use "./01_raw/Eurostat/demo_r_pjangrp3", clear   
 *export delimited using "./01 raw/Eurostat/demo_r_pjangrp3.csv", clear delim(;)
 
@@ -26,7 +27,39 @@ use "./01_raw/Eurostat/demo_r_pjangrp3", clear
 	compress
 save "./04_master/NUTS_POPULATION.dta", replace
 *export delimited using "./04_master/csv_/NUTS_POPULATION.csv", replace delim(;)
+*/
 
+**** get the NUTS names in order (one time run)
+
+/*
+import excel using "./01_raw/LAU/NUTS_2016_names.xlsx", clear first
+
+cap drop G-L
+cap drop MSORDER
+cap drop SORTINGORDER
+
+ren NUTSCODE nuts_id
+ren NUTSLEVEL level
+ren COUNTRYCODE country
+ren NUTSLABEL x
+
+drop if level==.
+drop if level==0 | level==1
+
+replace x = trim(x)
+split x, p("(" ")")
+
+gen nuts_name = x
+replace nuts_name = x
+replace nuts_name = x2 if country=="EL" // Greece
+replace nuts_name = x2 if country=="BG" // Bulgaria
+replace nuts_name = subinstr(nuts_name, ", Kreisfreie Stadt", "", .) if country=="DE" // Germany
+replace nuts_name = trim(nuts_name)
+
+drop x*
+compress
+save "./04_master/NUTS_NAME.dta", replace
+*/
 
 
 
@@ -54,7 +87,7 @@ append using ireland_data, 		keep(date cases cases_daily nuts3_id)
 append using italy_data, 		keep(date cases cases_daily nuts3_id)
 append using latvia_data, 		keep(date cases cases_daily nuts3_id)
 append using netherlands_data, 	keep(date cases cases_daily nuts3_id)
-append using norway_data, 		keep(date cases cases_daily nuts3_id)
+append using norway_data, 		keep(date cases cases_daily nuts3_id nuts3_name)  // for the names (non EU)
 append using portugal_data, 	keep(date cases cases_daily nuts3_id)
 append using romania_data, 		keep(date cases cases_daily nuts3_id)
 append using scotland_data, 	keep(date cases cases_daily nuts3_id ctry)  // for differentiating UK
@@ -62,7 +95,7 @@ append using slovakrep_data, 	keep(date cases cases_daily nuts3_id)
 append using slovenia_data, 	keep(date cases cases_daily nuts3_id)
 append using spain_data, 		keep(date cases cases_daily nuts3_id)
 append using sweden_data, 		keep(date cases cases_daily nuts3_id)
-append using switzerland_data, 	keep(date cases cases_daily nuts3_id)
+append using switzerland_data, 	keep(date cases cases_daily nuts3_id nuts3_name)  // for the names (non EU)
 
 
 *** NUTS 2
@@ -80,44 +113,45 @@ gen nuts0_id = substr(nuts_id, 1,2)
 
 
 
-order  nuts0_id nuts2_id nuts3_id nuts_id
 
-
-
-
-
+// merge to get population
 merge m:1 nuts_id using NUTS_POPULATION
 drop if _m==2
 drop _m
 
+// merge to get names
+merge m:1 nuts_id using NUTS_NAME
+drop if _m==2
+drop _m
+drop country level
 
+replace nuts_name = nuts3_name if nuts0_id=="NO"
+replace nuts_name = nuts3_name if nuts0_id=="CH"
+
+drop nuts3_name
+order  nuts0_id nuts2_id nuts3_id nuts_id nuts_name
+
+
+// clean up the dates
 drop if date==.
 drop if date<21915  //  1st Jan 2020
 drop if date<21929  // 15th Jan 2020
 
 
-gen flag = 1 if cases_daily < 0
-
-lab de flag 1 "Decrease in daily cases"
-lab val flag flag
+*gen flag = 1 if cases_daily < 0
+*lab de flag 1 "Decrease in daily cases"
+*lab val flag flag
 
 
 gen cases_daily_pop = (cases_daily / pop) * 10000  	// new cases / 10k population
 
 
 **** generate back cumulative cases missing for countries
-gen temp = 1 if cases==.
-gen cases2 = .
 
-levelsof date, local(dts)
-foreach x of local dts {
-	bysort nuts_id: egen temp2= sum(cases_daily) if date <= `x' & temp==1
-	cap replace cases2 = temp2	if date == `x' & temp==1
-	drop temp2
-}
-
+sort nuts_id date
+by nuts_id (date): gen cases2 = sum(cases_daily)
 replace cases = cases2 if cases==. & cases2!=.
-drop cases2 temp
+drop cases2
 
 
 gen country = ""
@@ -166,23 +200,50 @@ lab var nuts0_id 		"NUTS 0"
 lab var nuts2_id 		"NUTS 2"
 lab var nuts3_id 		"NUTS 3"
 lab var nuts_id  		"NUTS2 or NUTS3"
+lab var nuts_name  		"NUTS name"
 lab var population 		"Population"
 lab var date 	 		"Date"
 lab var cases 	 		"Culumative cases"
 lab var cases_pop  		"Culumative cases per 10,000 population"
 lab var cases_daily 	"Daily cases"
 lab var cases_daily_pop "Daily cases per 10,000 population"
-lab var flag 			"Flagged observations"
+*lab var flag 			"Flagged observations"
 
 	
-order country nuts0_id  nuts2_id nuts3_id nuts_id date population cases cases_daily cases_pop cases_daily_pop
-sort  nuts0_id  nuts_id date
+order country nuts0_id nuts2_id nuts3_id nuts_id nuts_name date population cases cases_daily cases_pop cases_daily_pop
+sort  nuts0_id nuts_id date
 
 
 // save final data file
 compress
 save "EUROPE_COVID19_master.dta", replace
 export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv", replace delim(;)
+
+
+
+
+// export only the last data points for visualization elsewhere
+sort nuts_id date
+
+// last data point
+by nuts_id: egen temp = max(date) if cases_daily!=.
+gen last = 1 if date == temp  // last observation of each NUTS region
+drop temp
+
+// highest daily cases
+by nuts_id: egen high = max(cases_daily) if cases_daily!=.
+gen high_date=date if cases_daily==high
+bysort nuts_id: carryforward high_date, replace
+format high_date %tdDD-Mon-YY
+
+keep if last==1
+drop last
+gen nuts_name2 = nuts_name + " (" + nuts_id + ")"
+order country nuts0_id nuts2_id nuts3_id nuts_id nuts_name nuts_name2
+
+export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_last.csv", replace delim(;)
+
+
 
 
 
@@ -198,15 +259,17 @@ format date %tdDD-Mon-YY
 set scheme white_w3d, perm
 graph set window fontface "Arial Narrow"
 
+gen nuts_name2 = nuts_name + " (" + nuts_id + ")"
 
 // scatter of nuts date combinations
 
 twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 30, mcolor(%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
+	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 30, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
 	, ///
 	legend(off) ///
 		xtitle("") xlabel(#20, labsize(vsmall) angle(vertical)) ///
-		note("Few observations over 30 cases per 10k population have been removed from the figure for visibility", size(vsmall))
+		note("Few observations over 30 cases per 10k population have been removed from the figure for visibility", size(vsmall)) ///
+		xsize(2) ysize(1)
 		
 	graph export "../05_figures/range_newcasepop.png", replace wid(2000)
     
@@ -246,11 +309,12 @@ encode country, gen(nuts0)
 
 
 twoway ///
-	(scatter nuts0 date if tag==1, mcolor(%50) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)), ///
+	(scatter nuts0 date if tag==1, mcolor(black%50) msize(vsmall) msymbol(smcircle) mlwidth(vvthin)), ///
 		ytitle("") yscale(noline) ///
 		ylabel(1(1)26, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
-			xlabel(#20, labsize(vsmall) angle(vertical)) 
+			xlabel(#20, labsize(vsmall) angle(vertical)) ///
+			xsize(2) ysize(1)
 	graph export "../05_figures/range_date.png", replace wid(2000)
     
 	*graph export "../05_figures/range_date.pdf", replace
@@ -264,6 +328,8 @@ levelsof country, local(lvls)
 
 foreach x of local lvls {
 
+
+
 preserve
 	
 qui summ date
@@ -273,7 +339,7 @@ local xmax = `r(max)'
 	
 	cap drop id
 	keep if country=="`x'"
-	encode nuts_id, gen(id)
+	encode nuts_name2, gen(id)
 	
 		qui summ id if country=="`x'"
 		local ymin = `r(min)'
@@ -281,27 +347,32 @@ local xmax = `r(max)'
 
 
 
-local height = (((`ymax' - `ymin') / (`xmax' - `xmin'))* 20)
+local height = (((`ymax' - `ymin') / (`xmax' - `xmin'))* 16)
 
+    local ys = int(`height' * 5)
+	local xs  = 10
+
+/*
 if `height' > 1 {
     local ys = int(`height' * 5)
-	local xs  = 5
+	local xs  = 5 * 2
 }
 else {
     local ys = 5
-	local xs  = int((1/`height') * 5) 
+	local xs  = int((1/`height') * 5) * 2 // double the width
 }
+*/
 
-display "Height = `ys', Width = `xs'"
+display "`x': Height = `ys', Width = `xs'"
 
 
 heatplot cases_daily_pop i.id date if country=="`x'" & cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
-	hex levels(30) color(, reverse) ///
+	levels(30) xbins(160) color(plasma, reverse) ///
 	p(lc(white) lw(0.04)) ///
 	ylabel(, nogrid labsize(1.8)) ///
-	xlabel(`xmin'(15)`xmax', labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+	xlabel(#30, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 	xtitle("") ///
-	ramp(bottom length(80) space(7) subtitle("")) ///
+	ramp(bottom space(8) subtitle("")) ///
 	title("Data range check - `x'") ///
 		xsize(`xs') ysize(`ys')
 
@@ -316,7 +387,10 @@ restore
 
 /*
 
-summ id if country=="Austria"
+
+encode nuts_id, gen(id)
+
+summ id // if country=="Austria"
 local ymin = `r(min)'
 local ymax = `r(max)'
 
@@ -324,18 +398,34 @@ summ date
 local xmin = `r(min)'
 local xmax = `r(max)'
 
-local height = int(((`ymax' - `ymin') / (`xmax' - `xmin')) * 30)
+local height = (((`ymax' - `ymin') / (`xmax' - `xmin')) * 12)
 display `height'
 
-heatplot cases_daily_pop i.id date if country=="Austria", ///
-	hex levels(20) color(, reverse) ///
+
+    local ys = int(`height' * 2)
+	local xs  = 10
+
+/*	
+if `height' > 1 {
+    local ys = int(`height' * 12)
+	local xs  = 20
+}
+else {
+    local ys = 20
+	local xs  = int((1/`height') * 12) // double the width
+}
+*/
+
+display "x: `xs', y: `ys'"
+
+heatplot cases_daily_pop i.id date if cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
+	levels(30) xbins(160) color(plasma, reverse) ///
 	p(lc(white) lw(0.04)) ///
 	ylabel(, nogrid labsize(1.8)) ///
-	xlabel(#20, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+	xlabel(#30, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 	xtitle("") ///
-	ramp(bottom space(7) subtitle("")) ///
+	ramp(bottom space(10) subtitle("")) ///
 	title("Data range check - `x'") ///
-	xsize(1) ysize(`height')
-
+		xsize(`xs') ysize(`ys') 
 
 

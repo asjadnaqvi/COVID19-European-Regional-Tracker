@@ -76,6 +76,33 @@ drop tag
 collapse (sum) cases, by(nuts3_id date)
 
 
+gen nuts3_name = ""
+
+replace nuts3_name = "Oslo" 		if nuts3_id=="NO011"
+replace nuts3_name = "Akershus" 	if nuts3_id=="NO012"
+replace nuts3_name = "Hedmark" 		if nuts3_id=="NO021"
+replace nuts3_name = "Oppland" 		if nuts3_id=="NO022"
+replace nuts3_name = "Østfold" 		if nuts3_id=="NO031"
+replace nuts3_name = "Buskerud" 	if nuts3_id=="NO032"
+replace nuts3_name = "Vestfold" 	if nuts3_id=="NO033"
+replace nuts3_name = "Telemark" 	if nuts3_id=="NO034"
+replace nuts3_name = "Aust-Agder" 	if nuts3_id=="NO041"
+replace nuts3_name = "Vest-Agder" 	if nuts3_id=="NO042"
+replace nuts3_name = "Rogaland" 	if nuts3_id=="NO043"
+replace nuts3_name = "Hordaland" 	if nuts3_id=="NO051"
+replace nuts3_name = "Sogn og Fjordane" if nuts3_id=="NO052"
+replace nuts3_name = "Møre og Romsdal" 	if nuts3_id=="NO053"
+replace nuts3_name = "Sør-Trøndelag" 	if nuts3_id=="NO061"
+replace nuts3_name = "Nord-Trøndelag" 	if nuts3_id=="NO061"
+replace nuts3_name = "Nordland" 		if nuts3_id=="NO071"
+replace nuts3_name = "Troms" 			if nuts3_id=="NO072"
+replace nuts3_name = "Finnmark" 		if nuts3_id=="NO073"
+
+
+
+
+
+
 **** check gaps in data. if dates are skipped then there will be errors in daily cases
 
 sort nuts3_id date
