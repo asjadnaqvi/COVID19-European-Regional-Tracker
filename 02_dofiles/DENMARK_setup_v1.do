@@ -19,7 +19,7 @@ save LAU_Denmark.dta, replace
 
 *** file updated from
 *https://covid19.ssi.dk/overvagningsdata/ugentlige-opgorelser-med-overvaagningsdata
-
+*https://covid19.ssi.dk/overvagningsdata/download-fil-med-overvaagningdata
 
 insheet using "Municipality_cases_time_series.csv", clear delim(";") nonames
 save "$coviddir/04_master/denmark_data_original.dta", replace

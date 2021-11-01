@@ -3,10 +3,10 @@ global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
 
 
 cd "$coviddir/03_GIS"
-*net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace
-*net install palettes, replace from("https://raw.githubusercontent.com/benjann/palettes/master/")
-*net install colrspace, replace from("https://raw.githubusercontent.com/benjann/colrspace/master/")
-*set scheme white_tableau
+*ssc install schemepack, replace
+*ssc install palettes, replace
+*set scheme white_tableau  // if you install schemepack change scheme
+
 
 use nuts3_mix, clear
 
@@ -18,10 +18,7 @@ use nuts3_mix, clear
 
 		list nuts_id  if tag==1 & _m==1
 		list nuts_id  if tag==1 & _m==2
-
-		drop _m
-
-		
+			drop _m
 
 
 *** drop dates for which countries are missing data points
@@ -50,29 +47,7 @@ by nuts_id: egen temp = max(date) if cases_daily!=.
 gen last = 1 if date == temp  // last observation of each NUTS region
 drop temp
 
-/* // redundant
-levelsof nuts_id, local(lvls)
-local i = 1
 
-foreach x of local lvls {
-
-	*display "`x'"
-	
-	qui summ date if nuts_id=="`x'" & cases_daily!=.
-	local last   = `r(max)'
-
-	qui replace last   = 1 if date==`r(max)' & nuts_id=="`x'"
-	
-	_dots `i' 0
-	local i = `i' + 1
-	
-	}
-*/	
-
-
-
-
-	
 *** calculate the difference from the last 14 days. Since there gaps in the data we need to identify the correct observations for the difference
 
 
@@ -82,20 +57,6 @@ by nuts_id: gen change14		 = ((cases - cases[_n-14]) / cases[_n-14]) * 100
 by nuts_id: gen change14_abs 	 = (cases - cases[_n-14])
 by nuts_id: gen change14_abs_pop = ((cases - cases[_n-14]) * 10000) / pop
 
-
-
-
-		
-*** this is just for maps to label them as "No Cases"
-
-/*
-recode cases_pop 		(0=.) 
-recode cases_daily 		(0=.)  
-recode cases_daily_pop 	(0=.)  
-recode change14			(0=.)
-recode change14_abs		(0=.)
-recode change14_abs_pop	(0=.)
-*/
 
 format cases_daily		%9.0f
 format cases_daily_pop 	%9.2f	
@@ -222,7 +183,7 @@ id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 *****************************************
 
 
-format change14 	%9.2f		
+format change14 %9.2f		
 		
 colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 
@@ -245,7 +206,7 @@ id(_ID) cln(14) clm(k)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 ***********************************************************
 
 
-format change14_abs_pop 	%9.0f		
+format change14_abs_pop %9.0f		
 		
 
 colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
@@ -267,13 +228,13 @@ id(_ID) cln(14)  clm(k)    fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)
 *** graph of 2 week absolute increase in cases  ***
 ***************************************************
 
-format change14_abs_pop 	%9.0f		
+format change14_abs_pop %9.0f		
 		
 
 colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
 local colors `r(p)'
 
-spmap change14_abs using "nuts3_mix_shp.dta" if last==1, /// // & (nuts0_id!="PT" & nuts0_id!="EL")
+spmap change14_abs using "nuts3_mix_shp.dta" if last==1, /// 
 id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)  clbreaks(0 5 10 25 50 75 100 150 200 400 500 700 1000 1500 3000 8000)
 	ocolor(gs2 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("Dropped") ///
@@ -334,8 +295,6 @@ display "`x'"
 	restore	
 	
 	}
-
-		*label(data("nuts_label_`x'") x(_CX) y(_CY) label(nuts_name) size(*0.5 ..) length(30)) ///	
 
 
 levelsof nuts0_id , local(cntry)

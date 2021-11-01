@@ -358,6 +358,7 @@ https://science.orf.at/stories/3207633/
 
 
 # Change Log
+* 01 Nov 2021: All countries updated. Romania data switched to a GitHub repository which cleans up the data. An error corrected in stream plot where Czechia was being dropped. Script for regional data range check graphs improved. A lot of redudant code cleaned up.
 * 03 Oct 2021: All countries updated. Ireland has been released and has been added back in the maps. Latvia data is available in the raw files but the mapping of the new admin units to the old ones is not clear. Code in several files cleaned up. NUTS names added to the master file for various figures and maps. An [interactive dashboard](https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/) at the NUTS 3 level has been added.
 * 30 Aug 2021: All countries updated. Latvia has completely revamped its administrative structure and the official correspondence from the new to the old boundaries is not clear. The links to the new data has been added to the country dofile but it has been removed for now from the EU-level maps. Ireland data is still not updated.
 * 01 Aug 2021: All countries updated. Latvia has switched to a new region system. This will be incorporated in the next update once the correspondence to NUTS 3 2016 is figured out. Added a heat plot on policy stringency. Add individual country hex plots at the NUTS level as checks on the data. This update is the official July 2021 Zenodo release.

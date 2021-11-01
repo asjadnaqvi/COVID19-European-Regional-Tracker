@@ -53,8 +53,25 @@ gen nuts_name = x
 replace nuts_name = x
 replace nuts_name = x2 if country=="EL" // Greece
 replace nuts_name = x2 if country=="BG" // Bulgaria
+replace nuts_name = subinstr(nuts_name, " and",",", .)
 replace nuts_name = subinstr(nuts_name, ", Kreisfreie Stadt", "", .) if country=="DE" // Germany
 replace nuts_name = trim(nuts_name)
+replace nuts_name = "Brussels" if nuts_name=="Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest"
+replace nuts_name = "Arr. de Bruxelles-Capitale" if nuts_name=="Arr. de Bruxelles-Capitale/Arr. van Brussel-Hoofdstad"
+replace nuts_name = "Bezirk Verviers" if nuts_name=="Bezirk Verviers — Deutschsprachige Gemeinschaft"
+replace nuts_name = "Arr. Verviers" if nuts_name=="Arr. Verviers — communes francophones"
+
+replace nuts_name = "Bath, NE Somerset, N. Somerset, S. Gloucestershire" if nuts_name=="Bath, North East Somerset, North Somerset, South Gloucestershire"
+replace nuts_name = "E. Dunbartonshire, W. Dunbartonshire, Helensburgh & Lomond" if nuts_name=="East Dunbartonshire, West Dunbartonshire, Helensburgh & Lomond"
+replace nuts_name = "" if nuts_name==""
+replace nuts_name = "" if nuts_name==""
+replace nuts_name = "" if nuts_name==""
+replace nuts_name = "" if nuts_name==""
+replace nuts_name = "" if nuts_name==""
+replace nuts_name = "" if nuts_name==""
+replace nuts_name = "" if nuts_name==""
+replace nuts_name = "" if nuts_name==""
+
 
 drop x*
 compress
@@ -222,8 +239,13 @@ export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_master.csv",
 
 
 
-// export only the last data points for visualization elsewhere
+// export only the last data points for visualization on Datawrapper
+
 sort nuts_id date
+
+
+// change in cases in the past two weeks
+by nuts_id: gen change14_abs 	 = (cases - cases[_n-14])
 
 // last data point
 by nuts_id: egen temp = max(date) if cases_daily!=.
@@ -267,14 +289,14 @@ twoway ///
 	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 30, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
 	, ///
 	legend(off) ///
-		xtitle("") xlabel(#20, labsize(vsmall) angle(vertical)) ///
+		xtitle("") xlabel(#22, labsize(vsmall) angle(vertical)) ///
 		note("Few observations over 30 cases per 10k population have been removed from the figure for visibility", size(vsmall)) ///
-		xsize(2) ysize(1)
+		title("{fontface Arial Bold:Regional distribution of daily cases}") ///
+		xsize(2) ysize(1)  
 		
 	graph export "../05_figures/range_newcasepop.png", replace wid(2000)
-    
-	*graph export "../05_figures/range_newcasepop.pdf", replace
-	* title("{fontface Arial Bold: Regional distribution of daily cases}")
+   *graph export "../05_figures/range_newcasepop.pdf", replace
+	
 
 
 // Data range
@@ -313,71 +335,62 @@ twoway ///
 		ytitle("") yscale(noline) ///
 		ylabel(1(1)26, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
-			xlabel(#20, labsize(vsmall) angle(vertical)) ///
+			xlabel(#22, labsize(vsmall) angle(vertical)) ///
+			title("{fontface Arial Bold:Data range for countries}") ///
 			xsize(2) ysize(1)
-	graph export "../05_figures/range_date.png", replace wid(2000)
-    
-	*graph export "../05_figures/range_date.pdf", replace
-	* title("{fontface Arial Bold: European COVID-19 regional tracker - Data Range for Countries}")
-
+	graph export "../05_figures/range_date.png", replace wid(2000) 
+   *graph export "../05_figures/range_date.pdf", replace
 	
 
 
+// heatplot of countries
 
-levelsof country, local(lvls)
+levelsof country if country!="Ireland", local(lvls)
 
 foreach x of local lvls {
 
-
-
 preserve
 	
-qui summ date
-local xmin = `r(min)'
-local xmax = `r(max)'
-	
-	
-	cap drop id
-	keep if country=="`x'"
-	encode nuts_name2, gen(id)
-	
-		qui summ id if country=="`x'"
-		local ymin = `r(min)'
-		local ymax = `r(max)'
+	qui summ date
+	local xmin = `r(min)'
+	local xmax = `r(max)'
+		
+		
+		cap drop id
+		keep if country=="`x'"
+		encode nuts_name2, gen(id)
+		
+			qui summ id if country=="`x'"
+			local ymin = `r(min)'
+			local ymax = `r(max)'
 
 
-
-local height = (((`ymax' - `ymin') / (`xmax' - `xmin'))* 16)
-
-    local ys = int(`height' * 5)
-	local xs  = 10
-
-/*
-if `height' > 1 {
-    local ys = int(`height' * 5)
-	local xs  = 5 * 2
-}
-else {
-    local ys = 5
-	local xs  = int((1/`height') * 5) * 2 // double the width
-}
-*/
-
-display "`x': Height = `ys', Width = `xs'"
+	local height = (((`ymax' - `ymin') / (`xmax' - `xmin')) * 25)
+	display `height'
 
 
-heatplot cases_daily_pop i.id date if country=="`x'" & cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
-	levels(30) xbins(160) color(plasma, reverse) ///
-	p(lc(white) lw(0.04)) ///
-	ylabel(, nogrid labsize(1.8)) ///
-	xlabel(#30, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
-	xtitle("") ///
-	ramp(bottom space(8) subtitle("")) ///
-	title("Data range check - `x'") ///
-		xsize(`xs') ysize(`ys')
+		if `height' > 1 {
+			local ys = int(`height' * 5)
+			local xs  = 10
+		}
+		else {
+			local ys = 10
+			local xs  = int((1 / `height') * 5) // double the width
+		}
 
-graph export "../05_figures/range_date_`x'.png", replace wid(2000)
+		display "`x': Height = `ys', Width = `xs'"
 
+		heatplot cases_daily_pop i.id date if country=="`x'" & cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
+			levels(30) xbins(160) color(plasma, reverse) ///
+			p(lc(white) lw(0.04)) ///
+			ylabel(, nogrid labsize(1.8)) ///
+			xlabel(#30, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+			xtitle("") ///
+			ramp(bottom space(8) subtitle("")) ///
+			title("Regional data - `x'") ///
+				xsize(`xs') ysize(`ys')
+
+		graph export "../05_figures/range_date_`x'.png", replace wid(2000)
 
 
 restore
@@ -385,12 +398,12 @@ restore
 }
 
 
-/*
+/*** test code below
 
 
 encode nuts_id, gen(id)
 
-summ id // if country=="Austria"
+summ id if country=="Ireland"
 local ymin = `r(min)'
 local ymax = `r(max)'
 
@@ -398,27 +411,27 @@ summ date
 local xmin = `r(min)'
 local xmax = `r(max)'
 
-local height = (((`ymax' - `ymin') / (`xmax' - `xmin')) * 12)
+local height = (((`ymax' - `ymin') / (`xmax' - `xmin')) * 25)
 display `height'
 
 
-    local ys = int(`height' * 2)
-	local xs  = 10
+  *  local ys = min(int(`height' * 5),80)
+*	local xs  = 8
 
-/*	
+
 if `height' > 1 {
-    local ys = int(`height' * 12)
-	local xs  = 20
+    local ys = int(`height' * 5)
+	local xs  = 10
 }
 else {
-    local ys = 20
-	local xs  = int((1/`height') * 12) // double the width
+    local ys = 10
+	local xs  = int((1 / `height') * 5) // double the width
 }
-*/
+
 
 display "x: `xs', y: `ys'"
 
-heatplot cases_daily_pop i.id date if cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
+heatplot cases_daily_pop i.id date if country=="Ireland" & cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
 	levels(30) xbins(160) color(plasma, reverse) ///
 	p(lc(white) lw(0.04)) ///
 	ylabel(, nogrid labsize(1.8)) ///

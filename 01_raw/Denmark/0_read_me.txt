@@ -212,6 +212,7 @@ Fuld effekt af vaccine er defineret som opgivet på producenternes produktresum�
 Incidenserne er opgivet i personuger for at holde det sammenligneligt med vores anden overvågning. Incidenserne kan derfor læses som XX events / 100 000 person-uger 
 Antal indlagte er antal ny-lindlagte. For denne opgørelse tæller vi kun første indlæggelse for hver person, det vil sige en person som bliver testet positiv med covid-19, bliver indlagt, udskrevet og derefter indlagt altsammen inden for 14 dage vil kun tælle en gang. 
 Indlægges en person mere end 48 timer før deres første positive PCR-test for Covid-19 er taget, så tæller deres prøvetagningsdato som COVID-19-indlæggelsesdatoen. I alle andre tilfælde er det indlæggelsesdatoen, som er angivet.
+Antal tests er opgjort på to måder, en person kan tælles max en gang per uge (antal_tests) og max en gang per dag (antal_tests_total). I begge opgørelser tælles samtlige herboende personer med, altså også personer tidligere testet positiv.
 
 Fil 1 table1
 Ugenummer: Ugenummer
@@ -227,6 +228,14 @@ antal_cases_Ingen vaccination: Antal personer testet positiv med covid-19 uden v
 antal_cases_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine.
 antal_cases_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine.
 antal_cases_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt*.
+antal_tests_Ingen vaccination: Antal personer testet med PCR for covid-19 (en test per uge) uden vaccine.
+antal_tests_Første vaccination: Antal personer testet med PCR for covid-19 (en test per uge), som har modtaget første vaccine.
+antal_tests_Anden vaccination: Antal personer testet med PCR for covid-19 (en test per uge), som har modtaget anden vaccine.
+antal_tests_Fuld vaccineeffekt: Antal personer testet med PCR for covid-19 (en test per uge), som har opnået fuld vaccineeffekt*.
+antal_tests_total_Ingen vaccination: Antal personer testet med PCR for covid-19 (en test per dag) uden vaccine.
+antal_tests_total_Første vaccination: Antal personer testet med PCR for covid-19 (en test per dag), som har modtaget første vaccine.
+antal_tests_total_Anden vaccination: Antal personer testet med PCR for covid-19 (en test per dag), som har modtaget anden vaccine.
+antal_tests_total_Fuld vaccineeffekt: Antal personer testet med PCR for covid-19 (en test per dag), som har opnået fuld vaccineeffekt*.
 antal_repositive_Ingen vaccination: Antal personer testet positiv med covid-19 uden vaccine med >60 dage siden sidste positive prøve.
 antal_repositive_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine med >60 dage siden sidste positive prøve.
 antal_repositive_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine med >60 dage siden sidste positive prøve.
@@ -245,7 +254,7 @@ Uge XX_Første vaccination: Antal personer testet positiv med covid-19, som har 
 Uge XX_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine.
 Uge XX_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt*.
 
-Filerne table2_antal_indlagte og table2_antal_repositive følger samme skabelon.
+Filerne table2_antal_tests, table2_antal_tests_total, table2_antal_indlagte og table2_antal_repositive følger samme skabelon.
 ------------------------------------------------------
 
 Fil 3 table2_incidence_cases
@@ -255,15 +264,17 @@ Uge XX_Første vaccination: Antal personer testet positiv med covid-19, som har 
 Uge XX_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine / antal personer i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
 Uge XX_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt* / antal personer i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
 
-Filerne table2_incidence_indlagte følger samme skabelon.
+Filen table2_incidence_indlagte følger samme skabelon.
 ------------------------------------------------------
 
 Fil 4 table2_incidence_alle
+OBS: Denne fil giver en smule tom risikotid for personer tidlligere testet positiv og endnu ikke 60 dage efter deres seneste episode.
 Aldersgruppe: Aldersgruppe
 Uge XX_Ingen vaccination: Antal personer testet positiv med covid-19 uden vaccine inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
 Uge XX_Første vaccination: Antal personer testet positiv med covid-19, som har modtaget første vaccine inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
 Uge XX_Anden vaccination: Antal personer testet positiv med covid-19, som har modtaget anden vaccine inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
 Uge XX_Fuld vaccineeffekt: Antal personer testet positiv med covid-19, som har opnået fuld vaccineeffekt* inklusiv positive PCR prøver med >60 dage i mellem / antal personer (alle) i vaccinegruppe og aldersgruppe per mandag i Uge XX * 100 000.
 
+Filen table2_incidence_tests følger samme skabelon. 
 
 
