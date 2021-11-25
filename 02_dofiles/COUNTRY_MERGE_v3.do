@@ -246,6 +246,7 @@ sort nuts_id date
 
 // change in cases in the past two weeks
 by nuts_id: gen change14_abs 	 = (cases - cases[_n-14])
+gen change14_abs_pop			 = (change14_abs / pop) * 10000
 
 // last data point
 by nuts_id: egen temp = max(date) if cases_daily!=.
@@ -263,7 +264,7 @@ drop last
 gen nuts_name2 = nuts_name + " (" + nuts_id + ")"
 order country nuts0_id nuts2_id nuts3_id nuts_id nuts_name nuts_name2
 
-export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_last.csv", replace delim(;)
+export delimited using "$coviddir/04_master/csv_nuts/EUROPE_COVID19_datawrapper.csv", replace delim(;)
 
 
 

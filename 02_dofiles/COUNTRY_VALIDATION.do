@@ -112,7 +112,7 @@ twoway ///
 
 clear
 
-insheet using "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv", clear
+import delim using "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv", clear
 
 ren countryname country
 
@@ -170,9 +170,9 @@ sort country date
 
 
 heatplot stringency i.country2 date, ///
-	xbins(140) cuts(0(10)100) color(plasma, ipolate(10, power(1.5)) reverse) ///
+	xbins(150) cuts(0(5)100) color(matplotlib bone, ipolate(20, power(1.5)) reverse) ///
 	ylabel(, nogrid labsize(*0.6)) ///
-	xlabel(#18, labsize(*0.6) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+	xlabel(#20, labsize(*0.6) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 	xtitle("") ///
 	ramp(bottom length(80) space(8) subtitle("")) ///
 	title("{fontface Arial Bold:COVID-19 Policy Stringency Index}") ///
