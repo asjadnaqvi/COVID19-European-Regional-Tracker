@@ -17,9 +17,9 @@ save PT_regions.dta, replace
 
 
 **** for old data to fill the gaps:
-insheet using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos.csv", clear non
+import delim using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos.csv", clear
 
-
+/*
 foreach x of varlist _all {
 	local header = `x'[1]
 	local header = subinstr("`header'","(","", .)
@@ -32,8 +32,14 @@ foreach x of varlist _all {
 }
 
 drop in 1
+*/
 
-ren ydata date2
+foreach x of varlist abrantes-óbidos {
+	ren `x' y`x'
+}
+
+
+ren data date2
 gen date = date(date2,"DMY")
 order date
 format date %tdDD-Mon-yyyy
@@ -71,7 +77,7 @@ save portugal_old.dta, replace
 
 
 **** new data
-insheet using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos_new.csv", clear
+import delim using "https://raw.githubusercontent.com/dssg-pt/covid19pt-data/master/data_concelhos_new.csv", clear
 
 
 
@@ -95,6 +101,9 @@ drop densidade*
 		sort date
 		drop date2		
 
+// duplicate entries (15.12.2021)		
+duplicates drop concelho date, force
+		
 merge 1:1 concelho date using portugal_old
 sort concelho _merge
 
