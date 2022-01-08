@@ -170,7 +170,7 @@ sort country date
 
 
 heatplot stringency i.country2 date, ///
-	xbins(150) cuts(0(5)100) color(matplotlib bone, ipolate(20, power(1.5)) reverse) ///
+	xbins(150) cuts(0(5)100) color(matplotlib turbo, ipolate(20, power(1.5))) ///
 	ylabel(, nogrid labsize(*0.6)) ///
 	xlabel(#20, labsize(*0.6) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 	xtitle("") ///

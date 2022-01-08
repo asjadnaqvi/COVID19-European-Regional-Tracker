@@ -14,9 +14,9 @@ save lau_Estonia.dta, replace
 
 
 ** https://www.terviseamet.ee/et/koroonaviirus/avaandmed
-insheet using "https://opendata.digilugu.ee/opendata_covid19_test_location.csv", clear
-
+import delim using "https://opendata.digilugu.ee/opendata_covid19_test_location.csv", clear
 save "$coviddir/04_master/estonia_data_original.dta", replace
+
 export delimited using "$coviddir/04_master/csv_original/estonia_data_original.csv", replace delim(;)
 
 

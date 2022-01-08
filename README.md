@@ -364,7 +364,8 @@ https://science.orf.at/stories/3207633/
 
 
 # Change Log
-* 15 Dec 2021: All countries updates. Minor improvements to the scripts. GIF animation added to the Tracker. This will be the last update of 2021.
+* 08 Jan 2021: All countries updated. Minor fixes to the scripts.
+* 15 Dec 2021: All countries updated. Minor improvements to the scripts. GIF animation added to the Tracker. This will be the last update of 2021.
 * 25 Nov 2021: All countries updated. Poland fixed again. Interactive map updated to show change in the last 14 days. Legends and color schemes improved. Minor code optimizations. The master tracker file is now at 750,000 data points.
 * 01 Nov 2021: All countries updated. Romania data switched to a GitHub repository which cleans up the data. An error corrected in stream plot where Czechia was being dropped. Script for regional data range check graphs improved. A lot of redundant code cleaned up.
 * 03 Oct 2021: All countries updated. Ireland has been released and has been added back in the maps. Latvia data is available in the raw files but the mapping of the new administrative units to the old ones is not clear. Code in several files cleaned up. NUTS names added to the master file for various figures and maps. An [interactive dashboard](https://asjadnaqvi.github.io/COVID19-European-Regional-Tracker/) at the NUTS 3 level has been added.

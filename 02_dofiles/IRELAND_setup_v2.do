@@ -105,7 +105,7 @@ drop check
 
 // wierd data points in the last two observations
 sum date
-*drop if date >= `r(max)' - 2
+drop if date >= `r(max)' - 2
 
 
 compress
