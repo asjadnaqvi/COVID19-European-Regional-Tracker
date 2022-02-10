@@ -231,6 +231,9 @@ order country nuts0_id nuts2_id nuts3_id nuts_id nuts_name date population cases
 sort  nuts0_id nuts_id date
 
 
+
+
+
 // save final data file
 compress
 save "EUROPE_COVID19_master.dta", replace
@@ -287,11 +290,11 @@ gen nuts_name2 = nuts_name + " (" + nuts_id + ")"
 // scatter of nuts date combinations
 
 twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 30, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
+	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 40, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
 	, ///
 	legend(off) ///
 		xtitle("") xlabel(#22, labsize(vsmall) angle(vertical)) ///
-		note("Few observations over 30 cases per 10k population have been removed from the figure for visibility", size(vsmall)) ///
+		note("Few observations over 40 cases per 10k population have been removed from the figure for visibility", size(vsmall)) ///
 		title("{fontface Arial Bold:Regional distribution of daily cases}") ///
 		xsize(2) ysize(1)  
 		

@@ -22,7 +22,7 @@ save lau_belgium.dta, replace
 ***** Data from website: cases
 
 
-import delim using "https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI.csv", clear
+import delim using "https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI.csv", clear varn(1)
 save "$coviddir/04_master/belgium_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/belgium_data_original.csv", replace delim(;)
 

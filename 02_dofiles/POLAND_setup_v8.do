@@ -63,7 +63,7 @@ drop in 1
 *import delim using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-pl.csv", clear
 
 // for wierd unicode characters using insheet
-insheet using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-pl.csv", clear
+import delim using "https://raw.githubusercontent.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-pl.csv", clear
 
 save "$coviddir/04_master/poland_data_original1.dta", replace
 export delimited using "$coviddir/04_master/csv_original/poland_data_original1.csv", replace delim(;)

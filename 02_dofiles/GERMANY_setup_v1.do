@@ -5,7 +5,9 @@ clear
 cd "$coviddir/01_raw/Germany"
 
 
-****** getting the region codes  in order
+****** getting the region codes in order (one time setup)
+
+/*
 import excel using "LAU_NUTS3.xlsx", first clear
 
 drop LAUNAMENATIONAL LAUNAMELATIN
@@ -27,11 +29,11 @@ collapse (sum) population, by(nuts3_id region)
 
 compress
 save lau_germany.dta, replace
-
+*/
 
 ********** Deaths
 
-insheet using "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/deaths-rki-by-ags.csv", clear
+import delim using "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/deaths-rki-by-ags.csv", clear
 
 
 foreach x of varlist v* {
@@ -70,7 +72,7 @@ save germany_deaths, replace
 ********************
 
 
-insheet using "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/cases-rki-by-ags.csv", clear
+import delim using "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/cases-rki-by-ags.csv", clear
 
 
 

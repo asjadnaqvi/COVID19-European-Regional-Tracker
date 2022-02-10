@@ -254,7 +254,7 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 *******************************************
 
 ** these countries are off the radar
-drop if nuts0_id=="IE" | nuts0_id=="LV"  
+drop if nuts0_id=="IE" | nuts0_id=="LV" |  nuts0_id=="PL"
 
 
 summ date

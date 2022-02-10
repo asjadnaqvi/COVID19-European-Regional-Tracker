@@ -34,7 +34,7 @@ copy "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesB
 
 
 // LTLA
-insheet using LTLA.csv, clear
+import delim using LTLA.csv, clear
 
 keep if age=="60+" | age=="00_59"  // dropping age cateogies to make the file size reasonable. Remove this line if you want the full dataset.
 

@@ -5,7 +5,7 @@ cd "$coviddir/01_raw/Greece"
 
 
 
-insheet using "https://raw.githubusercontent.com/Sandbird/covid19-Greece/master/regions.csv", clear
+import delim using "https://raw.githubusercontent.com/Sandbird/covid19-Greece/master/regions.csv", clear
 save "$coviddir/04_master/greece_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/greece_data_original.csv", replace delim(;)
 

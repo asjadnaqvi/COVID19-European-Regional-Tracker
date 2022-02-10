@@ -8,16 +8,17 @@ cd "$coviddir/01_raw/Slovenia"
 
 ****** getting the IDs in order
 
+/*
 import excel using "LAU.xlsx", first clear
 sort lau_id
 compress
 save LAU_slovenia.dta, replace
-
+*/
 
 
 
 *** second id file
-insheet using "https://raw.githubusercontent.com/sledilnik/data/master/csv/dict-municipality.csv", clear
+import delim using "https://raw.githubusercontent.com/sledilnik/data/master/csv/dict-municipality.csv", clear
 
 ren region region2
 

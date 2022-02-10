@@ -9,7 +9,7 @@ cd "$coviddir/01_raw/Slovakia"
 
 ****** https://github.com/radoondas/covid-19-slovakia/blob/master/data/covid-19-slovensko.csv
 
-insheet using "https://raw.githubusercontent.com/radoondas/covid-19-slovakia/master/data/covid-19-slovensko.csv", clear delim(;)
+import delim using "https://raw.githubusercontent.com/radoondas/covid-19-slovakia/master/data/covid-19-slovensko.csv", clear
 save "$coviddir/04_master/slovakrep_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/slovakrep_data_original.csv", replace delim(;)
 

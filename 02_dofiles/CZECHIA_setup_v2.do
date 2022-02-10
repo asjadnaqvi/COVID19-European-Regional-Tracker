@@ -8,7 +8,7 @@ cd "$coviddir/01_raw/Czechia"
 
 *** https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19
 
-insheet using "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/kraj-okres-nakazeni-vyleceni-umrti.csv", clear
+import delim using "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/kraj-okres-nakazeni-vyleceni-umrti.csv", clear
 save "$coviddir/04_master/czechia_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/czechia_data_original.csv", replace delim(;)
 

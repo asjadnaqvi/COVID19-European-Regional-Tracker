@@ -7,16 +7,17 @@ cd "$coviddir/01_raw/Italy"
 
 
 
-****** NUTS3 codes
+****** NUTS3 codes (one time)
 
+/*
 import excel "Italy_nuts.xlsx", first clear
 carryforward NUTS*, replace
 compress
 save italy_nuts.dta, replace
-
+*/
 
 ********** at the NUTS3 level
-insheet using "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-province/dpc-covid19-ita-province.csv", nonames clear
+import delim using "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-province/dpc-covid19-ita-province.csv", clear varn(nonames)
 save "$coviddir/04_master/italy_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/italy_data_original.csv", replace delim(;)
 
@@ -32,6 +33,8 @@ ren v7 province_abbrv
 ren v8 latitude
 ren v9 longitude
 ren v10 cases
+
+cap drop v*  // the remaining variables contain NUTS information
 
 
 drop in 1
@@ -52,7 +55,8 @@ sort region_id date
 drop if province_id==991
 drop if province_id==996
 
-drop v11 day month year
+cap drop v11 
+drop day month year
 drop date2
 
 ren province_name NUTS3_name

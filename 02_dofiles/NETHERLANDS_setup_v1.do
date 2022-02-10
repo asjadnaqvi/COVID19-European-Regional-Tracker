@@ -6,7 +6,9 @@ cd "$coviddir/01_raw/Netherlands"
 
 
 
-**** set up the identfiers
+**** set up the identfiers (one time run)
+
+/*
 import excel using nuts3.xlsx, first clear
 ren NUTS3CODE nuts3_id
 ren LAUCODE lau
@@ -14,12 +16,14 @@ drop if lau==""
 
 compress
 save lau_netherlands.dta, replace
+*/
+
 
 *https://nlcovid-19-esrinl-content.hub.arcgis.com/pages/kaarten
 *https://nlcovid-19-esrinl-content.hub.arcgis.com/datasets/covid-19-historische-gegevens-rivm-vlakken
 
 **** get the data
-insheet using "https://opendata.arcgis.com/datasets/1365a2d9cb344b67999dd825c99cb1a5_0.csv", clear
+import delim using "https://opendata.arcgis.com/datasets/1365a2d9cb344b67999dd825c99cb1a5_0.csv", clear
 save "$coviddir/04_master/netherlands_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/netherlands_data_original.csv", replace delim(;)
 
@@ -39,8 +43,8 @@ ren bevolkingsaantal population
 
 merge m:1 lau using lau_netherlands
 
-br if _m==1
-replace nuts3_id="NL112" if Gemeentenaam=="Eemsdelta"
+*br if _m==1
+replace nuts3_id="NL112" if gemeentenaam=="Eemsdelta"
 
 drop _m
 

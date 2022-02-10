@@ -48,4 +48,4 @@ do "./02_dofiles/SWITZERLAND_setup_v1.do"
 
 
 
-****< END OF FILE: run the COUNTRY_MERGE_v2.do file next >****
+****< END OF FILE: run the COUNTRY_MERGE_v3.do file next >****

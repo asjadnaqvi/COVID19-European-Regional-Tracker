@@ -6,19 +6,20 @@ cd "$coviddir/01_raw/Norway"
 
 
 
-****** getting the IDs in order
+****** getting the IDs in order (one time run)
 
-insheet using spatial_merge.csv, clear
+/*
+import delim using spatial_merge.csv, clear
 drop cntr_code nuts_name mount_type urbn_type coast_type fid
 drop if nuts_id==""
 ren nuts_id nuts3_id
 compress
 save lau_norway.dta, replace
-
+*/
 
 
 ********** at the NUTS3 level
-insheet using "https://raw.githubusercontent.com/thohan88/covid19-nor-data/master/data/01_infected/msis/municipality.csv", clear 
+import delim using "https://raw.githubusercontent.com/thohan88/covid19-nor-data/master/data/01_infected/msis/municipality.csv", clear 
 save "$coviddir/04_master/norway_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/norway_data_original.csv", replace delim(;)
 

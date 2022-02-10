@@ -21,7 +21,7 @@ save county_code.dta, replace
 // update: Oct 21: data strcuture changed in the link above. switching to https://github.com/denesdata/roeim
 
 
-import delimited using "https://github.com/denesdata/roeim/blob/master/data/time_series_ro_counties_daily.csv?raw=true", clear
+import delim using "https://github.com/denesdata/roeim/blob/master/data/time_series_ro_counties_daily.csv?raw=true", clear
 
 drop lang
 drop id

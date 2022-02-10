@@ -8,7 +8,7 @@ cd "$coviddir/01_raw/Hungary"
 
 ********** at the NUTS3 level
 
-insheet using "https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv", nonames clear
+import delim using "https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv", clear varn(nonames)
 save "$coviddir/04_master/hungary_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/hungary_data_original.csv", replace delim(;)
 

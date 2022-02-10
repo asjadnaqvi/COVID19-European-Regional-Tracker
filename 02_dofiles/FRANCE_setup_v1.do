@@ -4,8 +4,9 @@ clear
 cd "$coviddir/01_raw/France"
 
 
-**** sorting out the mapping of regions
+**** sorting out the mapping of regions. One time run
 
+/*
 import excel using departments.xlsx, first clear
 compress
 replace departement = "01" if departement=="1"
@@ -20,12 +21,12 @@ replace departement = "09" if departement=="9"
 
 drop if departement==""
 save france_departments.dta, replace
+*/
 
+****** let's get the old france data in order: one time run. 
 
-****** let's get the old france data in order:
-
-
-insheet using "donnees-tests-covid19-labo-quotidien-2020-05-29-19h00.csv", clear delim(;)
+/*
+import delimited using "donnees-tests-covid19-labo-quotidien-2020-05-29-19h00.csv", clear
 
 ren dep departement
 ren clage_covid age
@@ -56,14 +57,14 @@ drop if date >= 22048   // drop everything after 13th may. after this france mov
 order date nuts3_id
 compress
 save "france_data_old.dta", replace
-
+*/
 
 *** raw data from here
 *https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/
 
 
 
-import delimited using "sp-pos-quot-dep.csv", clear
+import delimited using "sp-pos-quot-dep-2022-02-06-19h05.csv", clear
 save "$coviddir/04_master/france_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/france_data_original.csv", replace delim(;)
 

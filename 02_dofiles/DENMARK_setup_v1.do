@@ -21,7 +21,7 @@ save LAU_Denmark.dta, replace
 *https://covid19.ssi.dk/overvagningsdata/ugentlige-opgorelser-med-overvaagningsdata
 *https://covid19.ssi.dk/overvagningsdata/download-fil-med-overvaagningdata
 
-insheet using "Municipality_cases_time_series.csv", clear delim(";") nonames
+import delimited using "Municipality_cases_time_series.csv", clear varn(nonames)
 save "$coviddir/04_master/denmark_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/denmark_data_original.csv", replace delim(;)
 

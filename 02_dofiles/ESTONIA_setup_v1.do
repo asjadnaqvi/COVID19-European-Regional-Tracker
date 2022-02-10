@@ -4,14 +4,15 @@ clear
 
 cd "$coviddir./01_raw/Estonia"
 
-*** lau codes
+*** lau codes (one time setup)
 
+/*
 import excel using LAU.xlsx, clear first
 drop if lau_id==.
 compress
 drop area_m2
 save lau_Estonia.dta, replace
-
+*/
 
 ** https://www.terviseamet.ee/et/koroonaviirus/avaandmed
 import delim using "https://opendata.digilugu.ee/opendata_covid19_test_location.csv", clear

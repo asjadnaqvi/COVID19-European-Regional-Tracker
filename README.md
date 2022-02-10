@@ -364,7 +364,8 @@ https://science.orf.at/stories/3207633/
 
 
 # Change Log
-* 08 Jan 2021: All countries updated. Minor fixes to the scripts.
+* 10 Feb 2022: All countries updated. Several fixes to scripts, paths, miscellaneous improvements to code. Gaps are starting to appear in the daily data for several countries. Ireland's data has ad-hoc updates where several weeks or months of data might be missing.
+* 08 Jan 2022: All countries updated. Minor fixes to the scripts.
 * 15 Dec 2021: All countries updated. Minor improvements to the scripts. GIF animation added to the Tracker. This will be the last update of 2021.
 * 25 Nov 2021: All countries updated. Poland fixed again. Interactive map updated to show change in the last 14 days. Legends and color schemes improved. Minor code optimizations. The master tracker file is now at 750,000 data points.
 * 01 Nov 2021: All countries updated. Romania data switched to a GitHub repository which cleans up the data. An error corrected in stream plot where Czechia was being dropped. Script for regional data range check graphs improved. A lot of redundant code cleaned up.
