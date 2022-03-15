@@ -64,7 +64,7 @@ save "france_data_old.dta", replace
 
 
 
-import delimited using "sp-pos-quot-dep-2022-02-06-19h05.csv", clear
+import delimited using "sp-pos-quot-dep-2022-03-14-19h00.csv", clear
 save "$coviddir/04_master/france_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/france_data_original.csv", replace delim(;)
 

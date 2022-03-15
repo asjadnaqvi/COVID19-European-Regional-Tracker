@@ -28,7 +28,7 @@ drop in 1
 */
 
 
-cd "$coviddir/01_raw/Poland"
+*cd "$coviddir/01_raw/Poland"
 
 
 ***** govt is now publishing daily nuts3 level data since november
@@ -163,6 +163,8 @@ save "$coviddir/01_raw/poland_data_old.dta", replace
 ****************
 ** NEW DATA  ***
 ****************
+
+import delim using "https://github.com/martinbenes1996/covid19poland/blob/master/data/data.csv?raw=true", clear
 
 
 import delim using "https://raw.githubusercontent.com/piotrek124-1/zakazenia-Covid19/main/plotData/wojewodztwa_kompletne.csv", clear

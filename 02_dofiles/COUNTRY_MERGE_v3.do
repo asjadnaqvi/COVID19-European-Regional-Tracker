@@ -153,7 +153,7 @@ order  nuts0_id nuts2_id nuts3_id nuts_id nuts_name
 drop if date==.
 drop if date<21915  //  1st Jan 2020
 drop if date<21929  // 15th Jan 2020
-
+drop if date<21946  //  1st Feb 2020
 
 *gen flag = 1 if cases_daily < 0
 *lab de flag 1 "Decrease in daily cases"
@@ -231,7 +231,7 @@ order country nuts0_id nuts2_id nuts3_id nuts_id nuts_name date population cases
 sort  nuts0_id nuts_id date
 
 
-
+cap drop population
 
 
 // save final data file
@@ -293,7 +293,7 @@ twoway ///
 	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 40, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
 	, ///
 	legend(off) ///
-		xtitle("") xlabel(#22, labsize(vsmall) angle(vertical)) ///
+		xtitle("") xlabel(#30, labsize(vsmall) angle(vertical)) ///
 		note("Few observations over 40 cases per 10k population have been removed from the figure for visibility", size(vsmall)) ///
 		title("{fontface Arial Bold:Regional distribution of daily cases}") ///
 		xsize(2) ysize(1)  
@@ -339,7 +339,7 @@ twoway ///
 		ytitle("") yscale(noline) ///
 		ylabel(1(1)26, labsize(vsmall) valuelabel) ///
 			xtitle("") ///
-			xlabel(#22, labsize(vsmall) angle(vertical)) ///
+			xlabel(#30, labsize(vsmall) angle(vertical)) ///
 			title("{fontface Arial Bold:Data range for countries}") ///
 			xsize(2) ysize(1)
 	graph export "../05_figures/range_date.png", replace wid(2000) 

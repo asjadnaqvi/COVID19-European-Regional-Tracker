@@ -364,6 +364,7 @@ https://science.orf.at/stories/3207633/
 
 
 # Change Log
+* 15 Mar 2022: All countries updated. Several fixes to scripts and graphs. Data quality is declining across some countries. Notably Poland and Scotland don't have regular updates. Several other countries now have data gaps.
 * 10 Feb 2022: All countries updated. Several fixes to scripts, paths, miscellaneous improvements to code. Gaps are starting to appear in the daily data for several countries. Ireland's data has ad-hoc updates where several weeks or months of data might be missing. Poland's data that is scraped, has irregular updates.
 * 08 Jan 2022: All countries updated. Minor fixes to the scripts.
 * 15 Dec 2021: All countries updated. Minor improvements to the scripts. GIF animation added to the Tracker. This will be the last update of 2021.

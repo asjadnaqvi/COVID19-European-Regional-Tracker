@@ -85,6 +85,7 @@ display "`ldate'"
 *** graph of cumulative cases  ***
 **********************************
 
+format cases %12.0fc
 
 colorpalette viridis, ipolate(15, power(1.4)) reverse nograph
 local colors `r(p)'
@@ -95,7 +96,7 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
-		title("{fontface Arial Bold: COVID-19 cumulative cases (15 Jan 20 - `ldate')}", size(2.5)) ///
+		title("{fontface Arial Bold: COVID-19 cumulative cases (01 Feb 20 - `ldate')}", size(2.5)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
 		graph export "../05_figures/COVID19_EUROPE_cases_total.png", replace wid(2000)
@@ -106,7 +107,7 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 ****************************************************
 
 
-format cases_pop 	%9.0f		
+format cases_pop 	%9.0fc		
 		
 
 colorpalette viridis, ipolate(15, power(1.2)) reverse nograph
@@ -118,7 +119,7 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
 		polygon(data("nuts0_shp") ocolor(black) osize(vthin) legenda(on) legl("Regions")) ///
-		title("{fontface Arial Bold: COVID-19 cumulative cases per 10,000 pop (15 Jan 20 - `ldate')}", size(2.5)) ///
+		title("{fontface Arial Bold: COVID-19 cumulative cases per 10,000 pop (01 Feb 20 - `ldate')}", size(2.5)) ///
 		note("Map layer: Eurostat GISCO 2016 NUTS layers. Data: Misc sources. Data is at NUTS-3 level except for Poland and Greece.", size(tiny))
 			
 		graph export "../05_figures/COVID19_EUROPE_casespop_total.png", replace wid(2000)
@@ -159,6 +160,8 @@ id(_ID) cln(15)  fcolor("`colors'")  ///
 **************************************************************		
 *** graph of last reported daily cases per 10k population  ***
 **************************************************************
+
+format cases_daily_pop %4.1f
 
 
 colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
@@ -254,14 +257,10 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 *******************************************
 
 ** these countries are off the radar
-drop if nuts0_id=="IE" | nuts0_id=="LV" |  nuts0_id=="PL"
+// drop if  nuts0_id=="LV" |  nuts0_id=="PL"
 
 
-summ date
-	local ldate = `r(max)'
-	local ldate : di %tdd_m_y `ldate'
 
-display "`ldate'"
 
 levelsof nuts0_id, local(cntry)
 
@@ -269,15 +268,29 @@ foreach x of local cntry {
 
 display "`x'"
 
+	/*
+	summ date
+		local ldate = `r(max)'
+		local ldate : di %tdd_m_y `ldate'
+
+	display "`ldate'"
+*/
+
 	preserve
 	
 		keep if nuts0_id=="`x'"
 		sort _ID
 
-		summ date
+		cap drop last
+		qui summ date	
+			gen last = 1 if date==`r(max)'
+		
+		qui summ date
 			local ldate1 = `r(max)'
 			local ldate2 : di %tdd_m_y `ldate1'
 
+
+			
 		colorpalette viridis, ipolate(6, power(1.2)) reverse nograph
 		local colors `r(p)'
 
@@ -307,10 +320,16 @@ display "`x'"
 	
 		keep if nuts0_id=="`x'"
 		sort _ID
+		
+		cap drop last
+		qui summ date	
+			gen last = 1 if date==`r(max)'			
 
-		summ date
+		qui summ date
 			local ldate1 = `r(max)'
 			local ldate2 : di %tdd_m_y `ldate1'
+			
+	
 
 		colorpalette viridis, ipolate(6, power(1.2)) reverse nograph
 		local colors `r(p)'
