@@ -1,0 +1,57 @@
+# Driftslog
+
+**English version below the Danish version**
+
+Alle betydelige hændelser i driftsituationen, der har betydning for covid-19 tallene bliver dokumenteret i denne fil.
+
+Formatet in filen er: 
+## [Tidspunkt for hændelsen (fra hvornår det havde betydning for tallene)]
+"[Hændelsens betydning for tallene]", [hændelsens periode], "[hændelsens note på hjemmeside og/eller dashboardet]"
+
+## 2022-05-30T14:00:00
+"Der er fejl i dagens tal under 'Hospitalsbelægning: ændring' - 'Ændring i antal indlæggelser'. Det korrekte tal er 20 for hele landet. Det korrekte tal for ændring i intensivindlæggelser er 1 for hele landet.", 2022-05-30T14:00:00/2022-05-31T13:59:59, "Der er fejl i dagens tal under 'Hospitalsbelægning: ændring' - 'Ændring i antal indlæggelser'. Det korrekte tal er 20 for hele landet. Det korrekte tal for ændring i intensivindlæggelser er 1 for hele landet. Tallet for ændring i indlagte (0) i respirator er korrekt på landsplan. Ændringerne er siden lørdag d. 28. maj 2022. --- Fejl i dagens tal for ændring i indlæggelser. I zipfilen overvaagningsdata-dashboard-covid19-30052022-lk61.zip er der fejl i følgende filer: 
+	* 01_noegletal.csv - feltet 'Ændring i indlæggelser siden sidste opdatering' skulle være 20 og feltet 'Ændring i indlæggelser (intensiv) siden sidste opdatering' skulle være 1.
+	* 02_hospitalsbelaegning.csv - feltet 'Ændring i antal indlagte' og 'Ændring i antal indlagte på intensiv i respirator' indenholder fejl."
+
+## 2022-05-25T14:00:00
+"Dagens data dækker kun 18 timer", 2022-05-25T14:00:00/2022-05-26T13:59:59, "På grund af teknisk fejl i går, er data underestimeret og dækker i dag kun 18 timer mod de normale 24 timer."
+
+## 2022-05-23T14:00:00
+"Ingen nye tal mandag 23. maj 2022, pga flytning af IT-infrastruktur. Tallene påvirkes kun midlertidig og vil være korrekte og opdaterede igen efter hændelsen.", 2022-05-23T14:00:00/2022-05-24T13:59:59, "Bemærk: På grund af forlængelse af servicevinduet udgives der ikke data mandag d. 23. maj 2022. Den 20.-22. maj 2022 blev SSI’s produktionsservere nemlig flyttet til Statens IT. Som led i flytningen blev der i denne periode ikke publiceret overvågningsdata og -tal på SSI’s dashboards eller som filer til download på SSI’s hjemmeside. Overvågningsdata forventes at blive udgivet igen i morgen d. 24. maj 2022, hvor der vil blive vist forskellen siden torsdag d. 19. maj 2022."
+
+## 2022-05-20T14:00:00
+"Ingen nye tal fredag 19. maj 2022, pga flytning af IT-infrastruktur. Tallene påvirkes kun midlertidig og vil være korrekte og opdaterede igen efter hændelsen.", 2022-05-20T14:00:00/2022-05-23T13:59:59, "Bemærk: Den 20.-22. maj 2022 udgives der ikke overvågningsdata og -tal på SSI’s dashboards eller som filer på downloadsiden på www.ssi.dk. Dette skyldes en større flytning af SSI’s produktionsservere til Statens IT. Det betyder også, at nøgletallene mandag den 23. maj 2022 vil indeholde data siden torsdag den 19. maj 2022."
+
+### 2021-12-22T14:00:00 
+"8000 prøvesvar fra Hovedstaden og Sjælland har fået 'inkonklusivt' prøvesvar", 2021-12-22T14:00:00/2021-12-22T13:59:59, "Bemærk: Onsdag 22. december 2021 Som følge af laboratoriefejl i TCD er 8000 prøvesvar fra Hovedstaden og Sjælland påvirket. Læs mere her: https://www.ssi.dk/aktuelt/nyheder/2021/har-mattet-melde-8000-prover-ud-med-svaret-inkonklusivt "
+
+**slutning af dansk version**
+
+**English version**
+
+# Operation status log
+
+This log contains all significant issues that affected the covid-19 numbers.
+
+The format in the file is as follows: 
+## [Date and time for the incident (from when it was affecting the number)]
+"[How the incident affects the numbers]", [the timeframe of the incident], "[the incident note on the homepage and/or the dashboard]"
+
+## 2022-05-30T14:00:00
+"The number for admissions since last update are incorrect.", 2022-05-30T14:00:00/2022-05-31T13:59:59, "Der er fejl i dagens tal under 'Hospitalsbelægning: ændring' - 'Ændring i antal indlæggelser'. Det korrekte tal er 20 for hele landet. Det korrekte tal for ændring i intensivindlæggelser er 1 for hele landet. Tallet for ændring i indlagte (0) i respirator er korrekt på landsplan. Ændringerne er siden lørdag d. 28. maj 2022. --- Fejl i dagens tal for ændring i indlæggelser. I zipfilen overvaagningsdata-dashboard-covid19-30052022-lk61.zip er der fejl i følgende filer: 
+	* 01_noegletal.csv - feltet 'Ændring i indlæggelser siden sidste opdatering' skulle være 20 og feltet 'Ændring i indlæggelser (intensiv) siden sidste opdatering' skulle være 1.
+	* 02_hospitalsbelaegning.csv - feltet 'Ændring i antal indlagte' og 'Ændring i antal indlagte på intensiv i respirator' indenholder fejl."
+
+## 2022-05-25T14:00:00
+"Today's data only covers 18 hours", 2022-05-25T14:00:00/2022-05-26T13:59:59, "På grund af teknisk fejl i går, er data underestimeret og dækker i dag kun 18 timer mod de normale 24 timer."
+
+## 2022-05-23T14:00:00
+"No new numbers Monday 23. May 2022 due to IT infrastructure work. The numbers are only temporarily affected and will be correct and updated when the incident has ended.", 2022-05-23T14:00:00/2022-05-24T13:59:59, "Bemærk: På grund af forlængelse af servicevinduet udgives der ikke data mandag d. 23. maj 2022. Den 20.-22. maj 2022 blev SSI’s produktionsservere nemlig flyttet til Statens IT. Som led i flytningen blev der i denne periode ikke publiceret overvågningsdata og -tal på SSI’s dashboards eller som filer til download på SSI’s hjemmeside. Overvågningsdata forventes at blive udgivet igen i morgen d. 24. maj 2022, hvor der vil blive vist forskellen siden torsdag d. 19. maj 2022."
+
+## 2022-05-20T14:00:00
+"No new numbers Friday 19th of May 2022 due to IT infrastructure work. The numbers are only temporarily affected and will be correct and updated when the incident has ended.", 2022-05-20T14:00:00/2022-05-23T13:59:59, "Bemærk: Den 20.-22. maj 2022 udgives der ikke overvågningsdata og -tal på SSI’s dashboards eller som filer på downloadsiden på www.ssi.dk. Dette skyldes en større flytning af SSI’s produktionsservere til Statens IT. Det betyder også, at nøgletallene mandag den 23. maj 2022 vil indeholde data siden torsdag den 19. maj 2022."
+
+### 2021-12-22T14:00:00 
+"8000 test from the 'Hovedstaden' and 'Sjælland' have recieved a 'inconclusive' test result.", 2021-12-22T14:00:00/2021-12-22T13:59:59, "Bemærk: Onsdag 22. december 2021 Som følge af laboratoriefejl i TCD er 8000 prøvesvar fra Hovedstaden og Sjælland påvirket. Læs mere her: https://www.ssi.dk/aktuelt/nyheder/2021/har-mattet-melde-8000-prover-ud-med-svaret-inkonklusivt "
+
+**end of English version**

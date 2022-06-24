@@ -1,3 +1,6 @@
+
+** Last updated on: 24 June 2022. This project is now archived. ** 
+
 <img align="center" src="./misc/banner.jpg" width="1000">
 
 [![forthebadge cc-nc](http://ForTheBadge.com/images/badges/cc-nc.svg)](https://creativecommons.org/licenses/by-nc/4.0)
@@ -19,8 +22,6 @@ This repository is updated every four weeks. All raw data and scripts are availa
 This project is supported by:
 
 [<img src="./misc/IIASA_logo.png" width="200" title="IIASA">](https://iiasa.ac.at/)
-
-
 
 
 
@@ -364,6 +365,7 @@ https://science.orf.at/stories/3207633/
 
 
 # Change Log
+* 24 Jun 2022: All countries updated. Denmark and France have slightly changed their data structures. Around half the countries are reporting regularly. This is the last update and the project will be archived. If you are interested in continuing with country-level updates, the scripts and the links are provided in the repository. Otherwise, message me and I can update whatever can be updated.
 * 15 Mar 2022: All countries updated. Several fixes to scripts and graphs. Data quality is declining across some countries. Notably Poland and Scotland don't have regular updates. Several other countries now have data gaps.
 * 10 Feb 2022: All countries updated. Several fixes to scripts, paths, miscellaneous improvements to code. Gaps are starting to appear in the daily data for several countries. Ireland's data has ad-hoc updates where several weeks or months of data might be missing. Poland's data that is scraped, has irregular updates.
 * 08 Jan 2022: All countries updated. Minor fixes to the scripts.

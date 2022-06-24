@@ -49,7 +49,7 @@ do "./02_dofiles/SWITZERLAND_setup_v1.do"
 
 ** require manual update
 
-do "./02_dofiles/DENMARK_setup_v1.do" 	  	// manual data update  
+do "./02_dofiles/DENMARK_setup_v2.do" 	  	// manual data update  
 do "./02_dofiles/FRANCE_setup_v1.do"  	  	// manual data update	
 do "./02_dofiles/IRELAND_setup_v2.do" 	  	// manual data update      
 do "./02_dofiles/SCOTLAND_setup_v3.do" 	  	// manually update the date in the code

@@ -231,7 +231,7 @@ order country nuts0_id nuts2_id nuts3_id nuts_id nuts_name date population cases
 sort  nuts0_id nuts_id date
 
 
-cap drop population
+*cap drop population
 
 
 // save final data file
@@ -290,11 +290,11 @@ gen nuts_name2 = nuts_name + " (" + nuts_id + ")"
 // scatter of nuts date combinations
 
 twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 40, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
+	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 60, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
 	, ///
 	legend(off) ///
 		xtitle("") xlabel(#30, labsize(vsmall) angle(vertical)) ///
-		note("Few observations over 40 cases per 10k population have been removed from the figure for visibility", size(vsmall)) ///
+		note("Few observations over 60 cases per 10k population have been removed from the figure for visibility", size(vsmall)) ///
 		title("{fontface Arial Bold:Regional distribution of daily cases}") ///
 		xsize(2) ysize(1)  
 		
@@ -349,7 +349,9 @@ twoway ///
 
 // heatplot of countries
 
-levelsof country if country!="Ireland", local(lvls)
+* if country!="Ireland"
+
+levelsof country , local(lvls)
 
 foreach x of local lvls {
 
@@ -385,7 +387,7 @@ preserve
 		display "`x': Height = `ys', Width = `xs'"
 
 		heatplot cases_daily_pop i.id date if country=="`x'" & cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
-			levels(30) xbins(160) color(plasma, reverse) ///
+			levels(30) xbins(100) color(plasma, reverse) ///
 			p(lc(white) lw(0.04)) ///
 			ylabel(, nogrid labsize(1.8)) ///
 			xlabel(#30, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///

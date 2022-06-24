@@ -64,7 +64,7 @@ save "france_data_old.dta", replace
 
 
 
-import delimited using "sp-pos-quot-dep-2022-03-14-19h00.csv", clear
+import delimited using "sp-dep-jour-cage10-2022-06-23-19h02.csv", clear decimals(,)
 save "$coviddir/04_master/france_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/france_data_original.csv", replace delim(;)
 
@@ -75,9 +75,18 @@ ren dep departement
 ren cl_age90 age
 ren jour date
 
+cap drop temp
 
-keep if age==0  // this is for all age classes
-drop age
+*keep if age==0  // this is for all age classes
+
+drop td
+
+
+collapse (sum) p t ti tp (mean) pop, by(departement date)
+
+
+
+*drop age
 
 merge m:1 departement using france_departments
 tab departement if _m==1
