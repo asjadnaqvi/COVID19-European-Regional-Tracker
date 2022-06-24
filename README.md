@@ -1,5 +1,7 @@
 
-** Last updated on: 24 June 2022. This project is now archived. ** 
+**Last updated on: 24 June 2022. This project is now archived.** 
+
+---
 
 <img align="center" src="./misc/banner.jpg" width="1000">
 
