@@ -27,7 +27,7 @@ save Scotland_regions.dta, replace
 *https://www.opendata.nhs.scot/dataset/covid-19-in-scotland  
 
 
-copy "https://www.opendata.nhs.scot/dataset/b318bddf-a4dc-4262-971f-0ba329e09b87/resource/427f9a25-db22-4014-a3bc-893b68243055/download/trend_ca_20220623.csv" "scotland_raw.csv", replace
+copy "https://www.opendata.nhs.scot/dataset/b318bddf-a4dc-4262-971f-0ba329e09b87/resource/427f9a25-db22-4014-a3bc-893b68243055/download/trend_ca_20220909.csv" "scotland_raw.csv", replace
 
 		
 import delim using scotland_raw.csv, clear
@@ -46,7 +46,7 @@ destring year month day, replace
 drop date
 gen date = mdy(month,day, year)
 drop year month day
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 
 
 

@@ -59,7 +59,7 @@ gen date = mdy(month,day, year)
 drop day month year
 
 order date
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 sort iso3_code date 
 
 replace iso3_code = subinstr(iso3_code, " ", "", .)

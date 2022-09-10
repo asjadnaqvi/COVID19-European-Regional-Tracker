@@ -1,6 +1,6 @@
 clear
 /// set this to your path directory:
-global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
+global coviddir "D:/Dropbox/PROJECT COVID Europe"
 
 
 // install these packages 
@@ -28,7 +28,7 @@ do "./02_dofiles/AUSTRIA_setup_v1.do"
 do "./02_dofiles/BELGIUM_setup_v4.do"
 do "./02_dofiles/CROATIA_setup_v3.do"
 do "./02_dofiles/CZECHIA_setup_v2.do"
-do "./02_dofiles/ENGLAND_setup_v3.do"		
+*do "./02_dofiles/ENGLAND_setup_v3.do"	// server returning error	
 do "./02_dofiles/ESTONIA_setup_v1.do"
 do "./02_dofiles/FINLAND_setup_v1.do"			
 do "./02_dofiles/GERMANY_setup_v1.do"
@@ -41,8 +41,8 @@ do "./02_dofiles/NORWAY_setup_v1.do"
 do "./02_dofiles/POLAND_setup_v8.do"  		
 do "./02_dofiles/PORTUGAL_setup_v2.do"			
 do "./02_dofiles/ROMANIA_setup_v3.do"	 	
-do "./02_dofiles/SLOVAKREPUBLIC_setup_v1.do" 	
-do "./02_dofiles/SLOVENIA_setup_v1.do" 					 
+do "./02_dofiles/SLOVAKREPUBLIC_setup_v2.do" 	
+do "./02_dofiles/SLOVENIA_setup_v1.do" 		
 do "./02_dofiles/SPAIN_setup_v1.do"
 do "./02_dofiles/SWITZERLAND_setup_v1.do"
 

@@ -1,5 +1,5 @@
 clear
-global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
+global coviddir "D:/Dropbox/PROJECT COVID Europe"
 
 
 cd "$coviddir/03_GIS"
@@ -87,7 +87,7 @@ display "`ldate'"
 
 format cases %12.0fc
 
-colorpalette viridis, ipolate(15, power(1.4)) reverse nograph
+colorpalette CET L20, ipolate(15, power(1.4)) nograph reverse
 local colors `r(p)'
 
 spmap cases using "nuts3_mix_shp.dta" if last==1, /// 
@@ -110,7 +110,7 @@ id(_ID) cln(14) clm(k)   fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45
 format cases_pop 	%9.0fc		
 		
 
-colorpalette viridis, ipolate(15, power(1.2)) reverse nograph
+colorpalette CET L20, ipolate(15, power(1.2)) nograph reverse
 local colors `r(p)'
 
 spmap cases_pop using "nuts3_mix_shp.dta" if last==1, /// 
@@ -139,11 +139,11 @@ replace last = . if last==1 & date < r(max) - 14
 *** graph of last reported daily cases ***
 ******************************************
 
-colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
+colorpalette CET L20, ipolate(15, power(1.2)) nograph reverse
 local colors `r(p)'
 
 spmap cases_daily using "nuts3_mix_shp.dta" if last==1, ///  
-id(_ID) cln(15)  fcolor("`colors'")  /// 
+id(_ID) cln(14)  fcolor("`colors'")  /// 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
@@ -164,11 +164,11 @@ id(_ID) cln(15)  fcolor("`colors'")  ///
 format cases_daily_pop %4.1f
 
 
-colorpalette viridis, ipolate(17, power(1.4)) reverse nograph
+colorpalette CET L20, ipolate(15, power(1.2)) nograph reverse
 local colors `r(p)'
 
 spmap cases_daily_pop using "nuts3_mix_shp.dta" if last==1, /// 
-id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
+id(_ID) cln(14)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45) 
 	ocolor(gs6 ..) osize(vvthin ..) ///
 	ndfcolor(gs14) ndocolor(gs4 ..) ndsize(*0.1 ..) ndlabel("No cases") ///
 		legend(pos(10) size(*1) symx(*0.8) symy(*0.8) forcesize) legstyle(2)   ///		
@@ -188,7 +188,7 @@ id(_ID) cln(15)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 
 format change14 %9.2f		
 		
-colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
+colorpalette CET L20, ipolate(15, power(1.2)) nograph reverse
 
 local colors `r(p)'
 
@@ -212,7 +212,7 @@ id(_ID) cln(14) clm(k)  fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)45)
 format change14_abs_pop %9.0f		
 		
 
-colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
+colorpalette CET L20, ipolate(15, power(1.2)) nograph reverse
 local colors `r(p)'
 
 spmap change14_abs_pop using "nuts3_mix_shp.dta" if last==1, /// 
@@ -234,7 +234,7 @@ id(_ID) cln(14)  clm(k)    fcolor("`colors'")  /// //  clm(custom) clbreaks(0(5)
 format change14_abs_pop %9.0f		
 		
 
-colorpalette viridis,  ipolate(15, power(1.4)) reverse nograph
+colorpalette CET L20, ipolate(15, power(1.2)) nograph reverse
 local colors `r(p)'
 
 spmap change14_abs using "nuts3_mix_shp.dta" if last==1, /// 
@@ -291,7 +291,7 @@ display "`x'"
 
 
 			
-		colorpalette viridis, ipolate(6, power(1.2)) reverse nograph
+		colorpalette CET L20, ipolate(6, power(1.2)) nograph reverse
 		local colors `r(p)'
 
 			spmap cases_daily using "nuts3_shp_`x'.dta" if last==1, ///
@@ -331,7 +331,7 @@ display "`x'"
 			
 	
 
-		colorpalette viridis, ipolate(6, power(1.2)) reverse nograph
+		colorpalette CET L20, ipolate(6, power(1.2)) nograph reverse
 		local colors `r(p)'
 
 			spmap cases_daily_pop using "nuts3_shp_`x'.dta" if last==1, ///

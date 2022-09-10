@@ -45,7 +45,7 @@ gen year  = substr(time,7,4)
 destring month day year, replace
 gen date = mdy(month,day,year)
 drop month day year
-format date %tdDD-Mon-YYYY
+format date %tdDD-Mon-YY
 order date
 drop time
 

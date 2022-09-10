@@ -1,5 +1,5 @@
 clear
-global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
+global coviddir "D:/Dropbox/PROJECT COVID Europe"
 
 
 cd "$coviddir/04_master"
@@ -112,7 +112,7 @@ twoway ///
 
 clear
 
-import delim using "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv", clear
+import delim using "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_nat_latest.csv", clear
 
 ren countryname country
 
@@ -150,8 +150,8 @@ replace group = 1 if ///
 keep if group==1
 
 
-keep country date stringencyindexfordisplay
-ren stringencyindexfordisplay stringency
+keep country date stringencyindex_average_fordispl
+ren stringencyindex_average_fordispl stringency
 
 sort country
 encode country , gen(country2) 
@@ -170,14 +170,14 @@ sort country date
 
 
 heatplot stringency i.country2 date, ///
-	xbins(120) cuts(0(10)100) hex color(viridis) ///
-	ylabel(, nogrid labsize(*0.6)) ///
-	xlabel(#20, labsize(*0.6) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+	xbins(140) cuts(0(10)100) color(CET L20, reverse) ///
+	ylabel(, nogrid labsize(*0.8)) ///
+	xlabel(#20, labsize(*0.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 	xtitle("") ///
 	ramp(bottom length(80) space(8) subtitle("")) ///
 	title("{fontface Arial Bold:COVID-19 Policy Stringency Index}") ///
 	note("Source: Oxford COVID-19 Government Response Tracker (OxCGRT)", size(1.5)) ///
-	xsize(2) ysize(1)
+	xsize(5) ysize(4)
 	
 	graph export "../05_figures/policystringency.png", replace wid(2000)		
 	

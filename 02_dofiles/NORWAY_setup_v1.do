@@ -40,7 +40,7 @@ ren date date2
 gen date = mdy(month,day, year)
 
 order date
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 sort date 
 
 drop date2

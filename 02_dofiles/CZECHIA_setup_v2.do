@@ -24,7 +24,7 @@ destring year month day, replace
 drop date
 gen date = mdy(month,day, year)
 drop year month day
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 
 ren kumulativni_pocet_nakazenych 	cases
 ren kumulativni_pocet_vylecenych 	recovered

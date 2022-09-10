@@ -19,7 +19,7 @@ gen date = mdy(month,day, year)
 drop year month day
 
 order date
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 sort region date 
 
 drop date2

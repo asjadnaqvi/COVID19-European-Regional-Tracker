@@ -7,6 +7,10 @@ Alle betydelige ændringer, der har betydning for covid-19 tallene i det kommuna
 Formatet er baseret på [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 og versionsnummeringen er baseret på [Semantic Versioning](https://semver.org/spec/v2.0.0.html). 
 
+## [2.2.0] - 2022-09-01T14:00:00
+### Fjernet
+- Figuren med 'Mistænkte tilfælde pr. dag' udgår, da antigen-tests ikke længere er en del af teststrategien. Det bagvedliggende data opdateres stadig og er tilgængeligt i zip-filen. 
+
 ## [2.1.0] - 2022-06-03T14:00:00
 ### Ændret
 - Tallene offentliggøres nu kun på hverdage. 
@@ -47,8 +51,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2022-09-01T14:00:00
+### Removed
+- The figure 'Mistænkte tilfælde pr. dag' is removed from the dashboard, since antigen tests are no longer a part of the test strategy. The data behind the figure is still updated and available in the zip-file. 
+
 ## [2.1.0] - 2022-06-03T14:00:00
-### Ændret
+### Changed
 - The numbers are only published on business days. 
 
 ## [2.0.2] - 2022-06-01T14:00:00

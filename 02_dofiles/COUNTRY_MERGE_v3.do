@@ -1,5 +1,5 @@
 clear
-global coviddir "D:/Programs/Dropbox/Dropbox/PROJECT COVID Europe"
+global coviddir "D:/Dropbox/PROJECT COVID Europe"
 
 
 cd "$coviddir"
@@ -202,10 +202,10 @@ gen country = ""
 
 
 
-*** if the sum of all entries of a country on a given day are zero, then drop that date (e.g. portugal)
-bysort country date: egen total = sum(cases_daily)
-drop if total == 0
-drop total
+*** if the sum of all entries of a country on a given day are zero, then drop that date (e.g. Portugal)
+*bysort country date: egen total = sum(cases_daily)
+*drop if total == 0
+*drop total
 
 drop ctry
 
@@ -290,7 +290,7 @@ gen nuts_name2 = nuts_name + " (" + nuts_id + ")"
 // scatter of nuts date combinations
 
 twoway ///
-	(scatter cases_daily_pop date if cases_daily_pop >= 0 & cases_daily_pop <= 60, mcolor(black%8) msize(*0.25) msymbol(smcircle) mlwidth(vvthin)) ///
+	(scatter cases_daily_pop date if  inrange(cases_daily_pop,0,60), mcolor(black%8) msize(*0.20) msymbol(smcircle) mlwidth(vvthin)) ///
 	, ///
 	legend(off) ///
 		xtitle("") xlabel(#30, labsize(vsmall) angle(vertical)) ///
@@ -386,11 +386,11 @@ preserve
 
 		display "`x': Height = `ys', Width = `xs'"
 
-		heatplot cases_daily_pop i.id date if country=="`x'" & cases_daily_pop >= 0 & cases_daily_pop <= 30, ///
-			levels(30) xbins(100) color(plasma, reverse) ///
+		heatplot cases_daily_pop i.id date if country=="`x'" & inrange(cases_daily_pop,0,60), ///
+			levels(30) xbins(100) color( CET L20, reverse) ///
 			p(lc(white) lw(0.04)) ///
 			ylabel(, nogrid labsize(1.8)) ///
-			xlabel(#30, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
+			xlabel(#20, labsize(1.8) angle(vertical) format(%tdDD-Mon-yy) nogrid) ///
 			xtitle("") ///
 			ramp(bottom space(8) subtitle("")) ///
 			title("Regional data - `x'") ///

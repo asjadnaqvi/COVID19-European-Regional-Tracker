@@ -61,10 +61,10 @@ save "france_data_old.dta", replace
 
 *** raw data from here
 *https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-resultats-des-tests-virologiques-covid-19/
+* search for sp-dep-jour-cage10-2022
 
 
-
-import delimited using "sp-dep-jour-cage10-2022-06-23-19h02.csv", clear decimals(,)
+import delimited using "sp-dep-jour-cage10-2022-09-09-19h00.csv", clear decimals(,)
 save "$coviddir/04_master/france_data_original.dta", replace
 export delimited using "$coviddir/04_master/csv_original/france_data_original.csv", replace delim(;)
 

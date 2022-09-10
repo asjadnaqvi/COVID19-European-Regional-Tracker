@@ -21,7 +21,7 @@ ren Statistikdatum date
 drop Totalt_antal_fall
 
 
-format date %tdDD-Mon-yyyy
+format date %tdDD-Mon-yy
 
 foreach x of varlist Blekinge- Östergötland {
 	ren `x' y`x'
