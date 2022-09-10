@@ -176,9 +176,10 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 [Jan Kühn](https://yotka.org/) has made a Python animation using the data from the tracker:
 
-[![Watch the video](https://img.youtube.com/vi/sBfaL9V16Uk/default.jpg)](https://www.youtube.com/watch?v=sBfaL9V16Uk)
 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=sBfaL9V16Uk" target="_blank">
+ <img src="http://img.youtube.com/vi/sBfaL9V16Uk/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 # Individual country maps:
 Here, country-level maps and figures are shown as sanity checks on the data. These are mostly to ensure data consistency and the level of completeness for NUTS regions. Notes are added to invidual countries where necessary.
