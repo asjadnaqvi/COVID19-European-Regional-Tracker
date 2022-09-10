@@ -1,5 +1,5 @@
 
-**Last updated on: 24 June 2022. This project is now archived.** 
+**Last updated on: 10 September 2022. This project is now archived and will only see ad-hoc updates.** 
 
 ---
 
@@ -105,7 +105,7 @@ The table below shows the links of the official insitutions that are responsible
 | Netherlands | NL | [RIVM](https://www.rivm.nl/en) | [Link](https://nlcovid-19-esrinl-content.hub.arcgis.com/datasets/covid-19-historische-gegevens-rivm-vlakken)  | 
 | Norway | NO | [NIPH](https://www.fhi.no/en/id/infectious-diseases/coronavirus/) | [Link](https://github.com/thohan88/covid19-nor-data) |  
 | Poland | PL | [Government of Poland](https://www.gov.pl/web/koronawirus/) | [Link](https://github.com/covid19-eu-zh/covid19-eu-data)  |
-| Portugal | PT | [DSG](https://www.dgs.pt/) | [Link](https://github.com/bruno-leal/covid19-portugal-data)  | 
+| Portugal | PT | [DSG](https://www.dgs.pt/) | [Link](https://github.com/dssg-pt/covid19pt-data)  | 
 | Romania  | RO  | [The National Institute of Public Health (CNSCBT)](https://www.cnscbt.ro/)  | [Link](https://datelazi.ro/)    |
 | Slovak Republic | SK | [NHIC](http://www.nczisk.sk/en/Pages/default.aspx) |  [Link](https://github.com/radoondas/covid-19-slovakia/)   | 
 | Slovenia | SI | [Republic of Slovenia website](https://www.gov.si/en/topics/coronavirus-disease-covid-19/)  | [Link](https://github.com/sledilnik/data)  |  
@@ -174,9 +174,9 @@ Countries with data only at the NUTS-2 level have not been added to the video ab
 
 ## Animation
 
-Here is a short animation that shows how the virus evolved over time across the regions:
+[Jan Kühn](https://yotka.org/) has made a Python animation using the data from the tracker:
 
-<img src="./05_figures/animation_dec2021.gif" width="320">
+[![Watch the video](https://img.youtube.com/vi/sBfaL9V16Uk/default.jpg)](https://www.youtube.com/watch?v=sBfaL9V16Uk)
 
 
 
@@ -367,6 +367,7 @@ https://science.orf.at/stories/3207633/
 
 
 # Change Log
+* 10 Sep 2022: All countries updated. Currently few countries are still regularly reporting their data. Portugal data fixed. All links checked and updated. Year format switched to 2 digits to avoid error in Stata exports. UK data link is now dead. Date entries, where a country had zero cases, were being dropped. This was showing up in the dataset as missing values. These entries have been put back in the dataset to avoid suprious interpolations. 
 * 24 Jun 2022: All countries updated. Denmark and France have slightly changed their data structures. Around half the countries are reporting regularly. This is the last update and the project will be archived. If you are interested in continuing with country-level updates, the scripts and the links are provided in the repository. Otherwise, message me and I can update whatever can be updated.
 * 15 Mar 2022: All countries updated. Several fixes to scripts and graphs. Data quality is declining across some countries. Notably Poland and Scotland don't have regular updates. Several other countries now have data gaps.
 * 10 Feb 2022: All countries updated. Several fixes to scripts, paths, miscellaneous improvements to code. Gaps are starting to appear in the daily data for several countries. Ireland's data has ad-hoc updates where several weeks or months of data might be missing. Poland's data that is scraped, has irregular updates.
@@ -396,7 +397,7 @@ https://science.orf.at/stories/3207633/
 * 01 Nov 2020: Scotland and Romania added. All data files and scripts were rechecked. The maps were homogenized across countries. The data range of countries was fixed. Some countries only release data periodically at regional levels.
 * 25 Oct 2020: Deprecated links fixed. Date ranges removed from table and replace with a figure. If data sources for missing countries are not found, they will be replace by country level data from ECDC to complete the map.
 * 17 Oct 2020: Ireland repository fixed. New Youtube video uploaded. Maps are now mix-domain NUTS3 and NUTS2 so populations are normalized accordingly.
-* 04 Oct 2020: Countries with JSON datasets have been now been automated. Ireland dataset is no longer being updated on Github but the official website now provides more accurate information. This will be added soon. Still looking for UK minus England data. Potentially also looking for Lithania, Bulgaria, Romania and other counties between Croatia and Greece.
+* 04 Oct 2020: Countries with JSON datasets have been now been automated. Ireland dataset is no longer being updated on Github but the official website now provides more accurate information. This will be added soon. Still looking for UK minus England data. Potentially also looking for Lithania, Bulgaria, Romania and other countries missing from Europe.
 * 21 Sep 2020: Croatia and Denmark added to the maps. Ireland data is no longer updating since the Github repository is now dormant. NUTS2 population needs to be added to cases per population map.
 * 16 Sep 2020: Poland and Greece NUTS2 data has been merged with the main file and added to the map. Data for Croatia and Denmark will be integrated next. Next task is to find Lithuania and Ukraine data sets.
 * 07 Sep 2020: Improved documentation of the maps. All maps are now displayed above. Youtube video of changes in NUTS-3 level cases added. Map of cases and cases per pop added.
