@@ -1,5 +1,5 @@
 
-![issues](https://img.shields.io/github/issues/asjadnaqvi/COVID19-European-Regional-Tracker) ![license](https://img.shields.io/github/license/asjadnaqvi/COVID19-European-Regional-Tracker) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/COVID19-European-Regional-Tracker) ![version](https://img.shields.io/github/v/release/asjadnaqvi/COVID19-European-Regional-Tracker) ![release](https://img.shields.io/github/release-date/asjadnaqvi/COVID19-European-Regional-Tracker)
+![issues](https://img.shields.io/github/issues/asjadnaqvi/COVID19-European-Regional-Tracker) ![Stars](https://img.shields.io/github/stars/asjadnaqvi/COVID19-European-Regional-Tracker) ![version](https://img.shields.io/github/v/release/asjadnaqvi/COVID19-European-Regional-Tracker) ![release](https://img.shields.io/github/release-date/asjadnaqvi/COVID19-European-Regional-Tracker)
 
 
 *Last updated on: 10 September 2022.This project is now archived and will only have ad-hoc updates.*
